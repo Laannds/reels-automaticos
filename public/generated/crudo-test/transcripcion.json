@@ -1,0 +1,338 @@
+[
+ {
+  "i": 0,
+  "texto": "Hola,",
+  "inicio": 0.26,
+  "fin": 0.35
+ },
+ {
+  "i": 1,
+  "texto": "eh,",
+  "inicio": 0.51,
+  "fin": 0.55
+ },
+ {
+  "i": 2,
+  "texto": "hoy",
+  "inicio": 0.89,
+  "fin": 1.08
+ },
+ {
+  "i": 3,
+  "texto": "os",
+  "inicio": 1.29,
+  "fin": 1.29
+ },
+ {
+  "i": 4,
+  "texto": "traigo",
+  "inicio": 1.41,
+  "fin": 1.81
+ },
+ {
+  "i": 5,
+  "texto": "tres",
+  "inicio": 1.81,
+  "fin": 2.16
+ },
+ {
+  "i": 6,
+  "texto": "trucos",
+  "inicio": 2.16,
+  "fin": 2.67
+ },
+ {
+  "i": 7,
+  "texto": "de",
+  "inicio": 2.68,
+  "fin": 2.85
+ },
+ {
+  "i": 8,
+  "texto": "Claude,",
+  "inicio": 2.85,
+  "fin": 3.2
+ },
+ {
+  "i": 9,
+  "texto": "perdón,",
+  "inicio": 4.31,
+  "fin": 4.64
+ },
+ {
+  "i": 10,
+  "texto": "hoy",
+  "inicio": 5.18,
+  "fin": 5.45
+ },
+ {
+  "i": 11,
+  "texto": "os",
+  "inicio": 5.63,
+  "fin": 5.63
+ },
+ {
+  "i": 12,
+  "texto": "traigo",
+  "inicio": 5.7,
+  "fin": 6.17
+ },
+ {
+  "i": 13,
+  "texto": "tres",
+  "inicio": 6.17,
+  "fin": 6.56
+ },
+ {
+  "i": 14,
+  "texto": "trucos",
+  "inicio": 6.56,
+  "fin": 6.96
+ },
+ {
+  "i": 15,
+  "texto": "de",
+  "inicio": 6.96,
+  "fin": 7.09
+ },
+ {
+  "i": 16,
+  "texto": "Claude",
+  "inicio": 7.17,
+  "fin": 7.42
+ },
+ {
+  "i": 17,
+  "texto": "que",
+  "inicio": 7.42,
+  "fin": 7.76
+ },
+ {
+  "i": 18,
+  "texto": "casi",
+  "inicio": 7.76,
+  "fin": 8.17
+ },
+ {
+  "i": 19,
+  "texto": "nadie",
+  "inicio": 8.22,
+  "fin": 8.64
+ },
+ {
+  "i": 20,
+  "texto": "conoce.",
+  "inicio": 9.22,
+  "fin": 9.44
+ },
+ {
+  "i": 21,
+  "texto": "El",
+  "inicio": 9.8,
+  "fin": 9.96
+ },
+ {
+  "i": 22,
+  "texto": "primero",
+  "inicio": 9.96,
+  "fin": 10.54
+ },
+ {
+  "i": 23,
+  "texto": "es",
+  "inicio": 10.54,
+  "fin": 10.7
+ },
+ {
+  "i": 24,
+  "texto": "el",
+  "inicio": 10.7,
+  "fin": 10.86
+ },
+ {
+  "i": 25,
+  "texto": "modo",
+  "inicio": 10.86,
+  "fin": 11.19
+ },
+ {
+  "i": 26,
+  "texto": "proyectos,",
+  "inicio": 11.19,
+  "fin": 11.93
+ },
+ {
+  "i": 27,
+  "texto": "que",
+  "inicio": 12.09,
+  "fin": 12.32
+ },
+ {
+  "i": 28,
+  "texto": "le",
+  "inicio": 12.32,
+  "fin": 12.37
+ },
+ {
+  "i": 29,
+  "texto": "da",
+  "inicio": 12.65,
+  "fin": 12.65
+ },
+ {
+  "i": 30,
+  "texto": "memoria.",
+  "inicio": 12.89,
+  "fin": 13.22
+ },
+ {
+  "i": 31,
+  "texto": "El",
+  "inicio": 13.54,
+  "fin": 13.72
+ },
+ {
+  "i": 32,
+  "texto": "segundo,",
+  "inicio": 13.72,
+  "fin": 14.36
+ },
+ {
+  "i": 33,
+  "texto": "eh,",
+  "inicio": 14.53,
+  "fin": 14.54
+ },
+ {
+  "i": 34,
+  "texto": "vale,",
+  "inicio": 14.9,
+  "fin": 15.21
+ },
+ {
+  "i": 35,
+  "texto": "el",
+  "inicio": 15.49,
+  "fin": 15.63
+ },
+ {
+  "i": 36,
+  "texto": "segundo",
+  "inicio": 15.63,
+  "fin": 16.27
+ },
+ {
+  "i": 37,
+  "texto": "son",
+  "inicio": 16.27,
+  "fin": 16.54
+ },
+ {
+  "i": 38,
+  "texto": "los",
+  "inicio": 16.54,
+  "fin": 16.8
+ },
+ {
+  "i": 39,
+  "texto": "comandos",
+  "inicio": 16.8,
+  "fin": 17.37
+ },
+ {
+  "i": 40,
+  "texto": "rápidos.",
+  "inicio": 17.52,
+  "fin": 18.36
+ },
+ {
+  "i": 41,
+  "texto": "Y",
+  "inicio": 18.42,
+  "fin": 18.44
+ },
+ {
+  "i": 42,
+  "texto": "el",
+  "inicio": 18.44,
+  "fin": 18.6
+ },
+ {
+  "i": 43,
+  "texto": "tercero",
+  "inicio": 18.67,
+  "fin": 19.18
+ },
+ {
+  "i": 44,
+  "texto": "es",
+  "inicio": 19.26,
+  "fin": 19.37
+ },
+ {
+  "i": 45,
+  "texto": "pedirle",
+  "inicio": 19.37,
+  "fin": 19.97
+ },
+ {
+  "i": 46,
+  "texto": "siempre",
+  "inicio": 19.97,
+  "fin": 20.57
+ },
+ {
+  "i": 47,
+  "texto": "tres",
+  "inicio": 20.57,
+  "fin": 20.88
+ },
+ {
+  "i": 48,
+  "texto": "versiones.",
+  "inicio": 20.88,
+  "fin": 21.68
+ },
+ {
+  "i": 49,
+  "texto": "Sígueme",
+  "inicio": 22.06,
+  "fin": 22.4
+ },
+ {
+  "i": 50,
+  "texto": "para",
+  "inicio": 22.4,
+  "fin": 22.61
+ },
+ {
+  "i": 51,
+  "texto": "más",
+  "inicio": 22.61,
+  "fin": 22.81
+ },
+ {
+  "i": 52,
+  "texto": "trucos",
+  "inicio": 22.81,
+  "fin": 23.13
+ },
+ {
+  "i": 53,
+  "texto": "de",
+  "inicio": 23.13,
+  "fin": 23.23
+ },
+ {
+  "i": 54,
+  "texto": "inteligencia",
+  "inicio": 23.23,
+  "fin": 23.87
+ },
+ {
+  "i": 55,
+  "texto": "artificial.",
+  "inicio": 23.87,
+  "fin": 24.47
+ }
+]

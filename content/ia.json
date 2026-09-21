@@ -1,0 +1,37 @@
+{
+  "titulo": "La IA te está adelantando",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "La IA ya hace en *segundos* lo que a ti te cuesta ~horas~.",
+      "nota": "y cada mes va a más ↘"
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "texto": "Escribe, diseña, programa y edita vídeo. *Gratis.*",
+      "postit": "sin saber nada técnico."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "texto": "Y no, no te va a quitar el trabajo. Te lo quitará *alguien que la usa*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "texto": "Quien la aprende hoy le saca *años de ventaja* al resto.",
+      "nota": "así de simple ↘"
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "📌",
+      "texto": "*Sígueme* y ~guarda~ este reel. Esto acaba de empezar."
+    }
+  ]
+}

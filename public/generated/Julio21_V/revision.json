@@ -1,0 +1,11 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[63, 63]],
+  "elementos": [
+    { "palabra": 0, "tipo": "cabeceraTop", "dato": "TOP 6 TRUCOS DE|ChatGPT" },
+    { "palabra": 0, "tipo": "riel", "dato": "6|6:iconos/phone.svg@3.7|5:iconos/photo.svg@6.9|4:iconos/settings.svg@10.3|3:iconos/history.svg@14.5|2:iconos/palette.svg@18.2|1:iconos/circle-check.svg@21.4" },
+    { "palabra": 79, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "resumen": "Formato Top_Elementos calcado: cabecera 'TOP 6 TRUCOS DE ChatGPT' persistente arriba, carril numerado 1-6 en el borde izquierdo (activo se ilumina en azul), burbuja circular con icono del truco actual (teléfono/voz, foto, ajustes/GPT personalizado, historial/memoria, paleta/imágenes, check/información real). Sin banner inferior ni pasos en este formato -- el carril hace ese papel."
+}

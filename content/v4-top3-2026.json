@@ -1,0 +1,45 @@
+{
+  "titulo": "Top 3 IAs de 2026",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "esto cambia cada mes ↘",
+      "texto": "El *top 3* real de las IAs en 2026. Sin ~patrocinios~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 3, "nombre": "GEMINI" },
+      "texto": "Bronce: *Gemini*. Lo que da gratis no lo da nadie."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 2, "nombre": "CHATGPT" },
+      "texto": "Plata: *ChatGPT*. El más completo para el día a día."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 5,
+      "rank": { "numero": 1, "nombre": "CLAUDE" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Claude*. Donde importa la ~calidad~, no tiene rival."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "postit": "no te cases con una.",
+      "texto": "El truco pro: usa las *tres*. Cada una para lo suyo."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "🏆",
+      "texto": "~Guarda~ este top y *sígueme*, que lo actualizo cada mes."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "eliminar": [],
+  "sustituciones": [],
+  "subtitulos": "serif",
+  "enfasis": [[8, 11], [29, 30], [44, 45], [49, 50], [84, 86]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "+40 MENSAJES|AL DÍA", "duracion": 1.8 },
+    { "palabra": 5, "tipo": "panel", "dato": "47", "duracion": 4 },
+    { "palabra": 17, "tipo": "icono", "dato": "iconos/alert-triangle.svg", "duracion": 2.2 },
+    { "palabra": 44, "tipo": "icono", "dato": "iconos/user-x.svg", "duracion": 2.2 },
+    { "palabra": 55, "tipo": "rotulo", "dato": "DINERO PERDIDO" },
+    { "palabra": 67, "tipo": "burbuja", "dato": "Ayuda", "lado": "der", "duracion": 2.2 }
+  ],
+  "titulo": { "texto": "Anuncios en automático", "resaltar": "automático" },
+  "pasos": [11, 51, 63],
+  "resumen": "Ads → +40 mensajes/día (panel desbordado en vivo) → pierdes clientes pagados → CTA 'Ayuda'. Énfasis azul en '40 mensajes al día', 'más clientes', 'perder clientes', 'costado dinero' y 'automatizar todo'."
+}

@@ -1,0 +1,49 @@
+{
+  "titulo": "Duelo con datos: Claude vs Gemini",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "vs": ["CLAUDE", "GEMINI"],
+      "texto": "*Claude* contra *Gemini*: calidad contra ~cantidad~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 6.5,
+      "comparativa": {
+        "a": "CLAUDE",
+        "b": "GEMINI",
+        "ganador": "a",
+        "metricas": [
+          { "etiqueta": "escritura", "a": 5, "b": 3 },
+          { "etiqueta": "código", "a": 5, "b": 4 },
+          { "etiqueta": "precio", "a": 2, "b": 5 }
+        ]
+      },
+      "texto": "*Claude* gana en calidad. *Gemini* gana en lo que te ~regala~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/claude.svg",
+      "nota": "mi dinero va aquí ↘",
+      "texto": "Si trabajas con textos o código, no hay *debate*."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "logo": "logos/gemini.svg",
+      "postit": "estudiante = gemini.",
+      "texto": "Si estudias o empiezas, *Gemini* y a correr."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "⚖️",
+      "texto": "¿Calidad o cantidad? Te leo en *comentarios*. ~Guarda~ esto."
+    }
+  ]
+}

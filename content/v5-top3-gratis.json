@@ -1,0 +1,39 @@
+{
+  "titulo": "Top 3 IAs gratis (pro)",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "0 euros al mes ↘",
+      "texto": "No pagues *nada* por la IA. Este es el top gratis ~real~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 3, "nombre": "CLAUDE" },
+      "texto": "Bronce: *Claude*. Pocos mensajes, pero calidad de pago."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 2, "nombre": "CHATGPT" },
+      "texto": "Plata: *ChatGPT*. El todoterreno de cada día."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 5,
+      "rank": { "numero": 1, "nombre": "GEMINI" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Oro: *Gemini*. El plan gratis más ~generoso~ del mercado."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "💰",
+      "texto": "~Guarda~ esto antes de sacar la tarjeta. Y *sígueme*."
+    }
+  ]
+}

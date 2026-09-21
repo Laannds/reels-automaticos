@@ -1,0 +1,14 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "palabra": 67,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRÍBEME|Y TE LO=ENSEÑO FUNCIONANDO",
+      "y": 0.56,
+      "duracion": 2.3
+    }
+  ],
+  "resumen": "El crudo NO es material en bruto: es una pieza de motion graphics ya terminada (grabación de pantalla) con cabecera, mockup de la app, textos descriptivos incrustados, pantalla-resumen final y naranja propio. Por eso NO se le aplica la plantilla habitual. Se añade SOLO el CTA que faltaba (la voz dice 'escríbeme' pero en pantalla no aparecía nada), colocado en la mitad inferior que está vacía y SIN oscurecer, para no tapar el resumen. Subtítulos desactivados a propósito: el vídeo ya trae textos propios en el tercio inferior de 0 a 17s y superponer los de la voz duplicaba el mensaje. Color #D14F2A tomado del vídeo."
+}

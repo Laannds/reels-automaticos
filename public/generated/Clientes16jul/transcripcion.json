@@ -1,0 +1,578 @@
+[
+ {
+  "i": 0,
+  "texto": "Mientras",
+  "inicio": 0,
+  "fin": 4.22
+ },
+ {
+  "i": 1,
+  "texto": "tu",
+  "inicio": 4.22,
+  "fin": 5.28
+ },
+ {
+  "i": 2,
+  "texto": "duermes",
+  "inicio": 5.28,
+  "fin": 8.97
+ },
+ {
+  "i": 3,
+  "texto": "hay",
+  "inicio": 8.97,
+  "fin": 10.55
+ },
+ {
+  "i": 4,
+  "texto": "negocios",
+  "inicio": 10.55,
+  "fin": 14.78
+ },
+ {
+  "i": 5,
+  "texto": "del",
+  "inicio": 14.83,
+  "fin": 14.92
+ },
+ {
+  "i": 6,
+  "texto": "mismo",
+  "inicio": 14.92,
+  "fin": 15.2
+ },
+ {
+  "i": 7,
+  "texto": "sector",
+  "inicio": 15.21,
+  "fin": 15.56
+ },
+ {
+  "i": 8,
+  "texto": "que",
+  "inicio": 15.56,
+  "fin": 15.73
+ },
+ {
+  "i": 9,
+  "texto": "ya",
+  "inicio": 15.73,
+  "fin": 15.82
+ },
+ {
+  "i": 10,
+  "texto": "están",
+  "inicio": 15.82,
+  "fin": 16.04
+ },
+ {
+  "i": 11,
+  "texto": "cerrando",
+  "inicio": 16.1,
+  "fin": 16.39
+ },
+ {
+  "i": 12,
+  "texto": "clientes.",
+  "inicio": 16.39,
+  "fin": 27.68
+ },
+ {
+  "i": 13,
+  "texto": "Un",
+  "inicio": 27.68,
+  "fin": 28.98
+ },
+ {
+  "i": 14,
+  "texto": "cliente",
+  "inicio": 28.98,
+  "fin": 33.51
+ },
+ {
+  "i": 15,
+  "texto": "pregunta",
+  "inicio": 33.51,
+  "fin": 38.71
+ },
+ {
+  "i": 16,
+  "texto": "lo",
+  "inicio": 38.78,
+  "fin": 38.78
+ },
+ {
+  "i": 17,
+  "texto": "mismo",
+  "inicio": 38.78,
+  "fin": 38.94
+ },
+ {
+  "i": 18,
+  "texto": "a",
+  "inicio": 38.94,
+  "fin": 38.97
+ },
+ {
+  "i": 19,
+  "texto": "dos",
+  "inicio": 38.97,
+  "fin": 39.03
+ },
+ {
+  "i": 20,
+  "texto": "negocios",
+  "inicio": 39.07,
+  "fin": 39.47
+ },
+ {
+  "i": 21,
+  "texto": "del",
+  "inicio": 39.54,
+  "fin": 39.64
+ },
+ {
+  "i": 22,
+  "texto": "mismo",
+  "inicio": 39.64,
+  "fin": 39.95
+ },
+ {
+  "i": 23,
+  "texto": "sector",
+  "inicio": 39.97,
+  "fin": 40.28
+ },
+ {
+  "i": 24,
+  "texto": "a",
+  "inicio": 40.44,
+  "fin": 40.46
+ },
+ {
+  "i": 25,
+  "texto": "la",
+  "inicio": 40.46,
+  "fin": 40.6
+ },
+ {
+  "i": 26,
+  "texto": "misma",
+  "inicio": 40.6,
+  "fin": 41.66
+ },
+ {
+  "i": 27,
+  "texto": "hora.",
+  "inicio": 45.54,
+  "fin": 45.72
+ },
+ {
+  "i": 28,
+  "texto": "Uno",
+  "inicio": 45.72,
+  "fin": 46.71
+ },
+ {
+  "i": 29,
+  "texto": "contesta",
+  "inicio": 46.71,
+  "fin": 49.05
+ },
+ {
+  "i": 30,
+  "texto": "a",
+  "inicio": 49.05,
+  "fin": 49.67
+ },
+ {
+  "i": 31,
+  "texto": "los",
+  "inicio": 49.67,
+  "fin": 50.66
+ },
+ {
+  "i": 32,
+  "texto": "dos",
+  "inicio": 50.66,
+  "fin": 51.65
+ },
+ {
+  "i": 33,
+  "texto": "minutos",
+  "inicio": 51.82,
+  "fin": 53.32
+ },
+ {
+  "i": 34,
+  "texto": "y",
+  "inicio": 53.4,
+  "fin": 54.28
+ },
+ {
+  "i": 35,
+  "texto": "el",
+  "inicio": 54.28,
+  "fin": 54.94
+ },
+ {
+  "i": 36,
+  "texto": "otro",
+  "inicio": 54.94,
+  "fin": 56.26
+ },
+ {
+  "i": 37,
+  "texto": "al",
+  "inicio": 56.26,
+  "fin": 56.92
+ },
+ {
+  "i": 38,
+  "texto": "día",
+  "inicio": 56.92,
+  "fin": 58.24
+ },
+ {
+  "i": 39,
+  "texto": "siguiente",
+  "inicio": 58.24,
+  "fin": 61.24
+ },
+ {
+  "i": 40,
+  "texto": "y",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 41,
+  "texto": "adivina",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 42,
+  "texto": "con",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 43,
+  "texto": "cuál",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 44,
+  "texto": "se",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 45,
+  "texto": "queda",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 46,
+  "texto": "el",
+  "inicio": 61.24,
+  "fin": 61.24
+ },
+ {
+  "i": 47,
+  "texto": "cliente.",
+  "inicio": 61.24,
+  "fin": 61.27
+ },
+ {
+  "i": 48,
+  "texto": "Y",
+  "inicio": 61.4,
+  "fin": 61.45
+ },
+ {
+  "i": 49,
+  "texto": "no",
+  "inicio": 61.45,
+  "fin": 61.52
+ },
+ {
+  "i": 50,
+  "texto": "es",
+  "inicio": 61.61,
+  "fin": 61.67
+ },
+ {
+  "i": 51,
+  "texto": "porque",
+  "inicio": 61.67,
+  "fin": 61.96
+ },
+ {
+  "i": 52,
+  "texto": "seas",
+  "inicio": 62.08,
+  "fin": 62.23
+ },
+ {
+  "i": 53,
+  "texto": "peor,",
+  "inicio": 62.23,
+  "fin": 62.45
+ },
+ {
+  "i": 54,
+  "texto": "es",
+  "inicio": 62.6,
+  "fin": 62.8
+ },
+ {
+  "i": 55,
+  "texto": "porque",
+  "inicio": 62.8,
+  "fin": 63.42
+ },
+ {
+  "i": 56,
+  "texto": "estás",
+  "inicio": 63.42,
+  "fin": 63.99
+ },
+ {
+  "i": 57,
+  "texto": "compitiendo",
+  "inicio": 64.04,
+  "fin": 65.17
+ },
+ {
+  "i": 58,
+  "texto": "con",
+  "inicio": 65.17,
+  "fin": 65.48
+ },
+ {
+  "i": 59,
+  "texto": "gente",
+  "inicio": 65.9,
+  "fin": 66.04
+ },
+ {
+  "i": 60,
+  "texto": "y",
+  "inicio": 66.04,
+  "fin": 66.12
+ },
+ {
+  "i": 61,
+  "texto": "no",
+  "inicio": 66.12,
+  "fin": 66.16
+ },
+ {
+  "i": 62,
+  "texto": "es",
+  "inicio": 66.16,
+  "fin": 66.16
+ },
+ {
+  "i": 63,
+  "texto": "porque",
+  "inicio": 66.25,
+  "fin": 66.46
+ },
+ {
+  "i": 64,
+  "texto": "seas",
+  "inicio": 66.47,
+  "fin": 66.6
+ },
+ {
+  "i": 65,
+  "texto": "peor,",
+  "inicio": 66.6,
+  "fin": 67.07
+ },
+ {
+  "i": 66,
+  "texto": "es",
+  "inicio": 67.12,
+  "fin": 67.62
+ },
+ {
+  "i": 67,
+  "texto": "porque",
+  "inicio": 67.68,
+  "fin": 69.27
+ },
+ {
+  "i": 68,
+  "texto": "estás",
+  "inicio": 69.27,
+  "fin": 70.8
+ },
+ {
+  "i": 69,
+  "texto": "compitiendo",
+  "inicio": 70.87,
+  "fin": 73.82
+ },
+ {
+  "i": 70,
+  "texto": "con",
+  "inicio": 73.82,
+  "fin": 74.63
+ },
+ {
+  "i": 71,
+  "texto": "negocios",
+  "inicio": 74.63,
+  "fin": 76.77
+ },
+ {
+  "i": 72,
+  "texto": "que",
+  "inicio": 76.77,
+  "fin": 77.58
+ },
+ {
+  "i": 73,
+  "texto": "ya",
+  "inicio": 77.58,
+  "fin": 78.12
+ },
+ {
+  "i": 74,
+  "texto": "tienen",
+  "inicio": 78.12,
+  "fin": 79.73
+ },
+ {
+  "i": 75,
+  "texto": "automatizado",
+  "inicio": 79.73,
+  "fin": 82.95
+ },
+ {
+  "i": 76,
+  "texto": "todo",
+  "inicio": 82.95,
+  "fin": 84.02
+ },
+ {
+  "i": 77,
+  "texto": "este",
+  "inicio": 84.02,
+  "fin": 85.09
+ },
+ {
+  "i": 78,
+  "texto": "proceso.",
+  "inicio": 85.09,
+  "fin": 86.97
+ },
+ {
+  "i": 79,
+  "texto": "Si",
+  "inicio": 87.91,
+  "fin": 88.19
+ },
+ {
+  "i": 80,
+  "texto": "no",
+  "inicio": 88.19,
+  "fin": 88.5
+ },
+ {
+  "i": 81,
+  "texto": "quieres",
+  "inicio": 88.5,
+  "fin": 89.47
+ },
+ {
+  "i": 82,
+  "texto": "seguir",
+  "inicio": 89.47,
+  "fin": 90.54
+ },
+ {
+  "i": 83,
+  "texto": "perdiendo",
+  "inicio": 90.54,
+  "fin": 91.95
+ },
+ {
+  "i": 84,
+  "texto": "clientes",
+  "inicio": 91.95,
+  "fin": 93.22
+ },
+ {
+  "i": 85,
+  "texto": "por",
+  "inicio": 93.34,
+  "fin": 93.49
+ },
+ {
+  "i": 86,
+  "texto": "llegar",
+  "inicio": 93.49,
+  "fin": 93.99
+ },
+ {
+  "i": 87,
+  "texto": "tarde,",
+  "inicio": 93.99,
+  "fin": 94.11
+ },
+ {
+  "i": 88,
+  "texto": "escribe",
+  "inicio": 94.7,
+  "fin": 95.03
+ },
+ {
+  "i": 89,
+  "texto": "quiero",
+  "inicio": 95.03,
+  "fin": 95.29
+ },
+ {
+  "i": 90,
+  "texto": "y",
+  "inicio": 95.44,
+  "fin": 95.48
+ },
+ {
+  "i": 91,
+  "texto": "te",
+  "inicio": 95.48,
+  "fin": 95.54
+ },
+ {
+  "i": 92,
+  "texto": "enseño",
+  "inicio": 95.59,
+  "fin": 95.88
+ },
+ {
+  "i": 93,
+  "texto": "a",
+  "inicio": 95.88,
+  "fin": 95.92
+ },
+ {
+  "i": 94,
+  "texto": "comenzar.",
+  "inicio": 95.92,
+  "fin": 96.21
+ },
+ {
+  "i": 95,
+  "texto": "[SILENCIO]",
+  "inicio": 96.4,
+  "fin": 100.16
+ }
+]

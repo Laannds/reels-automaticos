@@ -1,0 +1,93 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.74,
+  "enfasis": [
+    [
+      24,
+      24
+    ],
+    [
+      54,
+      55
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 43,
+      "texto": "ASO,"
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "imagen",
+      "dato": "inserts/30apps-appstore.jpg|5 apps ya enviadas a Apple",
+      "tam": 1000,
+      "duracion": 5.3
+    },
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=30 APPS|EN 30 DÍAS",
+      "y": 0.73,
+      "duracion": 2.5
+    },
+    {
+      "palabra": 8,
+      "tipo": "remate",
+      "dato": "SIN INVERSIÓN|EN=ANUNCIOS",
+      "y": 0.66,
+      "duracion": 2.3
+    },
+    {
+      "palabra": 20,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 28,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 39,
+      "tipo": "contador",
+      "dato": "4|0|0.84|2.84|3.94",
+      "x": 0.88,
+      "y": 0.3,
+      "duracion": 6.55
+    },
+    {
+      "palabra": 54,
+      "tipo": "estado",
+      "dato": "30 DÍAS",
+      "x": 0.78,
+      "y": 0.22,
+      "tam": 230,
+      "duracion": 1.1
+    },
+    {
+      "palabra": 56,
+      "tipo": "transicion",
+      "dato": "zoomOut",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 58,
+      "tipo": "etiqueta",
+      "dato": "LA SERIE|Cada app, publicada en vídeo",
+      "y": 0.14,
+      "duracion": 2.8
+    },
+    {
+      "palabra": 68,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA CUÁL|QUIERES QUE SEA|LA=SIGUIENTE APP",
+      "duracion": 3.06
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (azul y handle): arranque del reto '30 apps en 30 días sin anuncios'. Tres bloques: a cámara (0-5,5 s), pizarra con las apps y los cuatro pilares (5,5-18,7 s) y a cámara con el CTA. Cara medida con Vision: en los planos a cámara es grande y está a la izquierda (0,31-0,62 de alto, 0-0,45 de ancho), así que la captura de App Store Connect que mandó Pablo va arriba (tarjeta de 1000 px con pie '5 apps ya enviadas a Apple', encima de la cabeza) y el gancho debajo de la barbilla (titulón '30 APPS EN 30 DÍAS' + remate 'SIN INVERSIÓN EN ANUNCIOS' a 0,66-0,73 sin oscurecer). En la pizarra lo escrito ya es el gráfico: nada de paneles encima, solo un contador 1/4→4/4 a la derecha que avanza al nombrar cada pilar (estrategia, monetización, control de calidad, tiempo) y un anillo '30 DÍAS'. Subtítulos a 0,74 (camiseta en los planos a cámara, bajo la lista en la pizarra). CTA: comentar cuál es la siguiente app. Corrección: 'Azure' -> 'ASO' (en la pizarra pone Monetización (ASO))."
+}

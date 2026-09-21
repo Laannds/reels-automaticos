@@ -1,0 +1,136 @@
+{
+  "_nota": "Estilos de música para --estilo. editar-crudo.mjs rota dentro de cada estilo: coge la pista que lleve más tiempo sin usarse. Mixkit Stock Music Free License: redes sociales y anuncios con fines comerciales, sin registrar en sistemas de derechos (Content ID).",
+  "gym": [
+    "musica/beat-235.mp3",
+    "musica/gym-hip-hop-02-738.mp3",
+    "musica/gym-need-for-speed-369.mp3",
+    "musica/gym-rising-forest-471.mp3",
+    "musica/gym-trap-electro-vibes-126.mp3",
+    "musica/gym-deep-urban-623.mp3"
+  ],
+  "tech": [
+    "musica/beat-224.mp3",
+    "musica/tech-cat-walk-371.mp3",
+    "musica/tech-pop-track-03-729.mp3",
+    "musica/tech-digital-clouds-175.mp3",
+    "musica/tech-close-up-1167.mp3",
+    "musica/tech-hazy-after-hours-132.mp3"
+  ],
+  "cine": [
+    "musica/ambient-109.mp3",
+    "musica/ambient-127.mp3",
+    "musica/ambient-138.mp3",
+    "musica/cine-echoes-188.mp3",
+    "musica/cine-vastness-184.mp3",
+    "musica/cine-epical-drums-05-680.mp3",
+    "musica/cine-focus-on-yourself-568.mp3",
+    "musica/cine-kodama-night-town-114.mp3"
+  ],
+  "detalle": {
+    "musica/gym-hip-hop-02-738.mp3": {
+      "titulo": "Hip Hop 02",
+      "mixkit_id": 738,
+      "bpm_aprox": 182,
+      "pegada": 3.11,
+      "pulso": 0.2
+    },
+    "musica/gym-need-for-speed-369.mp3": {
+      "titulo": "Need for speed",
+      "mixkit_id": 369,
+      "bpm_aprox": 94,
+      "pegada": 2.96,
+      "pulso": 0.46
+    },
+    "musica/gym-rising-forest-471.mp3": {
+      "titulo": "Rising Forest",
+      "mixkit_id": 471,
+      "bpm_aprox": 125,
+      "pegada": 2.42,
+      "pulso": 0.82
+    },
+    "musica/gym-trap-electro-vibes-126.mp3": {
+      "titulo": "Trap Electro Vibes",
+      "mixkit_id": 126,
+      "bpm_aprox": 92,
+      "pegada": 2.09,
+      "pulso": 0.39
+    },
+    "musica/gym-deep-urban-623.mp3": {
+      "titulo": "Deep Urban",
+      "mixkit_id": 623,
+      "bpm_aprox": 125,
+      "pegada": 2.07,
+      "pulso": 0.46
+    },
+    "musica/tech-cat-walk-371.mp3": {
+      "titulo": "Cat Walk",
+      "mixkit_id": 371,
+      "bpm_aprox": 130,
+      "pegada": 1.85,
+      "pulso": 0.76
+    },
+    "musica/tech-pop-track-03-729.mp3": {
+      "titulo": "Pop Track 03",
+      "mixkit_id": 729,
+      "bpm_aprox": 109,
+      "pegada": 2.24,
+      "pulso": 0.78
+    },
+    "musica/tech-digital-clouds-175.mp3": {
+      "titulo": "Digital Clouds",
+      "mixkit_id": 175,
+      "bpm_aprox": 128,
+      "pegada": 2.3,
+      "pulso": 0.47
+    },
+    "musica/tech-close-up-1167.mp3": {
+      "titulo": "Close Up",
+      "mixkit_id": 1167,
+      "bpm_aprox": 105,
+      "pegada": 2.18,
+      "pulso": 0.51
+    },
+    "musica/tech-hazy-after-hours-132.mp3": {
+      "titulo": "Hazy After Hours",
+      "mixkit_id": 132,
+      "bpm_aprox": 122,
+      "pegada": 2.04,
+      "pulso": 0.54
+    },
+    "musica/cine-echoes-188.mp3": {
+      "titulo": "Echoes",
+      "mixkit_id": 188,
+      "bpm_aprox": 176,
+      "pegada": 1.4,
+      "pulso": 0.4
+    },
+    "musica/cine-vastness-184.mp3": {
+      "titulo": "Vastness",
+      "mixkit_id": 184,
+      "bpm_aprox": 182,
+      "pegada": 1.8,
+      "pulso": 0.02
+    },
+    "musica/cine-epical-drums-05-680.mp3": {
+      "titulo": "Epical Drums 05",
+      "mixkit_id": 680,
+      "bpm_aprox": 76,
+      "pegada": 1.57,
+      "pulso": 0.22
+    },
+    "musica/cine-focus-on-yourself-568.mp3": {
+      "titulo": "Focus on Yourself",
+      "mixkit_id": 568,
+      "bpm_aprox": 65,
+      "pegada": 2.33,
+      "pulso": 0.39
+    },
+    "musica/cine-kodama-night-town-114.mp3": {
+      "titulo": "Kodama Night Town",
+      "mixkit_id": 114,
+      "bpm_aprox": 70,
+      "pegada": 1.79,
+      "pulso": 0.23
+    }
+  }
+}

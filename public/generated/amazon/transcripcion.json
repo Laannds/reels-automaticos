@@ -1,0 +1,524 @@
+[
+ {
+  "i": 0,
+  "texto": "Amazon",
+  "inicio": 0,
+  "fin": 0.33
+ },
+ {
+  "i": 1,
+  "texto": "no",
+  "inicio": 0.33,
+  "fin": 0.44
+ },
+ {
+  "i": 2,
+  "texto": "vende",
+  "inicio": 0.44,
+  "fin": 0.71
+ },
+ {
+  "i": 3,
+  "texto": "más",
+  "inicio": 0.71,
+  "fin": 0.93
+ },
+ {
+  "i": 4,
+  "texto": "porque",
+  "inicio": 0.93,
+  "fin": 1.26
+ },
+ {
+  "i": 5,
+  "texto": "tenga",
+  "inicio": 1.26,
+  "fin": 1.54
+ },
+ {
+  "i": 6,
+  "texto": "mejores",
+  "inicio": 1.54,
+  "fin": 1.87
+ },
+ {
+  "i": 7,
+  "texto": "productos.",
+  "inicio": 1.98,
+  "fin": 2.43
+ },
+ {
+  "i": 8,
+  "texto": "Vende",
+  "inicio": 2.66,
+  "fin": 2.91
+ },
+ {
+  "i": 9,
+  "texto": "más",
+  "inicio": 2.91,
+  "fin": 3.07
+ },
+ {
+  "i": 10,
+  "texto": "porque",
+  "inicio": 3.09,
+  "fin": 3.44
+ },
+ {
+  "i": 11,
+  "texto": "nunca",
+  "inicio": 3.44,
+  "fin": 3.91
+ },
+ {
+  "i": 12,
+  "texto": "te",
+  "inicio": 3.91,
+  "fin": 4.06
+ },
+ {
+  "i": 13,
+  "texto": "hace",
+  "inicio": 4.06,
+  "fin": 4.34
+ },
+ {
+  "i": 14,
+  "texto": "esperar.",
+  "inicio": 4.34,
+  "fin": 5.04
+ },
+ {
+  "i": 15,
+  "texto": "Respuesta",
+  "inicio": 5.34,
+  "fin": 5.78
+ },
+ {
+  "i": 16,
+  "texto": "al",
+  "inicio": 5.78,
+  "fin": 5.88
+ },
+ {
+  "i": 17,
+  "texto": "instante,",
+  "inicio": 5.88,
+  "fin": 6.22
+ },
+ {
+  "i": 18,
+  "texto": "proceso",
+  "inicio": 6.36,
+  "fin": 6.69
+ },
+ {
+  "i": 19,
+  "texto": "sin",
+  "inicio": 6.74,
+  "fin": 6.83
+ },
+ {
+  "i": 20,
+  "texto": "fricción,",
+  "inicio": 6.96,
+  "fin": 7.2
+ },
+ {
+  "i": 21,
+  "texto": "seguimiento",
+  "inicio": 7.44,
+  "fin": 7.92
+ },
+ {
+  "i": 22,
+  "texto": "continuo.",
+  "inicio": 7.96,
+  "fin": 8.33
+ },
+ {
+  "i": 23,
+  "texto": "Y",
+  "inicio": 8.52,
+  "fin": 8.59
+ },
+ {
+  "i": 24,
+  "texto": "eso",
+  "inicio": 8.59,
+  "fin": 8.88
+ },
+ {
+  "i": 25,
+  "texto": "no",
+  "inicio": 8.88,
+  "fin": 9.14
+ },
+ {
+  "i": 26,
+  "texto": "es",
+  "inicio": 9.14,
+  "fin": 9.25
+ },
+ {
+  "i": 27,
+  "texto": "cosa",
+  "inicio": 9.34,
+  "fin": 9.48
+ },
+ {
+  "i": 28,
+  "texto": "de",
+  "inicio": 9.5,
+  "fin": 9.62
+ },
+ {
+  "i": 29,
+  "texto": "las",
+  "inicio": 9.62,
+  "fin": 9.79
+ },
+ {
+  "i": 30,
+  "texto": "grandes",
+  "inicio": 9.83,
+  "fin": 10.23
+ },
+ {
+  "i": 31,
+  "texto": "empresas.",
+  "inicio": 10.23,
+  "fin": 10.72
+ },
+ {
+  "i": 32,
+  "texto": "Eso",
+  "inicio": 10.92,
+  "fin": 11.08
+ },
+ {
+  "i": 33,
+  "texto": "lo",
+  "inicio": 11.08,
+  "fin": 11.13
+ },
+ {
+  "i": 34,
+  "texto": "puede",
+  "inicio": 11.24,
+  "fin": 11.45
+ },
+ {
+  "i": 35,
+  "texto": "hacer",
+  "inicio": 11.56,
+  "fin": 11.8
+ },
+ {
+  "i": 36,
+  "texto": "cualquier",
+  "inicio": 11.8,
+  "fin": 12.34
+ },
+ {
+  "i": 37,
+  "texto": "empresa.",
+  "inicio": 12.34,
+  "fin": 12.67
+ },
+ {
+  "i": 38,
+  "texto": "Tu",
+  "inicio": 13.04,
+  "fin": 13.08
+ },
+ {
+  "i": 39,
+  "texto": "cliente",
+  "inicio": 13.15,
+  "fin": 13.49
+ },
+ {
+  "i": 40,
+  "texto": "ya",
+  "inicio": 13.49,
+  "fin": 13.59
+ },
+ {
+  "i": 41,
+  "texto": "está",
+  "inicio": 13.59,
+  "fin": 13.86
+ },
+ {
+  "i": 42,
+  "texto": "acostumbrado",
+  "inicio": 13.86,
+  "fin": 14.57
+ },
+ {
+  "i": 43,
+  "texto": "a",
+  "inicio": 14.71,
+  "fin": 14.71
+ },
+ {
+  "i": 44,
+  "texto": "esa",
+  "inicio": 14.71,
+  "fin": 14.9
+ },
+ {
+  "i": 45,
+  "texto": "comodidad.",
+  "inicio": 14.92,
+  "fin": 15.49
+ },
+ {
+  "i": 46,
+  "texto": "Y",
+  "inicio": 15.76,
+  "fin": 15.76
+ },
+ {
+  "i": 47,
+  "texto": "si",
+  "inicio": 15.83,
+  "fin": 15.89
+ },
+ {
+  "i": 48,
+  "texto": "tú",
+  "inicio": 15.89,
+  "fin": 16.09
+ },
+ {
+  "i": 49,
+  "texto": "no",
+  "inicio": 16.09,
+  "fin": 16.22
+ },
+ {
+  "i": 50,
+  "texto": "se",
+  "inicio": 16.22,
+  "fin": 16.35
+ },
+ {
+  "i": 51,
+  "texto": "la",
+  "inicio": 16.35,
+  "fin": 16.48
+ },
+ {
+  "i": 52,
+  "texto": "das,",
+  "inicio": 16.48,
+  "fin": 16.68
+ },
+ {
+  "i": 53,
+  "texto": "se",
+  "inicio": 16.81,
+  "fin": 16.89
+ },
+ {
+  "i": 54,
+  "texto": "va",
+  "inicio": 17.04,
+  "fin": 17.06
+ },
+ {
+  "i": 55,
+  "texto": "a",
+  "inicio": 17.08,
+  "fin": 17.13
+ },
+ {
+  "i": 56,
+  "texto": "ir",
+  "inicio": 17.13,
+  "fin": 17.26
+ },
+ {
+  "i": 57,
+  "texto": "con",
+  "inicio": 17.26,
+  "fin": 17.41
+ },
+ {
+  "i": 58,
+  "texto": "quien",
+  "inicio": 17.48,
+  "fin": 17.79
+ },
+ {
+  "i": 59,
+  "texto": "realmente",
+  "inicio": 17.79,
+  "fin": 18.5
+ },
+ {
+  "i": 60,
+  "texto": "sí",
+  "inicio": 18.5,
+  "fin": 18.68
+ },
+ {
+  "i": 61,
+  "texto": "que",
+  "inicio": 18.68,
+  "fin": 18.86
+ },
+ {
+  "i": 62,
+  "texto": "se",
+  "inicio": 18.86,
+  "fin": 18.98
+ },
+ {
+  "i": 63,
+  "texto": "la",
+  "inicio": 18.98,
+  "fin": 19.1
+ },
+ {
+  "i": 64,
+  "texto": "dé.",
+  "inicio": 19.1,
+  "fin": 19.18
+ },
+ {
+  "i": 65,
+  "texto": "La",
+  "inicio": 19.54,
+  "fin": 19.6
+ },
+ {
+  "i": 66,
+  "texto": "tecnología",
+  "inicio": 19.62,
+  "fin": 20.24
+ },
+ {
+  "i": 67,
+  "texto": "que",
+  "inicio": 20.33,
+  "fin": 20.47
+ },
+ {
+  "i": 68,
+  "texto": "antes",
+  "inicio": 20.47,
+  "fin": 20.76
+ },
+ {
+  "i": 69,
+  "texto": "costaba",
+  "inicio": 20.83,
+  "fin": 21.19
+ },
+ {
+  "i": 70,
+  "texto": "millones,",
+  "inicio": 21.19,
+  "fin": 21.68
+ },
+ {
+  "i": 71,
+  "texto": "ahora",
+  "inicio": 21.83,
+  "fin": 22.1
+ },
+ {
+  "i": 72,
+  "texto": "la",
+  "inicio": 22.1,
+  "fin": 22.22
+ },
+ {
+  "i": 73,
+  "texto": "puedes",
+  "inicio": 22.22,
+  "fin": 22.58
+ },
+ {
+  "i": 74,
+  "texto": "montar",
+  "inicio": 22.59,
+  "fin": 23.02
+ },
+ {
+  "i": 75,
+  "texto": "por",
+  "inicio": 23.02,
+  "fin": 23.2
+ },
+ {
+  "i": 76,
+  "texto": "unos",
+  "inicio": 23.22,
+  "fin": 23.42
+ },
+ {
+  "i": 77,
+  "texto": "cientos",
+  "inicio": 23.57,
+  "fin": 23.99
+ },
+ {
+  "i": 78,
+  "texto": "de",
+  "inicio": 23.99,
+  "fin": 24.13
+ },
+ {
+  "i": 79,
+  "texto": "euros.",
+  "inicio": 24.13,
+  "fin": 24.32
+ },
+ {
+  "i": 80,
+  "texto": "Comenta",
+  "inicio": 24.72,
+  "fin": 25.14
+ },
+ {
+  "i": 81,
+  "texto": "quiero",
+  "inicio": 25.14,
+  "fin": 25.5
+ },
+ {
+  "i": 82,
+  "texto": "y",
+  "inicio": 25.56,
+  "fin": 25.56
+ },
+ {
+  "i": 83,
+  "texto": "te",
+  "inicio": 25.57,
+  "fin": 25.69
+ },
+ {
+  "i": 84,
+  "texto": "enseño",
+  "inicio": 25.69,
+  "fin": 26.1
+ },
+ {
+  "i": 85,
+  "texto": "cómo",
+  "inicio": 26.11,
+  "fin": 26.42
+ },
+ {
+  "i": 86,
+  "texto": "empezar.",
+  "inicio": 26.42,
+  "fin": 26.81
+ }
+]

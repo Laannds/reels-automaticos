@@ -1,0 +1,44 @@
+{
+  "titulo": "4 errores al usar IA",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "*4 errores* que cometes con la IA y que te hacen parecer un ~aficionado~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "badge": "#1",
+      "texto": "Uno: usar el modelo gratis para trabajo *serio* y quejarte del resultado."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "badge": "#2",
+      "texto": "Dos: no darle *contexto* y esperar que adivine lo que quieres."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "badge": "#3",
+      "postit": "itera, itera, itera.",
+      "texto": "Tres: quedarte con la *primera* respuesta que te da."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "badge": "#4",
+      "texto": "Y cuatro: usar una sola IA para *todo*. Cada una tiene su especialidad."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "📌",
+      "texto": "~Guarda~ esto y *sígueme*: aquí se aprende a usar la IA en serio."
+    }
+  ]
+}

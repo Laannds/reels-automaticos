@@ -1,0 +1,46 @@
+{
+  "titulo": "Top 3 IAs gratis (sin voz, para narrar)",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "0 euros ↘",
+      "texto": "El *top 3* de IAs gratis. No pagues ~nada~ sin ver esto."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 3, "nombre": "CLAUDE" },
+      "texto": "Bronce: *Claude*. Pocos mensajes al día, pero calidad ~top~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 2, "nombre": "CHATGPT" },
+      "texto": "Plata: *ChatGPT*. El todoterreno que nunca falla."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 1, "nombre": "GEMINI" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Gemini*. El plan gratis más *generoso* que existe."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "logo": "logos/claude.svg",
+      "postit": "mi favorita, lo siento.",
+      "texto": "Bonus: si solo pruebas una, que sea *esta*."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4,
+      "emoji": "💰",
+      "texto": "~Guarda~ esto antes de sacar la tarjeta. Y *sígueme* para más."
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+[
+ {
+  "i": 0,
+  "texto": "Llevo",
+  "inicio": 0.05,
+  "fin": 0.29
+ },
+ {
+  "i": 1,
+  "texto": "más",
+  "inicio": 0.3,
+  "fin": 0.48
+ },
+ {
+  "i": 2,
+  "texto": "de",
+  "inicio": 0.54,
+  "fin": 0.66
+ },
+ {
+  "i": 3,
+  "texto": "una",
+  "inicio": 0.66,
+  "fin": 0.82
+ },
+ {
+  "i": 4,
+  "texto": "semana",
+  "inicio": 0.84,
+  "fin": 1.13
+ },
+ {
+  "i": 5,
+  "texto": "sin",
+  "inicio": 1.23,
+  "fin": 1.38
+ },
+ {
+  "i": 6,
+  "texto": "editar",
+  "inicio": 1.38,
+  "fin": 1.71
+ },
+ {
+  "i": 7,
+  "texto": "un",
+  "inicio": 1.74,
+  "fin": 1.85
+ },
+ {
+  "i": 8,
+  "texto": "solo",
+  "inicio": 1.95,
+  "fin": 2.1
+ },
+ {
+  "i": 9,
+  "texto": "vídeo",
+  "inicio": 2.1,
+  "fin": 2.42
+ },
+ {
+  "i": 10,
+  "texto": "gracias",
+  "inicio": 2.53,
+  "fin": 2.83
+ },
+ {
+  "i": 11,
+  "texto": "a",
+  "inicio": 2.83,
+  "fin": 2.88
+ },
+ {
+  "i": 12,
+  "texto": "la",
+  "inicio": 2.88,
+  "fin": 2.93
+ },
+ {
+  "i": 13,
+  "texto": "Inteligencia",
+  "inicio": 2.98,
+  "fin": 3.54
+ },
+ {
+  "i": 14,
+  "texto": "Artificial.",
+  "inicio": 3.61,
+  "fin": 4.17
+ },
+ {
+  "i": 15,
+  "texto": "��nicamente",
+  "inicio": 4.35,
+  "fin": 4.97
+ },
+ {
+  "i": 16,
+  "texto": "me",
+  "inicio": 4.97,
+  "fin": 5.09
+ },
+ {
+  "i": 17,
+  "texto": "grabo,",
+  "inicio": 5.09,
+  "fin": 5.37
+ },
+ {
+  "i": 18,
+  "texto": "quito",
+  "inicio": 5.49,
+  "fin": 5.77
+ },
+ {
+  "i": 19,
+  "texto": "los",
+  "inicio": 5.78,
+  "fin": 5.94
+ },
+ {
+  "i": 20,
+  "texto": "errores",
+  "inicio": 5.99,
+  "fin": 6.26
+ },
+ {
+  "i": 21,
+  "texto": "y",
+  "inicio": 6.42,
+  "fin": 6.43
+ },
+ {
+  "i": 22,
+  "texto": "corto",
+  "inicio": 6.43,
+  "fin": 6.71
+ },
+ {
+  "i": 23,
+  "texto": "los",
+  "inicio": 6.78,
+  "fin": 6.9
+ },
+ {
+  "i": 24,
+  "texto": "silencios.",
+  "inicio": 6.9,
+  "fin": 7.33
+ },
+ {
+  "i": 25,
+  "texto": "Todo",
+  "inicio": 7.71,
+  "fin": 7.92
+ },
+ {
+  "i": 26,
+  "texto": "lo",
+  "inicio": 7.92,
+  "fin": 8.03
+ },
+ {
+  "i": 27,
+  "texto": "demás",
+  "inicio": 8.03,
+  "fin": 8.28
+ },
+ {
+  "i": 28,
+  "texto": "lo",
+  "inicio": 8.48,
+  "fin": 8.48
+ },
+ {
+  "i": 29,
+  "texto": "hace",
+  "inicio": 8.51,
+  "fin": 8.7
+ },
+ {
+  "i": 30,
+  "texto": "la",
+  "inicio": 8.7,
+  "fin": 8.76
+ },
+ {
+  "i": 31,
+  "texto": "Inteligencia",
+  "inicio": 8.87,
+  "fin": 9.48
+ },
+ {
+  "i": 32,
+  "texto": "Artificial.",
+  "inicio": 9.48,
+  "fin": 9.97
+ },
+ {
+  "i": 33,
+  "texto": "Si",
+  "inicio": 10.28,
+  "fin": 10.39
+ },
+ {
+  "i": 34,
+  "texto": "tú",
+  "inicio": 10.39,
+  "fin": 10.56
+ },
+ {
+  "i": 35,
+  "texto": "también",
+  "inicio": 10.56,
+  "fin": 11.02
+ },
+ {
+  "i": 36,
+  "texto": "quieres",
+  "inicio": 11.02,
+  "fin": 11.4
+ },
+ {
+  "i": 37,
+  "texto": "dejar",
+  "inicio": 11.45,
+  "fin": 11.71
+ },
+ {
+  "i": 38,
+  "texto": "de",
+  "inicio": 11.71,
+  "fin": 11.82
+ },
+ {
+  "i": 39,
+  "texto": "editar",
+  "inicio": 11.82,
+  "fin": 12.16
+ },
+ {
+  "i": 40,
+  "texto": "los",
+  "inicio": 12.16,
+  "fin": 12.33
+ },
+ {
+  "i": 41,
+  "texto": "vídeos,",
+  "inicio": 12.33,
+  "fin": 12.62
+ },
+ {
+  "i": 42,
+  "texto": "comenta",
+  "inicio": 12.9,
+  "fin": 13.34
+ },
+ {
+  "i": 43,
+  "texto": "guía",
+  "inicio": 13.34,
+  "fin": 13.51
+ },
+ {
+  "i": 44,
+  "texto": "y",
+  "inicio": 13.69,
+  "fin": 13.73
+ },
+ {
+  "i": 45,
+  "texto": "te",
+  "inicio": 13.73,
+  "fin": 13.77
+ },
+ {
+  "i": 46,
+  "texto": "enseño",
+  "inicio": 13.85,
+  "fin": 14.22
+ },
+ {
+  "i": 47,
+  "texto": "cómo",
+  "inicio": 14.22,
+  "fin": 14.5
+ },
+ {
+  "i": 48,
+  "texto": "hacerlo.",
+  "inicio": 14.5,
+  "fin": 14.8
+ }
+]

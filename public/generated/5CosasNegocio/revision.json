@@ -1,0 +1,10 @@
+{
+  "eliminar": [],
+  "enfasis": [[13, 17]],
+  "elementos": [
+    { "palabra": 0, "tipo": "cabeceraTop", "dato": "5 TAREAS QUE|DEBES AUTOMATIZAR" },
+    { "palabra": 0, "tipo": "riel", "dato": "5|1:iconos/message-circle.svg@4.98|2:iconos/calendar.svg@7.41|3:iconos/star.svg@9.34|4:iconos/user-x.svg@11.84|5:iconos/trending-up.svg@15.13" },
+    { "palabra": 47, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "resumen": "Formato Top_Elementos calcado (mismo que Julio21_V y Top5Appsdepago): cabecera '5 TAREAS QUE DEBES AUTOMATIZAR' persistente arriba, carril numerado 1→5 (orden ascendente, tal como narra: primero/segundo/tercero/cuarto/quinto). Iconos: mensajes repetidos, recordatorios de cita, reseñas, recuperar clientes, resumen de ventas. Énfasis en 'la cuarta casi nadie la hace' (hook de curiosidad). CTA final 'Comenta lista'."
+}

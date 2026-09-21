@@ -1,0 +1,10 @@
+{
+  "eliminar": [],
+  "enfasis": [[12, 13], [58, 58]],
+  "elementos": [
+    { "palabra": 0, "tipo": "cabeceraTop", "dato": "TOP 5 COSAS QUE|YA NO PAGARÁS" },
+    { "palabra": 0, "tipo": "riel", "dato": "5|5:iconos/language.svg@4.32|4:iconos/photo.svg@6.9|3:iconos/world.svg@9.34|2:iconos/robot.svg@11.68|1:iconos/share-2.svg@13.9" },
+    { "palabra": 57, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "resumen": "Formato Top_Elementos calcado (mismo que Julio21_V): cabecera 'TOP 5 COSAS QUE YA NO PAGARÁS' persistente arriba, carril numerado 5→1 en el borde izquierdo. Icono actual grande y centrado por punto (idiomas, editor de fotos, traductor, asistente virtual, community manager) que se ancla junto a su número al pasar al siguiente. CTA final 'Comenta ahorro'."
+}

@@ -1,0 +1,42 @@
+{
+  "titulo": "La próxima guerra de la IA",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "La próxima guerra de la IA no es responder mejor: es *trabajar sola*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "nota": "apunta la palabra ↘",
+      "texto": "Se llaman *agentes*: les das un objetivo y ejecutan los pasos por ti."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "REAL", "tipo": "bueno" },
+      "texto": "Claude ya navega, hace clic y rellena formularios *por ti*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "texto": "En 2026 las IAs no compiten por chatear: compiten por ~hacer~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "postit": "tú decides el lado.",
+      "texto": "Quien entienda esto ahora va *dos años* por delante."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "🔮",
+      "texto": "*Sígueme* y ~guarda~ esto. Cuando pase, te acordarás de este vídeo."
+    }
+  ]
+}

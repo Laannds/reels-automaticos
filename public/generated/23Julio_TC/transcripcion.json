@@ -1,0 +1,488 @@
+[
+ {
+  "i": 0,
+  "texto": "No",
+  "inicio": 0.01,
+  "fin": 0.12
+ },
+ {
+  "i": 1,
+  "texto": "quieres",
+  "inicio": 0.12,
+  "fin": 0.54
+ },
+ {
+  "i": 2,
+  "texto": "una",
+  "inicio": 0.54,
+  "fin": 0.72
+ },
+ {
+  "i": 3,
+  "texto": "IA",
+  "inicio": 0.72,
+  "fin": 0.84
+ },
+ {
+  "i": 4,
+  "texto": "en",
+  "inicio": 0.84,
+  "fin": 0.96
+ },
+ {
+  "i": 5,
+  "texto": "tu",
+  "inicio": 0.96,
+  "fin": 1.08
+ },
+ {
+  "i": 6,
+  "texto": "negocio",
+  "inicio": 1.08,
+  "fin": 1.5
+ },
+ {
+  "i": 7,
+  "texto": "porque",
+  "inicio": 1.5,
+  "fin": 1.86
+ },
+ {
+  "i": 8,
+  "texto": "suenas",
+  "inicio": 1.86,
+  "fin": 2.22
+ },
+ {
+  "i": 9,
+  "texto": "a",
+  "inicio": 2.22,
+  "fin": 2.28
+ },
+ {
+  "i": 10,
+  "texto": "robot,",
+  "inicio": 2.28,
+  "fin": 2.56
+ },
+ {
+  "i": 11,
+  "texto": "pero",
+  "inicio": 2.65,
+  "fin": 2.76
+ },
+ {
+  "i": 12,
+  "texto": "llevas",
+  "inicio": 2.76,
+  "fin": 3.09
+ },
+ {
+  "i": 13,
+  "texto": "seis",
+  "inicio": 3.22,
+  "fin": 3.34
+ },
+ {
+  "i": 14,
+  "texto": "meses",
+  "inicio": 3.38,
+  "fin": 3.69
+ },
+ {
+  "i": 15,
+  "texto": "perdiendo",
+  "inicio": 3.81,
+  "fin": 4.18
+ },
+ {
+  "i": 16,
+  "texto": "clientes",
+  "inicio": 4.18,
+  "fin": 4.67
+ },
+ {
+  "i": 17,
+  "texto": "por",
+  "inicio": 4.76,
+  "fin": 4.86
+ },
+ {
+  "i": 18,
+  "texto": "contestar",
+  "inicio": 4.86,
+  "fin": 5.38
+ },
+ {
+  "i": 19,
+  "texto": "tarde.",
+  "inicio": 5.38,
+  "fin": 5.68
+ },
+ {
+  "i": 20,
+  "texto": "Tu",
+  "inicio": 5.88,
+  "fin": 5.91
+ },
+ {
+  "i": 21,
+  "texto": "cliente",
+  "inicio": 5.98,
+  "fin": 6.28
+ },
+ {
+  "i": 22,
+  "texto": "no",
+  "inicio": 6.28,
+  "fin": 6.37
+ },
+ {
+  "i": 23,
+  "texto": "quiere",
+  "inicio": 6.37,
+  "fin": 6.64
+ },
+ {
+  "i": 24,
+  "texto": "hablar",
+  "inicio": 6.64,
+  "fin": 6.9
+ },
+ {
+  "i": 25,
+  "texto": "contigo,",
+  "inicio": 6.95,
+  "fin": 7.21
+ },
+ {
+  "i": 26,
+  "texto": "quiere",
+  "inicio": 7.31,
+  "fin": 7.62
+ },
+ {
+  "i": 27,
+  "texto": "una",
+  "inicio": 7.62,
+  "fin": 7.81
+ },
+ {
+  "i": 28,
+  "texto": "respuesta",
+  "inicio": 7.81,
+  "fin": 8.37
+ },
+ {
+  "i": 29,
+  "texto": "rápida",
+  "inicio": 8.37,
+  "fin": 8.75
+ },
+ {
+  "i": 30,
+  "texto": "y",
+  "inicio": 8.86,
+  "fin": 8.89
+ },
+ {
+  "i": 31,
+  "texto": "le",
+  "inicio": 8.89,
+  "fin": 9
+ },
+ {
+  "i": 32,
+  "texto": "da",
+  "inicio": 9,
+  "fin": 9.11
+ },
+ {
+  "i": 33,
+  "texto": "igual",
+  "inicio": 9.11,
+  "fin": 9.4
+ },
+ {
+  "i": 34,
+  "texto": "quien",
+  "inicio": 9.4,
+  "fin": 9.69
+ },
+ {
+  "i": 35,
+  "texto": "esté",
+  "inicio": 9.69,
+  "fin": 9.87
+ },
+ {
+  "i": 36,
+  "texto": "al",
+  "inicio": 9.98,
+  "fin": 10.09
+ },
+ {
+  "i": 37,
+  "texto": "otro",
+  "inicio": 10.09,
+  "fin": 10.32
+ },
+ {
+  "i": 38,
+  "texto": "lado",
+  "inicio": 10.32,
+  "fin": 10.55
+ },
+ {
+  "i": 39,
+  "texto": "de",
+  "inicio": 10.55,
+  "fin": 10.66
+ },
+ {
+  "i": 40,
+  "texto": "la",
+  "inicio": 10.66,
+  "fin": 10.77
+ },
+ {
+  "i": 41,
+  "texto": "pantalla,",
+  "inicio": 10.77,
+  "fin": 11.18
+ },
+ {
+  "i": 42,
+  "texto": "quiere",
+  "inicio": 11.34,
+  "fin": 11.69
+ },
+ {
+  "i": 43,
+  "texto": "una",
+  "inicio": 11.69,
+  "fin": 11.86
+ },
+ {
+  "i": 44,
+  "texto": "solución.",
+  "inicio": 11.86,
+  "fin": 12.38
+ },
+ {
+  "i": 45,
+  "texto": "La",
+  "inicio": 12.64,
+  "fin": 12.77
+ },
+ {
+  "i": 46,
+  "texto": "IA",
+  "inicio": 12.77,
+  "fin": 12.89
+ },
+ {
+  "i": 47,
+  "texto": "de",
+  "inicio": 12.89,
+  "fin": 13.04
+ },
+ {
+  "i": 48,
+  "texto": "hoy",
+  "inicio": 13.04,
+  "fin": 13.22
+ },
+ {
+  "i": 49,
+  "texto": "no",
+  "inicio": 13.23,
+  "fin": 13.34
+ },
+ {
+  "i": 50,
+  "texto": "suena",
+  "inicio": 13.35,
+  "fin": 13.65
+ },
+ {
+  "i": 51,
+  "texto": "a",
+  "inicio": 13.66,
+  "fin": 13.72
+ },
+ {
+  "i": 52,
+  "texto": "robot,",
+  "inicio": 13.72,
+  "fin": 14.02
+ },
+ {
+  "i": 53,
+  "texto": "suena",
+  "inicio": 14.23,
+  "fin": 14.46
+ },
+ {
+  "i": 54,
+  "texto": "como",
+  "inicio": 14.46,
+  "fin": 14.71
+ },
+ {
+  "i": 55,
+  "texto": "hablas",
+  "inicio": 14.71,
+  "fin": 15.09
+ },
+ {
+  "i": 56,
+  "texto": "tú.",
+  "inicio": 15.09,
+  "fin": 15.24
+ },
+ {
+  "i": 57,
+  "texto": "Aprende",
+  "inicio": 15.52,
+  "fin": 16.01
+ },
+ {
+  "i": 58,
+  "texto": "tu",
+  "inicio": 16.01,
+  "fin": 16.15
+ },
+ {
+  "i": 59,
+  "texto": "tono,",
+  "inicio": 16.15,
+  "fin": 16.43
+ },
+ {
+  "i": 60,
+  "texto": "tus",
+  "inicio": 16.57,
+  "fin": 16.66
+ },
+ {
+  "i": 61,
+  "texto": "precios",
+  "inicio": 16.78,
+  "fin": 17.24
+ },
+ {
+  "i": 62,
+  "texto": "y",
+  "inicio": 17.24,
+  "fin": 17.29
+ },
+ {
+  "i": 63,
+  "texto": "la",
+  "inicio": 17.48,
+  "fin": 17.48
+ },
+ {
+  "i": 64,
+  "texto": "manera",
+  "inicio": 17.5,
+  "fin": 17.9
+ },
+ {
+  "i": 65,
+  "texto": "de",
+  "inicio": 17.9,
+  "fin": 18.08
+ },
+ {
+  "i": 66,
+  "texto": "comunicar",
+  "inicio": 18.08,
+  "fin": 18.58
+ },
+ {
+  "i": 67,
+  "texto": "que",
+  "inicio": 18.59,
+  "fin": 18.74
+ },
+ {
+  "i": 68,
+  "texto": "tienes.",
+  "inicio": 18.81,
+  "fin": 19.12
+ },
+ {
+  "i": 69,
+  "texto": "Comenta",
+  "inicio": 19.29,
+  "fin": 19.68
+ },
+ {
+  "i": 70,
+  "texto": "robot",
+  "inicio": 19.68,
+  "fin": 19.86
+ },
+ {
+  "i": 71,
+  "texto": "y",
+  "inicio": 20.04,
+  "fin": 20.04
+ },
+ {
+  "i": 72,
+  "texto": "te",
+  "inicio": 20.05,
+  "fin": 20.15
+ },
+ {
+  "i": 73,
+  "texto": "enseño",
+  "inicio": 20.18,
+  "fin": 20.55
+ },
+ {
+  "i": 74,
+  "texto": "cómo",
+  "inicio": 20.55,
+  "fin": 20.84
+ },
+ {
+  "i": 75,
+  "texto": "dejar",
+  "inicio": 20.84,
+  "fin": 21.13
+ },
+ {
+  "i": 76,
+  "texto": "de",
+  "inicio": 21.13,
+  "fin": 21.24
+ },
+ {
+  "i": 77,
+  "texto": "perder",
+  "inicio": 21.24,
+  "fin": 21.59
+ },
+ {
+  "i": 78,
+  "texto": "clientes",
+  "inicio": 21.59,
+  "fin": 22.02
+ },
+ {
+  "i": 79,
+  "texto": "por",
+  "inicio": 22.05,
+  "fin": 22.17
+ },
+ {
+  "i": 80,
+  "texto": "contestar",
+  "inicio": 22.28,
+  "fin": 22.91
+ }
+]

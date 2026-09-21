@@ -1,0 +1,14 @@
+{
+  "eliminar": [
+    { "desde": 2, "hasta": 9, "motivo": "toma repetida (se conserva la segunda) + 'perdón'" },
+    { "desde": 31, "hasta": 34, "motivo": "falso comienzo: 'El segundo, eh, vale,'" }
+  ],
+  "elementos": [
+    { "palabra": 16, "tipo": "logo", "dato": "CLAUDE" },
+    { "palabra": 26, "tipo": "nota", "dato": "apunta esto ↘" },
+    { "palabra": 39, "tipo": "emoji", "dato": "⚡" },
+    { "palabra": 45, "tipo": "sello", "dato": "TOP", "color": "bueno" },
+    { "palabra": 49, "tipo": "emoji", "dato": "👇" }
+  ],
+  "resumen": "Discurso coherente: intro + 3 trucos + CTA. Se elimina la primera toma abortada y un falso comienzo."
+}

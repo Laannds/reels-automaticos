@@ -1,0 +1,35 @@
+{
+  "titulo": "Top 3 IAs gratis",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "0 euros ↘",
+      "texto": "El *top 3* de IAs gratis. No pagues ~nada~ sin ver esto."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 3, "nombre": "CLAUDE" },
+      "texto": "Bronce: *Claude*. Pocos mensajes al día, pero de una calidad ~top~."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 2, "nombre": "CHATGPT" },
+      "texto": "Plata: *ChatGPT*. El todoterreno que nunca falla."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 1, "nombre": "GEMINI" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Gemini*. El plan gratis más *generoso* que existe hoy."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "💰",
+      "texto": "~Guarda~ esto antes de sacar la tarjeta. Y *sígueme* para más."
+    }
+  ]
+}

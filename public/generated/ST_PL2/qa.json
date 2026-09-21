@@ -1,0 +1,56 @@
+{
+  "slug": "ST_PL2",
+  "duracion": 43.833333,
+  "lufs": -23,
+  "pico": -7.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -23 LUFS (objetivo -14)"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 9.6,
+      "texto": "7.3 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 11.25,
+      "texto": "subtítulos entra en la zona de texto del post, usuario y audio durante 1.3 s",
+      "hasta": 12.25,
+      "k": 45,
+      "zona": "abajo"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 25,
+      "texto": "subtítulos entra en la zona de texto del post, usuario y audio",
+      "hasta": 25,
+      "k": 100,
+      "zona": "abajo"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 25.5,
+      "texto": "subtítulos entra en la zona de texto del post, usuario y audio durante 1.3 s",
+      "hasta": 26.5,
+      "k": 102,
+      "zona": "abajo"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 31.25,
+      "texto": "subtítulos entra en la zona de texto del post, usuario y audio durante 1.3 s",
+      "hasta": 32.25,
+      "k": 125,
+      "zona": "abajo"
+    }
+  ]
+}

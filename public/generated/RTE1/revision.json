@@ -1,0 +1,15 @@
+{
+  "eliminar": [],
+  "subtitulos": "serif",
+  "enfasis": [[51, 55], [121, 124], [209, 214]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "LO QUE NO|TE CUENTAN", "duracion": 2 },
+    { "palabra": 8, "tipo": "antesDespues", "dato": "inserts/rte-antes.jpg:ANTES|inserts/rte-despues.jpg:AHORA" },
+    { "palabra": 75, "tipo": "icono", "dato": "iconos/shirt.svg", "duracion": 1.8 },
+    { "palabra": 84, "tipo": "icono", "dato": "iconos/beach.svg", "duracion": 1.8 },
+    { "palabra": 102, "tipo": "icono", "dato": "iconos/heart.svg", "duracion": 1.8 },
+    { "palabra": 134, "tipo": "rotulo", "dato": "GUERRA", "duracion": 1.4 },
+    { "palabra": 209, "tipo": "foco", "dato": "", "x": 0.5, "y": 0.56, "radio": 230, "duracion": 1.0 }
+  ],
+  "resumen": "Reel emocional de transformación física. Hook titulon breve al inicio, par de fotos reales (extraídas de la referencia del amigo) persistente arriba con marco/glow azul y flecha conectora, subtítulos serif elegantes para el tono íntimo, énfasis azul en 'nadie te cuenta esto', 'una falta de autoestima' y el cierre 'el cambio de verdad'. Dinamismo extra: iconos (traje/bañador/cita) sincronizados con cada ejemplo de ropa mencionado, rótulo de impacto 'GUERRA' en el clímax emocional, foco circular en la cara en la frase de cierre. Sin CTA — el guión cierra fuerte por sí solo."
+}

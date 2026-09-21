@@ -1,0 +1,42 @@
+{
+  "titulo": "Los agentes vienen a trabajar",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4.5,
+      "nota": "apunta esta palabra ↘",
+      "texto": "La próxima guerra de la IA no es responder: es *trabajar sola*."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "texto": "Se llaman *agentes*: objetivo dentro, trabajo ~hecho~ fuera."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 7,
+      "chat": {
+        "ia": "CLAUDE",
+        "prompt": "Investiga a mi competencia y prepárame un informe",
+        "respuesta": "Hecho: 5 competidores analizados, precios comparados, 3 huecos de mercado detectados. ¿Lo convierto en presentación?"
+      },
+      "sello": { "texto": "REAL", "tipo": "bueno" },
+      "texto": "Esto ya *existe*. No es una demo: es un martes cualquiera."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "postit": "2 años de ventaja.",
+      "texto": "Quien entienda esto hoy, va *dos años* por delante."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "🔮",
+      "texto": "*Sígueme* y ~guarda~ esto. Te vas a acordar de este vídeo."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "activa": true,
+    "estadisticas": {
+      "disparos": 0,
+      "ultimoDisparo": null
+    },
+    "nombre": "Palabra clave LISTA",
+    "disparador": {
+      "tipo": "comentario",
+      "condicion": "contiene",
+      "palabras": [
+        "LISTA",
+        "guía"
+      ]
+    },
+    "acciones": [
+      {
+        "tipo": "responder_comentario",
+        "texto": "¡Te lo mando por privado!"
+      },
+      {
+        "tipo": "enviar_dm",
+        "texto": "Hola {{usuario}}, aquí tienes las 5 automatizaciones."
+      },
+      {
+        "tipo": "etiquetar",
+        "etiqueta": "lead-lista"
+      }
+    ],
+    "id": "a1785176402904"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "slug": "DV_SP_2",
+  "duracion": 32.866667,
+  "lufs": -13.9,
+  "pico": -1.7,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 20.83,
+      "texto": "\"mancuernas,\" (palabra 84) — Whisper solo está al 39%"
+    }
+  ]
+}

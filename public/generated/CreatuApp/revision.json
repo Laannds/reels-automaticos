@@ -1,0 +1,11 @@
+{
+  "eliminar": [],
+  "enfasis": [[92, 99], [126, 130]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "NO NECESITAS|SER INGENIERO", "duracion": 2 },
+    { "palabra": 55, "tipo": "logo", "dato": "claude", "duracion": 2 },
+    { "palabra": 65, "tipo": "checklist", "dato": "Define qué quieres montar@0|Habla con Claude paso a paso@3.5|Saca tu primer MVP@6.5|Escala poco a poco@10|=App funcional en semanas@18.5", "duracion": 20 },
+    { "palabra": 164, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.2 }
+  ],
+  "resumen": "Reel meta sobre crear apps de negocio con Claude, sin ser técnico. Hook titulon inicial, logo de Claude al mencionarlo, showstopper checklist mostrando el proceso paso a paso (definir qué montar → hablar con Claude → MVP → escalar → app funcional), énfasis en 'un mínimo producto viable' y 'varias semanas'. CTA final 'escribe Claude'."
+}

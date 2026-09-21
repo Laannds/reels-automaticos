@@ -1,0 +1,43 @@
+{
+  "titulo": "Le pongo nota a Claude",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "mi uso real, sin filtros ↘",
+      "texto": "Le pongo *nota* a Claude, aspecto por aspecto. Sin ~piedad~."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "escritura", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Escritura: parece una *persona*. Aquí no le tose nadie."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "código", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Código: aplicaciones enteras que funcionan a la *primera*."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 2, "etiqueta": "plan gratis", "tipo": "malo" },
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Plan gratis: los límites se agotan en ~nada~. Aquí duele."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 1, "etiqueta": "imágenes", "tipo": "malo" },
+      "postit": "no es lo suyo.",
+      "texto": "Imágenes: no genera. Para eso, otra *herramienta*."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "🧠",
+      "texto": "Nota final: un *nueve*. Comenta ~CLAUDE~ y te mando mi guía completa."
+    }
+  ]
+}

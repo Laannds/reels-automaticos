@@ -1,0 +1,102 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.42,
+  "enfasis": [
+    [
+      5,
+      6
+    ],
+    [
+      43,
+      48
+    ],
+    [
+      69,
+      70
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 62,
+      "texto": "viene"
+    },
+    {
+      "palabra": 82,
+      "texto": "no"
+    },
+    {
+      "palabra": 83,
+      "texto": "toque"
+    },
+    {
+      "palabra": 104,
+      "texto": "Guárdalo"
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=SÁNDWICH|=PARA VAGOS|EN 2 MINUTOS",
+      "y": 0.5,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 17,
+      "tipo": "checklist",
+      "dato": "Mantequilla light@0|Queso cremoso light@2.2|40-50 g de jamón@5.3",
+      "y": 0.33,
+      "duracion": 6.3
+    },
+    {
+      "palabra": 41,
+      "tipo": "etiqueta",
+      "dato": "TRUCO|Corta 4 dedos de papel",
+      "y": 0.34,
+      "duracion": 2.5
+    },
+    {
+      "palabra": 53,
+      "tipo": "etiqueta",
+      "dato": "PASO|Envolver en papel de horno",
+      "y": 0.34,
+      "duracion": 2.5
+    },
+    {
+      "palabra": 65,
+      "tipo": "remate",
+      "dato": "LO IMPORTANTE|LOS=PLIEGUES",
+      "y": 0.33,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 77,
+      "tipo": "etiqueta",
+      "dato": "OJO|Que el papel no toque la tostadora",
+      "y": 0.34,
+      "duracion": 2.8
+    },
+    {
+      "palabra": 90,
+      "tipo": "estado",
+      "dato": "2 MIN",
+      "y": 0.36,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 104,
+      "tipo": "etiqueta",
+      "dato": "GUÁRDALO|Para los días sin ganas",
+      "y": 0.34,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 113,
+      "tipo": "remate",
+      "dato": "bocadillo:¿COCINAS|O=TIRAS DE SÁNDWICH?",
+      "duracion": 2.6
+    }
+  ],
+  "resumen": "Receta de sándwich para DV FIT (David), mismo lenguaje visual que el reel de bocaditos de limón: sin handle, amarillo de marca, titulón centrado con las dos primeras líneas en amarillo, checklist de ingredientes y etiquetas de truco/paso. Misma restricción de composición: cara arriba (0-0.30) y comida abajo (0.55-0.90), así que todo va sobre el torso y los subtítulos a 0.42. El momento que él marca como clave ('ahora viene lo importante') sale como remate grande pero SIN oscurecer, para no tapar las manos haciendo los pliegues, que es la demostración. Cuatro correcciones de transcripción: viendo→viene, note que→no toque, Cuérdalo→Guárdalo."
+}

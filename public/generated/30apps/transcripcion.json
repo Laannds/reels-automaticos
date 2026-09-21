@@ -1,0 +1,548 @@
+[
+ {
+  "i": 0,
+  "texto": "Voy",
+  "inicio": 0.02,
+  "fin": 0.16,
+  "prob": 0.82
+ },
+ {
+  "i": 1,
+  "texto": "a",
+  "inicio": 0.16,
+  "fin": 0.21,
+  "prob": 1
+ },
+ {
+  "i": 2,
+  "texto": "lanzar",
+  "inicio": 0.21,
+  "fin": 0.54,
+  "prob": 0.99
+ },
+ {
+  "i": 3,
+  "texto": "30",
+  "inicio": 0.54,
+  "fin": 0.85,
+  "prob": 0.96
+ },
+ {
+  "i": 4,
+  "texto": "aplicaciones",
+  "inicio": 0.88,
+  "fin": 1.53,
+  "prob": 0.98
+ },
+ {
+  "i": 5,
+  "texto": "en",
+  "inicio": 1.61,
+  "fin": 1.71,
+  "prob": 0.95
+ },
+ {
+  "i": 6,
+  "texto": "30",
+  "inicio": 1.71,
+  "fin": 2.17,
+  "prob": 0.99
+ },
+ {
+  "i": 7,
+  "texto": "días",
+  "inicio": 2.17,
+  "fin": 2.48,
+  "prob": 0.99
+ },
+ {
+  "i": 8,
+  "texto": "sin",
+  "inicio": 2.58,
+  "fin": 2.74,
+  "prob": 0.68
+ },
+ {
+  "i": 9,
+  "texto": "inversión",
+  "inicio": 2.74,
+  "fin": 3.35,
+  "prob": 0.99
+ },
+ {
+  "i": 10,
+  "texto": "en",
+  "inicio": 3.35,
+  "fin": 3.47,
+  "prob": 0.99
+ },
+ {
+  "i": 11,
+  "texto": "anuncios",
+  "inicio": 3.47,
+  "fin": 3.97,
+  "prob": 0.98
+ },
+ {
+  "i": 12,
+  "texto": "y",
+  "inicio": 4.03,
+  "fin": 4.07,
+  "prob": 0.97
+ },
+ {
+  "i": 13,
+  "texto": "esto",
+  "inicio": 4.07,
+  "fin": 4.32,
+  "prob": 0.97
+ },
+ {
+  "i": 14,
+  "texto": "es",
+  "inicio": 4.45,
+  "fin": 4.5,
+  "prob": 0.97
+ },
+ {
+  "i": 15,
+  "texto": "lo",
+  "inicio": 4.5,
+  "fin": 4.63,
+  "prob": 1
+ },
+ {
+  "i": 16,
+  "texto": "que",
+  "inicio": 4.74,
+  "fin": 4.86,
+  "prob": 1
+ },
+ {
+  "i": 17,
+  "texto": "va",
+  "inicio": 4.86,
+  "fin": 5,
+  "prob": 0.98
+ },
+ {
+  "i": 18,
+  "texto": "a",
+  "inicio": 5,
+  "fin": 5.07,
+  "prob": 0.99
+ },
+ {
+  "i": 19,
+  "texto": "pasar.",
+  "inicio": 5.07,
+  "fin": 5.37,
+  "prob": 1
+ },
+ {
+  "i": 20,
+  "texto": "Ahora",
+  "inicio": 5.48,
+  "fin": 5.76,
+  "prob": 0.99
+ },
+ {
+  "i": 21,
+  "texto": "mismo",
+  "inicio": 5.76,
+  "fin": 6.03,
+  "prob": 1
+ },
+ {
+  "i": 22,
+  "texto": "ya",
+  "inicio": 6.15,
+  "fin": 6.15,
+  "prob": 0.74
+ },
+ {
+  "i": 23,
+  "texto": "tengo",
+  "inicio": 6.16,
+  "fin": 6.43,
+  "prob": 1
+ },
+ {
+  "i": 24,
+  "texto": "desarrolladas",
+  "inicio": 6.43,
+  "fin": 7.08,
+  "prob": 0.98
+ },
+ {
+  "i": 25,
+  "texto": "todas",
+  "inicio": 7.18,
+  "fin": 7.44,
+  "prob": 0.98
+ },
+ {
+  "i": 26,
+  "texto": "estas",
+  "inicio": 7.44,
+  "fin": 7.73,
+  "prob": 0.98
+ },
+ {
+  "i": 27,
+  "texto": "aplicaciones,",
+  "inicio": 7.73,
+  "fin": 8.42,
+  "prob": 1
+ },
+ {
+  "i": 28,
+  "texto": "pero",
+  "inicio": 8.52,
+  "fin": 8.67,
+  "prob": 0.99
+ },
+ {
+  "i": 29,
+  "texto": "para",
+  "inicio": 8.73,
+  "fin": 8.96,
+  "prob": 0.96
+ },
+ {
+  "i": 30,
+  "texto": "ello",
+  "inicio": 8.96,
+  "fin": 9.17,
+  "prob": 1
+ },
+ {
+  "i": 31,
+  "texto": "necesitamos",
+  "inicio": 9.19,
+  "fin": 9.81,
+  "prob": 0.85
+ },
+ {
+  "i": 32,
+  "texto": "tener",
+  "inicio": 9.87,
+  "fin": 10.13,
+  "prob": 0.99
+ },
+ {
+  "i": 33,
+  "texto": "una",
+  "inicio": 10.23,
+  "fin": 10.39,
+  "prob": 0.99
+ },
+ {
+  "i": 34,
+  "texto": "estrategia",
+  "inicio": 10.39,
+  "fin": 10.9,
+  "prob": 0.99
+ },
+ {
+  "i": 35,
+  "texto": "clara",
+  "inicio": 11.03,
+  "fin": 11.36,
+  "prob": 0.99
+ },
+ {
+  "i": 36,
+  "texto": "de",
+  "inicio": 11.36,
+  "fin": 11.5,
+  "prob": 0.72
+ },
+ {
+  "i": 37,
+  "texto": "la",
+  "inicio": 11.5,
+  "fin": 11.63,
+  "prob": 0.99
+ },
+ {
+  "i": 38,
+  "texto": "propia",
+  "inicio": 11.64,
+  "fin": 12.05,
+  "prob": 0.97
+ },
+ {
+  "i": 39,
+  "texto": "estrategia,",
+  "inicio": 12.05,
+  "fin": 12.75,
+  "prob": 0.98
+ },
+ {
+  "i": 40,
+  "texto": "la",
+  "inicio": 12.76,
+  "fin": 12.89,
+  "prob": 0.99
+ },
+ {
+  "i": 41,
+  "texto": "monetización",
+  "inicio": 12.89,
+  "fin": 13.71,
+  "prob": 1
+ },
+ {
+  "i": 42,
+  "texto": "utilizando",
+  "inicio": 13.8,
+  "fin": 14.39,
+  "prob": 0.85
+ },
+ {
+  "i": 43,
+  "texto": "Azure,",
+  "inicio": 14.39,
+  "fin": 14.72,
+  "prob": 0.57
+ },
+ {
+  "i": 44,
+  "texto": "control",
+  "inicio": 14.89,
+  "fin": 15.29,
+  "prob": 0.52
+ },
+ {
+  "i": 45,
+  "texto": "de",
+  "inicio": 15.29,
+  "fin": 15.41,
+  "prob": 1
+ },
+ {
+  "i": 46,
+  "texto": "calidad",
+  "inicio": 15.41,
+  "fin": 15.72,
+  "prob": 1
+ },
+ {
+  "i": 47,
+  "texto": "y",
+  "inicio": 15.87,
+  "fin": 15.89,
+  "prob": 0.63
+ },
+ {
+  "i": 48,
+  "texto": "el",
+  "inicio": 15.89,
+  "fin": 15.99,
+  "prob": 0.98
+ },
+ {
+  "i": 49,
+  "texto": "tiempo",
+  "inicio": 15.99,
+  "fin": 16.3,
+  "prob": 1
+ },
+ {
+  "i": 50,
+  "texto": "que",
+  "inicio": 16.32,
+  "fin": 16.51,
+  "prob": 0.98
+ },
+ {
+  "i": 51,
+  "texto": "tenemos,",
+  "inicio": 16.51,
+  "fin": 16.92,
+  "prob": 0.99
+ },
+ {
+  "i": 52,
+  "texto": "que",
+  "inicio": 17,
+  "fin": 17.25,
+  "prob": 1
+ },
+ {
+  "i": 53,
+  "texto": "son",
+  "inicio": 17.25,
+  "fin": 17.5,
+  "prob": 1
+ },
+ {
+  "i": 54,
+  "texto": "30",
+  "inicio": 17.5,
+  "fin": 18,
+  "prob": 0.93
+ },
+ {
+  "i": 55,
+  "texto": "días.",
+  "inicio": 18,
+  "fin": 18.42,
+  "prob": 1
+ },
+ {
+  "i": 56,
+  "texto": "Voy",
+  "inicio": 18.69,
+  "fin": 18.85,
+  "prob": 0.98
+ },
+ {
+  "i": 57,
+  "texto": "a",
+  "inicio": 18.85,
+  "fin": 18.9,
+  "prob": 1
+ },
+ {
+  "i": 58,
+  "texto": "grabar",
+  "inicio": 18.9,
+  "fin": 19.21,
+  "prob": 0.98
+ },
+ {
+  "i": 59,
+  "texto": "cómo",
+  "inicio": 19.3,
+  "fin": 19.5,
+  "prob": 0.93
+ },
+ {
+  "i": 60,
+  "texto": "publico",
+  "inicio": 19.6,
+  "fin": 19.86,
+  "prob": 0.85
+ },
+ {
+  "i": 61,
+  "texto": "cada",
+  "inicio": 19.94,
+  "fin": 20.12,
+  "prob": 0.99
+ },
+ {
+  "i": 62,
+  "texto": "una",
+  "inicio": 20.12,
+  "fin": 20.29,
+  "prob": 0.99
+ },
+ {
+  "i": 63,
+  "texto": "de",
+  "inicio": 20.29,
+  "fin": 20.4,
+  "prob": 0.99
+ },
+ {
+  "i": 64,
+  "texto": "las",
+  "inicio": 20.4,
+  "fin": 20.57,
+  "prob": 1
+ },
+ {
+  "i": 65,
+  "texto": "siguientes",
+  "inicio": 20.57,
+  "fin": 21.13,
+  "prob": 0.99
+ },
+ {
+  "i": 66,
+  "texto": "aplicaciones",
+  "inicio": 21.13,
+  "fin": 21.88,
+  "prob": 1
+ },
+ {
+  "i": 67,
+  "texto": "y",
+  "inicio": 21.88,
+  "fin": 21.93,
+  "prob": 1
+ },
+ {
+  "i": 68,
+  "texto": "escríbeme",
+  "inicio": 21.93,
+  "fin": 22.43,
+  "prob": 0.86
+ },
+ {
+  "i": 69,
+  "texto": "en",
+  "inicio": 22.43,
+  "fin": 22.52,
+  "prob": 0.99
+ },
+ {
+  "i": 70,
+  "texto": "comentarios",
+  "inicio": 22.52,
+  "fin": 23.04,
+  "prob": 0.98
+ },
+ {
+  "i": 71,
+  "texto": "cuál",
+  "inicio": 23.07,
+  "fin": 23.19,
+  "prob": 0.71
+ },
+ {
+  "i": 72,
+  "texto": "quieres",
+  "inicio": 23.33,
+  "fin": 23.55,
+  "prob": 0.98
+ },
+ {
+  "i": 73,
+  "texto": "que",
+  "inicio": 23.68,
+  "fin": 23.83,
+  "prob": 0.97
+ },
+ {
+  "i": 74,
+  "texto": "sea",
+  "inicio": 23.83,
+  "fin": 23.98,
+  "prob": 0.99
+ },
+ {
+  "i": 75,
+  "texto": "la",
+  "inicio": 23.98,
+  "fin": 24.08,
+  "prob": 0.98
+ },
+ {
+  "i": 76,
+  "texto": "siguiente",
+  "inicio": 24.08,
+  "fin": 24.53,
+  "prob": 0.99
+ },
+ {
+  "i": 77,
+  "texto": "aplicación.",
+  "inicio": 24.53,
+  "fin": 25.08,
+  "prob": 0.89
+ }
+]

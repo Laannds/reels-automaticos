@@ -1,0 +1,1508 @@
+[
+ {
+  "i": 0,
+  "texto": "1400",
+  "inicio": 0.01,
+  "fin": 15.35
+ },
+ {
+  "i": 1,
+  "texto": "euros",
+  "inicio": 15.36,
+  "fin": 21.78
+ },
+ {
+  "i": 2,
+  "texto": "al",
+  "inicio": 21.78,
+  "fin": 24.34
+ },
+ {
+  "i": 3,
+  "texto": "mes",
+  "inicio": 26.64,
+  "fin": 28.21
+ },
+ {
+  "i": 4,
+  "texto": "cuesta",
+  "inicio": 28.32,
+  "fin": 28.46
+ },
+ {
+  "i": 5,
+  "texto": "un",
+  "inicio": 28.52,
+  "fin": 28.62
+ },
+ {
+  "i": 6,
+  "texto": "recepcionista.",
+  "inicio": 28.62,
+  "fin": 29.27
+ },
+ {
+  "i": 7,
+  "texto": "Y",
+  "inicio": 29.44,
+  "fin": 29.61
+ },
+ {
+  "i": 8,
+  "texto": "aún",
+  "inicio": 29.61,
+  "fin": 30.31
+ },
+ {
+  "i": 9,
+  "texto": "así",
+  "inicio": 30.31,
+  "fin": 31.01
+ },
+ {
+  "i": 10,
+  "texto": "se",
+  "inicio": 31.01,
+  "fin": 31.36
+ },
+ {
+  "i": 11,
+  "texto": "coge",
+  "inicio": 31.5,
+  "fin": 32.04
+ },
+ {
+  "i": 12,
+  "texto": "bajas.",
+  "inicio": 32.22,
+  "fin": 32.96
+ },
+ {
+  "i": 13,
+  "texto": "Y",
+  "inicio": 33.53,
+  "fin": 33.73
+ },
+ {
+  "i": 14,
+  "texto": "aún",
+  "inicio": 33.73,
+  "fin": 34.5
+ },
+ {
+  "i": 15,
+  "texto": "así",
+  "inicio": 34.51,
+  "fin": 35.29
+ },
+ {
+  "i": 16,
+  "texto": "se",
+  "inicio": 35.29,
+  "fin": 35.68
+ },
+ {
+  "i": 17,
+  "texto": "coge",
+  "inicio": 35.96,
+  "fin": 36.46
+ },
+ {
+  "i": 18,
+  "texto": "bajas",
+  "inicio": 36.46,
+  "fin": 37.42
+ },
+ {
+  "i": 19,
+  "texto": "vacaciones.",
+  "inicio": 37.64,
+  "fin": 38.24
+ },
+ {
+  "i": 20,
+  "texto": "1400",
+  "inicio": 38.24,
+  "fin": 40.03
+ },
+ {
+  "i": 21,
+  "texto": "euros",
+  "inicio": 40.03,
+  "fin": 40.77
+ },
+ {
+  "i": 22,
+  "texto": "cuesta",
+  "inicio": 40.77,
+  "fin": 41.66
+ },
+ {
+  "i": 23,
+  "texto": "un",
+  "inicio": 41.66,
+  "fin": 41.9
+ },
+ {
+  "i": 24,
+  "texto": "recepcionista.",
+  "inicio": 41.98,
+  "fin": 43.91
+ },
+ {
+  "i": 25,
+  "texto": "Y",
+  "inicio": 44.16,
+  "fin": 44.22
+ },
+ {
+  "i": 26,
+  "texto": "aún",
+  "inicio": 44.22,
+  "fin": 44.53
+ },
+ {
+  "i": 27,
+  "texto": "así",
+  "inicio": 44.53,
+  "fin": 44.81
+ },
+ {
+  "i": 28,
+  "texto": "se",
+  "inicio": 44.86,
+  "fin": 44.99
+ },
+ {
+  "i": 29,
+  "texto": "coge",
+  "inicio": 44.99,
+  "fin": 45.29
+ },
+ {
+  "i": 30,
+  "texto": "bajas",
+  "inicio": 45.29,
+  "fin": 45.72
+ },
+ {
+  "i": 31,
+  "texto": "vacaciones.",
+  "inicio": 45.72,
+  "fin": 46.64
+ },
+ {
+  "i": 32,
+  "texto": "Y",
+  "inicio": 46.64,
+  "fin": 46.78
+ },
+ {
+  "i": 33,
+  "texto": "no",
+  "inicio": 46.78,
+  "fin": 47.06
+ },
+ {
+  "i": 34,
+  "texto": "contesta",
+  "inicio": 47.06,
+  "fin": 48.18
+ },
+ {
+  "i": 35,
+  "texto": "a",
+  "inicio": 48.18,
+  "fin": 48.32
+ },
+ {
+  "i": 36,
+  "texto": "las",
+  "inicio": 48.32,
+  "fin": 48.73
+ },
+ {
+  "i": 37,
+  "texto": "11",
+  "inicio": 48.81,
+  "fin": 49.58
+ },
+ {
+  "i": 38,
+  "texto": "de",
+  "inicio": 49.58,
+  "fin": 49.86
+ },
+ {
+  "i": 39,
+  "texto": "la",
+  "inicio": 49.86,
+  "fin": 50.14
+ },
+ {
+  "i": 40,
+  "texto": "noche.",
+  "inicio": 50.14,
+  "fin": 50.86
+ },
+ {
+  "i": 41,
+  "texto": "Muchos",
+  "inicio": 50.88,
+  "fin": 52.65
+ },
+ {
+  "i": 42,
+  "texto": "negocios",
+  "inicio": 52.65,
+  "fin": 55.01
+ },
+ {
+  "i": 43,
+  "texto": "llegan",
+  "inicio": 55.01,
+  "fin": 56.78
+ },
+ {
+  "i": 44,
+  "texto": "muchos",
+  "inicio": 56.78,
+  "fin": 58.55
+ },
+ {
+  "i": 45,
+  "texto": "negocios",
+  "inicio": 58.55,
+  "fin": 60.9
+ },
+ {
+  "i": 46,
+  "texto": "llegan",
+  "inicio": 60.91,
+  "fin": 62.71
+ },
+ {
+  "i": 47,
+  "texto": "a",
+  "inicio": 62.71,
+  "fin": 62.77
+ },
+ {
+  "i": 48,
+  "texto": "un",
+  "inicio": 62.77,
+  "fin": 62.87
+ },
+ {
+  "i": 49,
+  "texto": "punto.",
+  "inicio": 62.88,
+  "fin": 63.36
+ },
+ {
+  "i": 50,
+  "texto": "Muchos",
+  "inicio": 63.36,
+  "fin": 64.63
+ },
+ {
+  "i": 51,
+  "texto": "negocios",
+  "inicio": 64.63,
+  "fin": 66.33
+ },
+ {
+  "i": 52,
+  "texto": "muchos",
+  "inicio": 66.33,
+  "fin": 67.6
+ },
+ {
+  "i": 53,
+  "texto": "negocios",
+  "inicio": 68.07,
+  "fin": 68.86
+ },
+ {
+  "i": 54,
+  "texto": "llegan",
+  "inicio": 69.58,
+  "fin": 70.6
+ },
+ {
+  "i": 55,
+  "texto": "a",
+  "inicio": 70.6,
+  "fin": 70.68
+ },
+ {
+  "i": 56,
+  "texto": "un",
+  "inicio": 70.68,
+  "fin": 70.79
+ },
+ {
+  "i": 57,
+  "texto": "punto",
+  "inicio": 70.8,
+  "fin": 71.2
+ },
+ {
+  "i": 58,
+  "texto": "donde",
+  "inicio": 71.2,
+  "fin": 71.59
+ },
+ {
+  "i": 59,
+  "texto": "no",
+  "inicio": 71.59,
+  "fin": 71.75
+ },
+ {
+  "i": 60,
+  "texto": "dan",
+  "inicio": 71.75,
+  "fin": 72
+ },
+ {
+  "i": 61,
+  "texto": "abasto",
+  "inicio": 72,
+  "fin": 72.3
+ },
+ {
+  "i": 62,
+  "texto": "a",
+  "inicio": 72.39,
+  "fin": 72.41
+ },
+ {
+  "i": 63,
+  "texto": "contestar",
+  "inicio": 72.41,
+  "fin": 72.93
+ },
+ {
+  "i": 64,
+  "texto": "mensajes.",
+  "inicio": 72.93,
+  "fin": 73.41
+ },
+ {
+  "i": 65,
+  "texto": "Y",
+  "inicio": 76.56,
+  "fin": 76.63
+ },
+ {
+  "i": 66,
+  "texto": "la",
+  "inicio": 76.64,
+  "fin": 76.81
+ },
+ {
+  "i": 67,
+  "texto": "solución",
+  "inicio": 77.05,
+  "fin": 77.51
+ },
+ {
+  "i": 68,
+  "texto": "que",
+  "inicio": 77.6,
+  "fin": 77.84
+ },
+ {
+  "i": 69,
+  "texto": "piensan",
+  "inicio": 77.84,
+  "fin": 78.41
+ },
+ {
+  "i": 70,
+  "texto": "y",
+  "inicio": 78.52,
+  "fin": 78.52
+ },
+ {
+  "i": 71,
+  "texto": "la",
+  "inicio": 78.52,
+  "fin": 78.69
+ },
+ {
+  "i": 72,
+  "texto": "solución",
+  "inicio": 78.69,
+  "fin": 79.46
+ },
+ {
+  "i": 73,
+  "texto": "que",
+  "inicio": 79.51,
+  "fin": 79.72
+ },
+ {
+  "i": 74,
+  "texto": "piensan",
+  "inicio": 79.72,
+  "fin": 80.31
+ },
+ {
+  "i": 75,
+  "texto": "es",
+  "inicio": 80.32,
+  "fin": 80.44
+ },
+ {
+  "i": 76,
+  "texto": "en",
+  "inicio": 80.5,
+  "fin": 80.66
+ },
+ {
+  "i": 77,
+  "texto": "contratar",
+  "inicio": 80.66,
+  "fin": 81.44
+ },
+ {
+  "i": 78,
+  "texto": "a",
+  "inicio": 81.44,
+  "fin": 81.51
+ },
+ {
+  "i": 79,
+  "texto": "alguien.",
+  "inicio": 81.52,
+  "fin": 82.23
+ },
+ {
+  "i": 80,
+  "texto": "Suelo,",
+  "inicio": 82.24,
+  "fin": 83.27
+ },
+ {
+  "i": 81,
+  "texto": "seguridad",
+  "inicio": 84.08,
+  "fin": 85.54
+ },
+ {
+  "i": 82,
+  "texto": "social,",
+  "inicio": 85.54,
+  "fin": 86.8
+ },
+ {
+  "i": 83,
+  "texto": "suelo,",
+  "inicio": 86.8,
+  "fin": 87.6
+ },
+ {
+  "i": 84,
+  "texto": "seguridad",
+  "inicio": 87.92,
+  "fin": 89.38
+ },
+ {
+  "i": 85,
+  "texto": "social,",
+  "inicio": 89.38,
+  "fin": 90.35
+ },
+ {
+  "i": 86,
+  "texto": "formación,",
+  "inicio": 91.26,
+  "fin": 92.29
+ },
+ {
+  "i": 87,
+  "texto": "horarios,",
+  "inicio": 92.62,
+  "fin": 93.72
+ },
+ {
+  "i": 88,
+  "texto": "bajas.",
+  "inicio": 94.23,
+  "fin": 95.11
+ },
+ {
+  "i": 89,
+  "texto": "Suelo,",
+  "inicio": 95.12,
+  "fin": 95.87
+ },
+ {
+  "i": 90,
+  "texto": "seguridad",
+  "inicio": 96.17,
+  "fin": 97.54
+ },
+ {
+  "i": 91,
+  "texto": "social,",
+  "inicio": 97.56,
+  "fin": 98.45
+ },
+ {
+  "i": 92,
+  "texto": "suelo,",
+  "inicio": 98.8,
+  "fin": 99.57
+ },
+ {
+  "i": 93,
+  "texto": "formación,",
+  "inicio": 100.32,
+  "fin": 101.44
+ },
+ {
+  "i": 94,
+  "texto": "suelo,",
+  "inicio": 101.87,
+  "fin": 103.05
+ },
+ {
+  "i": 95,
+  "texto": "seguridad",
+  "inicio": 103.52,
+  "fin": 104.2
+ },
+ {
+  "i": 96,
+  "texto": "social,",
+  "inicio": 104.2,
+  "fin": 104.24
+ },
+ {
+  "i": 97,
+  "texto": "horarios,",
+  "inicio": 104.31,
+  "fin": 105.16
+ },
+ {
+  "i": 98,
+  "texto": "bajas.",
+  "inicio": 105.4,
+  "fin": 106.24
+ },
+ {
+  "i": 99,
+  "texto": "Y",
+  "inicio": 106.24,
+  "fin": 117.84
+ },
+ {
+  "i": 100,
+  "texto": "aún",
+  "inicio": 117.84,
+  "fin": 118.08
+ },
+ {
+  "i": 101,
+  "texto": "y",
+  "inicio": 118.08,
+  "fin": 118.2
+ },
+ {
+  "i": 102,
+  "texto": "aún",
+  "inicio": 118.2,
+  "fin": 118.92
+ },
+ {
+  "i": 103,
+  "texto": "así",
+  "inicio": 119.14,
+  "fin": 119.68
+ },
+ {
+  "i": 104,
+  "texto": "y",
+  "inicio": 119.68,
+  "fin": 119.81
+ },
+ {
+  "i": 105,
+  "texto": "aún",
+  "inicio": 119.81,
+  "fin": 120.44
+ },
+ {
+  "i": 106,
+  "texto": "así",
+  "inicio": 120.56,
+  "fin": 121.12
+ },
+ {
+  "i": 107,
+  "texto": "y",
+  "inicio": 121.12,
+  "fin": 121.27
+ },
+ {
+  "i": 108,
+  "texto": "aún",
+  "inicio": 121.45,
+  "fin": 122.76
+ },
+ {
+  "i": 109,
+  "texto": "así",
+  "inicio": 123.57,
+  "fin": 124.08
+ },
+ {
+  "i": 110,
+  "texto": "esa",
+  "inicio": 124.08,
+  "fin": 124.4
+ },
+ {
+  "i": 111,
+  "texto": "persona",
+  "inicio": 124.4,
+  "fin": 124.8
+ },
+ {
+  "i": 112,
+  "texto": "solo",
+  "inicio": 124.8,
+  "fin": 125.08
+ },
+ {
+  "i": 113,
+  "texto": "puede",
+  "inicio": 125.08,
+  "fin": 125.28
+ },
+ {
+  "i": 114,
+  "texto": "estar",
+  "inicio": 125.28,
+  "fin": 125.48
+ },
+ {
+  "i": 115,
+  "texto": "respondiendo",
+  "inicio": 125.48,
+  "fin": 126.23
+ },
+ {
+  "i": 116,
+  "texto": "8",
+  "inicio": 126.24,
+  "fin": 126.3
+ },
+ {
+  "i": 117,
+  "texto": "horas",
+  "inicio": 126.48,
+  "fin": 126.83
+ },
+ {
+  "i": 118,
+  "texto": "de",
+  "inicio": 126.83,
+  "fin": 126.98
+ },
+ {
+  "i": 119,
+  "texto": "las",
+  "inicio": 126.98,
+  "fin": 127.15
+ },
+ {
+  "i": 120,
+  "texto": "24",
+  "inicio": 127.25,
+  "fin": 127.65
+ },
+ {
+  "i": 121,
+  "texto": "horas",
+  "inicio": 127.65,
+  "fin": 128.02
+ },
+ {
+  "i": 122,
+  "texto": "que",
+  "inicio": 128.02,
+  "fin": 128.24
+ },
+ {
+  "i": 123,
+  "texto": "tiene",
+  "inicio": 128.24,
+  "fin": 128.61
+ },
+ {
+  "i": 124,
+  "texto": "el",
+  "inicio": 128.61,
+  "fin": 128.76
+ },
+ {
+  "i": 125,
+  "texto": "día.",
+  "inicio": 128.76,
+  "fin": 129.11
+ },
+ {
+  "i": 126,
+  "texto": "Esto",
+  "inicio": 129.12,
+  "fin": 131.27
+ },
+ {
+  "i": 127,
+  "texto": "es",
+  "inicio": 131.27,
+  "fin": 132.35
+ },
+ {
+  "i": 128,
+  "texto": "un",
+  "inicio": 132.35,
+  "fin": 133.43
+ },
+ {
+  "i": 129,
+  "texto": "ahí",
+  "inicio": 133.43,
+  "fin": 135.58
+ },
+ {
+  "i": 130,
+  "texto": "haciéndose.",
+  "inicio": 135.58,
+  "fin": 141.52
+ },
+ {
+  "i": 131,
+  "texto": "Esto",
+  "inicio": 141.94,
+  "fin": 142.52
+ },
+ {
+  "i": 132,
+  "texto": "es",
+  "inicio": 142.52,
+  "fin": 142.81
+ },
+ {
+  "i": 133,
+  "texto": "un",
+  "inicio": 142.81,
+  "fin": 143.1
+ },
+ {
+  "i": 134,
+  "texto": "ahí",
+  "inicio": 143.1,
+  "fin": 143.67
+ },
+ {
+  "i": 135,
+  "texto": "haciéndose",
+  "inicio": 143.67,
+  "fin": 145.22
+ },
+ {
+  "i": 136,
+  "texto": "mismo",
+  "inicio": 145.3,
+  "fin": 145.6
+ },
+ {
+  "i": 137,
+  "texto": "el",
+  "inicio": 145.6,
+  "fin": 145.68
+ },
+ {
+  "i": 138,
+  "texto": "trabajo.",
+  "inicio": 145.68,
+  "fin": 146.04
+ },
+ {
+  "i": 139,
+  "texto": "Contestando",
+  "inicio": 146.08,
+  "fin": 147.64
+ },
+ {
+  "i": 140,
+  "texto": "dudas,",
+  "inicio": 147.65,
+  "fin": 148.36
+ },
+ {
+  "i": 141,
+  "texto": "precios,",
+  "inicio": 148.64,
+  "fin": 149.64
+ },
+ {
+  "i": 142,
+  "texto": "agendando",
+  "inicio": 149.92,
+  "fin": 151.2
+ },
+ {
+  "i": 143,
+  "texto": "citas.",
+  "inicio": 151.2,
+  "fin": 151.96
+ },
+ {
+  "i": 144,
+  "texto": "Y",
+  "inicio": 152,
+  "fin": 162
+ },
+ {
+  "i": 145,
+  "texto": "cuesta",
+  "inicio": 162,
+  "fin": 162.3
+ },
+ {
+  "i": 146,
+  "texto": "solo",
+  "inicio": 162.37,
+  "fin": 162.64
+ },
+ {
+  "i": 147,
+  "texto": "y",
+  "inicio": 162.64,
+  "fin": 162.79
+ },
+ {
+  "i": 148,
+  "texto": "cuesta",
+  "inicio": 163.22,
+  "fin": 166.94
+ },
+ {
+  "i": 149,
+  "texto": "solo",
+  "inicio": 166.94,
+  "fin": 169.4
+ },
+ {
+  "i": 150,
+  "texto": "una",
+  "inicio": 169.4,
+  "fin": 171.24
+ },
+ {
+  "i": 151,
+  "texto": "fracción",
+  "inicio": 171.24,
+  "fin": 176.8
+ },
+ {
+  "i": 152,
+  "texto": "de",
+  "inicio": 176.8,
+  "fin": 176.95
+ },
+ {
+  "i": 153,
+  "texto": "lo",
+  "inicio": 176.97,
+  "fin": 177.12
+ },
+ {
+  "i": 154,
+  "texto": "que",
+  "inicio": 177.12,
+  "fin": 177.33
+ },
+ {
+  "i": 155,
+  "texto": "costaría",
+  "inicio": 177.36,
+  "fin": 177.84
+ },
+ {
+  "i": 156,
+  "texto": "con",
+  "inicio": 177.84,
+  "fin": 178.22
+ },
+ {
+  "i": 157,
+  "texto": "y",
+  "inicio": 178.24,
+  "fin": 178.92
+ },
+ {
+  "i": 158,
+  "texto": "cuesta",
+  "inicio": 178.92,
+  "fin": 179.28
+ },
+ {
+  "i": 159,
+  "texto": "solo",
+  "inicio": 179.28,
+  "fin": 179.52
+ },
+ {
+  "i": 160,
+  "texto": "una",
+  "inicio": 179.52,
+  "fin": 179.68
+ },
+ {
+  "i": 161,
+  "texto": "fracción",
+  "inicio": 179.68,
+  "fin": 179.93
+ },
+ {
+  "i": 162,
+  "texto": "de",
+  "inicio": 180.12,
+  "fin": 180.52
+ },
+ {
+  "i": 163,
+  "texto": "lo",
+  "inicio": 180.52,
+  "fin": 180.6
+ },
+ {
+  "i": 164,
+  "texto": "que",
+  "inicio": 180.6,
+  "fin": 180.71
+ },
+ {
+  "i": 165,
+  "texto": "costaría",
+  "inicio": 180.71,
+  "fin": 181.2
+ },
+ {
+  "i": 166,
+  "texto": "contratar",
+  "inicio": 181.2,
+  "fin": 182.1
+ },
+ {
+  "i": 167,
+  "texto": "a",
+  "inicio": 182.1,
+  "fin": 182.2
+ },
+ {
+  "i": 168,
+  "texto": "alguien",
+  "inicio": 182.2,
+  "fin": 182.88
+ },
+ {
+  "i": 169,
+  "texto": "y",
+  "inicio": 182.9,
+  "fin": 183
+ },
+ {
+  "i": 170,
+  "texto": "cuesta",
+  "inicio": 183,
+  "fin": 183.6
+ },
+ {
+  "i": 171,
+  "texto": "solo",
+  "inicio": 183.6,
+  "fin": 184
+ },
+ {
+  "i": 172,
+  "texto": "una",
+  "inicio": 184,
+  "fin": 184.3
+ },
+ {
+  "i": 173,
+  "texto": "fracción",
+  "inicio": 184.3,
+  "fin": 185.2
+ },
+ {
+  "i": 174,
+  "texto": "de",
+  "inicio": 185.2,
+  "fin": 185.3
+ },
+ {
+  "i": 175,
+  "texto": "lo",
+  "inicio": 185.42,
+  "fin": 185.6
+ },
+ {
+  "i": 176,
+  "texto": "que",
+  "inicio": 185.6,
+  "fin": 185.82
+ },
+ {
+  "i": 177,
+  "texto": "costaría",
+  "inicio": 185.97,
+  "fin": 186.88
+ },
+ {
+  "i": 178,
+  "texto": "contratar",
+  "inicio": 186.88,
+  "fin": 187.55
+ },
+ {
+  "i": 179,
+  "texto": "a",
+  "inicio": 187.55,
+  "fin": 187.61
+ },
+ {
+  "i": 180,
+  "texto": "alguien",
+  "inicio": 187.65,
+  "fin": 188.16
+ },
+ {
+  "i": 181,
+  "texto": "y",
+  "inicio": 188.16,
+  "fin": 191.92
+ },
+ {
+  "i": 182,
+  "texto": "cuesta",
+  "inicio": 191.92,
+  "fin": 192.2
+ },
+ {
+  "i": 183,
+  "texto": "solo",
+  "inicio": 192.25,
+  "fin": 192.48
+ },
+ {
+  "i": 184,
+  "texto": "una",
+  "inicio": 192.48,
+  "fin": 192.65
+ },
+ {
+  "i": 185,
+  "texto": "fracción",
+  "inicio": 192.65,
+  "fin": 193.17
+ },
+ {
+  "i": 186,
+  "texto": "de",
+  "inicio": 193.17,
+  "fin": 193.28
+ },
+ {
+  "i": 187,
+  "texto": "lo",
+  "inicio": 193.28,
+  "fin": 193.29
+ },
+ {
+  "i": 188,
+  "texto": "que",
+  "inicio": 193.44,
+  "fin": 193.56
+ },
+ {
+  "i": 189,
+  "texto": "costaría",
+  "inicio": 193.56,
+  "fin": 194
+ },
+ {
+  "i": 190,
+  "texto": "contratar",
+  "inicio": 194.08,
+  "fin": 194.6
+ },
+ {
+  "i": 191,
+  "texto": "a",
+  "inicio": 194.6,
+  "fin": 194.66
+ },
+ {
+  "i": 192,
+  "texto": "alguien",
+  "inicio": 194.66,
+  "fin": 195.07
+ },
+ {
+  "i": 193,
+  "texto": "para",
+  "inicio": 195.07,
+  "fin": 195.3
+ },
+ {
+  "i": 194,
+  "texto": "hacerlo",
+  "inicio": 195.3,
+  "fin": 195.71
+ },
+ {
+  "i": 195,
+  "texto": "seguramente",
+  "inicio": 195.71,
+  "fin": 196.35
+ },
+ {
+  "i": 196,
+  "texto": "peor.",
+  "inicio": 196.35,
+  "fin": 196.72
+ },
+ {
+  "i": 197,
+  "texto": "Si",
+  "inicio": 205.84,
+  "fin": 206
+ },
+ {
+  "i": 198,
+  "texto": "estás",
+  "inicio": 206.28,
+  "fin": 206.48
+ },
+ {
+  "i": 199,
+  "texto": "pensando",
+  "inicio": 206.55,
+  "fin": 207.12
+ },
+ {
+  "i": 200,
+  "texto": "en",
+  "inicio": 207.12,
+  "fin": 207.28
+ },
+ {
+  "i": 201,
+  "texto": "contratar",
+  "inicio": 207.28,
+  "fin": 208
+ },
+ {
+  "i": 202,
+  "texto": "solo",
+  "inicio": 208,
+  "fin": 208.32
+ },
+ {
+  "i": 203,
+  "texto": "para",
+  "inicio": 208.32,
+  "fin": 208.64
+ },
+ {
+  "i": 204,
+  "texto": "responder",
+  "inicio": 208.73,
+  "fin": 209.36
+ },
+ {
+  "i": 205,
+  "texto": "mensajes,",
+  "inicio": 209.37,
+  "fin": 210
+ },
+ {
+  "i": 206,
+  "texto": "si",
+  "inicio": 210.17,
+  "fin": 210.33
+ },
+ {
+  "i": 207,
+  "texto": "estás",
+  "inicio": 210.55,
+  "fin": 210.88
+ },
+ {
+  "i": 208,
+  "texto": "pensando",
+  "inicio": 210.88,
+  "fin": 211.52
+ },
+ {
+  "i": 209,
+  "texto": "en",
+  "inicio": 211.52,
+  "fin": 211.61
+ },
+ {
+  "i": 210,
+  "texto": "contratar",
+  "inicio": 211.61,
+  "fin": 212.08
+ },
+ {
+  "i": 211,
+  "texto": "solo",
+  "inicio": 212.08,
+  "fin": 212.48
+ },
+ {
+  "i": 212,
+  "texto": "para",
+  "inicio": 212.48,
+  "fin": 212.8
+ },
+ {
+  "i": 213,
+  "texto": "responder",
+  "inicio": 212.8,
+  "fin": 213.4
+ },
+ {
+  "i": 214,
+  "texto": "mensajes,",
+  "inicio": 213.4,
+  "fin": 213.92
+ },
+ {
+  "i": 215,
+  "texto": "escribe",
+  "inicio": 214.07,
+  "fin": 215.56
+ },
+ {
+  "i": 216,
+  "texto": "quiero",
+  "inicio": 215.56,
+  "fin": 216.84
+ },
+ {
+  "i": 217,
+  "texto": "antes",
+  "inicio": 216.84,
+  "fin": 217.9
+ },
+ {
+  "i": 218,
+  "texto": "de",
+  "inicio": 217.9,
+  "fin": 218.32
+ },
+ {
+  "i": 219,
+  "texto": "hacerlo.",
+  "inicio": 218.58,
+  "fin": 219.81
+ },
+ {
+  "i": 220,
+  "texto": "Haz",
+  "inicio": 220.46,
+  "fin": 220.86
+ },
+ {
+  "i": 221,
+  "texto": "clic",
+  "inicio": 220.86,
+  "fin": 221.36
+ },
+ {
+  "i": 222,
+  "texto": "en",
+  "inicio": 221.36,
+  "fin": 221.61
+ },
+ {
+  "i": 223,
+  "texto": "el",
+  "inicio": 221.61,
+  "fin": 221.86
+ },
+ {
+  "i": 224,
+  "texto": "botón",
+  "inicio": 221.89,
+  "fin": 222.61
+ },
+ {
+  "i": 225,
+  "texto": "de",
+  "inicio": 222.61,
+  "fin": 222.68
+ },
+ {
+  "i": 226,
+  "texto": "aquí",
+  "inicio": 222.87,
+  "fin": 223.49
+ },
+ {
+  "i": 227,
+  "texto": "abajo,",
+  "inicio": 223.52,
+  "fin": 223.75
+ },
+ {
+  "i": 228,
+  "texto": "haz",
+  "inicio": 223.88,
+  "fin": 224.16
+ },
+ {
+  "i": 229,
+  "texto": "clic",
+  "inicio": 224.16,
+  "fin": 224.54
+ },
+ {
+  "i": 230,
+  "texto": "en",
+  "inicio": 224.54,
+  "fin": 224.73
+ },
+ {
+  "i": 231,
+  "texto": "el",
+  "inicio": 224.88,
+  "fin": 224.88
+ },
+ {
+  "i": 232,
+  "texto": "botón",
+  "inicio": 224.97,
+  "fin": 225.46
+ },
+ {
+  "i": 233,
+  "texto": "de",
+  "inicio": 225.65,
+  "fin": 225.67
+ },
+ {
+  "i": 234,
+  "texto": "aquí",
+  "inicio": 225.67,
+  "fin": 226.14
+ },
+ {
+  "i": 235,
+  "texto": "abajo,",
+  "inicio": 226.14,
+  "fin": 226.55
+ },
+ {
+  "i": 236,
+  "texto": "escribe",
+  "inicio": 226.68,
+  "fin": 228.28
+ },
+ {
+  "i": 237,
+  "texto": "quiero",
+  "inicio": 228.28,
+  "fin": 229.66
+ },
+ {
+  "i": 238,
+  "texto": "antes",
+  "inicio": 229.66,
+  "fin": 230.81
+ },
+ {
+  "i": 239,
+  "texto": "de",
+  "inicio": 230.81,
+  "fin": 231.27
+ },
+ {
+  "i": 240,
+  "texto": "hacerlo,",
+  "inicio": 231.5,
+  "fin": 232.88
+ },
+ {
+  "i": 241,
+  "texto": "escribe",
+  "inicio": 233.35,
+  "fin": 234.4
+ },
+ {
+  "i": 242,
+  "texto": "quiero",
+  "inicio": 234.4,
+  "fin": 234.8
+ },
+ {
+  "i": 243,
+  "texto": "en",
+  "inicio": 234.8,
+  "fin": 235
+ },
+ {
+  "i": 244,
+  "texto": "comentarios",
+  "inicio": 235,
+  "fin": 235.69
+ },
+ {
+  "i": 245,
+  "texto": "antes",
+  "inicio": 235.72,
+  "fin": 236.09
+ },
+ {
+  "i": 246,
+  "texto": "de",
+  "inicio": 236.09,
+  "fin": 236.22
+ },
+ {
+  "i": 247,
+  "texto": "hacerlo.",
+  "inicio": 236.22,
+  "fin": 236.69
+ },
+ {
+  "i": 248,
+  "texto": "Gracias.",
+  "inicio": 236.72,
+  "fin": 237.58
+ },
+ {
+  "i": 249,
+  "texto": "[Pausa]",
+  "inicio": 237.96,
+  "fin": 239.96
+ },
+ {
+  "i": 250,
+  "texto": "[SILENCIO]",
+  "inicio": 239.96,
+  "fin": 241.89
+ }
+]

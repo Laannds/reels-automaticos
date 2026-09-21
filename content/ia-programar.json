@@ -1,0 +1,41 @@
+{
+  "titulo": "La mejor IA para programar",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/codigo.mp4",
+      "texto": "La mejor IA para *programar* en 2026. Y no, no es la que crees."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/datacenter.mp4",
+      "texto": "ChatGPT te hace scripts sueltos *bien*. Para empezar, sobra."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "texto": "Gemini tiene una memoria gigante: se traga un *proyecto* entero."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Pero *Claude* construye aplicaciones completas que ~funcionan~ a la primera."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "postit": "dato, no opinión.",
+      "texto": "Por algo las herramientas que usan los programadores llevan Claude *dentro*."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "💻",
+      "texto": "Comenta *CODE* y te mando mi guía para crear apps con IA sin saber programar."
+    }
+  ]
+}

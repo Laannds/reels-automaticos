@@ -1,0 +1,44 @@
+{
+  "titulo": "Cómo dominar Claude",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "pronunciacion": { "Claude": "Clod" },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "El *90%* está usando Claude ~mal~. Y luego dicen que la IA no sirve para nada.",
+      "nota": "te suena, ¿no? ↘"
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "texto": "Claude rinde cuando le das *contexto*: quién eres, qué necesitas y en qué formato lo quieres.",
+      "postit": "contexto = oro"
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "texto": "Asígnale un *rol*, pásale un ejemplo real y pídele que te haga ~preguntas~ antes de responder."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "texto": "Y no aceptes lo primero que te dé: pídele *tres versiones* y quédate con la mejor.",
+      "nota": "casi nadie hace esto ↘"
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/datacenter.mp4",
+      "texto": "Solo con eso, Claude pasa de juguete a *empleado senior* trabajando para ti 24 horas.",
+      "postit": "y sin nómina."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "💬",
+      "texto": "Comenta *PROMPT* y te mando gratis mi plantilla exacta para ~dominar~ Claude. Sígueme para que te llegue."
+    }
+  ]
+}

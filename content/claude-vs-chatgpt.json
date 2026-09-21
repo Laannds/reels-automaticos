@@ -1,0 +1,44 @@
+{
+  "titulo": "Claude vs ChatGPT",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/codigo.mp4",
+      "vs": ["CLAUDE", "CHATGPT"],
+      "texto": "¿*Claude* o *ChatGPT*? Llevo meses usando los dos a diario y hay un ~ganador~ claro."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/datacenter.mp4",
+      "sello": { "texto": "CLAUDE", "tipo": "bueno" },
+      "texto": "Para escribir textos que no huelan a IA: *Claude*. No hay color."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "CHATGPT", "tipo": "bueno" },
+      "texto": "Para imágenes, voz y hacer de todo un poco: *ChatGPT*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "postit": "pregunta a uno.",
+      "texto": "Para programar: *Claude*. Y no es opinión mía: es el que usan los ~programadores~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "nota": "mi combo real ↘",
+      "texto": "¿Mi elección si solo puedo pagar una? *Claude*. Pero ChatGPT gratis es imbatible."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "⚔️",
+      "texto": "Comenta *VS* y te mando mi comparativa completa. Y *sígueme* para más."
+    }
+  ]
+}

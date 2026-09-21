@@ -1,0 +1,56 @@
+{
+  "slug": "DavidSandwich 2",
+  "duracion": 37.133333,
+  "lufs": -22.1,
+  "pico": -7.6,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -22.1 LUFS (objetivo -14)"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 4.9,
+      "texto": "7.1 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 12.25,
+      "texto": "etiqueta \"TRUCO\" + subtítulos tapan el 41% de la cara durante 1.8 s",
+      "hasta": 13.75,
+      "k": 51,
+      "caja": {
+        "x": 0.3076995264515281,
+        "y": 0.22884388827811925,
+        "tipo": "cara",
+        "w": 0.24424819734692574,
+        "h": 0.17173700355459004
+      }
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 20,
+      "texto": "remate \"LO IMPORTANTE\" tapa el 28% de la cara durante 0.8 s",
+      "hasta": 20.5,
+      "k": 82,
+      "caja": {
+        "x": 0.15554412679746743,
+        "y": 0.19911194537300614,
+        "tipo": "cara",
+        "w": 0.28682131147012113,
+        "h": 0.20167123328428715
+      }
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 22.6,
+      "texto": "4.9 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    }
+  ]
+}

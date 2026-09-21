@@ -1,0 +1,24 @@
+{
+ "enfasis": [],
+ "elementos": [
+  {
+   "palabra": 53,
+   "tipo": "icono",
+   "dato": "iconos/clock.svg",
+   "duracion": 2.2
+  },
+  {
+   "palabra": 117,
+   "tipo": "icono",
+   "dato": "iconos/circle-check.svg",
+   "duracion": 2.5
+  }
+ ],
+ "pasos": [
+  11.27,
+  19.66,
+  28.07
+ ],
+ "lista": null,
+ "resumen": "Borrador automático: 0 énfasis, 2 elementos, sin listicle. Revisar 'titulo', 'lista.titulo/resaltar' y añadir caos/movil/calculadora/burbuja/titulon a mano si el guión los pide."
+}

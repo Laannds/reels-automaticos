@@ -1,0 +1,48 @@
+{
+  "titulo": "El prompt perfecto",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "el 90% lo hace mal ↘",
+      "texto": "Así se nota un prompt de *aficionado* de uno ~profesional~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 6,
+      "chat": {
+        "ia": "CHATGPT",
+        "prompt": "hazme un post para instagram",
+        "respuesta": "¡Claro! Aquí tienes un post genérico sobre tu negocio... 🚀 ✨ #motivacion"
+      },
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Esto es lo que escribe *todo el mundo*. Y así sale."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 7,
+      "chat": {
+        "ia": "CLAUDE",
+        "prompt": "Eres copywriter de marcas premium. Post de 3 líneas, tono directo, sin emojis, para vender X",
+        "respuesta": "Tu producto no compite en precio. Compite en criterio. Y eso tu cliente lo nota en 3 segundos."
+      },
+      "sello": { "texto": "PRO", "tipo": "bueno" },
+      "texto": "Y esto es un prompt con *rol*, *formato* y *tono*. Otro planeta."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "postit": "rol + formato + tono.",
+      "texto": "La fórmula es esa. *Tres* piezas. Siempre."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "📌",
+      "texto": "Comenta *PROMPT* y te mando mi plantilla. ~Guarda~ esto para tu próximo post."
+    }
+  ]
+}

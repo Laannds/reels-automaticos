@@ -1,0 +1,500 @@
+[
+ {
+  "i": 0,
+  "texto": "Tu",
+  "inicio": 0.04,
+  "fin": 0.12
+ },
+ {
+  "i": 1,
+  "texto": "negocio",
+  "inicio": 0.12,
+  "fin": 0.53
+ },
+ {
+  "i": 2,
+  "texto": "no",
+  "inicio": 0.53,
+  "fin": 0.65
+ },
+ {
+  "i": 3,
+  "texto": "está",
+  "inicio": 0.65,
+  "fin": 0.84
+ },
+ {
+  "i": 4,
+  "texto": "estancado",
+  "inicio": 0.96,
+  "fin": 1.47
+ },
+ {
+  "i": 5,
+  "texto": "por",
+  "inicio": 1.47,
+  "fin": 1.65
+ },
+ {
+  "i": 6,
+  "texto": "falta",
+  "inicio": 1.65,
+  "fin": 1.95
+ },
+ {
+  "i": 7,
+  "texto": "de",
+  "inicio": 1.95,
+  "fin": 2.07
+ },
+ {
+  "i": 8,
+  "texto": "oportunidades,",
+  "inicio": 2.07,
+  "fin": 2.73
+ },
+ {
+  "i": 9,
+  "texto": "está",
+  "inicio": 3.1,
+  "fin": 3.31
+ },
+ {
+  "i": 10,
+  "texto": "estancado",
+  "inicio": 3.31,
+  "fin": 3.73
+ },
+ {
+  "i": 11,
+  "texto": "por",
+  "inicio": 3.87,
+  "fin": 4.02
+ },
+ {
+  "i": 12,
+  "texto": "falta",
+  "inicio": 4.14,
+  "fin": 4.38
+ },
+ {
+  "i": 13,
+  "texto": "de",
+  "inicio": 4.38,
+  "fin": 4.48
+ },
+ {
+  "i": 14,
+  "texto": "foco,",
+  "inicio": 4.48,
+  "fin": 4.74
+ },
+ {
+  "i": 15,
+  "texto": "las",
+  "inicio": 4.87,
+  "fin": 5.07
+ },
+ {
+  "i": 16,
+  "texto": "ventas",
+  "inicio": 5.07,
+  "fin": 5.47
+ },
+ {
+  "i": 17,
+  "texto": "en",
+  "inicio": 5.47,
+  "fin": 5.54
+ },
+ {
+  "i": 18,
+  "texto": "un",
+  "inicio": 5.61,
+  "fin": 5.73
+ },
+ {
+  "i": 19,
+  "texto": "excel,",
+  "inicio": 5.73,
+  "fin": 6.01
+ },
+ {
+  "i": 20,
+  "texto": "los",
+  "inicio": 6.19,
+  "fin": 6.24
+ },
+ {
+  "i": 21,
+  "texto": "mensajes",
+  "inicio": 6.41,
+  "fin": 6.9
+ },
+ {
+  "i": 22,
+  "texto": "por",
+  "inicio": 6.92,
+  "fin": 7.04
+ },
+ {
+  "i": 23,
+  "texto": "whatsapp,",
+  "inicio": 7.16,
+  "fin": 7.65
+ },
+ {
+  "i": 24,
+  "texto": "las",
+  "inicio": 7.79,
+  "fin": 7.98
+ },
+ {
+  "i": 25,
+  "texto": "citas",
+  "inicio": 7.98,
+  "fin": 8.24
+ },
+ {
+  "i": 26,
+  "texto": "en",
+  "inicio": 8.31,
+  "fin": 8.43
+ },
+ {
+  "i": 27,
+  "texto": "una",
+  "inicio": 8.48,
+  "fin": 8.64
+ },
+ {
+  "i": 28,
+  "texto": "agenda,",
+  "inicio": 8.64,
+  "fin": 9.04
+ },
+ {
+  "i": 29,
+  "texto": "las",
+  "inicio": 9.16,
+  "fin": 9.47
+ },
+ {
+  "i": 30,
+  "texto": "facturas",
+  "inicio": 9.48,
+  "fin": 9.96
+ },
+ {
+  "i": 31,
+  "texto": "en",
+  "inicio": 9.96,
+  "fin": 10.07
+ },
+ {
+  "i": 32,
+  "texto": "otro",
+  "inicio": 10.1,
+  "fin": 10.3
+ },
+ {
+  "i": 33,
+  "texto": "sitio,",
+  "inicio": 10.32,
+  "fin": 10.62
+ },
+ {
+  "i": 34,
+  "texto": "y",
+  "inicio": 10.79,
+  "fin": 10.79
+ },
+ {
+  "i": 35,
+  "texto": "estás",
+  "inicio": 10.8,
+  "fin": 11.16
+ },
+ {
+  "i": 36,
+  "texto": "continuamente",
+  "inicio": 11.16,
+  "fin": 11.89
+ },
+ {
+  "i": 37,
+  "texto": "saltando",
+  "inicio": 11.94,
+  "fin": 12.43
+ },
+ {
+  "i": 38,
+  "texto": "de",
+  "inicio": 12.43,
+  "fin": 12.55
+ },
+ {
+  "i": 39,
+  "texto": "una",
+  "inicio": 12.55,
+  "fin": 12.73
+ },
+ {
+  "i": 40,
+  "texto": "pestaña",
+  "inicio": 12.73,
+  "fin": 13.21
+ },
+ {
+  "i": 41,
+  "texto": "a",
+  "inicio": 13.21,
+  "fin": 13.27
+ },
+ {
+  "i": 42,
+  "texto": "otra",
+  "inicio": 13.27,
+  "fin": 13.46
+ },
+ {
+  "i": 43,
+  "texto": "para",
+  "inicio": 13.51,
+  "fin": 13.75
+ },
+ {
+  "i": 44,
+  "texto": "enterarte",
+  "inicio": 13.75,
+  "fin": 14.4
+ },
+ {
+  "i": 45,
+  "texto": "de",
+  "inicio": 14.4,
+  "fin": 14.61
+ },
+ {
+  "i": 46,
+  "texto": "algo.",
+  "inicio": 14.62,
+  "fin": 15.06
+ },
+ {
+  "i": 47,
+  "texto": "Todo",
+  "inicio": 15.4,
+  "fin": 15.63
+ },
+ {
+  "i": 48,
+  "texto": "esto",
+  "inicio": 15.63,
+  "fin": 15.86
+ },
+ {
+  "i": 49,
+  "texto": "se",
+  "inicio": 15.86,
+  "fin": 15.97
+ },
+ {
+  "i": 50,
+  "texto": "puede",
+  "inicio": 15.97,
+  "fin": 16.26
+ },
+ {
+  "i": 51,
+  "texto": "resumir",
+  "inicio": 16.26,
+  "fin": 16.65
+ },
+ {
+  "i": 52,
+  "texto": "a",
+  "inicio": 16.65,
+  "fin": 16.69
+ },
+ {
+  "i": 53,
+  "texto": "un",
+  "inicio": 16.8,
+  "fin": 16.81
+ },
+ {
+  "i": 54,
+  "texto": "único",
+  "inicio": 16.81,
+  "fin": 17.15
+ },
+ {
+  "i": 55,
+  "texto": "panel",
+  "inicio": 17.15,
+  "fin": 17.44
+ },
+ {
+  "i": 56,
+  "texto": "de",
+  "inicio": 17.44,
+  "fin": 17.55
+ },
+ {
+  "i": 57,
+  "texto": "control,",
+  "inicio": 17.55,
+  "fin": 17.95
+ },
+ {
+  "i": 58,
+  "texto": "y",
+  "inicio": 18.06,
+  "fin": 18.11
+ },
+ {
+  "i": 59,
+  "texto": "es",
+  "inicio": 18.11,
+  "fin": 18.22
+ },
+ {
+  "i": 60,
+  "texto": "que",
+  "inicio": 18.22,
+  "fin": 18.39
+ },
+ {
+  "i": 61,
+  "texto": "no",
+  "inicio": 18.39,
+  "fin": 18.5
+ },
+ {
+  "i": 62,
+  "texto": "necesitas",
+  "inicio": 18.5,
+  "fin": 19.01
+ },
+ {
+  "i": 63,
+  "texto": "tener",
+  "inicio": 19.02,
+  "fin": 19.31
+ },
+ {
+  "i": 64,
+  "texto": "mil",
+  "inicio": 19.31,
+  "fin": 19.6
+ },
+ {
+  "i": 65,
+  "texto": "aplicaciones",
+  "inicio": 19.6,
+  "fin": 20.26
+ },
+ {
+  "i": 66,
+  "texto": "para",
+  "inicio": 20.38,
+  "fin": 20.56
+ },
+ {
+  "i": 67,
+  "texto": "tener",
+  "inicio": 20.56,
+  "fin": 20.84
+ },
+ {
+  "i": 68,
+  "texto": "todo",
+  "inicio": 20.96,
+  "fin": 21.1
+ },
+ {
+  "i": 69,
+  "texto": "controlado.",
+  "inicio": 21.1,
+  "fin": 21.69
+ },
+ {
+  "i": 70,
+  "texto": "Comenta",
+  "inicio": 21.92,
+  "fin": 22.36
+ },
+ {
+  "i": 71,
+  "texto": "en",
+  "inicio": 22.36,
+  "fin": 22.48
+ },
+ {
+  "i": 72,
+  "texto": "comentarios,",
+  "inicio": 22.48,
+  "fin": 23.18
+ },
+ {
+  "i": 73,
+  "texto": "orden",
+  "inicio": 23.3,
+  "fin": 23.49
+ },
+ {
+  "i": 74,
+  "texto": "y",
+  "inicio": 23.62,
+  "fin": 23.68
+ },
+ {
+  "i": 75,
+  "texto": "te",
+  "inicio": 23.68,
+  "fin": 23.8
+ },
+ {
+  "i": 76,
+  "texto": "enseño",
+  "inicio": 23.8,
+  "fin": 24.24
+ },
+ {
+  "i": 77,
+  "texto": "cómo",
+  "inicio": 24.24,
+  "fin": 24.56
+ },
+ {
+  "i": 78,
+  "texto": "montar",
+  "inicio": 24.56,
+  "fin": 24.93
+ },
+ {
+  "i": 79,
+  "texto": "tu",
+  "inicio": 24.93,
+  "fin": 24.99
+ },
+ {
+  "i": 80,
+  "texto": "panel",
+  "inicio": 25.07,
+  "fin": 25.37
+ },
+ {
+  "i": 81,
+  "texto": "de",
+  "inicio": 25.37,
+  "fin": 25.49
+ },
+ {
+  "i": 82,
+  "texto": "control.",
+  "inicio": 25.49,
+  "fin": 25.94
+ }
+]

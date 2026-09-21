@@ -1,0 +1,52 @@
+{
+  "titulo": "Top 5 IAs 2026",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "pronunciacion": { "Perplexity": "perplexiti", "Midjourney": "midyorni" },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "Estas son las *5 IAs* que de verdad merecen la pena en 2026. La ~última~ te sorprenderá.",
+      "nota": "guárdatelo ↘"
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "badge": "#5",
+      "texto": "Puesto cinco: *Perplexity*. Es Google con cerebro: busca en internet y responde con fuentes."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "badge": "#4",
+      "texto": "Puesto cuatro: *Midjourney*. Las imágenes más brutales que puedes generar hoy."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "badge": "#3",
+      "texto": "Puesto tres: *Gemini*. Gratis, integrado en todo Google y con una memoria enorme."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "badge": "#2",
+      "texto": "Puesto dos: *ChatGPT*. El más completo: habla, ve, dibuja y razona."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/circuito.mp4",
+      "badge": "#1",
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y puesto uno: *Claude*. El que mejor escribe y el que mejor programa. ~Punto~."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/datacenter.mp4",
+      "emoji": "🏆",
+      "texto": "*Sígueme* y ~guarda~ este top, que esta lista cambia cada mes."
+    }
+  ]
+}

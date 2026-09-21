@@ -1,0 +1,93 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.56,
+  "enfasis": [
+    [
+      11,
+      12
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      46,
+      47
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 52,
+      "texto": "mándasela"
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "imagen",
+      "dato": "inserts/jose-andres-time.jpg|El chef José Andrés",
+      "tam": 560,
+      "y": 0.27,
+      "duracion": 2.88,
+      "tapaSubtitulos": true
+    },
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=TORTILLA|=FRANCESA|DE CHEF",
+      "y": 0.54,
+      "duracion": 2.88
+    },
+    {
+      "palabra": 23,
+      "tipo": "checklist",
+      "dato": "#Ingredientes|Mayonesa light@0|1 huevo@1.03",
+      "y": 0.37,
+      "duracion": 2.8
+    },
+    {
+      "palabra": 28,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 33,
+      "tipo": "etiqueta",
+      "dato": "TRUCO|Mayonesa, bien generosa",
+      "y": 0.37,
+      "duracion": 3.3
+    },
+    {
+      "palabra": 41,
+      "tipo": "transicion",
+      "dato": "zoomOut",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 41,
+      "tipo": "etiqueta",
+      "dato": "PASO|Bate muy bien",
+      "y": 0.37,
+      "duracion": 1.8
+    },
+    {
+      "palabra": 46,
+      "tipo": "estado",
+      "dato": "40 SEG",
+      "x": 0.75,
+      "y": 0.4,
+      "tam": 230,
+      "duracion": 2.0
+    },
+    {
+      "palabra": 50,
+      "tipo": "remate",
+      "dato": "bocadillo:MÁNDASELO|A ESE=COLEGA|QUE DESAYUNA|LO MISMO",
+      "duracion": 3.1,
+      "tam": 78
+    }
+  ],
+  "resumen": "Receta de DV FIT (David): tortilla francesa de 2 ingredientes 'según el chef José Andrés', versión fit con mayonesa light. Sin handle, amarillo de marca, lenguaje de las recetas anteriores. Al nombrar a José Andrés sale la portada de TIME que mandó Pablo (inserts/jose-andres-time.jpg) en tarjeta con pie, justo bajo la barbilla. Cara medida con Vision: 0,02-0,34, así que titulón, paneles (0,37) y subtítulos (0,56) van por debajo. Checklist de los dos ingredientes al nombrarlos, etiquetas TRUCO/PASO, anillo de 40 SEG y CTA en bocadillo con lo que dice David ('mándasela a ese colega'). Voz tal cual. Corrección: mandasela -> mándasela. Gancho enlazado: la portada entra desde 0 s por detrás del titulón (y 0,54, entre la cara de José Andrés y el pie de la tarjeta, para no tapar la cara de José Andrés) y se queda al salir el titulón. CTA con la frase completa de David."
+}

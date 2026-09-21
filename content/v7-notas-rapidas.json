@@ -1,0 +1,48 @@
+{
+  "titulo": "Nota final a las 4 grandes",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "sin piedad ↘",
+      "texto": "Nota final a las *4 grandes* de la IA. En 20 segundos."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "puntuacion": { "valor": 5, "etiqueta": "claude", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "*Claude*: el mejor escribiendo y programando."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "puntuacion": { "valor": 4, "etiqueta": "chatgpt", "tipo": "bueno" },
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "*ChatGPT*: hace de todo, brilla en poco."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "puntuacion": { "valor": 4, "etiqueta": "gemini", "tipo": "bueno" },
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "*Gemini*: imbatible en lo *gratis*."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "puntuacion": { "valor": 3, "etiqueta": "copilot", "tipo": "malo" },
+      "sello": { "texto": "REGULAR", "tipo": "malo" },
+      "texto": "*Copilot*: cómodo, pero va un paso por ~detrás~."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "📊",
+      "texto": "¿Tu nota es otra? *Comenta*. Y ~guarda~ para tu próxima elección."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[12, 14], [53, 57], [64, 65]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "¿FALTA|DE FOCO?", "duracion": 2 },
+    { "palabra": 16, "tipo": "caos", "dato": "cap-excel.png:0.7,cap-whatsapp.png:2.1,cap-agenda.png:3.6,cap-facturas.png:5.0", "duracion": 10 },
+    { "palabra": 53, "tipo": "movil", "dato": "inserts/dashboard-panel.png", "duracion": 6 },
+    { "palabra": 70, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "titulo": { "texto": "Tu negocio, en orden", "resaltar": "orden" },
+  "pasos": [14, 46, 69],
+  "resumen": "Dashboard/procesos: hook titulón, caos de 4 iconos dispersos temblando en 'excel/whatsapp/agenda/facturas' que colapsan al decir 'único panel de control' → dashboard limpio en móvil. Énfasis azul en 'falta de foco', 'único panel de control', 'mil aplicaciones'."
+}

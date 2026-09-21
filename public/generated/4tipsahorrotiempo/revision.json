@@ -1,0 +1,24 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[3, 5], [36, 37], [108, 109]],
+  "lista": {
+    "titulo": "4 automatizaciones",
+    "resaltar": "automatizaciones",
+    "items": [
+      "Respuestas automáticas",
+      "Recordatorios de cita",
+      "Reservas sin llamadas",
+      "Resumen diario"
+    ]
+  },
+  "revelaciones": [12, 29, 56, 73],
+  "elementos": [
+    { "palabra": 15, "tipo": "movil", "dato": "inserts/movil-1.png", "duracion": 4 },
+    { "palabra": 33, "tipo": "movil", "dato": "inserts/movil-2.png", "duracion": 4.5 },
+    { "palabra": 60, "tipo": "movil", "dato": "inserts/movil-3.png", "duracion": 4 },
+    { "palabra": 76, "tipo": "movil", "dato": "inserts/movil-4.png", "duracion": 4.5 },
+    { "palabra": 109, "tipo": "icono", "dato": "iconos/message-circle.svg", "duracion": 2.5 }
+  ],
+  "resumen": "Listicle calcado de la referencia: panel de 4 cajas con revelación sincronizada en '1/2/3/4', un mockup de móvil por punto con la app trabajando, énfasis azul en las cifras y el CTA."
+}

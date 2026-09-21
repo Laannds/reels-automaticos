@@ -1,0 +1,37 @@
+{
+  "titulo": "Lo bueno, lo malo y lo feo de Claude",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "Lo *bueno*, lo *malo* y lo ~feo~ de Claude. Sin peloteo."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "Lo bueno: escribe y programa *mejor que nadie*. Y no te da respuestas de robot."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Lo malo: los límites del plan gratis se agotan ~rápido~ si le das caña."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "postit": "avisado quedas.",
+      "texto": "Lo feo: cuando lo pruebas, ChatGPT te empieza a saber a *poco*."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "💬",
+      "texto": "¿La tienes ya? Cuéntamelo en *comentarios*. Sígueme para más análisis sin humo."
+    }
+  ]
+}

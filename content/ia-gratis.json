@@ -1,0 +1,43 @@
+{
+  "titulo": "La mejor IA gratis",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "No pagues *nada* por la IA todavía. Esto es lo mejor gratis en 2026."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "sello": { "texto": "CHATGPT", "tipo": "bueno" },
+      "texto": "¿Uso general? *ChatGPT* gratis: más que suficiente para empezar."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "sello": { "texto": "GEMINI", "tipo": "bueno" },
+      "texto": "¿Estudiar o documentos largos? *Gemini*: el plan gratis más ~generoso~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "CLAUDE", "tipo": "bueno" },
+      "texto": "¿Escribir o programar en serio? *Claude*: pocos mensajes, pero de máxima *calidad*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "nota": "yo lo hago ↘",
+      "texto": "El truco: usa las *tres* a la vez. Son gratis. Nadie te lo impide."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "💰",
+      "texto": "*Guarda* esto antes de pagar ninguna suscripción. Y ~sígueme~."
+    }
+  ]
+}

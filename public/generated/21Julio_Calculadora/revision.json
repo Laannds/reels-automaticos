@@ -1,0 +1,14 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[5, 6], [50, 53], [77, 81]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "¿CUÁNTO|PIERDES?", "duracion": 2 },
+    { "palabra": 14, "tipo": "calculadora", "dato": "40 mensajes al día@0.5|× 2 minutos cada uno@2.6|1 hora al día perdida@4.5|=30 HORAS AL MES@8.2", "y": 0.6, "duracion": 9.5 },
+    { "palabra": 50, "tipo": "rotulo", "dato": "¿TU HORA?" },
+    { "palabra": 85, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "titulo": { "texto": "Lo que pierdes cada mes", "resaltar": "pierdes" },
+  "pasos": [43, 64, 84],
+  "resumen": "Calculadora: la operación 40 mensajes × 2 min = 1h/día = 30 HORAS/MES se acumula en pantalla sincronizada con la voz, resultado gigante azul con slam. Rótulo '¿TU HORA?' en la pregunta, énfasis en 'dinero pierdes', 'cuánto vale tu tiempo', 'clientes que estás perdiendo'."
+}

@@ -1,0 +1,35 @@
+{
+  "titulo": "Top 3 IAs para estudiantes",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "ojalá en mi época ↘",
+      "texto": "El *top 3* de IAs para estudiantes. La primera te salva el ~curso~."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 3, "nombre": "CHATGPT" },
+      "texto": "Bronce: *ChatGPT*. Dudas rápidas resueltas al momento, a cualquier hora."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 2, "nombre": "CLAUDE" },
+      "texto": "Plata: *Claude*. Te explica lo difícil como un ~buen profesor~."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 1, "nombre": "GEMINI" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Gemini*. Le caben los apuntes del curso entero. Y es *gratis*."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "🎓",
+      "texto": "Comenta ~APUNTES~ y te mando mis prompts de estudio. Guárdalo para el examen."
+    }
+  ]
+}

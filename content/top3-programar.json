@@ -1,0 +1,35 @@
+{
+  "titulo": "Top 3 IAs para programar",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "sin saber código ↘",
+      "texto": "El *top 3* de IAs para programar, sepas código o ~no~."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 3, "nombre": "GEMINI" },
+      "texto": "Bronce: *Gemini*. Se traga proyectos enteros gracias a su memoria gigante."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 2, "nombre": "CHATGPT" },
+      "texto": "Plata: *ChatGPT*. Scripts rápidos y errores resueltos al momento."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 1, "nombre": "CLAUDE" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Claude*. Aplicaciones completas que funcionan a la ~primera~."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "💻",
+      "texto": "Comenta ~CODE~ y te mando mi guía para crear tu primera app con IA."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "titulo": "La mejor IA para estudiar",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/database-3d.mp4",
+      "texto": "La mejor IA para *estudiar* en 2026. Ojalá la hubiera tenido yo."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/datacenter.mp4",
+      "sello": { "texto": "GEMINI", "tipo": "bueno" },
+      "texto": "Para apuntes y PDFs largos: *Gemini*. Le sueltas el temario entero y no se pierde."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "texto": "Para que te *explique* lo que no entiendes: Claude. Explica como un buen profesor."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "nota": "el combo ganador ↘",
+      "texto": "Y el truco top: pídele que te haga *exámenes* de prueba antes del real."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "🎓",
+      "texto": "Comenta *APUNTES* y te mando mis prompts de estudio. ~Guárdalo~ para el próximo examen."
+    }
+  ]
+}

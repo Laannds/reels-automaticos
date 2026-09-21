@@ -1,0 +1,848 @@
+[
+ {
+  "i": 0,
+  "texto": "Cuatro",
+  "inicio": 0.05,
+  "fin": 0.29
+ },
+ {
+  "i": 1,
+  "texto": "comandos",
+  "inicio": 0.31,
+  "fin": 0.7
+ },
+ {
+  "i": 2,
+  "texto": "de",
+  "inicio": 0.7,
+  "fin": 0.8
+ },
+ {
+  "i": 3,
+  "texto": "Claude",
+  "inicio": 0.8,
+  "fin": 1.05
+ },
+ {
+  "i": 4,
+  "texto": "para",
+  "inicio": 1.05,
+  "fin": 1.25
+ },
+ {
+  "i": 5,
+  "texto": "convertir",
+  "inicio": 1.25,
+  "fin": 1.71
+ },
+ {
+  "i": 6,
+  "texto": "tu",
+  "inicio": 1.71,
+  "fin": 1.8
+ },
+ {
+  "i": 7,
+  "texto": "contenido",
+  "inicio": 1.8,
+  "fin": 2.27
+ },
+ {
+  "i": 8,
+  "texto": "en",
+  "inicio": 2.27,
+  "fin": 2.37
+ },
+ {
+  "i": 9,
+  "texto": "viral.",
+  "inicio": 2.37,
+  "fin": 2.68
+ },
+ {
+  "i": 10,
+  "texto": "Barra",
+  "inicio": 2.8,
+  "fin": 3.11
+ },
+ {
+  "i": 11,
+  "texto": "viral,",
+  "inicio": 3.11,
+  "fin": 3.36
+ },
+ {
+  "i": 12,
+  "texto": "esto",
+  "inicio": 3.56,
+  "fin": 3.79
+ },
+ {
+  "i": 13,
+  "texto": "reescribe",
+  "inicio": 3.79,
+  "fin": 4.3
+ },
+ {
+  "i": 14,
+  "texto": "cada",
+  "inicio": 4.3,
+  "fin": 4.49
+ },
+ {
+  "i": 15,
+  "texto": "post",
+  "inicio": 4.57,
+  "fin": 4.69
+ },
+ {
+  "i": 16,
+  "texto": "para",
+  "inicio": 4.81,
+  "fin": 5.02
+ },
+ {
+  "i": 17,
+  "texto": "hacerlo",
+  "inicio": 5.02,
+  "fin": 5.4
+ },
+ {
+  "i": 18,
+  "texto": "muy",
+  "inicio": 5.4,
+  "fin": 5.56
+ },
+ {
+  "i": 19,
+  "texto": "reenviable.",
+  "inicio": 5.56,
+  "fin": 6.11
+ },
+ {
+  "i": 20,
+  "texto": "Usalo",
+  "inicio": 6.14,
+  "fin": 6.35
+ },
+ {
+  "i": 21,
+  "texto": "para",
+  "inicio": 6.35,
+  "fin": 6.54
+ },
+ {
+  "i": 22,
+  "texto": "reescribir",
+  "inicio": 6.54,
+  "fin": 7
+ },
+ {
+  "i": 23,
+  "texto": "tus",
+  "inicio": 7,
+  "fin": 7.14
+ },
+ {
+  "i": 24,
+  "texto": "guiones.",
+  "inicio": 7.14,
+  "fin": 7.35
+ },
+ {
+  "i": 25,
+  "texto": "Barra",
+  "inicio": 7.64,
+  "fin": 7.99
+ },
+ {
+  "i": 26,
+  "texto": "hook,",
+  "inicio": 8.05,
+  "fin": 8.31
+ },
+ {
+  "i": 27,
+  "texto": "esto",
+  "inicio": 8.52,
+  "fin": 8.71
+ },
+ {
+  "i": 28,
+  "texto": "mejora",
+  "inicio": 8.71,
+  "fin": 8.99
+ },
+ {
+  "i": 29,
+  "texto": "la",
+  "inicio": 8.99,
+  "fin": 9.08
+ },
+ {
+  "i": 30,
+  "texto": "primera",
+  "inicio": 9.08,
+  "fin": 9.42
+ },
+ {
+  "i": 31,
+  "texto": "línea",
+  "inicio": 9.42,
+  "fin": 9.76
+ },
+ {
+  "i": 32,
+  "texto": "de",
+  "inicio": 9.76,
+  "fin": 9.82
+ },
+ {
+  "i": 33,
+  "texto": "cada",
+  "inicio": 9.84,
+  "fin": 10
+ },
+ {
+  "i": 34,
+  "texto": "guión",
+  "inicio": 10,
+  "fin": 10.21
+ },
+ {
+  "i": 35,
+  "texto": "para",
+  "inicio": 10.26,
+  "fin": 10.43
+ },
+ {
+  "i": 36,
+  "texto": "que",
+  "inicio": 10.43,
+  "fin": 10.57
+ },
+ {
+  "i": 37,
+  "texto": "consigamos",
+  "inicio": 10.61,
+  "fin": 11.09
+ },
+ {
+  "i": 38,
+  "texto": "parar",
+  "inicio": 11.09,
+  "fin": 11.34
+ },
+ {
+  "i": 39,
+  "texto": "el",
+  "inicio": 11.34,
+  "fin": 11.39
+ },
+ {
+  "i": 40,
+  "texto": "scroll",
+  "inicio": 11.53,
+  "fin": 11.74
+ },
+ {
+  "i": 41,
+  "texto": "y",
+  "inicio": 11.74,
+  "fin": 11.74
+ },
+ {
+  "i": 42,
+  "texto": "tener",
+  "inicio": 11.83,
+  "fin": 12.04
+ },
+ {
+  "i": 43,
+  "texto": "mejor",
+  "inicio": 12.04,
+  "fin": 12.28
+ },
+ {
+  "i": 44,
+  "texto": "retención.",
+  "inicio": 12.28,
+  "fin": 12.79
+ },
+ {
+  "i": 45,
+  "texto": "Barra",
+  "inicio": 13,
+  "fin": 13.3
+ },
+ {
+  "i": 46,
+  "texto": "ángulos,",
+  "inicio": 13.4,
+  "fin": 13.77
+ },
+ {
+  "i": 47,
+  "texto": "esto",
+  "inicio": 13.98,
+  "fin": 14.19
+ },
+ {
+  "i": 48,
+  "texto": "te",
+  "inicio": 14.19,
+  "fin": 14.3
+ },
+ {
+  "i": 49,
+  "texto": "da",
+  "inicio": 14.3,
+  "fin": 14.4
+ },
+ {
+  "i": 50,
+  "texto": "diez",
+  "inicio": 14.4,
+  "fin": 14.63
+ },
+ {
+  "i": 51,
+  "texto": "formas",
+  "inicio": 14.63,
+  "fin": 15
+ },
+ {
+  "i": 52,
+  "texto": "de",
+  "inicio": 15,
+  "fin": 15.1
+ },
+ {
+  "i": 53,
+  "texto": "tratar",
+  "inicio": 15.1,
+  "fin": 15.31
+ },
+ {
+  "i": 54,
+  "texto": "un",
+  "inicio": 15.44,
+  "fin": 15.5
+ },
+ {
+  "i": 55,
+  "texto": "mismo",
+  "inicio": 15.5,
+  "fin": 15.77
+ },
+ {
+  "i": 56,
+  "texto": "tema",
+  "inicio": 15.77,
+  "fin": 16
+ },
+ {
+  "i": 57,
+  "texto": "para",
+  "inicio": 16,
+  "fin": 16.19
+ },
+ {
+  "i": 58,
+  "texto": "que",
+  "inicio": 16.2,
+  "fin": 16.35
+ },
+ {
+  "i": 59,
+  "texto": "no",
+  "inicio": 16.35,
+  "fin": 16.43
+ },
+ {
+  "i": 60,
+  "texto": "te",
+  "inicio": 16.44,
+  "fin": 16.55
+ },
+ {
+  "i": 61,
+  "texto": "quedes",
+  "inicio": 16.55,
+  "fin": 16.84
+ },
+ {
+  "i": 62,
+  "texto": "sin",
+  "inicio": 16.84,
+  "fin": 16.94
+ },
+ {
+  "i": 63,
+  "texto": "ideas.",
+  "inicio": 17,
+  "fin": 17.16
+ },
+ {
+  "i": 64,
+  "texto": "Esto",
+  "inicio": 17.41,
+  "fin": 17.58
+ },
+ {
+  "i": 65,
+  "texto": "funciona",
+  "inicio": 17.58,
+  "fin": 17.94
+ },
+ {
+  "i": 66,
+  "texto": "muy",
+  "inicio": 17.94,
+  "fin": 18.07
+ },
+ {
+  "i": 67,
+  "texto": "bien",
+  "inicio": 18.07,
+  "fin": 18.25
+ },
+ {
+  "i": 68,
+  "texto": "cuando",
+  "inicio": 18.25,
+  "fin": 18.52
+ },
+ {
+  "i": 69,
+  "texto": "ya",
+  "inicio": 18.52,
+  "fin": 18.61
+ },
+ {
+  "i": 70,
+  "texto": "tenemos",
+  "inicio": 18.61,
+  "fin": 18.93
+ },
+ {
+  "i": 71,
+  "texto": "un",
+  "inicio": 18.93,
+  "fin": 19.02
+ },
+ {
+  "i": 72,
+  "texto": "vídeo",
+  "inicio": 19.02,
+  "fin": 19.23
+ },
+ {
+  "i": 73,
+  "texto": "viral",
+  "inicio": 19.52,
+  "fin": 19.52
+ },
+ {
+  "i": 74,
+  "texto": "y",
+  "inicio": 19.56,
+  "fin": 19.62
+ },
+ {
+  "i": 75,
+  "texto": "lo",
+  "inicio": 19.62,
+  "fin": 19.74
+ },
+ {
+  "i": 76,
+  "texto": "utilizamos",
+  "inicio": 19.74,
+  "fin": 20.37
+ },
+ {
+  "i": 77,
+  "texto": "para",
+  "inicio": 20.37,
+  "fin": 20.62
+ },
+ {
+  "i": 78,
+  "texto": "sacar",
+  "inicio": 20.62,
+  "fin": 20.96
+ },
+ {
+  "i": 79,
+  "texto": "diez",
+  "inicio": 20.96,
+  "fin": 21.13
+ },
+ {
+  "i": 80,
+  "texto": "ángulos",
+  "inicio": 21.16,
+  "fin": 21.52
+ },
+ {
+  "i": 81,
+  "texto": "diferentes",
+  "inicio": 21.52,
+  "fin": 21.91
+ },
+ {
+  "i": 82,
+  "texto": "con",
+  "inicio": 22.05,
+  "fin": 22.2
+ },
+ {
+  "i": 83,
+  "texto": "el",
+  "inicio": 22.2,
+  "fin": 22.3
+ },
+ {
+  "i": 84,
+  "texto": "mismo",
+  "inicio": 22.3,
+  "fin": 22.57
+ },
+ {
+  "i": 85,
+  "texto": "formato.",
+  "inicio": 22.57,
+  "fin": 22.94
+ },
+ {
+  "i": 86,
+  "texto": "Barra",
+  "inicio": 23.14,
+  "fin": 23.39
+ },
+ {
+  "i": 87,
+  "texto": "polarize,",
+  "inicio": 23.39,
+  "fin": 23.75
+ },
+ {
+  "i": 88,
+  "texto": "esto",
+  "inicio": 24.01,
+  "fin": 24.24
+ },
+ {
+  "i": 89,
+  "texto": "convierte",
+  "inicio": 24.24,
+  "fin": 24.78
+ },
+ {
+  "i": 90,
+  "texto": "cada",
+  "inicio": 24.78,
+  "fin": 25.02
+ },
+ {
+  "i": 91,
+  "texto": "frase",
+  "inicio": 25.02,
+  "fin": 25.3
+ },
+ {
+  "i": 92,
+  "texto": "en",
+  "inicio": 25.39,
+  "fin": 25.49
+ },
+ {
+  "i": 93,
+  "texto": "una",
+  "inicio": 25.49,
+  "fin": 25.66
+ },
+ {
+  "i": 94,
+  "texto": "frase",
+  "inicio": 25.72,
+  "fin": 25.97
+ },
+ {
+  "i": 95,
+  "texto": "con",
+  "inicio": 26.09,
+  "fin": 26.22
+ },
+ {
+  "i": 96,
+  "texto": "opinión.",
+  "inicio": 26.22,
+  "fin": 26.67
+ },
+ {
+  "i": 97,
+  "texto": "Cuando",
+  "inicio": 26.98,
+  "fin": 27.36
+ },
+ {
+  "i": 98,
+  "texto": "damos",
+  "inicio": 27.43,
+  "fin": 27.7
+ },
+ {
+  "i": 99,
+  "texto": "nuestra",
+  "inicio": 27.7,
+  "fin": 28.18
+ },
+ {
+  "i": 100,
+  "texto": "opinión",
+  "inicio": 28.18,
+  "fin": 28.72
+ },
+ {
+  "i": 101,
+  "texto": "en",
+  "inicio": 28.72,
+  "fin": 28.85
+ },
+ {
+  "i": 102,
+  "texto": "redes",
+  "inicio": 28.85,
+  "fin": 29.19
+ },
+ {
+  "i": 103,
+  "texto": "sociales",
+  "inicio": 29.19,
+  "fin": 29.7
+ },
+ {
+  "i": 104,
+  "texto": "vamos",
+  "inicio": 29.82,
+  "fin": 30.03
+ },
+ {
+  "i": 105,
+  "texto": "a",
+  "inicio": 30.03,
+  "fin": 30.04
+ },
+ {
+  "i": 106,
+  "texto": "generar",
+  "inicio": 30.07,
+  "fin": 30.37
+ },
+ {
+  "i": 107,
+  "texto": "controversia",
+  "inicio": 30.39,
+  "fin": 30.9
+ },
+ {
+  "i": 108,
+  "texto": "y",
+  "inicio": 30.95,
+  "fin": 30.98
+ },
+ {
+  "i": 109,
+  "texto": "probablemente",
+  "inicio": 30.98,
+  "fin": 31.58
+ },
+ {
+  "i": 110,
+  "texto": "muchas",
+  "inicio": 31.58,
+  "fin": 31.85
+ },
+ {
+  "i": 111,
+  "texto": "interacciones.",
+  "inicio": 31.85,
+  "fin": 32.44
+ },
+ {
+  "i": 112,
+  "texto": "Asegúrate",
+  "inicio": 32.68,
+  "fin": 33.08
+ },
+ {
+  "i": 113,
+  "texto": "de",
+  "inicio": 33.08,
+  "fin": 33.17
+ },
+ {
+  "i": 114,
+  "texto": "que",
+  "inicio": 33.17,
+  "fin": 33.31
+ },
+ {
+  "i": 115,
+  "texto": "me",
+  "inicio": 33.31,
+  "fin": 33.4
+ },
+ {
+  "i": 116,
+  "texto": "sigues",
+  "inicio": 33.4,
+  "fin": 33.66
+ },
+ {
+  "i": 117,
+  "texto": "y",
+  "inicio": 33.72,
+  "fin": 33.76
+ },
+ {
+  "i": 118,
+  "texto": "comenta",
+  "inicio": 33.76,
+  "fin": 34.03
+ },
+ {
+  "i": 119,
+  "texto": "la",
+  "inicio": 34.03,
+  "fin": 34.11
+ },
+ {
+  "i": 120,
+  "texto": "palabra",
+  "inicio": 34.11,
+  "fin": 34.37
+ },
+ {
+  "i": 121,
+  "texto": "\"prompt\"",
+  "inicio": 34.37,
+  "fin": 34.72
+ },
+ {
+  "i": 122,
+  "texto": "para",
+  "inicio": 34.72,
+  "fin": 34.9
+ },
+ {
+  "i": 123,
+  "texto": "que",
+  "inicio": 34.9,
+  "fin": 35.03
+ },
+ {
+  "i": 124,
+  "texto": "te",
+  "inicio": 35.03,
+  "fin": 35.11
+ },
+ {
+  "i": 125,
+  "texto": "envío",
+  "inicio": 35.12,
+  "fin": 35.38
+ },
+ {
+  "i": 126,
+  "texto": "una",
+  "inicio": 35.38,
+  "fin": 35.51
+ },
+ {
+  "i": 127,
+  "texto": "lista",
+  "inicio": 35.51,
+  "fin": 35.73
+ },
+ {
+  "i": 128,
+  "texto": "de",
+  "inicio": 35.73,
+  "fin": 35.77
+ },
+ {
+  "i": 129,
+  "texto": "30",
+  "inicio": 35.86,
+  "fin": 36.09
+ },
+ {
+  "i": 130,
+  "texto": "prompts",
+  "inicio": 36.09,
+  "fin": 36.36
+ },
+ {
+  "i": 131,
+  "texto": "para",
+  "inicio": 36.45,
+  "fin": 36.58
+ },
+ {
+  "i": 132,
+  "texto": "utilizar",
+  "inicio": 36.62,
+  "fin": 36.99
+ },
+ {
+  "i": 133,
+  "texto": "con",
+  "inicio": 36.99,
+  "fin": 37.13
+ },
+ {
+  "i": 134,
+  "texto": "Claude",
+  "inicio": 37.13,
+  "fin": 37.35
+ },
+ {
+  "i": 135,
+  "texto": "Code",
+  "inicio": 37.35,
+  "fin": 37.47
+ },
+ {
+  "i": 136,
+  "texto": "para",
+  "inicio": 37.54,
+  "fin": 37.72
+ },
+ {
+  "i": 137,
+  "texto": "hacer",
+  "inicio": 37.72,
+  "fin": 37.9
+ },
+ {
+  "i": 138,
+  "texto": "contenido",
+  "inicio": 38,
+  "fin": 38.36
+ },
+ {
+  "i": 139,
+  "texto": "más",
+  "inicio": 38.36,
+  "fin": 38.54
+ },
+ {
+  "i": 140,
+  "texto": "viral.",
+  "inicio": 38.54,
+  "fin": 38.77
+ }
+]

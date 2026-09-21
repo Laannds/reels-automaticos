@@ -1,0 +1,18 @@
+{
+  "eliminar": [],
+  "sustituciones": [{ "palabra": 105, "texto": "ayudo" }],
+  "subtitulos": "serif",
+  "enfasis": [[17, 20], [77, 78], [99, 100]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "CITA|CANCELADA", "duracion": 1.7 },
+    { "palabra": 27, "tipo": "burbuja", "dato": "Hola, ¿puedo reservar para el jueves?", "lado": "izq", "duracion": 2.2 },
+    { "palabra": 37, "tipo": "rotulo", "dato": "NO APARECE" },
+    { "palabra": 52, "tipo": "icono", "dato": "iconos/coins.svg", "duracion": 2.2 },
+    { "palabra": 77, "tipo": "burbuja", "dato": "Recordatorio: mañana 10:00 tienes tu cita. ¿Confirmas?", "lado": "der", "duracion": 3 },
+    { "palabra": 81, "tipo": "logo", "dato": "WHATSAPP", "duracion": 1.8 },
+    { "palabra": 100, "tipo": "icono", "dato": "iconos/message-circle.svg", "duracion": 2.2 }
+  ],
+  "titulo": { "texto": "Recordatorios automáticos", "resaltar": "automáticos" },
+  "pasos": [23, 53, 88],
+  "resumen": "Estructura definitiva: corte del usuario intocable, subtítulos serif con énfasis azul en 'hueco entero vacío', 'recordatorio automático' y 'escribe recordatorio'. Iconos pro en vez de emojis."
+}

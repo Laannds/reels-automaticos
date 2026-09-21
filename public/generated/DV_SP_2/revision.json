@@ -1,0 +1,161 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.64,
+  "enfasis": [
+    [
+      30,
+      33
+    ],
+    [
+      52,
+      53
+    ],
+    [
+      98,
+      100
+    ],
+    [
+      111,
+      113
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 0,
+      "texto": "Septiembre"
+    },
+    {
+      "palabra": 50,
+      "texto": "quieres"
+    },
+    {
+      "palabra": 80,
+      "texto": "curl"
+    },
+    {
+      "palabra": 82,
+      "texto": "bíceps"
+    },
+    {
+      "palabra": 89,
+      "texto": "curl"
+    },
+    {
+      "palabra": 91,
+      "texto": "bíceps"
+    },
+    {
+      "palabra": 99,
+      "texto": "qué"
+    },
+    {
+      "palabra": 103,
+      "texto": "qué"
+    },
+    {
+      "palabra": 115,
+      "texto": "RUTINA"
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=SEPTIEMBRE|NO ES EL MES|DE EMPEZAR",
+      "y": 0.5,
+      "duracion": 2.7
+    },
+    {
+      "palabra": 10,
+      "tipo": "remate",
+      "dato": "ES PARA NO|DEJARLO EN=NOVIEMBRE",
+      "y": 0.5,
+      "duracion": 2.78
+    },
+    {
+      "palabra": 24,
+      "tipo": "broll",
+      "dato": "stock/gym-prensa.mp4",
+      "duracion": 2.2
+    },
+    {
+      "palabra": 28,
+      "tipo": "etiqueta",
+      "dato": "EL PROBLEMA|Ni una máquina libre",
+      "y": 0.76,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 49,
+      "tipo": "broll",
+      "dato": "stock/gym-esperando.mp4",
+      "duracion": 2.3
+    },
+    {
+      "palabra": 52,
+      "tipo": "estado",
+      "dato": "30 MIN",
+      "y": 0.13,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 61,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 70,
+      "tipo": "remate",
+      "dato": "TEN SIEMPRE|UN=PLAN B",
+      "duracion": 1.9
+    },
+    {
+      "palabra": 80,
+      "tipo": "broll",
+      "dato": "stock/gym-curl-mancuernas.mp4",
+      "duracion": 2.2
+    },
+    {
+      "palabra": 80,
+      "tipo": "etiqueta",
+      "dato": "PLAN A|Curl con mancuernas",
+      "y": 0.76,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 88,
+      "tipo": "etiqueta",
+      "dato": "PLAN B|Curl en polea",
+      "y": 0.76,
+      "duracion": 2.3
+    },
+    {
+      "palabra": 97,
+      "tipo": "broll",
+      "dato": "stock/gym-llegar.mp4",
+      "duracion": 2.2
+    },
+    {
+      "palabra": 98,
+      "tipo": "etiqueta",
+      "dato": "LA CLAVE|Llegar sabiendo qué hacer",
+      "y": 0.76,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 107,
+      "tipo": "transicion",
+      "dato": "zoomOut",
+      "duracion": 0.9
+    },
+    {
+      "palabra": 114,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA|EN COMENTARIOS",
+      "duracion": 2.9
+    }
+  ],
+  "resumen": "Reel de DV FIT (David): septiembre y el gimnasio lleno, la solución es tener un plan B. Sin handle, amarillo de marca. Tres encuadres: de pie (cara 0.22-0.32), sentado en banco (cara 0.22-0.35) y de perfil en la polea desde 15.4s, donde la cabeza sube a 0.08-0.20. Por eso NO hay cabecera fija (le taparía la cara en la polea) y el gancho va con titulón + remate sin oscurecer. Los subtítulos van a 0.64 (muslos/rodillas en los tres encuadres) para no tapar el curl, que ocurre a 0.40-0.55 en la polea; las etiquetas a 0.76 (espinillas). Estructura: gancho en dos golpes (septiembre no es para empezar / es para no dejarlo en noviembre), etiqueta del problema, anillo de 30 MIN cuando dice 'esperar media hora', acercamiento al entrar la solución con el corte de plano, remate PLAN B, etiquetas PLAN A / PLAN B justo al nombrar cada curl, LA CLAVE, retroceso de cierre y CTA RUTINA. Correcciones: cool de bicis -> curl de bíceps (x2), quise -> quieres (Whisper repitió 'quise' en dos pasadas; la frase va en segunda persona, probablemente dice 'quiés'), rotunda/ruptura -> RUTINA (su CTA de siempre), acentos en qué. Cuatro inserts de stock de Mixkit (licencia libre, uso comercial), todos de la misma serie de gimnasio real y luminoso para que casen entre sí, recortados de 16:9 a vertical sobre el sujeto: sala de máquinas ocupada (6.9s), un tío en la máquina con otro esperando detrás (12.1s, con el anillo de 30 MIN encima), curl con mancuernas en el PLAN A (20.3s) para que el PLAN B lo enseñe David en la polea, y alguien llegando a la cinta y arrancando (24.3s). Descartado un clip de press de hombro: en vertical perdía las asas y solo quedaba una cara."
+}

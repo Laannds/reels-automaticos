@@ -1,0 +1,32 @@
+{
+  "titulo": "3 errores que matan tu alcance",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "emoji": "🚨",
+      "texto": "Si tus reels no pasan de 200 vistas, estás cometiendo uno de estos tres errores."
+    },
+    {
+      "tipo": "contenido",
+      "emoji": "1️⃣",
+      "texto": "Error uno: tu primer segundo no dice nada. Si no detienes el scroll en un segundo, el algoritmo te entierra."
+    },
+    {
+      "tipo": "contenido",
+      "emoji": "2️⃣",
+      "texto": "Error dos: metes tres ideas en un solo video. Un reel, una idea. Punto."
+    },
+    {
+      "tipo": "contenido",
+      "emoji": "3️⃣",
+      "texto": "Error tres: publicas y desapareces. Los primeros treinta minutos de comentarios deciden tu alcance."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "👇",
+      "texto": "Sígueme para más consejos que sí funcionan."
+    }
+  ]
+}

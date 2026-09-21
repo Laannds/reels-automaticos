@@ -1,0 +1,37 @@
+{
+  "titulo": "La mejor IA para escribir",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "texto": "La mejor IA para *escribir* en 2026. Esto va a doler."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "ChatGPT escribe rápido, pero todo le queda con el mismo ~olor a IA~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "texto": "Gemini está bien para resúmenes, pero le falta *chispa*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "nota": "se nota muchísimo ↘",
+      "texto": "*Claude* es otra cosa: capta tu tono y escribe como una persona con oficio."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "✍️",
+      "texto": "Comenta *TEXTO* y te paso mis prompts de escritura. ~Sígueme~ para más."
+    }
+  ]
+}

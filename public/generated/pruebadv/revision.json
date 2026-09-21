@@ -1,0 +1,50 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [
+    [
+      43,
+      48
+    ],
+    [
+      61,
+      64
+    ],
+    [
+      91,
+      92
+    ]
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "cabeceraTop",
+      "dato": "3 DUDAS QUE TE HACEN|NO PROGRESAR EN EL GIMNASIO|bold"
+    },
+    {
+      "palabra": 27,
+      "tipo": "icono",
+      "dato": "iconos/stopwatch.svg",
+      "duracion": 2.4
+    },
+    {
+      "palabra": 52,
+      "tipo": "icono",
+      "dato": "iconos/calendar-check.svg",
+      "duracion": 2.4
+    },
+    {
+      "palabra": 76,
+      "tipo": "icono",
+      "dato": "iconos/activity.svg",
+      "duracion": 2.4
+    },
+    {
+      "palabra": 124,
+      "tipo": "icono",
+      "dato": "iconos/circle-check.svg",
+      "duracion": 2.5
+    }
+  ],
+  "resumen": "Reel de cliente (DV FIT 24X7), formato 3 dudas de gimnasio. Sin carril numerado y sin handle por petición del cliente; color de marca amarillo en vez del azul de politecnic. Cabecera fija con el titular completo. Un icono por duda (cronómetro / calendario / actividad) como acento, sin carril. Énfasis en las tres respuestas clave: '4 a 6 semanas de constancia', 'nunca es tarde' y 'dolor moderado'. CTA final: comenta RUTINA."
+}

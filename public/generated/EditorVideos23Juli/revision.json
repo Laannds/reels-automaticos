@@ -1,0 +1,14 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[1, 4], [13, 14], [42, 43]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "SIN EDITAR|NI UN VÍDEO", "duracion": 2 },
+    { "palabra": 15, "tipo": "timeline", "dato": "1:32|0:48@2.8", "duracion": 4.5 },
+    { "palabra": 29, "tipo": "checklist", "dato": "Añadiendo subtítulos@0.2|Insertando gráficos@0.9|Poniendo música@1.6|=Listo para publicar@2.5", "duracion": 4.2 },
+    { "palabra": 42, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.2 }
+  ],
+  "titulo": { "texto": "La IA edita por ti", "resaltar": "edita" },
+  "pasos": [4.3, 8.5, 12.9],
+  "resumen": "Reel meta sobre auto-edición: titulón de hook, el timeline mockup es la pieza estrella (tramos rojos de error/silencio colapsando en vivo, contador de duración bajando de 1:32 a 0:48), luego el dashboard final en el móvil mostrando el resultado organizado. Énfasis en 'más de una semana', 'Inteligencia Artificial', 'guía'."
+}

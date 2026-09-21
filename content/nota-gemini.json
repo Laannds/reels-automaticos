@@ -1,0 +1,43 @@
+{
+  "titulo": "Le pongo nota a Gemini",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "el infravalorado ↘",
+      "texto": "Le pongo *nota* a Gemini, la IA que todos tienen y casi ~nadie~ usa."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "precio", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Precio: lo que regala *gratis* es un escándalo."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "documentos", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Documentos: le caben *temarios enteros* sin despeinarse."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 3, "etiqueta": "escritura", "tipo": "bueno" },
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "Escritura: cumple, pero le falta *chispa*."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 2, "etiqueta": "actitud", "tipo": "malo" },
+      "postit": "di que sí, hombre.",
+      "texto": "Actitud: a veces te dice que ~no puede~ hacer cosas que sí puede."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "💎",
+      "texto": "Nota final: un *siete y medio*. Comenta ~GEMINI~ y te mando el tutorial."
+    }
+  ]
+}

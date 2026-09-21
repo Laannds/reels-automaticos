@@ -1,0 +1,36 @@
+{
+  "titulo": "Top 3 IAs para el trabajo",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "pronunciacion": { "Copilot": "cópilot" },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "horas ahorradas ↘",
+      "texto": "El *top 3* de IAs para el trabajo. La primera te ahorra ~horas~ cada semana."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 3, "nombre": "COPILOT" },
+      "texto": "Bronce: *Copilot*. Vive dentro de Word y Excel: cero fricción."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 2, "nombre": "CHATGPT" },
+      "texto": "Plata: *ChatGPT*. Correos, informes y presentaciones en minutos."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 1, "nombre": "CLAUDE" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Claude*. Análisis y documentos serios con calidad de ~consultor~."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "💼",
+      "texto": "Comenta ~TRABAJO~ y te mando mis prompts de oficina. Guárdalo para el lunes."
+    }
+  ]
+}

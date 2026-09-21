@@ -1,0 +1,120 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [
+    [
+      43,
+      48
+    ],
+    [
+      61,
+      64
+    ],
+    [
+      91,
+      92
+    ]
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "cabeceraTop",
+      "dato": "3 DUDAS QUE TE HACEN|NO PROGRESAR EN EL GIMNASIO|bold",
+      "ocultar": [
+        [
+          20.1,
+          32.7
+        ]
+      ]
+    },
+    {
+      "palabra": 0,
+      "tipo": "contador",
+      "dato": "3|8.8|14.4|20.5",
+      "x": 0.12,
+      "y": 0.33
+    },
+    {
+      "palabra": 2,
+      "tipo": "interrogantes",
+      "dato": "3",
+      "x": 0.76,
+      "y": 0.3,
+      "duracion": 4.5
+    },
+    {
+      "palabra": 23,
+      "tipo": "regalo",
+      "dato": "TU REGALO",
+      "y": 0.3,
+      "duracion": 2.6,
+      "x": 0.76
+    },
+    {
+      "palabra": 33,
+      "tipo": "icono",
+      "dato": "iconos/stopwatch.svg",
+      "duracion": 2.2,
+      "y": 0.42
+    },
+    {
+      "palabra": 42,
+      "tipo": "remate",
+      "dato": "4 A 6 SEMANAS|DE=CONSTANCIA",
+      "duracion": 2.4
+    },
+    {
+      "palabra": 52,
+      "tipo": "icono",
+      "dato": "iconos/calendar-check.svg",
+      "duracion": 1.9,
+      "y": 0.42
+    },
+    {
+      "palabra": 61,
+      "tipo": "remate",
+      "dato": "NUNCA=ES TARDE",
+      "duracion": 2.3
+    },
+    {
+      "palabra": 76,
+      "tipo": "icono",
+      "dato": "iconos/activity.svg",
+      "duracion": 2.2,
+      "y": 0.62
+    },
+    {
+      "palabra": 91,
+      "tipo": "remate",
+      "dato": "DOLOR MODERADO|ES=NORMAL",
+      "duracion": 2.4
+    },
+    {
+      "palabra": 99,
+      "tipo": "siNo",
+      "dato": "Al día siguiente|Durante el ejercicio",
+      "y": 0.63,
+      "duracion": 2.5
+    },
+    {
+      "palabra": 108,
+      "tipo": "checklist",
+      "dato": "Entrenamiento@0.2|Nutrición@1.0|Seguimiento@1.8",
+      "y": 0.55,
+      "duracion": 2.9
+    },
+    {
+      "palabra": 121,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA|EN COMENTARIOS",
+      "duracion": 2.8
+    }
+  ],
+  "resumen": "Reel de cliente DV FIT 24X7 (3 dudas de gimnasio), versión mejorada. Sin handle, color amarillo de marca, cabecera fija en Anton condensada. Ritmo pregunta→respuesta: cada duda se marca con un icono y su respuesta clave sale como REMATE a pantalla completa (titular grande con fondo atenuado y palabra destacada en amarillo), en vez de pasar como subtítulo pequeño. Motion graphic propio de caja de regalo animada al mencionar el regalo en el gancho. CTA final: comenta RUTINA. Corrección tras el control de calidad: de 21,5 a 32,5 s David se acerca a cámara y la cabecera fija le quedaba sobre la boca; ahora se retira con un fundido en ese tramo y vuelve al alejarse.",
+  "sustituciones": [
+    {
+      "palabra": 51,
+      "texto": "perfección."
+    }
+  ]
+}

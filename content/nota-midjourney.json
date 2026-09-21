@@ -1,0 +1,39 @@
+{
+  "titulo": "Le pongo nota a Midjourney",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "pronunciacion": { "Midjourney": "midyorni" },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "el artista ↘",
+      "texto": "Le pongo *nota* a Midjourney, la IA de las imágenes ~imposibles~."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "calidad", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Calidad: las imágenes más *brutales* que puede generar una IA hoy."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 3, "etiqueta": "control", "tipo": "bueno" },
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "Control: conseguir *exactamente* lo que quieres lleva su curva."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 1, "etiqueta": "precio", "tipo": "malo" },
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "postit": "ni un mes gratis.",
+      "texto": "Precio: no tiene plan gratis. Aquí ~pincha~ fuerte."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "🎨",
+      "texto": "Nota final: un *ocho* para creativos. Comenta ~ARTE~ y te paso mis prompts de imágenes."
+    }
+  ]
+}

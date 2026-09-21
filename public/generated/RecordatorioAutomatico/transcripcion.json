@@ -1,0 +1,650 @@
+[
+ {
+  "i": 0,
+  "texto": "Esa",
+  "inicio": 0.01,
+  "fin": 0.18
+ },
+ {
+  "i": 1,
+  "texto": "cita",
+  "inicio": 0.18,
+  "fin": 0.38
+ },
+ {
+  "i": 2,
+  "texto": "que",
+  "inicio": 0.42,
+  "fin": 0.6
+ },
+ {
+  "i": 3,
+  "texto": "te",
+  "inicio": 0.6,
+  "fin": 0.71
+ },
+ {
+  "i": 4,
+  "texto": "cancelaron",
+  "inicio": 0.76,
+  "fin": 1.31
+ },
+ {
+  "i": 5,
+  "texto": "sin",
+  "inicio": 1.37,
+  "fin": 1.51
+ },
+ {
+  "i": 6,
+  "texto": "avisar",
+  "inicio": 1.51,
+  "fin": 1.87
+ },
+ {
+  "i": 7,
+  "texto": "no",
+  "inicio": 1.87,
+  "fin": 1.9
+ },
+ {
+  "i": 8,
+  "texto": "te",
+  "inicio": 2.03,
+  "fin": 2.11
+ },
+ {
+  "i": 9,
+  "texto": "ha",
+  "inicio": 2.11,
+  "fin": 2.18
+ },
+ {
+  "i": 10,
+  "texto": "costado",
+  "inicio": 2.23,
+  "fin": 2.65
+ },
+ {
+  "i": 11,
+  "texto": "un",
+  "inicio": 2.65,
+  "fin": 2.72
+ },
+ {
+  "i": 12,
+  "texto": "cliente,",
+  "inicio": 2.77,
+  "fin": 3.28
+ },
+ {
+  "i": 13,
+  "texto": "te",
+  "inicio": 3.36,
+  "fin": 3.42
+ },
+ {
+  "i": 14,
+  "texto": "ha",
+  "inicio": 3.47,
+  "fin": 3.52
+ },
+ {
+  "i": 15,
+  "texto": "costado",
+  "inicio": 3.52,
+  "fin": 3.83
+ },
+ {
+  "i": 16,
+  "texto": "tener",
+  "inicio": 3.94,
+  "fin": 4.19
+ },
+ {
+  "i": 17,
+  "texto": "un",
+  "inicio": 4.33,
+  "fin": 4.47
+ },
+ {
+  "i": 18,
+  "texto": "hueco",
+  "inicio": 4.47,
+  "fin": 4.89
+ },
+ {
+  "i": 19,
+  "texto": "entero",
+  "inicio": 4.89,
+  "fin": 5.39
+ },
+ {
+  "i": 20,
+  "texto": "vacío",
+  "inicio": 5.39,
+  "fin": 5.78
+ },
+ {
+  "i": 21,
+  "texto": "y",
+  "inicio": 5.97,
+  "fin": 5.97
+ },
+ {
+  "i": 22,
+  "texto": "sin",
+  "inicio": 5.97,
+  "fin": 6.22
+ },
+ {
+  "i": 23,
+  "texto": "cobrar.",
+  "inicio": 6.22,
+  "fin": 6.52
+ },
+ {
+  "i": 24,
+  "texto": "Muchas",
+  "inicio": 7.04,
+  "fin": 7.44
+ },
+ {
+  "i": 25,
+  "texto": "veces",
+  "inicio": 7.44,
+  "fin": 7.73
+ },
+ {
+  "i": 26,
+  "texto": "un",
+  "inicio": 7.79,
+  "fin": 7.9
+ },
+ {
+  "i": 27,
+  "texto": "cliente",
+  "inicio": 7.9,
+  "fin": 8.36
+ },
+ {
+  "i": 28,
+  "texto": "reserva",
+  "inicio": 8.36,
+  "fin": 8.82
+ },
+ {
+  "i": 29,
+  "texto": "y",
+  "inicio": 8.82,
+  "fin": 8.88
+ },
+ {
+  "i": 30,
+  "texto": "luego",
+  "inicio": 8.88,
+  "fin": 9.21
+ },
+ {
+  "i": 31,
+  "texto": "se",
+  "inicio": 9.21,
+  "fin": 9.34
+ },
+ {
+  "i": 32,
+  "texto": "olvida,",
+  "inicio": 9.34,
+  "fin": 9.73
+ },
+ {
+  "i": 33,
+  "texto": "y",
+  "inicio": 9.87,
+  "fin": 9.92
+ },
+ {
+  "i": 34,
+  "texto": "no",
+  "inicio": 9.92,
+  "fin": 9.99
+ },
+ {
+  "i": 35,
+  "texto": "cancela,",
+  "inicio": 10.05,
+  "fin": 10.51
+ },
+ {
+  "i": 36,
+  "texto": "simplemente",
+  "inicio": 10.64,
+  "fin": 11.37
+ },
+ {
+  "i": 37,
+  "texto": "no",
+  "inicio": 11.37,
+  "fin": 11.5
+ },
+ {
+  "i": 38,
+  "texto": "aparece.",
+  "inicio": 11.5,
+  "fin": 11.78
+ },
+ {
+  "i": 39,
+  "texto": "Y",
+  "inicio": 12.11,
+  "fin": 12.14
+ },
+ {
+  "i": 40,
+  "texto": "ese",
+  "inicio": 12.14,
+  "fin": 12.34
+ },
+ {
+  "i": 41,
+  "texto": "hueco",
+  "inicio": 12.34,
+  "fin": 12.61
+ },
+ {
+  "i": 42,
+  "texto": "ya",
+  "inicio": 12.67,
+  "fin": 12.8
+ },
+ {
+  "i": 43,
+  "texto": "no",
+  "inicio": 12.8,
+  "fin": 12.93
+ },
+ {
+  "i": 44,
+  "texto": "lo",
+  "inicio": 12.93,
+  "fin": 13.06
+ },
+ {
+  "i": 45,
+  "texto": "puedes",
+  "inicio": 13.06,
+  "fin": 13.45
+ },
+ {
+  "i": 46,
+  "texto": "vender",
+  "inicio": 13.45,
+  "fin": 13.86
+ },
+ {
+  "i": 47,
+  "texto": "a",
+  "inicio": 13.86,
+  "fin": 13.92
+ },
+ {
+  "i": 48,
+  "texto": "nadie",
+  "inicio": 13.92,
+  "fin": 14.21
+ },
+ {
+  "i": 49,
+  "texto": "más,",
+  "inicio": 14.22,
+  "fin": 14.52
+ },
+ {
+  "i": 50,
+  "texto": "se",
+  "inicio": 14.65,
+  "fin": 14.78
+ },
+ {
+  "i": 51,
+  "texto": "te",
+  "inicio": 14.78,
+  "fin": 14.91
+ },
+ {
+  "i": 52,
+  "texto": "queda",
+  "inicio": 14.91,
+  "fin": 15.08
+ },
+ {
+  "i": 53,
+  "texto": "vacío.",
+  "inicio": 15.25,
+  "fin": 15.64
+ },
+ {
+  "i": 54,
+  "texto": "Y",
+  "inicio": 15.96,
+  "fin": 16
+ },
+ {
+  "i": 55,
+  "texto": "esto",
+  "inicio": 16,
+  "fin": 16.25
+ },
+ {
+  "i": 56,
+  "texto": "pasa",
+  "inicio": 16.25,
+  "fin": 16.44
+ },
+ {
+  "i": 57,
+  "texto": "más",
+  "inicio": 16.52,
+  "fin": 16.74
+ },
+ {
+  "i": 58,
+  "texto": "de",
+  "inicio": 16.74,
+  "fin": 16.87
+ },
+ {
+  "i": 59,
+  "texto": "lo",
+  "inicio": 16.87,
+  "fin": 16.98
+ },
+ {
+  "i": 60,
+  "texto": "que",
+  "inicio": 16.99,
+  "fin": 17.18
+ },
+ {
+  "i": 61,
+  "texto": "parece",
+  "inicio": 17.18,
+  "fin": 17.56
+ },
+ {
+  "i": 62,
+  "texto": "cuando",
+  "inicio": 17.56,
+  "fin": 17.94
+ },
+ {
+  "i": 63,
+  "texto": "nadie",
+  "inicio": 17.94,
+  "fin": 18.25
+ },
+ {
+  "i": 64,
+  "texto": "le",
+  "inicio": 18.25,
+  "fin": 18.36
+ },
+ {
+  "i": 65,
+  "texto": "recuerda",
+  "inicio": 18.36,
+  "fin": 18.8
+ },
+ {
+  "i": 66,
+  "texto": "la",
+  "inicio": 18.92,
+  "fin": 18.99
+ },
+ {
+  "i": 67,
+  "texto": "cita",
+  "inicio": 18.99,
+  "fin": 19.24
+ },
+ {
+  "i": 68,
+  "texto": "al",
+  "inicio": 19.24,
+  "fin": 19.36
+ },
+ {
+  "i": 69,
+  "texto": "cliente.",
+  "inicio": 19.36,
+  "fin": 19.8
+ },
+ {
+  "i": 70,
+  "texto": "La",
+  "inicio": 20.1,
+  "fin": 20.17
+ },
+ {
+  "i": 71,
+  "texto": "solución",
+  "inicio": 20.25,
+  "fin": 20.72
+ },
+ {
+  "i": 72,
+  "texto": "más",
+  "inicio": 20.72,
+  "fin": 20.94
+ },
+ {
+  "i": 73,
+  "texto": "sencilla",
+  "inicio": 20.94,
+  "fin": 21.4
+ },
+ {
+  "i": 74,
+  "texto": "es",
+  "inicio": 21.4,
+  "fin": 21.51
+ },
+ {
+  "i": 75,
+  "texto": "tener",
+  "inicio": 21.51,
+  "fin": 21.79
+ },
+ {
+  "i": 76,
+  "texto": "un",
+  "inicio": 21.79,
+  "fin": 21.88
+ },
+ {
+  "i": 77,
+  "texto": "recordatorio",
+  "inicio": 21.9,
+  "fin": 22.52
+ },
+ {
+  "i": 78,
+  "texto": "automático",
+  "inicio": 22.58,
+  "fin": 23.2
+ },
+ {
+  "i": 79,
+  "texto": "que",
+  "inicio": 23.2,
+  "fin": 23.37
+ },
+ {
+  "i": 80,
+  "texto": "le",
+  "inicio": 23.37,
+  "fin": 23.48
+ },
+ {
+  "i": 81,
+  "texto": "recuerda",
+  "inicio": 23.48,
+  "fin": 23.93
+ },
+ {
+  "i": 82,
+  "texto": "al",
+  "inicio": 23.93,
+  "fin": 24.04
+ },
+ {
+  "i": 83,
+  "texto": "cliente",
+  "inicio": 24.04,
+  "fin": 24.42
+ },
+ {
+  "i": 84,
+  "texto": "un",
+  "inicio": 24.56,
+  "fin": 24.66
+ },
+ {
+  "i": 85,
+  "texto": "día",
+  "inicio": 24.66,
+  "fin": 24.97
+ },
+ {
+  "i": 86,
+  "texto": "antes",
+  "inicio": 24.97,
+  "fin": 25.3
+ },
+ {
+  "i": 87,
+  "texto": "la",
+  "inicio": 25.36,
+  "fin": 25.48
+ },
+ {
+  "i": 88,
+  "texto": "cita.",
+  "inicio": 25.57,
+  "fin": 25.8
+ },
+ {
+  "i": 89,
+  "texto": "Si",
+  "inicio": 26.06,
+  "fin": 26.17
+ },
+ {
+  "i": 90,
+  "texto": "tienes",
+  "inicio": 26.17,
+  "fin": 26.5
+ },
+ {
+  "i": 91,
+  "texto": "huecos",
+  "inicio": 26.5,
+  "fin": 26.76
+ },
+ {
+  "i": 92,
+  "texto": "que",
+  "inicio": 26.84,
+  "fin": 26.98
+ },
+ {
+  "i": 93,
+  "texto": "se",
+  "inicio": 26.99,
+  "fin": 27.05
+ },
+ {
+  "i": 94,
+  "texto": "quedan",
+  "inicio": 27.12,
+  "fin": 27.42
+ },
+ {
+  "i": 95,
+  "texto": "vacíos",
+  "inicio": 27.42,
+  "fin": 27.69
+ },
+ {
+  "i": 96,
+  "texto": "por",
+  "inicio": 27.82,
+  "fin": 27.96
+ },
+ {
+  "i": 97,
+  "texto": "este",
+  "inicio": 27.96,
+  "fin": 28.18
+ },
+ {
+  "i": 98,
+  "texto": "motivo,",
+  "inicio": 28.18,
+  "fin": 28.51
+ },
+ {
+  "i": 99,
+  "texto": "escribe",
+  "inicio": 28.63,
+  "fin": 29.01
+ },
+ {
+  "i": 100,
+  "texto": "recordatorio",
+  "inicio": 29.01,
+  "fin": 29.67
+ },
+ {
+  "i": 101,
+  "texto": "en",
+  "inicio": 29.67,
+  "fin": 29.78
+ },
+ {
+  "i": 102,
+  "texto": "comentarios",
+  "inicio": 29.78,
+  "fin": 30.39
+ },
+ {
+  "i": 103,
+  "texto": "y",
+  "inicio": 30.53,
+  "fin": 30.56
+ },
+ {
+  "i": 104,
+  "texto": "te",
+  "inicio": 30.56,
+  "fin": 30.62
+ },
+ {
+  "i": 105,
+  "texto": "ayuda",
+  "inicio": 30.69,
+  "fin": 30.85
+ },
+ {
+  "i": 106,
+  "texto": "a",
+  "inicio": 30.85,
+  "fin": 30.89
+ },
+ {
+  "i": 107,
+  "texto": "solucionarlo.",
+  "inicio": 30.89,
+  "fin": 31.39
+ }
+]

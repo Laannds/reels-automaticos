@@ -1,0 +1,524 @@
+[
+ {
+  "i": 0,
+  "texto": "Este",
+  "inicio": 0,
+  "fin": 0.18
+ },
+ {
+  "i": 1,
+  "texto": "es",
+  "inicio": 0.18,
+  "fin": 0.27
+ },
+ {
+  "i": 2,
+  "texto": "Winnie,",
+  "inicio": 0.27,
+  "fin": 0.53
+ },
+ {
+  "i": 3,
+  "texto": "un",
+  "inicio": 0.67,
+  "fin": 0.71
+ },
+ {
+  "i": 4,
+  "texto": "beagle,",
+  "inicio": 0.71,
+  "fin": 0.99
+ },
+ {
+  "i": 5,
+  "texto": "y",
+  "inicio": 1.06,
+  "fin": 1.09
+ },
+ {
+  "i": 6,
+  "texto": "los",
+  "inicio": 1.09,
+  "fin": 1.24
+ },
+ {
+  "i": 7,
+  "texto": "beagles",
+  "inicio": 1.24,
+  "fin": 1.6
+ },
+ {
+  "i": 8,
+  "texto": "no",
+  "inicio": 1.6,
+  "fin": 1.7
+ },
+ {
+  "i": 9,
+  "texto": "se",
+  "inicio": 1.7,
+  "fin": 1.79
+ },
+ {
+  "i": 10,
+  "texto": "portan",
+  "inicio": 1.79,
+  "fin": 2.11
+ },
+ {
+  "i": 11,
+  "texto": "bien.",
+  "inicio": 2.11,
+  "fin": 2.3
+ },
+ {
+  "i": 12,
+  "texto": "Voy",
+  "inicio": 2.45,
+  "fin": 2.6
+ },
+ {
+  "i": 13,
+  "texto": "a",
+  "inicio": 2.6,
+  "fin": 2.65
+ },
+ {
+  "i": 14,
+  "texto": "intentar",
+  "inicio": 2.65,
+  "fin": 3.07
+ },
+ {
+  "i": 15,
+  "texto": "que",
+  "inicio": 3.15,
+  "fin": 3.25
+ },
+ {
+  "i": 16,
+  "texto": "Winnie",
+  "inicio": 3.25,
+  "fin": 3.56
+ },
+ {
+  "i": 17,
+  "texto": "se",
+  "inicio": 3.57,
+  "fin": 3.64
+ },
+ {
+  "i": 18,
+  "texto": "porte",
+  "inicio": 3.72,
+  "fin": 3.96
+ },
+ {
+  "i": 19,
+  "texto": "bien,",
+  "inicio": 3.96,
+  "fin": 4.24
+ },
+ {
+  "i": 20,
+  "texto": "o",
+  "inicio": 4.37,
+  "fin": 4.43
+ },
+ {
+  "i": 21,
+  "texto": "al",
+  "inicio": 4.43,
+  "fin": 4.56
+ },
+ {
+  "i": 22,
+  "texto": "menos",
+  "inicio": 4.56,
+  "fin": 4.91
+ },
+ {
+  "i": 23,
+  "texto": "que",
+  "inicio": 4.91,
+  "fin": 5.03
+ },
+ {
+  "i": 24,
+  "texto": "lo",
+  "inicio": 5.03,
+  "fin": 5.12
+ },
+ {
+  "i": 25,
+  "texto": "intente.",
+  "inicio": 5.12,
+  "fin": 5.37
+ },
+ {
+  "i": 26,
+  "texto": "Con",
+  "inicio": 5.57,
+  "fin": 5.71
+ },
+ {
+  "i": 27,
+  "texto": "esto",
+  "inicio": 5.71,
+  "fin": 5.92
+ },
+ {
+  "i": 28,
+  "texto": "controlo",
+  "inicio": 5.92,
+  "fin": 6.33
+ },
+ {
+  "i": 29,
+  "texto": "cuándo",
+  "inicio": 6.33,
+  "fin": 6.69
+ },
+ {
+  "i": 30,
+  "texto": "le",
+  "inicio": 6.69,
+  "fin": 6.79
+ },
+ {
+  "i": 31,
+  "texto": "llega",
+  "inicio": 6.79,
+  "fin": 7.05
+ },
+ {
+  "i": 32,
+  "texto": "el",
+  "inicio": 7.05,
+  "fin": 7.12
+ },
+ {
+  "i": 33,
+  "texto": "premio,",
+  "inicio": 7.2,
+  "fin": 7.52
+ },
+ {
+  "i": 34,
+  "texto": "y",
+  "inicio": 7.52,
+  "fin": 7.55
+ },
+ {
+  "i": 35,
+  "texto": "con",
+  "inicio": 7.59,
+  "fin": 7.76
+ },
+ {
+  "i": 36,
+  "texto": "esto",
+  "inicio": 7.76,
+  "fin": 8
+ },
+ {
+  "i": 37,
+  "texto": "que",
+  "inicio": 8,
+  "fin": 8.1
+ },
+ {
+  "i": 38,
+  "texto": "no",
+  "inicio": 8.24,
+  "fin": 8.3
+ },
+ {
+  "i": 39,
+  "texto": "se",
+  "inicio": 8.3,
+  "fin": 8.42
+ },
+ {
+  "i": 40,
+  "texto": "dé",
+  "inicio": 8.42,
+  "fin": 8.6
+ },
+ {
+  "i": 41,
+  "texto": "cuenta",
+  "inicio": 8.6,
+  "fin": 8.96
+ },
+ {
+  "i": 42,
+  "texto": "que",
+  "inicio": 8.96,
+  "fin": 9.14
+ },
+ {
+  "i": 43,
+  "texto": "es",
+  "inicio": 9.14,
+  "fin": 9.26
+ },
+ {
+  "i": 44,
+  "texto": "un",
+  "inicio": 9.26,
+  "fin": 9.37
+ },
+ {
+  "i": 45,
+  "texto": "experimento.",
+  "inicio": 9.42,
+  "fin": 10.04
+ },
+ {
+  "i": 46,
+  "texto": "Si",
+  "inicio": 10.24,
+  "fin": 10.33
+ },
+ {
+  "i": 47,
+  "texto": "esto",
+  "inicio": 10.33,
+  "fin": 10.51
+ },
+ {
+  "i": 48,
+  "texto": "funciona",
+  "inicio": 10.51,
+  "fin": 10.87
+ },
+ {
+  "i": 49,
+  "texto": "con",
+  "inicio": 10.87,
+  "fin": 11
+ },
+ {
+  "i": 50,
+  "texto": "un",
+  "inicio": 11,
+  "fin": 11.09
+ },
+ {
+  "i": 51,
+  "texto": "beagle,",
+  "inicio": 11.09,
+  "fin": 11.36
+ },
+ {
+  "i": 52,
+  "texto": "funciona",
+  "inicio": 11.51,
+  "fin": 11.81
+ },
+ {
+  "i": 53,
+  "texto": "con",
+  "inicio": 11.81,
+  "fin": 11.94
+ },
+ {
+  "i": 54,
+  "texto": "cualquier",
+  "inicio": 11.94,
+  "fin": 12.34
+ },
+ {
+  "i": 55,
+  "texto": "problema.",
+  "inicio": 12.34,
+  "fin": 12.7
+ },
+ {
+  "i": 56,
+  "texto": "Mi",
+  "inicio": 12.88,
+  "fin": 12.97
+ },
+ {
+  "i": 57,
+  "texto": "trabajo",
+  "inicio": 13,
+  "fin": 13.36
+ },
+ {
+  "i": 58,
+  "texto": "es",
+  "inicio": 13.36,
+  "fin": 13.46
+ },
+ {
+  "i": 59,
+  "texto": "montar",
+  "inicio": 13.46,
+  "fin": 13.73
+ },
+ {
+  "i": 60,
+  "texto": "soluciones",
+  "inicio": 13.77,
+  "fin": 14.36
+ },
+ {
+  "i": 61,
+  "texto": "a",
+  "inicio": 14.36,
+  "fin": 14.43
+ },
+ {
+  "i": 62,
+  "texto": "plataformas,",
+  "inicio": 14.43,
+  "fin": 15.19
+ },
+ {
+  "i": 63,
+  "texto": "sistemas,",
+  "inicio": 15.36,
+  "fin": 15.81
+ },
+ {
+  "i": 64,
+  "texto": "para",
+  "inicio": 15.92,
+  "fin": 16.14
+ },
+ {
+  "i": 65,
+  "texto": "lo",
+  "inicio": 16.14,
+  "fin": 16.25
+ },
+ {
+  "i": 66,
+  "texto": "que",
+  "inicio": 16.25,
+  "fin": 16.42
+ },
+ {
+  "i": 67,
+  "texto": "sea,",
+  "inicio": 16.42,
+  "fin": 16.59
+ },
+ {
+  "i": 68,
+  "texto": "y",
+  "inicio": 16.72,
+  "fin": 16.77
+ },
+ {
+  "i": 69,
+  "texto": "qué",
+  "inicio": 16.77,
+  "fin": 17
+ },
+ {
+  "i": 70,
+  "texto": "mejor",
+  "inicio": 17,
+  "fin": 17.21
+ },
+ {
+  "i": 71,
+  "texto": "prueba",
+  "inicio": 17.32,
+  "fin": 17.58
+ },
+ {
+  "i": 72,
+  "texto": "que",
+  "inicio": 17.64,
+  "fin": 17.78
+ },
+ {
+  "i": 73,
+  "texto": "mi",
+  "inicio": 17.78,
+  "fin": 17.82
+ },
+ {
+  "i": 74,
+  "texto": "propio",
+  "inicio": 17.89,
+  "fin": 18.15
+ },
+ {
+  "i": 75,
+  "texto": "perro.",
+  "inicio": 18.22,
+  "fin": 18.39
+ },
+ {
+  "i": 76,
+  "texto": "Si",
+  "inicio": 18.56,
+  "fin": 18.66
+ },
+ {
+  "i": 77,
+  "texto": "tú",
+  "inicio": 18.66,
+  "fin": 18.82
+ },
+ {
+  "i": 78,
+  "texto": "también",
+  "inicio": 18.82,
+  "fin": 19.25
+ },
+ {
+  "i": 79,
+  "texto": "necesitas",
+  "inicio": 19.25,
+  "fin": 19.72
+ },
+ {
+  "i": 80,
+  "texto": "una",
+  "inicio": 19.76,
+  "fin": 19.89
+ },
+ {
+  "i": 81,
+  "texto": "solución,",
+  "inicio": 19.89,
+  "fin": 20.37
+ },
+ {
+  "i": 82,
+  "texto": "escribe",
+  "inicio": 20.52,
+  "fin": 21
+ },
+ {
+  "i": 83,
+  "texto": "Winnie",
+  "inicio": 21.08,
+  "fin": 21.48
+ },
+ {
+  "i": 84,
+  "texto": "y",
+  "inicio": 21.48,
+  "fin": 21.52
+ },
+ {
+  "i": 85,
+  "texto": "te",
+  "inicio": 21.58,
+  "fin": 21.7
+ },
+ {
+  "i": 86,
+  "texto": "escribo.",
+  "inicio": 21.7,
+  "fin": 22.22
+ }
+]

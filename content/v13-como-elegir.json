@@ -1,0 +1,47 @@
+{
+  "titulo": "Cómo elegir tu IA en 20 segundos",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "test de 20 segundos ↘",
+      "texto": "¿Qué IA es para *ti*? Respóndete esto y ~listo~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/gemini.svg",
+      "sello": { "texto": "GEMINI", "tipo": "bueno" },
+      "texto": "¿No quieres pagar *nada*? Cerrado: esta."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/chatgpt.svg",
+      "sello": { "texto": "CHATGPT", "tipo": "bueno" },
+      "texto": "¿Quieres *una* para todo? Esta."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 5,
+      "logo": "logos/claude.svg",
+      "sello": { "texto": "CLAUDE", "tipo": "mejor" },
+      "texto": "¿Vives de *escribir* o *crear*? Sin dudarlo: esta."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "postit": "empieza gratis. siempre.",
+      "texto": "Y empieza siempre por el plan *gratis*."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "🎯",
+      "texto": "Dime en *comentarios* cuál te toca. ~Guarda~ el test."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "titulo": "Le pongo nota a ChatGPT",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "va a escocer ↘",
+      "texto": "Le pongo *nota* a ChatGPT, la IA que usa todo el mundo. ~Ojo~ al final."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "versatilidad", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Versatilidad: habla, ve, dibuja y razona. Hace de *todo*."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 3, "etiqueta": "escritura", "tipo": "bueno" },
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "Escritura: correcta, pero todo huele a *IA* desde lejos."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 2, "etiqueta": "fiabilidad", "tipo": "malo" },
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Fiabilidad: cuando no sabe algo, se lo ~inventa~ con una seguridad tremenda."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 4, "etiqueta": "precio", "tipo": "bueno" },
+      "postit": "el gratis cumple.",
+      "texto": "Precio: el plan gratis te da más que de sobra para *empezar*."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "🤖",
+      "texto": "Nota final: un *ocho*. ¿Estás de acuerdo? Te leo en ~comentarios~. Sígueme."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "titulo": "Top 3 IAs para crear contenido",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "pronunciacion": { "Midjourney": "midyorni" },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "mi stack real ↘",
+      "texto": "El *top 3* de IAs para crear contenido. Con estas hago ~todo~ lo que ves."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 3, "nombre": "CHATGPT" },
+      "texto": "Bronce: *ChatGPT*. Lluvia de ideas y ganchos en segundos."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 2, "nombre": "MIDJOURNEY" },
+      "texto": "Plata: *Midjourney*. Miniaturas e imágenes que paran el ~scroll~."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 1, "nombre": "CLAUDE" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Y oro: *Claude*. Guiones que suenan a *ti*, no a robot."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "🎬",
+      "texto": "Comenta ~CREAR~ y te mando mi flujo completo. Sígueme, que esto es solo el principio."
+    }
+  ]
+}

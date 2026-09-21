@@ -1,0 +1,618 @@
+[
+ {
+  "i": 0,
+  "texto": "El",
+  "inicio": 0.09,
+  "fin": 0.12,
+  "prob": 0.72
+ },
+ {
+  "i": 1,
+  "texto": "trucazo",
+  "inicio": 0.12,
+  "fin": 0.54,
+  "prob": 0.24
+ },
+ {
+  "i": 2,
+  "texto": "no",
+  "inicio": 0.54,
+  "fin": 0.66,
+  "prob": 0.7
+ },
+ {
+  "i": 3,
+  "texto": "te",
+  "inicio": 0.66,
+  "fin": 0.78,
+  "prob": 0.98
+ },
+ {
+  "i": 4,
+  "texto": "puedes",
+  "inicio": 0.78,
+  "fin": 1.1,
+  "prob": 0.78
+ },
+ {
+  "i": 5,
+  "texto": "perder",
+  "inicio": 1.21,
+  "fin": 1.5,
+  "prob": 1
+ },
+ {
+  "i": 6,
+  "texto": "para",
+  "inicio": 1.59,
+  "fin": 1.74,
+  "prob": 0.93
+ },
+ {
+  "i": 7,
+  "texto": "hacer",
+  "inicio": 1.84,
+  "fin": 2.01,
+  "prob": 0.99
+ },
+ {
+  "i": 8,
+  "texto": "gambas",
+  "inicio": 2.07,
+  "fin": 2.38,
+  "prob": 0.87
+ },
+ {
+  "i": 9,
+  "texto": "al",
+  "inicio": 2.38,
+  "fin": 2.49,
+  "prob": 0.62
+ },
+ {
+  "i": 10,
+  "texto": "ajillo.",
+  "inicio": 2.49,
+  "fin": 2.79,
+  "prob": 0.75
+ },
+ {
+  "i": 11,
+  "texto": "Cortamos",
+  "inicio": 2.86,
+  "fin": 3.4,
+  "prob": 0.98
+ },
+ {
+  "i": 12,
+  "texto": "cuatro",
+  "inicio": 3.55,
+  "fin": 3.83,
+  "prob": 0.51
+ },
+ {
+  "i": 13,
+  "texto": "dientes",
+  "inicio": 3.83,
+  "fin": 4.33,
+  "prob": 1
+ },
+ {
+  "i": 14,
+  "texto": "de",
+  "inicio": 4.33,
+  "fin": 4.43,
+  "prob": 1
+ },
+ {
+  "i": 15,
+  "texto": "ajo.",
+  "inicio": 4.47,
+  "fin": 4.63,
+  "prob": 1
+ },
+ {
+  "i": 16,
+  "texto": "Los",
+  "inicio": 4.83,
+  "fin": 4.98,
+  "prob": 0.97
+ },
+ {
+  "i": 17,
+  "texto": "ponemos",
+  "inicio": 5.07,
+  "fin": 5.53,
+  "prob": 0.98
+ },
+ {
+  "i": 18,
+  "texto": "en",
+  "inicio": 5.53,
+  "fin": 5.6,
+  "prob": 0.99
+ },
+ {
+  "i": 19,
+  "texto": "una",
+  "inicio": 5.85,
+  "fin": 5.97,
+  "prob": 1
+ },
+ {
+  "i": 20,
+  "texto": "cazola",
+  "inicio": 5.97,
+  "fin": 6.45,
+  "prob": 0.69
+ },
+ {
+  "i": 21,
+  "texto": "de",
+  "inicio": 6.45,
+  "fin": 6.61,
+  "prob": 0.99
+ },
+ {
+  "i": 22,
+  "texto": "barro",
+  "inicio": 6.61,
+  "fin": 6.94,
+  "prob": 1
+ },
+ {
+  "i": 23,
+  "texto": "con",
+  "inicio": 7.16,
+  "fin": 7.32,
+  "prob": 0.49
+ },
+ {
+  "i": 24,
+  "texto": "una",
+  "inicio": 7.32,
+  "fin": 7.56,
+  "prob": 0.99
+ },
+ {
+  "i": 25,
+  "texto": "cayena",
+  "inicio": 7.56,
+  "fin": 7.96,
+  "prob": 0.83
+ },
+ {
+  "i": 26,
+  "texto": "y",
+  "inicio": 8.08,
+  "fin": 8.11,
+  "prob": 0.4
+ },
+ {
+  "i": 27,
+  "texto": "tapamos",
+  "inicio": 8.11,
+  "fin": 8.64,
+  "prob": 0.98
+ },
+ {
+  "i": 28,
+  "texto": "el",
+  "inicio": 8.64,
+  "fin": 8.77,
+  "prob": 0.98
+ },
+ {
+  "i": 29,
+  "texto": "fondo",
+  "inicio": 8.81,
+  "fin": 9.17,
+  "prob": 0.99
+ },
+ {
+  "i": 30,
+  "texto": "con",
+  "inicio": 9.17,
+  "fin": 9.4,
+  "prob": 0.99
+ },
+ {
+  "i": 31,
+  "texto": "aceite.",
+  "inicio": 9.4,
+  "fin": 9.83,
+  "prob": 1
+ },
+ {
+  "i": 32,
+  "texto": "Y",
+  "inicio": 9.98,
+  "fin": 9.99,
+  "prob": 0.92
+ },
+ {
+  "i": 33,
+  "texto": "dos",
+  "inicio": 9.99,
+  "fin": 10.18,
+  "prob": 0.63
+ },
+ {
+  "i": 34,
+  "texto": "minutos",
+  "inicio": 10.21,
+  "fin": 10.74,
+  "prob": 1
+ },
+ {
+  "i": 35,
+  "texto": "en",
+  "inicio": 10.74,
+  "fin": 10.89,
+  "prob": 1
+ },
+ {
+  "i": 36,
+  "texto": "el",
+  "inicio": 10.89,
+  "fin": 11.04,
+  "prob": 1
+ },
+ {
+  "i": 37,
+  "texto": "micro.",
+  "inicio": 11.04,
+  "fin": 11.41,
+  "prob": 0.99
+ },
+ {
+  "i": 38,
+  "texto": "Ahora",
+  "inicio": 11.7,
+  "fin": 11.99,
+  "prob": 0.99
+ },
+ {
+  "i": 39,
+  "texto": "que",
+  "inicio": 11.99,
+  "fin": 12.14,
+  "prob": 0.97
+ },
+ {
+  "i": 40,
+  "texto": "ya",
+  "inicio": 12.18,
+  "fin": 12.29,
+  "prob": 0.98
+ },
+ {
+  "i": 41,
+  "texto": "tenemos",
+  "inicio": 12.29,
+  "fin": 12.72,
+  "prob": 0.99
+ },
+ {
+  "i": 42,
+  "texto": "los",
+  "inicio": 12.72,
+  "fin": 12.9,
+  "prob": 0.99
+ },
+ {
+  "i": 43,
+  "texto": "ajos",
+  "inicio": 12.9,
+  "fin": 13.14,
+  "prob": 0.96
+ },
+ {
+  "i": 44,
+  "texto": "bien",
+  "inicio": 13.14,
+  "fin": 13.38,
+  "prob": 0.99
+ },
+ {
+  "i": 45,
+  "texto": "calentitos,",
+  "inicio": 13.38,
+  "fin": 13.99,
+  "prob": 0.98
+ },
+ {
+  "i": 46,
+  "texto": "vamos",
+  "inicio": 14.14,
+  "fin": 14.4,
+  "prob": 0.77
+ },
+ {
+  "i": 47,
+  "texto": "a",
+  "inicio": 14.4,
+  "fin": 14.45,
+  "prob": 0.99
+ },
+ {
+  "i": 48,
+  "texto": "echar",
+  "inicio": 14.45,
+  "fin": 14.7,
+  "prob": 0.98
+ },
+ {
+  "i": 49,
+  "texto": "las",
+  "inicio": 14.7,
+  "fin": 14.85,
+  "prob": 0.97
+ },
+ {
+  "i": 50,
+  "texto": "gambas",
+  "inicio": 14.85,
+  "fin": 15.13,
+  "prob": 1
+ },
+ {
+  "i": 51,
+  "texto": "dentro",
+  "inicio": 15.15,
+  "fin": 15.46,
+  "prob": 0.95
+ },
+ {
+  "i": 52,
+  "texto": "del",
+  "inicio": 15.46,
+  "fin": 15.61,
+  "prob": 0.97
+ },
+ {
+  "i": 53,
+  "texto": "aceite.",
+  "inicio": 15.61,
+  "fin": 15.91,
+  "prob": 1
+ },
+ {
+  "i": 54,
+  "texto": "Ahora",
+  "inicio": 16.19,
+  "fin": 16.45,
+  "prob": 0.99
+ },
+ {
+  "i": 55,
+  "texto": "vayamos",
+  "inicio": 16.45,
+  "fin": 16.9,
+  "prob": 0.45
+ },
+ {
+  "i": 56,
+  "texto": "las",
+  "inicio": 16.9,
+  "fin": 17.09,
+  "prob": 0.94
+ },
+ {
+  "i": 57,
+  "texto": "gambas",
+  "inicio": 17.09,
+  "fin": 17.48,
+  "prob": 1
+ },
+ {
+  "i": 58,
+  "texto": "con",
+  "inicio": 17.48,
+  "fin": 17.67,
+  "prob": 0.98
+ },
+ {
+  "i": 59,
+  "texto": "el",
+  "inicio": 17.67,
+  "fin": 17.76,
+  "prob": 0.99
+ },
+ {
+  "i": 60,
+  "texto": "aceite",
+  "inicio": 17.82,
+  "fin": 18.18,
+  "prob": 1
+ },
+ {
+  "i": 61,
+  "texto": "y",
+  "inicio": 18.28,
+  "fin": 18.3,
+  "prob": 0.95
+ },
+ {
+  "i": 62,
+  "texto": "vamos",
+  "inicio": 18.3,
+  "fin": 18.62,
+  "prob": 0.99
+ },
+ {
+  "i": 63,
+  "texto": "a",
+  "inicio": 18.62,
+  "fin": 18.68,
+  "prob": 1
+ },
+ {
+  "i": 64,
+  "texto": "meter",
+  "inicio": 18.68,
+  "fin": 19,
+  "prob": 0.86
+ },
+ {
+  "i": 65,
+  "texto": "al",
+  "inicio": 19,
+  "fin": 19.12,
+  "prob": 0.83
+ },
+ {
+  "i": 66,
+  "texto": "micro",
+  "inicio": 19.12,
+  "fin": 19.44,
+  "prob": 0.99
+ },
+ {
+  "i": 67,
+  "texto": "tres",
+  "inicio": 19.44,
+  "fin": 19.47,
+  "prob": 0.8
+ },
+ {
+  "i": 68,
+  "texto": "minutos.",
+  "inicio": 19.69,
+  "fin": 20.13,
+  "prob": 1
+ },
+ {
+  "i": 69,
+  "texto": "Y",
+  "inicio": 20.41,
+  "fin": 20.41,
+  "prob": 0.95
+ },
+ {
+  "i": 70,
+  "texto": "si",
+  "inicio": 20.48,
+  "fin": 20.51,
+  "prob": 0.99
+ },
+ {
+  "i": 71,
+  "texto": "no",
+  "inicio": 20.51,
+  "fin": 20.61,
+  "prob": 0.74
+ },
+ {
+  "i": 72,
+  "texto": "os",
+  "inicio": 20.61,
+  "fin": 20.71,
+  "prob": 0.91
+ },
+ {
+  "i": 73,
+  "texto": "queréis",
+  "inicio": 20.71,
+  "fin": 21.13,
+  "prob": 0.96
+ },
+ {
+  "i": 74,
+  "texto": "quemar,",
+  "inicio": 21.13,
+  "fin": 21.35,
+  "prob": 0.99
+ },
+ {
+  "i": 75,
+  "texto": "no",
+  "inicio": 21.64,
+  "fin": 21.64,
+  "prob": 0.97
+ },
+ {
+  "i": 76,
+  "texto": "os",
+  "inicio": 21.65,
+  "fin": 21.74,
+  "prob": 0.99
+ },
+ {
+  "i": 77,
+  "texto": "olvidéis",
+  "inicio": 21.74,
+  "fin": 22.21,
+  "prob": 1
+ },
+ {
+  "i": 78,
+  "texto": "de",
+  "inicio": 22.21,
+  "fin": 22.3,
+  "prob": 0.99
+ },
+ {
+  "i": 79,
+  "texto": "usar",
+  "inicio": 22.31,
+  "fin": 22.5,
+  "prob": 0.99
+ },
+ {
+  "i": 80,
+  "texto": "un",
+  "inicio": 22.53,
+  "fin": 22.62,
+  "prob": 0.99
+ },
+ {
+  "i": 81,
+  "texto": "trapo.",
+  "inicio": 22.62,
+  "fin": 22.88,
+  "prob": 0.95
+ },
+ {
+  "i": 82,
+  "texto": "¿No",
+  "inicio": 23.16,
+  "fin": 24.04,
+  "prob": 0.51
+ },
+ {
+  "i": 83,
+  "texto": "os",
+  "inicio": 24.06,
+  "fin": 24.47,
+  "prob": 0.99
+ },
+ {
+  "i": 84,
+  "texto": "queméis?",
+  "inicio": 24.47,
+  "fin": 26.23,
+  "prob": 0.81
+ },
+ {
+  "i": 85,
+  "texto": "A",
+  "inicio": 26.99,
+  "fin": 27.04,
+  "prob": 0.62
+ },
+ {
+  "i": 86,
+  "texto": "por",
+  "inicio": 27.04,
+  "fin": 27.36,
+  "prob": 0.98
+ },
+ {
+  "i": 87,
+  "texto": "ello.",
+  "inicio": 27.36,
+  "fin": 27.66,
+  "prob": 0.99
+ }
+]

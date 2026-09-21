@@ -1,0 +1,48 @@
+{
+  "titulo": "La única IA que pagaría",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4.5,
+      "nota": "mi dinero, mi voto ↘",
+      "texto": "Si solo pudiera *pagar una* IA, sería esta. Con datos."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 6.5,
+      "comparativa": {
+        "a": "CLAUDE",
+        "b": "CHATGPT",
+        "ganador": "a",
+        "metricas": [
+          { "etiqueta": "escritura", "a": 5, "b": 3 },
+          { "etiqueta": "código", "a": 5, "b": 4 },
+          { "etiqueta": "extras", "a": 3, "b": 5 }
+        ]
+      },
+      "texto": "ChatGPT tiene más *extras*. Pero yo no pago por extras."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 1, "nombre": "CLAUDE" },
+      "sello": { "texto": "MI VOTO", "tipo": "mejor" },
+      "texto": "Pago por *calidad* donde me gano la vida: escribir y crear."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "postit": "gratis: las otras dos.",
+      "texto": "Las demás las uso *gratis*. Y tan contento."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "💳",
+      "texto": "¿Tu voto? Te leo en *comentarios*. ~Sígueme~ para más IA sin humo."
+    }
+  ]
+}

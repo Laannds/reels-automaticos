@@ -1,0 +1,13 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[14, 15], [23, 24], [43, 44]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "MIENTRAS|DUERMES", "duracion": 2 },
+    { "palabra": 30, "tipo": "estado", "dato": "24/7:SIEMPRE ACTIVA", "duracion": 3.5 },
+    { "palabra": 47, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "titulo": { "texto": "Disponible 24 horas", "resaltar": "24" },
+  "pasos": [4.3, 8.0, 13.5],
+  "resumen": "Hot take del tiempo: mientras duermes tu competencia gana clientes por estar disponible. Énfasis en 'ganando clientes', 'está disponible', '24 horas'. Icono reloj en la mención de la IA que no descansa, check en el CTA (comenta IA)."
+}

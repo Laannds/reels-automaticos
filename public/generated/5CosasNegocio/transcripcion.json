@@ -1,0 +1,338 @@
+[
+ {
+  "i": 0,
+  "texto": "Estas",
+  "inicio": 0,
+  "fin": 0.3
+ },
+ {
+  "i": 1,
+  "texto": "son",
+  "inicio": 0.3,
+  "fin": 0.48
+ },
+ {
+  "i": 2,
+  "texto": "las",
+  "inicio": 0.48,
+  "fin": 0.66
+ },
+ {
+  "i": 3,
+  "texto": "5",
+  "inicio": 0.66,
+  "fin": 0.84
+ },
+ {
+  "i": 4,
+  "texto": "tareas",
+  "inicio": 0.84,
+  "fin": 1.2
+ },
+ {
+  "i": 5,
+  "texto": "que",
+  "inicio": 1.2,
+  "fin": 1.3
+ },
+ {
+  "i": 6,
+  "texto": "debes",
+  "inicio": 1.41,
+  "fin": 1.68
+ },
+ {
+  "i": 7,
+  "texto": "automatizar",
+  "inicio": 1.68,
+  "fin": 2.44
+ },
+ {
+  "i": 8,
+  "texto": "en",
+  "inicio": 2.44,
+  "fin": 2.53
+ },
+ {
+  "i": 9,
+  "texto": "tu",
+  "inicio": 2.59,
+  "fin": 2.72
+ },
+ {
+  "i": 10,
+  "texto": "negocio",
+  "inicio": 2.72,
+  "fin": 3.24
+ },
+ {
+  "i": 11,
+  "texto": "y",
+  "inicio": 3.24,
+  "fin": 3.3
+ },
+ {
+  "i": 12,
+  "texto": "la",
+  "inicio": 3.3,
+  "fin": 3.44
+ },
+ {
+  "i": 13,
+  "texto": "cuarta",
+  "inicio": 3.44,
+  "fin": 3.81
+ },
+ {
+  "i": 14,
+  "texto": "casi",
+  "inicio": 3.91,
+  "fin": 4.11
+ },
+ {
+  "i": 15,
+  "texto": "nadie",
+  "inicio": 4.11,
+  "fin": 4.45
+ },
+ {
+  "i": 16,
+  "texto": "la",
+  "inicio": 4.45,
+  "fin": 4.58
+ },
+ {
+  "i": 17,
+  "texto": "hace.",
+  "inicio": 4.58,
+  "fin": 4.74
+ },
+ {
+  "i": 18,
+  "texto": "Primero,",
+  "inicio": 4.98,
+  "fin": 5.31
+ },
+ {
+  "i": 19,
+  "texto": "responder",
+  "inicio": 5.56,
+  "fin": 6.15
+ },
+ {
+  "i": 20,
+  "texto": "mensajes",
+  "inicio": 6.15,
+  "fin": 6.67
+ },
+ {
+  "i": 21,
+  "texto": "repetidos,",
+  "inicio": 6.67,
+  "fin": 7.27
+ },
+ {
+  "i": 22,
+  "texto": "segundo,",
+  "inicio": 7.41,
+  "fin": 7.74
+ },
+ {
+  "i": 23,
+  "texto": "recordatorios",
+  "inicio": 8.06,
+  "fin": 8.87
+ },
+ {
+  "i": 24,
+  "texto": "de",
+  "inicio": 8.87,
+  "fin": 8.91
+ },
+ {
+  "i": 25,
+  "texto": "cita,",
+  "inicio": 9,
+  "fin": 9.24
+ },
+ {
+  "i": 26,
+  "texto": "tercero,",
+  "inicio": 9.34,
+  "fin": 9.77
+ },
+ {
+  "i": 27,
+  "texto": "pedir",
+  "inicio": 9.96,
+  "fin": 10.13
+ },
+ {
+  "i": 28,
+  "texto": "reseñas",
+  "inicio": 10.13,
+  "fin": 10.72
+ },
+ {
+  "i": 29,
+  "texto": "a",
+  "inicio": 10.87,
+  "fin": 10.93
+ },
+ {
+  "i": 30,
+  "texto": "tus",
+  "inicio": 10.93,
+  "fin": 11.14
+ },
+ {
+  "i": 31,
+  "texto": "clientes,",
+  "inicio": 11.14,
+  "fin": 11.65
+ },
+ {
+  "i": 32,
+  "texto": "cuarto,",
+  "inicio": 11.84,
+  "fin": 12.22
+ },
+ {
+  "i": 33,
+  "texto": "recuperar",
+  "inicio": 12.35,
+  "fin": 12.96
+ },
+ {
+  "i": 34,
+  "texto": "clientes",
+  "inicio": 12.96,
+  "fin": 13.46
+ },
+ {
+  "i": 35,
+  "texto": "que",
+  "inicio": 13.56,
+  "fin": 13.71
+ },
+ {
+  "i": 36,
+  "texto": "no",
+  "inicio": 13.71,
+  "fin": 13.85
+ },
+ {
+  "i": 37,
+  "texto": "vuelven",
+  "inicio": 13.85,
+  "fin": 14.32
+ },
+ {
+  "i": 38,
+  "texto": "hace",
+  "inicio": 14.42,
+  "fin": 14.61
+ },
+ {
+  "i": 39,
+  "texto": "meses",
+  "inicio": 14.61,
+  "fin": 15.01
+ },
+ {
+  "i": 40,
+  "texto": "y",
+  "inicio": 15.07,
+  "fin": 15.13
+ },
+ {
+  "i": 41,
+  "texto": "quinto,",
+  "inicio": 15.13,
+  "fin": 15.56
+ },
+ {
+  "i": 42,
+  "texto": "el",
+  "inicio": 15.7,
+  "fin": 15.84
+ },
+ {
+  "i": 43,
+  "texto": "resumen",
+  "inicio": 15.84,
+  "fin": 16.4
+ },
+ {
+  "i": 44,
+  "texto": "de",
+  "inicio": 16.4,
+  "fin": 16.57
+ },
+ {
+  "i": 45,
+  "texto": "ventas",
+  "inicio": 16.57,
+  "fin": 17.08
+ },
+ {
+  "i": 46,
+  "texto": "diarias.",
+  "inicio": 17.08,
+  "fin": 17.54
+ },
+ {
+  "i": 47,
+  "texto": "Comenta",
+  "inicio": 17.8,
+  "fin": 18.2
+ },
+ {
+  "i": 48,
+  "texto": "lista",
+  "inicio": 18.2,
+  "fin": 18.49
+ },
+ {
+  "i": 49,
+  "texto": "y",
+  "inicio": 18.49,
+  "fin": 18.54
+ },
+ {
+  "i": 50,
+  "texto": "te",
+  "inicio": 18.54,
+  "fin": 18.65
+ },
+ {
+  "i": 51,
+  "texto": "mando",
+  "inicio": 18.65,
+  "fin": 18.93
+ },
+ {
+  "i": 52,
+  "texto": "como",
+  "inicio": 18.93,
+  "fin": 19.16
+ },
+ {
+  "i": 53,
+  "texto": "montar",
+  "inicio": 19.16,
+  "fin": 19.5
+ },
+ {
+  "i": 54,
+  "texto": "las",
+  "inicio": 19.5,
+  "fin": 19.67
+ },
+ {
+  "i": 55,
+  "texto": "5.",
+  "inicio": 19.67,
+  "fin": 19.84
+ }
+]

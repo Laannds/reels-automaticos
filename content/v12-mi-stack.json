@@ -1,0 +1,45 @@
+{
+  "titulo": "Mi stack de IA real",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "lo que uso de verdad ↘",
+      "texto": "Mi *stack* de IA real. Con esto hago todo lo que ves."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/claude.svg",
+      "texto": "*Claude* para guiones, textos y código. El ~motor~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/chatgpt.svg",
+      "texto": "*ChatGPT* para ideas rápidas e imágenes."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/perplexity.svg",
+      "texto": "*Perplexity* para investigar con fuentes."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/gemini.svg",
+      "postit": "documentos largos aquí.",
+      "texto": "Y *Gemini* para tragarse PDFs infinitos."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 5,
+      "emoji": "🧰",
+      "texto": "Cuatro IAs, cada una a lo *suyo*. ~Guarda~ el stack y sígueme."
+    }
+  ]
+}

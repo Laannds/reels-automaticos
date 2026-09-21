@@ -1,0 +1,44 @@
+{
+  "slug": "DV_SP_3",
+  "duracion": 33.6,
+  "lufs": -15.5,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -15.5 LUFS (objetivo -14)"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 9.5,
+      "texto": "siNo \"Música y mensajes\" + subtítulos entra en la zona de botones de like/comentar/compartir durante 4.0 s",
+      "hasta": 13.25,
+      "k": 38,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 24.49,
+      "texto": "\"bloc\" (palabra 97) — Whisper solo está al 30%"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 27,
+      "texto": "checklist \"Peso\" + subtítulos entra en la zona de botones de like/comentar/compartir durante 1.5 s",
+      "hasta": 28.25,
+      "k": 108,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 27.66,
+      "texto": "\"series,\" (palabra 109) — Whisper solo está al 36%"
+    }
+  ]
+}

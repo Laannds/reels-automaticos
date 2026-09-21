@@ -1,0 +1,38 @@
+{
+  "titulo": "Los tres gigantes de la IA",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "vs": ["CLAUDE", "CHATGPT", "GEMINI"],
+      "texto": "Las *tres IAs* más potentes del mundo, comparadas en 20 segundos."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "sello": { "texto": "GEMINI", "tipo": "bueno" },
+      "texto": "¿Estudias? *Gemini*: gratis, y le caben los apuntes de un curso entero."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "sello": { "texto": "CLAUDE", "tipo": "bueno" },
+      "texto": "¿Escribes o programas? *Claude*: la calidad es de otra ~liga~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "CHATGPT", "tipo": "bueno" },
+      "texto": "¿Quieres una navaja suiza? *ChatGPT*: hace de todo y lo hace bien."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "nota": "elige con cabeza ↘",
+      "texto": "No hay una mejor: hay una mejor *para ti*. ~Guarda~ esto y sígueme."
+    }
+  ]
+}

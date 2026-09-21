@@ -1,0 +1,398 @@
+[
+ {
+  "i": 0,
+  "texto": "Top",
+  "inicio": 0.01,
+  "fin": 0.15
+ },
+ {
+  "i": 1,
+  "texto": "5",
+  "inicio": 0.32,
+  "fin": 0.38
+ },
+ {
+  "i": 2,
+  "texto": "cosas",
+  "inicio": 0.38,
+  "fin": 0.69
+ },
+ {
+  "i": 3,
+  "texto": "que",
+  "inicio": 0.69,
+  "fin": 0.86
+ },
+ {
+  "i": 4,
+  "texto": "ya",
+  "inicio": 0.96,
+  "fin": 1.01
+ },
+ {
+  "i": 5,
+  "texto": "puedes",
+  "inicio": 1.02,
+  "fin": 1.41
+ },
+ {
+  "i": 6,
+  "texto": "dejar",
+  "inicio": 1.41,
+  "fin": 1.73
+ },
+ {
+  "i": 7,
+  "texto": "de",
+  "inicio": 1.73,
+  "fin": 1.83
+ },
+ {
+  "i": 8,
+  "texto": "pagar",
+  "inicio": 1.85,
+  "fin": 2.19
+ },
+ {
+  "i": 9,
+  "texto": "gracias",
+  "inicio": 2.34,
+  "fin": 2.63
+ },
+ {
+  "i": 10,
+  "texto": "a",
+  "inicio": 2.63,
+  "fin": 2.68
+ },
+ {
+  "i": 11,
+  "texto": "la",
+  "inicio": 2.68,
+  "fin": 2.79
+ },
+ {
+  "i": 12,
+  "texto": "inteligencia",
+  "inicio": 2.79,
+  "fin": 3.46
+ },
+ {
+  "i": 13,
+  "texto": "artificial.",
+  "inicio": 3.46,
+  "fin": 4.01
+ },
+ {
+  "i": 14,
+  "texto": "En",
+  "inicio": 4.1,
+  "fin": 4.19
+ },
+ {
+  "i": 15,
+  "texto": "el",
+  "inicio": 4.19,
+  "fin": 4.32
+ },
+ {
+  "i": 16,
+  "texto": "número",
+  "inicio": 4.32,
+  "fin": 4.75
+ },
+ {
+  "i": 17,
+  "texto": "5,",
+  "inicio": 4.77,
+  "fin": 5
+ },
+ {
+  "i": 18,
+  "texto": "clases",
+  "inicio": 5.16,
+  "fin": 5.4
+ },
+ {
+  "i": 19,
+  "texto": "particulares",
+  "inicio": 5.4,
+  "fin": 5.95
+ },
+ {
+  "i": 20,
+  "texto": "de",
+  "inicio": 6,
+  "fin": 6.1
+ },
+ {
+  "i": 21,
+  "texto": "idiomas.",
+  "inicio": 6.1,
+  "fin": 6.37
+ },
+ {
+  "i": 22,
+  "texto": "En",
+  "inicio": 6.7,
+  "fin": 6.77
+ },
+ {
+  "i": 23,
+  "texto": "el",
+  "inicio": 6.77,
+  "fin": 6.9
+ },
+ {
+  "i": 24,
+  "texto": "número",
+  "inicio": 6.9,
+  "fin": 7.34
+ },
+ {
+  "i": 25,
+  "texto": "4,",
+  "inicio": 7.34,
+  "fin": 7.54
+ },
+ {
+  "i": 26,
+  "texto": "editor",
+  "inicio": 7.67,
+  "fin": 8.06
+ },
+ {
+  "i": 27,
+  "texto": "de",
+  "inicio": 8.06,
+  "fin": 8.19
+ },
+ {
+  "i": 28,
+  "texto": "fotos",
+  "inicio": 8.19,
+  "fin": 8.47
+ },
+ {
+  "i": 29,
+  "texto": "de",
+  "inicio": 8.55,
+  "fin": 8.64
+ },
+ {
+  "i": 30,
+  "texto": "pago.",
+  "inicio": 8.64,
+  "fin": 8.8
+ },
+ {
+  "i": 31,
+  "texto": "En",
+  "inicio": 9.18,
+  "fin": 9.23
+ },
+ {
+  "i": 32,
+  "texto": "el",
+  "inicio": 9.23,
+  "fin": 9.34
+ },
+ {
+  "i": 33,
+  "texto": "número",
+  "inicio": 9.34,
+  "fin": 9.73
+ },
+ {
+  "i": 34,
+  "texto": "3,",
+  "inicio": 9.73,
+  "fin": 9.88
+ },
+ {
+  "i": 35,
+  "texto": "el",
+  "inicio": 10.06,
+  "fin": 10.12
+ },
+ {
+  "i": 36,
+  "texto": "traductor",
+  "inicio": 10.12,
+  "fin": 10.61
+ },
+ {
+  "i": 37,
+  "texto": "profesional.",
+  "inicio": 10.61,
+  "fin": 11.23
+ },
+ {
+  "i": 38,
+  "texto": "En",
+  "inicio": 11.49,
+  "fin": 11.57
+ },
+ {
+  "i": 39,
+  "texto": "el",
+  "inicio": 11.57,
+  "fin": 11.68
+ },
+ {
+  "i": 40,
+  "texto": "número",
+  "inicio": 11.68,
+  "fin": 12.08
+ },
+ {
+  "i": 41,
+  "texto": "2,",
+  "inicio": 12.08,
+  "fin": 12.17
+ },
+ {
+  "i": 42,
+  "texto": "un",
+  "inicio": 12.36,
+  "fin": 12.47
+ },
+ {
+  "i": 43,
+  "texto": "asistente",
+  "inicio": 12.47,
+  "fin": 12.92
+ },
+ {
+  "i": 44,
+  "texto": "virtual.",
+  "inicio": 12.99,
+  "fin": 13.37
+ },
+ {
+  "i": 45,
+  "texto": "Y",
+  "inicio": 13.64,
+  "fin": 13.64
+ },
+ {
+  "i": 46,
+  "texto": "en",
+  "inicio": 13.64,
+  "fin": 13.77
+ },
+ {
+  "i": 47,
+  "texto": "el",
+  "inicio": 13.77,
+  "fin": 13.9
+ },
+ {
+  "i": 48,
+  "texto": "número",
+  "inicio": 13.9,
+  "fin": 14.37
+ },
+ {
+  "i": 49,
+  "texto": "1,",
+  "inicio": 14.37,
+  "fin": 14.57
+ },
+ {
+  "i": 50,
+  "texto": "el",
+  "inicio": 14.77,
+  "fin": 14.83
+ },
+ {
+  "i": 51,
+  "texto": "community",
+  "inicio": 14.83,
+  "fin": 15.44
+ },
+ {
+  "i": 52,
+  "texto": "manager",
+  "inicio": 15.44,
+  "fin": 15.91
+ },
+ {
+  "i": 53,
+  "texto": "de",
+  "inicio": 15.91,
+  "fin": 16.03
+ },
+ {
+  "i": 54,
+  "texto": "tus",
+  "inicio": 16.03,
+  "fin": 16.24
+ },
+ {
+  "i": 55,
+  "texto": "redes",
+  "inicio": 16.24,
+  "fin": 16.55
+ },
+ {
+  "i": 56,
+  "texto": "sociales.",
+  "inicio": 16.57,
+  "fin": 16.97
+ },
+ {
+  "i": 57,
+  "texto": "Comenta",
+  "inicio": 17.28,
+  "fin": 17.62
+ },
+ {
+  "i": 58,
+  "texto": "ahorro",
+  "inicio": 17.62,
+  "fin": 17.98
+ },
+ {
+  "i": 59,
+  "texto": "y",
+  "inicio": 17.98,
+  "fin": 18.04
+ },
+ {
+  "i": 60,
+  "texto": "te",
+  "inicio": 18.04,
+  "fin": 18.14
+ },
+ {
+  "i": 61,
+  "texto": "cuento",
+  "inicio": 18.16,
+  "fin": 18.52
+ },
+ {
+  "i": 62,
+  "texto": "cómo",
+  "inicio": 18.52,
+  "fin": 18.81
+ },
+ {
+  "i": 63,
+  "texto": "sustituir",
+  "inicio": 18.81,
+  "fin": 19.35
+ },
+ {
+  "i": 64,
+  "texto": "cada",
+  "inicio": 19.38,
+  "fin": 19.58
+ },
+ {
+  "i": 65,
+  "texto": "uno.",
+  "inicio": 19.63,
+  "fin": 19.78
+ }
+]

@@ -1,0 +1,40 @@
+{
+ "enfasis": [],
+ "elementos": [
+  {
+   "palabra": 4,
+   "tipo": "logo",
+   "dato": "CHATGPT",
+   "duracion": 1.8
+  }
+ ],
+ "pasos": [
+  10,
+  21,
+  34,
+  45,
+  54,
+  63
+ ],
+ "lista": {
+  "titulo": "…",
+  "resaltar": "…",
+  "items": [
+   "Puedes hablarle por voz como si fuese un",
+   "Puedes enseñarle una foto y que te descr",
+   "Puedes crear tu propio ChatGPT para una ",
+   "Recuerda conversaciones antiguas si se l",
+   "Puedes generar imágenes solo con describ",
+   "Le puedes pedir opinión a tu ChatGPT"
+  ]
+ },
+ "resumen": "Borrador automático: 0 énfasis, 1 elementos, listicle detectado. Revisar 'titulo', 'lista.titulo/resaltar' y añadir caos/movil/calculadora/burbuja/titulon a mano si el guión los pide.",
+ "revelaciones": [
+  10,
+  21,
+  34,
+  45,
+  54,
+  63
+ ]
+}

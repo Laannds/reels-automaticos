@@ -1,0 +1,47 @@
+{
+  "titulo": "3 errores de prompt",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "te reconocerás ↘",
+      "texto": "*3 errores* de prompt que gritan ~aficionado~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "badge": "#1",
+      "sello": { "texto": "ERROR", "tipo": "malo" },
+      "texto": "Pedir sin *contexto*: la IA no adivina, ejecuta."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "badge": "#2",
+      "sello": { "texto": "ERROR", "tipo": "malo" },
+      "texto": "No darle un *rol*: no es lo mismo un becario que un director."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "badge": "#3",
+      "sello": { "texto": "ERROR", "tipo": "malo" },
+      "texto": "Aceptar la *primera* respuesta: pide siempre versiones."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "postit": "rol + contexto + iterar.",
+      "texto": "Arregla esos tres y juegas en *otra liga*."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "📌",
+      "texto": "Comenta *PROMPT* y te mando la plantilla que uso yo. ~Guárdalo~."
+    }
+  ]
+}

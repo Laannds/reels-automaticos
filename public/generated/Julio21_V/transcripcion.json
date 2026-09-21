@@ -1,0 +1,518 @@
+[
+ {
+  "i": 0,
+  "texto": "Top",
+  "inicio": 0.03,
+  "fin": 0.18
+ },
+ {
+  "i": 1,
+  "texto": "6",
+  "inicio": 0.24,
+  "fin": 0.44
+ },
+ {
+  "i": 2,
+  "texto": "trucos",
+  "inicio": 0.44,
+  "fin": 0.87
+ },
+ {
+  "i": 3,
+  "texto": "de",
+  "inicio": 0.87,
+  "fin": 1.01
+ },
+ {
+  "i": 4,
+  "texto": "ChatGPT",
+  "inicio": 1.01,
+  "fin": 1.5
+ },
+ {
+  "i": 5,
+  "texto": "que",
+  "inicio": 1.51,
+  "fin": 1.73
+ },
+ {
+  "i": 6,
+  "texto": "casi",
+  "inicio": 1.73,
+  "fin": 2.02
+ },
+ {
+  "i": 7,
+  "texto": "nadie",
+  "inicio": 2.02,
+  "fin": 2.38
+ },
+ {
+  "i": 8,
+  "texto": "utiliza.",
+  "inicio": 2.38,
+  "fin": 2.76
+ },
+ {
+  "i": 9,
+  "texto": "Número",
+  "inicio": 3.18,
+  "fin": 3.7
+ },
+ {
+  "i": 10,
+  "texto": "6.",
+  "inicio": 3.7,
+  "fin": 3.93
+ },
+ {
+  "i": 11,
+  "texto": "Puedes",
+  "inicio": 4.18,
+  "fin": 4.44
+ },
+ {
+  "i": 12,
+  "texto": "hablarle",
+  "inicio": 4.44,
+  "fin": 4.72
+ },
+ {
+  "i": 13,
+  "texto": "por",
+  "inicio": 4.93,
+  "fin": 4.93
+ },
+ {
+  "i": 14,
+  "texto": "voz",
+  "inicio": 4.93,
+  "fin": 5.06
+ },
+ {
+  "i": 15,
+  "texto": "como",
+  "inicio": 5.06,
+  "fin": 5.23
+ },
+ {
+  "i": 16,
+  "texto": "si",
+  "inicio": 5.33,
+  "fin": 5.33
+ },
+ {
+  "i": 17,
+  "texto": "fuese",
+  "inicio": 5.33,
+  "fin": 5.55
+ },
+ {
+  "i": 18,
+  "texto": "una",
+  "inicio": 5.55,
+  "fin": 5.68
+ },
+ {
+  "i": 19,
+  "texto": "llamada.",
+  "inicio": 5.68,
+  "fin": 5.98
+ },
+ {
+  "i": 20,
+  "texto": "Número",
+  "inicio": 6.4,
+  "fin": 6.92
+ },
+ {
+  "i": 21,
+  "texto": "5.",
+  "inicio": 6.92,
+  "fin": 7.15
+ },
+ {
+  "i": 22,
+  "texto": "Puedes",
+  "inicio": 7.4,
+  "fin": 7.67
+ },
+ {
+  "i": 23,
+  "texto": "enseñarle",
+  "inicio": 7.68,
+  "fin": 8.16
+ },
+ {
+  "i": 24,
+  "texto": "una",
+  "inicio": 8.16,
+  "fin": 8.3
+ },
+ {
+  "i": 25,
+  "texto": "foto",
+  "inicio": 8.3,
+  "fin": 8.48
+ },
+ {
+  "i": 26,
+  "texto": "y",
+  "inicio": 8.51,
+  "fin": 8.54
+ },
+ {
+  "i": 27,
+  "texto": "que",
+  "inicio": 8.54,
+  "fin": 8.68
+ },
+ {
+  "i": 28,
+  "texto": "te",
+  "inicio": 8.68,
+  "fin": 8.73
+ },
+ {
+  "i": 29,
+  "texto": "describa",
+  "inicio": 8.82,
+  "fin": 9.15
+ },
+ {
+  "i": 30,
+  "texto": "lo",
+  "inicio": 9.15,
+  "fin": 9.22
+ },
+ {
+  "i": 31,
+  "texto": "que",
+  "inicio": 9.27,
+  "fin": 9.38
+ },
+ {
+  "i": 32,
+  "texto": "ve.",
+  "inicio": 9.4,
+  "fin": 9.4
+ },
+ {
+  "i": 33,
+  "texto": "Número",
+  "inicio": 9.74,
+  "fin": 10.2
+ },
+ {
+  "i": 34,
+  "texto": "4.",
+  "inicio": 10.3,
+  "fin": 10.48
+ },
+ {
+  "i": 35,
+  "texto": "Puedes",
+  "inicio": 10.74,
+  "fin": 11.1
+ },
+ {
+  "i": 36,
+  "texto": "crear",
+  "inicio": 11.1,
+  "fin": 11.37
+ },
+ {
+  "i": 37,
+  "texto": "tu",
+  "inicio": 11.45,
+  "fin": 11.52
+ },
+ {
+  "i": 38,
+  "texto": "propio",
+  "inicio": 11.52,
+  "fin": 11.86
+ },
+ {
+  "i": 39,
+  "texto": "ChatGPT",
+  "inicio": 11.88,
+  "fin": 12.29
+ },
+ {
+  "i": 40,
+  "texto": "para",
+  "inicio": 12.3,
+  "fin": 12.54
+ },
+ {
+  "i": 41,
+  "texto": "una",
+  "inicio": 12.54,
+  "fin": 12.72
+ },
+ {
+  "i": 42,
+  "texto": "tarea",
+  "inicio": 12.72,
+  "fin": 13.02
+ },
+ {
+  "i": 43,
+  "texto": "determinada.",
+  "inicio": 13.02,
+  "fin": 13.68
+ },
+ {
+  "i": 44,
+  "texto": "Número",
+  "inicio": 13.88,
+  "fin": 14.4
+ },
+ {
+  "i": 45,
+  "texto": "3.",
+  "inicio": 14.48,
+  "fin": 14.62
+ },
+ {
+  "i": 46,
+  "texto": "Recuerda",
+  "inicio": 14.88,
+  "fin": 15.38
+ },
+ {
+  "i": 47,
+  "texto": "conversaciones",
+  "inicio": 15.38,
+  "fin": 16.28
+ },
+ {
+  "i": 48,
+  "texto": "antiguas",
+  "inicio": 16.28,
+  "fin": 16.78
+ },
+ {
+  "i": 49,
+  "texto": "si",
+  "inicio": 16.78,
+  "fin": 16.9
+ },
+ {
+  "i": 50,
+  "texto": "se",
+  "inicio": 16.9,
+  "fin": 16.99
+ },
+ {
+  "i": 51,
+  "texto": "lo",
+  "inicio": 17.08,
+  "fin": 17.14
+ },
+ {
+  "i": 52,
+  "texto": "pides.",
+  "inicio": 17.14,
+  "fin": 17.26
+ },
+ {
+  "i": 53,
+  "texto": "Número",
+  "inicio": 17.72,
+  "fin": 18.24
+ },
+ {
+  "i": 54,
+  "texto": "2.",
+  "inicio": 18.24,
+  "fin": 18.47
+ },
+ {
+  "i": 55,
+  "texto": "Puedes",
+  "inicio": 18.72,
+  "fin": 18.99
+ },
+ {
+  "i": 56,
+  "texto": "generar",
+  "inicio": 18.99,
+  "fin": 19.31
+ },
+ {
+  "i": 57,
+  "texto": "imágenes",
+  "inicio": 19.31,
+  "fin": 19.57
+ },
+ {
+  "i": 58,
+  "texto": "solo",
+  "inicio": 19.75,
+  "fin": 19.91
+ },
+ {
+  "i": 59,
+  "texto": "con",
+  "inicio": 19.91,
+  "fin": 20.05
+ },
+ {
+  "i": 60,
+  "texto": "describirlas.",
+  "inicio": 20.05,
+  "fin": 20.59
+ },
+ {
+  "i": 61,
+  "texto": "Y",
+  "inicio": 20.85,
+  "fin": 20.89
+ },
+ {
+  "i": 62,
+  "texto": "número",
+  "inicio": 20.89,
+  "fin": 21.37
+ },
+ {
+  "i": 63,
+  "texto": "1.",
+  "inicio": 21.38,
+  "fin": 21.55
+ },
+ {
+  "i": 64,
+  "texto": "Le",
+  "inicio": 21.85,
+  "fin": 21.94
+ },
+ {
+  "i": 65,
+  "texto": "puedes",
+  "inicio": 21.94,
+  "fin": 22.27
+ },
+ {
+  "i": 66,
+  "texto": "pedir",
+  "inicio": 22.35,
+  "fin": 22.62
+ },
+ {
+  "i": 67,
+  "texto": "opinión",
+  "inicio": 22.62,
+  "fin": 23.13
+ },
+ {
+  "i": 68,
+  "texto": "a",
+  "inicio": 23.13,
+  "fin": 23.17
+ },
+ {
+  "i": 69,
+  "texto": "tu",
+  "inicio": 23.18,
+  "fin": 23.25
+ },
+ {
+  "i": 70,
+  "texto": "ChatGPT",
+  "inicio": 23.31,
+  "fin": 23.73
+ },
+ {
+  "i": 71,
+  "texto": "basándose",
+  "inicio": 23.74,
+  "fin": 24.37
+ },
+ {
+  "i": 72,
+  "texto": "en",
+  "inicio": 24.37,
+  "fin": 24.46
+ },
+ {
+  "i": 73,
+  "texto": "información",
+  "inicio": 24.54,
+  "fin": 25.25
+ },
+ {
+  "i": 74,
+  "texto": "real",
+  "inicio": 25.25,
+  "fin": 25.43
+ },
+ {
+  "i": 75,
+  "texto": "y",
+  "inicio": 25.56,
+  "fin": 25.56
+ },
+ {
+  "i": 76,
+  "texto": "no",
+  "inicio": 25.59,
+  "fin": 25.68
+ },
+ {
+  "i": 77,
+  "texto": "inventada.",
+  "inicio": 25.68,
+  "fin": 26.19
+ },
+ {
+  "i": 78,
+  "texto": "Y",
+  "inicio": 26.54,
+  "fin": 26.57
+ },
+ {
+  "i": 79,
+  "texto": "sígueme",
+  "inicio": 26.57,
+  "fin": 26.99
+ },
+ {
+  "i": 80,
+  "texto": "si",
+  "inicio": 26.99,
+  "fin": 27.07
+ },
+ {
+  "i": 81,
+  "texto": "todavía",
+  "inicio": 27.29,
+  "fin": 27.52
+ },
+ {
+  "i": 82,
+  "texto": "no",
+  "inicio": 27.52,
+  "fin": 27.62
+ },
+ {
+  "i": 83,
+  "texto": "la",
+  "inicio": 27.62,
+  "fin": 27.72
+ },
+ {
+  "i": 84,
+  "texto": "has",
+  "inicio": 27.72,
+  "fin": 27.88
+ },
+ {
+  "i": 85,
+  "texto": "hecho.",
+  "inicio": 27.88,
+  "fin": 28.14
+ }
+]

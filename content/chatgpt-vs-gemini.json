@@ -1,0 +1,44 @@
+{
+  "titulo": "ChatGPT vs Gemini",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "vs": ["CHATGPT", "GEMINI"],
+      "texto": "*ChatGPT* contra *Gemini*: la pelea del año. Y hay ~sorpresa~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "sello": { "texto": "CHATGPT", "tipo": "bueno" },
+      "texto": "Versatilidad: *ChatGPT*. Voz, imágenes, razonamiento: lo tiene todo."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "sello": { "texto": "GEMINI", "tipo": "bueno" },
+      "texto": "Precio: *Gemini*. Lo que te da gratis es un ~escándalo~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "postit": "va integrado en todo.",
+      "texto": "¿Y si vives en Gmail y Docs? Gemini gana *sin discusión*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "nota": "así de claro ↘",
+      "texto": "Veredicto: para empezar, *Gemini*. Para exprimir la IA, *ChatGPT*."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "💬",
+      "texto": "¿Cuál usas tú? Te leo en *comentarios*. ~Sígueme~ para el de Claude."
+    }
+  ]
+}

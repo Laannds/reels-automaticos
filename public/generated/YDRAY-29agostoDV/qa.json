@@ -1,0 +1,47 @@
+{
+  "slug": "YDRAY-29agostoDV",
+  "duracion": 37.866667,
+  "lufs": -22.9,
+  "pico": -7.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -22.9 LUFS (objetivo -14)"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 3,
+      "texto": "8.1 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "aviso",
+      "t": 5.75,
+      "texto": "checklist \"Leche en polvo\" tapa el 11% de la cara",
+      "hasta": 5.75,
+      "k": 23,
+      "caja": {
+        "x": 0.37200332364439964,
+        "y": 0.16980529208574446,
+        "w": 0.27475329818576577,
+        "tipo": "cara",
+        "h": 0.19318591521587222
+      }
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 22.2,
+      "texto": "5.7 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 27.9,
+      "texto": "6.7 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    }
+  ]
+}

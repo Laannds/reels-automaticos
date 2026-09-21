@@ -1,0 +1,37 @@
+{
+  "titulo": "Lo bueno, lo malo y lo feo de Gemini",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/database-3d.mp4",
+      "texto": "Lo *bueno*, lo *malo* y lo ~feo~ de Gemini. El favorito de los estudiantes."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/datacenter.mp4",
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "Lo bueno: lo mejor *gratis* que existe. Y le caben documentos gigantes."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Lo malo: en escritura creativa sigue por *detrás* de Claude y ChatGPT."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "postit": "frustrante nivel: 100",
+      "texto": "Lo feo: a veces te dice que no puede hacer cosas que *sí* puede hacer."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "💬",
+      "texto": "Comenta *GEMINI* si quieres el tutorial completo. ~Sígueme~ para no perdértelo."
+    }
+  ]
+}

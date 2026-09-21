@@ -1,0 +1,110 @@
+{
+  "slug": "07Spet_DV",
+  "duracion": 41.8,
+  "lufs": -22.1,
+  "pico": -8,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -22.1 LUFS (objetivo -14)"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 5.3,
+      "texto": "11.5 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 5.5,
+      "texto": "interrogantes (x=0.78) + cabeceraTop \"TU PRIMER DÍA\" + checklist \"Toalla\" + subtítulos entra en la zona de botones de like/comentar/compartir durante 8.5 s",
+      "hasta": 13.75,
+      "k": 22,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 25.5,
+      "texto": "5.4 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 26.5,
+      "texto": "cabeceraTop \"TU PRIMER DÍA\" + contador \"3\" tapan el 28% de la cara (en el b-roll)",
+      "hasta": 26.5,
+      "k": 106,
+      "caja": {
+        "x": 0.3989553742170334,
+        "w": 0.25820870349407193,
+        "h": 0.18155298953503368,
+        "tipo": "cara",
+        "y": 0.07626603641062979
+      }
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 27,
+      "texto": "cabeceraTop \"TU PRIMER DÍA\" + contador \"3\" tapan el 33% de la cara (en el b-roll)",
+      "hasta": 27,
+      "k": 108,
+      "caja": {
+        "x": 0.45708456292152405,
+        "w": 0.2598537424087524,
+        "h": 0.1827096730172634,
+        "tipo": "cara",
+        "y": 0.06935226040482523
+      }
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 27.5,
+      "texto": "cabeceraTop \"TU PRIMER DÍA\" + contador \"3\" tapan el 36% de la cara (en el b-roll)",
+      "hasta": 27.5,
+      "k": 110,
+      "caja": {
+        "x": 0.39989505466222763,
+        "w": 0.2738876952469349,
+        "h": 0.19257728967815638,
+        "tipo": "cara",
+        "y": 0.06198422007411719
+      }
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 28,
+      "texto": "cabeceraTop \"TU PRIMER DÍA\" + contador \"3\" tapan el 32% de la cara (en el b-roll)",
+      "hasta": 28,
+      "k": 112,
+      "caja": {
+        "x": 0.4319560151576996,
+        "w": 0.27329084337949755,
+        "h": 0.1921576336324215,
+        "tipo": "cara",
+        "y": 0.06666883125901224
+      }
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "grave",
+      "t": 31,
+      "texto": "cabeceraTop \"TU PRIMER DÍA\" + contador \"3\" tapan el 70% de la cara (en el b-roll) durante 3.0 s",
+      "hasta": 33.75,
+      "k": 128,
+      "caja": {
+        "x": 0.4693265093803406,
+        "w": 0.19897218581438064,
+        "h": 0.1399023117572069,
+        "tipo": "cara",
+        "y": 0.05120372090041636
+      }
+    }
+  ]
+}

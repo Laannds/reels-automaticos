@@ -1,0 +1,96 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.8,
+  "enfasis": [
+    [
+      35,
+      36
+    ],
+    [
+      83,
+      86
+    ],
+    [
+      104,
+      107
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 49,
+      "texto": "uso"
+    },
+    {
+      "palabra": 50,
+      "texto": "IA."
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=PRIMER PARTIDO|DE CHAMPIONS",
+      "y": 0.24,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 20,
+      "tipo": "remate",
+      "dato": "PERO HOY|=NO PUEDO IR",
+      "duracion": 2.0
+    },
+    {
+      "palabra": 26,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 28,
+      "tipo": "etiqueta",
+      "dato": "SOY PABLO|Automatizo lo que te roba tiempo",
+      "y": 0.13,
+      "duracion": 3.2
+    },
+    {
+      "palabra": 66,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 76,
+      "tipo": "etiqueta",
+      "dato": "LO QUE HICE|Una web que predice el resultado",
+      "y": 0.13,
+      "duracion": 3.2
+    },
+    {
+      "palabra": 96,
+      "tipo": "etiqueta",
+      "dato": "CUALQUIER PROBLEMA|Resuelto en minutos",
+      "y": 0.13,
+      "duracion": 3.0
+    },
+    {
+      "palabra": 108,
+      "tipo": "transicion",
+      "dato": "zoomOut",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 116,
+      "tipo": "remate",
+      "dato": "MAÑANA LE TOCA|A=TU NEGOCIO",
+      "duracion": 2.6
+    },
+    {
+      "palabra": 136,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA=IA|Y TE CUENTO|CÓMO AUTOMATIZARLO",
+      "duracion": 2.9
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (azul y handle de siempre), voz en off sobre un montaje del Bernabéu: camiseta del Madrid, aeropuerto, partido y un mockup de la web 'Champions Predictor' que él mismo compuso. Restricción de composición mandada por ese mockup: entre 24s y 30s ocupa de 0.22 a 0.78 y NO se puede tapar, porque es el producto del que habla. Eso deja libres solo 0-0.20 arriba y 0.80-1.0 abajo, así que los subtítulos van a 0.80 y todas las etiquetas a 0.13, justo bajo el handle. Estructura: titulón de gancho sobre la camiseta colocado a 0.24 (sobre la ropa colgada) para no tapar la camiseta, que es el plano; remate en el giro del gancho ('pero hoy no puedo'), etiqueta de presentación sobre el plano del aeropuerto, etiqueta de lo que construyó justo antes de que entre el mockup, remate del pivote al espectador ('mañana le toca a tu negocio') y CTA de comentar IA. Tres gestos de cámara en los cambios de bloque (8.6s, 20.7s, 32.6s). Música ambient-109: es la única cinematográfica con presencia real medida y no se ha usado nunca; las beat pegaban poco con un reel emocional de fútbol. Corrección de transcripción confirmada por Pablo: donde Whisper puso 'se usanía' dice 'uso IA'. El 'se' era un token fantasma (a 0.05s del 'y'), así que se sustituyen las dos palabras."
+}

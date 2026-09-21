@@ -1,0 +1,44 @@
+{
+  "titulo": "3 IAs que casi nadie conoce",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "pronunciacion": {
+    "Perplexity": "perplexiti",
+    "ElevenLabs": "ílevenlabs",
+    "Suno": "Suno"
+  },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "nota": "la tercera es brutal ↘",
+      "texto": "*3 IAs* que casi nadie conoce y que son oro puro."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "badge": "#1",
+      "texto": "*Perplexity*: pregunta lo que sea y te responde con fuentes reales de internet."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "badge": "#2",
+      "texto": "*ElevenLabs*: clona tu voz o crea voces que no distingues de un humano."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "badge": "#3",
+      "postit": "pruébala hoy.",
+      "texto": "*Suno*: escribe una frase y te compone la canción entera, con voz y todo."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "🤫",
+      "texto": "Comenta *IA* y te mando la lista completa con enlaces. ~Sígueme~."
+    }
+  ]
+}

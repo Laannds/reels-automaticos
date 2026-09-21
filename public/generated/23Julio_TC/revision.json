@@ -1,0 +1,17 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "enfasis": [[12, 14], [28, 29], [53, 56]],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "¿SUENA A|ROBOT?", "duracion": 2 },
+    { "palabra": 15, "tipo": "icono", "dato": "iconos/user-x.svg", "duracion": 2.2 },
+    { "palabra": 29, "tipo": "estado", "dato": "24/7:RESPUESTA AL INSTANTE", "duracion": 3.2 },
+    { "palabra": 20, "tipo": "burbuja", "dato": "Hola, ¿tenéis hueco esta semana?", "lado": "izq", "duracion": 2.5 },
+    { "palabra": 53, "tipo": "burbuja", "dato": "¡Claro! Este jueves tengo hueco a las 5, ¿te viene bien?", "lado": "der", "duracion": 3 },
+    { "palabra": 61, "tipo": "icono", "dato": "iconos/coins.svg", "duracion": 2.2 },
+    { "palabra": 69, "tipo": "icono", "dato": "iconos/circle-check.svg", "duracion": 2.5 }
+  ],
+  "titulo": { "texto": "No suena a robot", "resaltar": "robot" },
+  "pasos": [5.4, 11.9, 18.8],
+  "resumen": "Guión 1 del banco (objeción robot): hook titulón, icono cliente perdido, burbuja con mensaje de cliente y respuesta natural justo en 'suena como hablas tú', icono precios, check en CTA. Énfasis en 'seis meses', 'respuesta rápida', 'suena como hablas tú'."
+}

@@ -1,0 +1,35 @@
+{
+  "eliminar": [
+    { "desde": 0, "hasta": 19, "motivo": "primera toma dicha fuera de plano (silla vacía) + arranques mientras se sienta; se conserva la toma en cámara" },
+    { "desde": 41, "hasta": 51, "motivo": "dos arranques trabados de 'muchos negocios llegan'" },
+    { "desde": 65, "hasta": 70, "motivo": "falso comienzo de 'y la solución que piensan'" },
+    { "desde": 80, "hasta": 82, "motivo": "arranque trabado de la lista de costes" },
+    { "desde": 89, "hasta": 98, "motivo": "segunda toma de la lista, más trabada que la primera" },
+    { "desde": 99, "hasta": 106, "motivo": "tartamudeo de 'y aún así' (x3)" },
+    { "desde": 126, "hasta": 130, "motivo": "toma abortada de 'esto es una IA'" },
+    { "desde": 144, "hasta": 180, "motivo": "tres tomas de 'y cuesta solo una fracción'; se conserva la única con el remate 'para hacerlo seguramente peor'" },
+    { "desde": 197, "hasta": 205, "motivo": "primera toma del CTA" },
+    { "desde": 215, "hasta": 240, "motivo": "versiones intermedias del CTA; se conserva la que dice 'en comentarios'" },
+    { "desde": 248, "hasta": 250, "motivo": "'Gracias' final y silencio: el reel corta en el CTA" }
+  ],
+  "sustituciones": [
+    { "palabra": 83, "texto": "sueldo," },
+    { "palabra": 133, "texto": "una" },
+    { "palabra": 134, "texto": "IA" },
+    { "palabra": 135, "texto": "haciendo" },
+    { "palabra": 136, "texto": "ese" },
+    { "palabra": 137, "texto": "mismo" },
+    { "palabra": 138, "texto": "trabajo." }
+  ],
+  "elementos": [
+    { "palabra": 21, "tipo": "nota", "dato": "1.400€ AL MES ↘" },
+    { "palabra": 54, "tipo": "broll", "dato": "stock/mapa-digital.mp4", "duracion": 3 },
+    { "palabra": 84, "tipo": "rotulo", "dato": "CARO" },
+    { "palabra": 120, "tipo": "rotulo", "dato": "24/7" },
+    { "palabra": 134, "tipo": "emoji", "dato": "🤖" },
+    { "palabra": 244, "tipo": "emoji", "dato": "👇" }
+  ],
+  "titulo": { "texto": "Recepcionista IA 24/7", "resaltar": "IA" },
+  "pasos": [40, 88, 138, 196],
+  "resumen": "Reel de venta coherente: coste del recepcionista → el problema → la falsa solución (contratar) → la IA que hace ese trabajo 24/7 → precio → CTA 'quiero en comentarios'. Se eliminan ~12 tomas repetidas."
+}

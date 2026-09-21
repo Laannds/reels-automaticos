@@ -1,0 +1,680 @@
+[
+ {
+  "i": 0,
+  "texto": "1400",
+  "inicio": 0.01,
+  "fin": 0.82
+ },
+ {
+  "i": 1,
+  "texto": "euros",
+  "inicio": 0.87,
+  "fin": 1.19
+ },
+ {
+  "i": 2,
+  "texto": "cuesta",
+  "inicio": 1.19,
+  "fin": 1.6
+ },
+ {
+  "i": 3,
+  "texto": "un",
+  "inicio": 1.68,
+  "fin": 1.75
+ },
+ {
+  "i": 4,
+  "texto": "recepcionista",
+  "inicio": 1.75,
+  "fin": 2.67
+ },
+ {
+  "i": 5,
+  "texto": "y,",
+  "inicio": 2.68,
+  "fin": 2.74
+ },
+ {
+  "i": 6,
+  "texto": "aún",
+  "inicio": 2.86,
+  "fin": 3.1
+ },
+ {
+  "i": 7,
+  "texto": "así,",
+  "inicio": 3.1,
+  "fin": 3.34
+ },
+ {
+  "i": 8,
+  "texto": "se",
+  "inicio": 3.48,
+  "fin": 3.63
+ },
+ {
+  "i": 9,
+  "texto": "coge",
+  "inicio": 3.63,
+  "fin": 3.93
+ },
+ {
+  "i": 10,
+  "texto": "bajas,",
+  "inicio": 3.93,
+  "fin": 4.31
+ },
+ {
+  "i": 11,
+  "texto": "vacaciones",
+  "inicio": 4.48,
+  "fin": 5.22
+ },
+ {
+  "i": 12,
+  "texto": "y",
+  "inicio": 5.28,
+  "fin": 5.31
+ },
+ {
+  "i": 13,
+  "texto": "no",
+  "inicio": 5.31,
+  "fin": 5.45
+ },
+ {
+  "i": 14,
+  "texto": "contesta",
+  "inicio": 5.45,
+  "fin": 6.01
+ },
+ {
+  "i": 15,
+  "texto": "a",
+  "inicio": 6.01,
+  "fin": 6.08
+ },
+ {
+  "i": 16,
+  "texto": "las",
+  "inicio": 6.08,
+  "fin": 6.29
+ },
+ {
+  "i": 17,
+  "texto": "11",
+  "inicio": 6.29,
+  "fin": 6.65
+ },
+ {
+  "i": 18,
+  "texto": "de",
+  "inicio": 6.72,
+  "fin": 6.85
+ },
+ {
+  "i": 19,
+  "texto": "la",
+  "inicio": 6.85,
+  "fin": 6.99
+ },
+ {
+  "i": 20,
+  "texto": "noche.",
+  "inicio": 6.99,
+  "fin": 7.32
+ },
+ {
+  "i": 21,
+  "texto": "Muchos",
+  "inicio": 7.39,
+  "fin": 7.71
+ },
+ {
+  "i": 22,
+  "texto": "negocios",
+  "inicio": 7.71,
+  "fin": 8.18
+ },
+ {
+  "i": 23,
+  "texto": "llegan",
+  "inicio": 8.18,
+  "fin": 8.53
+ },
+ {
+  "i": 24,
+  "texto": "a",
+  "inicio": 8.53,
+  "fin": 8.59
+ },
+ {
+  "i": 25,
+  "texto": "un",
+  "inicio": 8.59,
+  "fin": 8.7
+ },
+ {
+  "i": 26,
+  "texto": "punto",
+  "inicio": 8.71,
+  "fin": 9.04
+ },
+ {
+  "i": 27,
+  "texto": "donde",
+  "inicio": 9.04,
+  "fin": 9.4
+ },
+ {
+  "i": 28,
+  "texto": "no",
+  "inicio": 9.41,
+  "fin": 9.56
+ },
+ {
+  "i": 29,
+  "texto": "dan",
+  "inicio": 9.56,
+  "fin": 9.78
+ },
+ {
+  "i": 30,
+  "texto": "abasto",
+  "inicio": 9.78,
+  "fin": 10.24
+ },
+ {
+  "i": 31,
+  "texto": "a",
+  "inicio": 10.24,
+  "fin": 10.29
+ },
+ {
+  "i": 32,
+  "texto": "contestar",
+  "inicio": 10.29,
+  "fin": 10.76
+ },
+ {
+  "i": 33,
+  "texto": "mensajes",
+  "inicio": 10.76,
+  "fin": 11.2
+ },
+ {
+  "i": 34,
+  "texto": "y",
+  "inicio": 11.2,
+  "fin": 11.26
+ },
+ {
+  "i": 35,
+  "texto": "la",
+  "inicio": 11.26,
+  "fin": 11.38
+ },
+ {
+  "i": 36,
+  "texto": "solución",
+  "inicio": 11.38,
+  "fin": 11.94
+ },
+ {
+  "i": 37,
+  "texto": "que",
+  "inicio": 11.94,
+  "fin": 12.12
+ },
+ {
+  "i": 38,
+  "texto": "piensan",
+  "inicio": 12.12,
+  "fin": 12.54
+ },
+ {
+  "i": 39,
+  "texto": "es",
+  "inicio": 12.54,
+  "fin": 12.61
+ },
+ {
+  "i": 40,
+  "texto": "en",
+  "inicio": 12.72,
+  "fin": 12.78
+ },
+ {
+  "i": 41,
+  "texto": "contratar",
+  "inicio": 12.78,
+  "fin": 13.34
+ },
+ {
+  "i": 42,
+  "texto": "a",
+  "inicio": 13.34,
+  "fin": 13.4
+ },
+ {
+  "i": 43,
+  "texto": "alguien.",
+  "inicio": 13.4,
+  "fin": 13.91
+ },
+ {
+  "i": 44,
+  "texto": "Suelo,",
+  "inicio": 13.99,
+  "fin": 14.25
+ },
+ {
+  "i": 45,
+  "texto": "seguridad",
+  "inicio": 14.37,
+  "fin": 14.97
+ },
+ {
+  "i": 46,
+  "texto": "social,",
+  "inicio": 14.98,
+  "fin": 15.34
+ },
+ {
+  "i": 47,
+  "texto": "horarios,",
+  "inicio": 15.51,
+  "fin": 16.01
+ },
+ {
+  "i": 48,
+  "texto": "bajas...",
+  "inicio": 16.17,
+  "fin": 16.56
+ },
+ {
+  "i": 49,
+  "texto": "Y,",
+  "inicio": 16.56,
+  "fin": 16.6
+ },
+ {
+  "i": 50,
+  "texto": "aún",
+  "inicio": 16.72,
+  "fin": 16.94
+ },
+ {
+  "i": 51,
+  "texto": "así,",
+  "inicio": 16.94,
+  "fin": 17.16
+ },
+ {
+  "i": 52,
+  "texto": "esa",
+  "inicio": 17.27,
+  "fin": 17.44
+ },
+ {
+  "i": 53,
+  "texto": "persona",
+  "inicio": 17.44,
+  "fin": 17.83
+ },
+ {
+  "i": 54,
+  "texto": "solo",
+  "inicio": 17.83,
+  "fin": 18.05
+ },
+ {
+  "i": 55,
+  "texto": "puede",
+  "inicio": 18.05,
+  "fin": 18.33
+ },
+ {
+  "i": 56,
+  "texto": "estar",
+  "inicio": 18.33,
+  "fin": 18.6
+ },
+ {
+  "i": 57,
+  "texto": "respondiendo",
+  "inicio": 18.61,
+  "fin": 19.34
+ },
+ {
+  "i": 58,
+  "texto": "8",
+  "inicio": 19.38,
+  "fin": 19.55
+ },
+ {
+  "i": 59,
+  "texto": "horas",
+  "inicio": 19.61,
+  "fin": 19.88
+ },
+ {
+  "i": 60,
+  "texto": "de",
+  "inicio": 19.88,
+  "fin": 20.01
+ },
+ {
+  "i": 61,
+  "texto": "las",
+  "inicio": 20.01,
+  "fin": 20.2
+ },
+ {
+  "i": 62,
+  "texto": "24",
+  "inicio": 20.2,
+  "fin": 20.59
+ },
+ {
+  "i": 63,
+  "texto": "horas",
+  "inicio": 20.59,
+  "fin": 20.92
+ },
+ {
+  "i": 64,
+  "texto": "que",
+  "inicio": 20.92,
+  "fin": 21.11
+ },
+ {
+  "i": 65,
+  "texto": "tiene",
+  "inicio": 21.11,
+  "fin": 21.4
+ },
+ {
+  "i": 66,
+  "texto": "el",
+  "inicio": 21.5,
+  "fin": 21.57
+ },
+ {
+  "i": 67,
+  "texto": "día.",
+  "inicio": 21.57,
+  "fin": 21.83
+ },
+ {
+  "i": 68,
+  "texto": "Esto",
+  "inicio": 22.08,
+  "fin": 22.26
+ },
+ {
+  "i": 69,
+  "texto": "es",
+  "inicio": 22.33,
+  "fin": 22.41
+ },
+ {
+  "i": 70,
+  "texto": "una",
+  "inicio": 22.41,
+  "fin": 22.57
+ },
+ {
+  "i": 71,
+  "texto": "IA",
+  "inicio": 22.57,
+  "fin": 22.67
+ },
+ {
+  "i": 72,
+  "texto": "haciendo",
+  "inicio": 22.67,
+  "fin": 23.11
+ },
+ {
+  "i": 73,
+  "texto": "ese",
+  "inicio": 23.11,
+  "fin": 23.25
+ },
+ {
+  "i": 74,
+  "texto": "mismo",
+  "inicio": 23.27,
+  "fin": 23.54
+ },
+ {
+  "i": 75,
+  "texto": "trabajo,",
+  "inicio": 23.54,
+  "fin": 23.96
+ },
+ {
+  "i": 76,
+  "texto": "contestando",
+  "inicio": 23.96,
+  "fin": 24.55
+ },
+ {
+  "i": 77,
+  "texto": "dudas,",
+  "inicio": 24.55,
+  "fin": 24.81
+ },
+ {
+  "i": 78,
+  "texto": "precios,",
+  "inicio": 24.91,
+  "fin": 25.28
+ },
+ {
+  "i": 79,
+  "texto": "agendando",
+  "inicio": 25.38,
+  "fin": 25.85
+ },
+ {
+  "i": 80,
+  "texto": "citas.",
+  "inicio": 25.85,
+  "fin": 26.1
+ },
+ {
+  "i": 81,
+  "texto": "Y",
+  "inicio": 26.36,
+  "fin": 26.36
+ },
+ {
+  "i": 82,
+  "texto": "cuesta",
+  "inicio": 26.43,
+  "fin": 26.75
+ },
+ {
+  "i": 83,
+  "texto": "solo",
+  "inicio": 26.82,
+  "fin": 27.07
+ },
+ {
+  "i": 84,
+  "texto": "una",
+  "inicio": 27.07,
+  "fin": 27.26
+ },
+ {
+  "i": 85,
+  "texto": "fracción",
+  "inicio": 27.26,
+  "fin": 27.85
+ },
+ {
+  "i": 86,
+  "texto": "de",
+  "inicio": 27.92,
+  "fin": 28
+ },
+ {
+  "i": 87,
+  "texto": "lo",
+  "inicio": 28,
+  "fin": 28.12
+ },
+ {
+  "i": 88,
+  "texto": "que",
+  "inicio": 28.12,
+  "fin": 28.3
+ },
+ {
+  "i": 89,
+  "texto": "costaría",
+  "inicio": 28.3,
+  "fin": 28.84
+ },
+ {
+  "i": 90,
+  "texto": "contratar",
+  "inicio": 28.84,
+  "fin": 29.34
+ },
+ {
+  "i": 91,
+  "texto": "a",
+  "inicio": 29.34,
+  "fin": 29.39
+ },
+ {
+  "i": 92,
+  "texto": "alguien",
+  "inicio": 29.39,
+  "fin": 29.78
+ },
+ {
+  "i": 93,
+  "texto": "para",
+  "inicio": 29.8,
+  "fin": 30
+ },
+ {
+  "i": 94,
+  "texto": "hacerlo",
+  "inicio": 30,
+  "fin": 30.35
+ },
+ {
+  "i": 95,
+  "texto": "seguramente",
+  "inicio": 30.35,
+  "fin": 30.9
+ },
+ {
+  "i": 96,
+  "texto": "peor.",
+  "inicio": 30.9,
+  "fin": 31.1
+ },
+ {
+  "i": 97,
+  "texto": "Si",
+  "inicio": 31.28,
+  "fin": 31.41
+ },
+ {
+  "i": 98,
+  "texto": "estás",
+  "inicio": 31.41,
+  "fin": 31.82
+ },
+ {
+  "i": 99,
+  "texto": "pensando",
+  "inicio": 31.82,
+  "fin": 32.36
+ },
+ {
+  "i": 100,
+  "texto": "en",
+  "inicio": 32.37,
+  "fin": 32.5
+ },
+ {
+  "i": 101,
+  "texto": "contratar",
+  "inicio": 32.5,
+  "fin": 33.11
+ },
+ {
+  "i": 102,
+  "texto": "solo",
+  "inicio": 33.11,
+  "fin": 33.38
+ },
+ {
+  "i": 103,
+  "texto": "para",
+  "inicio": 33.38,
+  "fin": 33.65
+ },
+ {
+  "i": 104,
+  "texto": "responder",
+  "inicio": 33.65,
+  "fin": 34.27
+ },
+ {
+  "i": 105,
+  "texto": "mensajes,",
+  "inicio": 34.27,
+  "fin": 34.87
+ },
+ {
+  "i": 106,
+  "texto": "escribe",
+  "inicio": 34.88,
+  "fin": 35.27
+ },
+ {
+  "i": 107,
+  "texto": "\"quiero\"",
+  "inicio": 35.27,
+  "fin": 35.71
+ },
+ {
+  "i": 108,
+  "texto": "en",
+  "inicio": 35.71,
+  "fin": 35.77
+ },
+ {
+  "i": 109,
+  "texto": "comentarios",
+  "inicio": 35.82,
+  "fin": 36.45
+ },
+ {
+  "i": 110,
+  "texto": "antes",
+  "inicio": 36.45,
+  "fin": 36.73
+ },
+ {
+  "i": 111,
+  "texto": "de",
+  "inicio": 36.73,
+  "fin": 36.84
+ },
+ {
+  "i": 112,
+  "texto": "hacerlo.",
+  "inicio": 36.84,
+  "fin": 37.23
+ }
+]

@@ -1,0 +1,42 @@
+{
+  "titulo": "Perplexity vs Google",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "vs": ["PERPLEXITY", "GOOGLE"],
+      "texto": "Llevo un mes sin usar *Google*. Y no lo echo de ~menos~."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "texto": "Google te da *10 enlaces* y un anuncio. Tú haces el trabajo."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 6.5,
+      "chat": {
+        "ia": "PERPLEXITY",
+        "prompt": "¿Qué móvil de menos de 400€ tiene mejor cámara este año?",
+        "respuesta": "Según 5 análisis recientes, el mejor es... [1][2]. Aquí las fuentes."
+      },
+      "texto": "*Perplexity* te da la respuesta con ~fuentes~. Directa."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "sello": { "texto": "ADIÓS GOOGLE", "tipo": "bueno" },
+      "postit": "buscar ≠ encontrar.",
+      "texto": "Buscar era esto. Lo otro era *rebuscar*."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "🔎",
+      "texto": "Pruébala una semana y me cuentas. ~Sígueme~ para más."
+    }
+  ]
+}

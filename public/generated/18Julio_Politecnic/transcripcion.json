@@ -1,0 +1,524 @@
+[
+ {
+  "i": 0,
+  "texto": "Inviertes",
+  "inicio": 0.01,
+  "fin": 0.49
+ },
+ {
+  "i": 1,
+  "texto": "en",
+  "inicio": 0.49,
+  "fin": 0.6
+ },
+ {
+  "i": 2,
+  "texto": "anuncios",
+  "inicio": 0.6,
+  "fin": 1.03
+ },
+ {
+  "i": 3,
+  "texto": "y",
+  "inicio": 1.06,
+  "fin": 1.09
+ },
+ {
+  "i": 4,
+  "texto": "te",
+  "inicio": 1.09,
+  "fin": 1.2
+ },
+ {
+  "i": 5,
+  "texto": "llegan",
+  "inicio": 1.2,
+  "fin": 1.53
+ },
+ {
+  "i": 6,
+  "texto": "más",
+  "inicio": 1.53,
+  "fin": 1.75
+ },
+ {
+  "i": 7,
+  "texto": "de",
+  "inicio": 1.75,
+  "fin": 1.78
+ },
+ {
+  "i": 8,
+  "texto": "40",
+  "inicio": 1.86,
+  "fin": 2.19
+ },
+ {
+  "i": 9,
+  "texto": "mensajes",
+  "inicio": 2.19,
+  "fin": 2.62
+ },
+ {
+  "i": 10,
+  "texto": "al",
+  "inicio": 2.63,
+  "fin": 2.74
+ },
+ {
+  "i": 11,
+  "texto": "día.",
+  "inicio": 2.74,
+  "fin": 3
+ },
+ {
+  "i": 12,
+  "texto": "Y",
+  "inicio": 3.12,
+  "fin": 3.16
+ },
+ {
+  "i": 13,
+  "texto": "ese",
+  "inicio": 3.16,
+  "fin": 3.28
+ },
+ {
+  "i": 14,
+  "texto": "es",
+  "inicio": 3.28,
+  "fin": 3.37
+ },
+ {
+  "i": 15,
+  "texto": "exactamente",
+  "inicio": 3.38,
+  "fin": 4.08
+ },
+ {
+  "i": 16,
+  "texto": "el",
+  "inicio": 4.08,
+  "fin": 4.13
+ },
+ {
+  "i": 17,
+  "texto": "problema,",
+  "inicio": 4.2,
+  "fin": 4.51
+ },
+ {
+  "i": 18,
+  "texto": "que",
+  "inicio": 4.68,
+  "fin": 4.83
+ },
+ {
+  "i": 19,
+  "texto": "nadie",
+  "inicio": 4.83,
+  "fin": 5.08
+ },
+ {
+  "i": 20,
+  "texto": "te",
+  "inicio": 5.08,
+  "fin": 5.18
+ },
+ {
+  "i": 21,
+  "texto": "avisa",
+  "inicio": 5.18,
+  "fin": 5.39
+ },
+ {
+  "i": 22,
+  "texto": "que",
+  "inicio": 5.45,
+  "fin": 5.51
+ },
+ {
+  "i": 23,
+  "texto": "cuando",
+  "inicio": 5.59,
+  "fin": 5.88
+ },
+ {
+  "i": 24,
+  "texto": "el",
+  "inicio": 5.88,
+  "fin": 5.97
+ },
+ {
+  "i": 25,
+  "texto": "marketing",
+  "inicio": 5.98,
+  "fin": 6.43
+ },
+ {
+  "i": 26,
+  "texto": "funciona",
+  "inicio": 6.43,
+  "fin": 6.82
+ },
+ {
+  "i": 27,
+  "texto": "te",
+  "inicio": 6.83,
+  "fin": 6.93
+ },
+ {
+  "i": 28,
+  "texto": "llegan",
+  "inicio": 6.93,
+  "fin": 7.24
+ },
+ {
+  "i": 29,
+  "texto": "más",
+  "inicio": 7.24,
+  "fin": 7.37
+ },
+ {
+  "i": 30,
+  "texto": "clientes",
+  "inicio": 7.49,
+  "fin": 7.8
+ },
+ {
+  "i": 31,
+  "texto": "de",
+  "inicio": 7.8,
+  "fin": 7.9
+ },
+ {
+  "i": 32,
+  "texto": "los",
+  "inicio": 7.9,
+  "fin": 8.04
+ },
+ {
+  "i": 33,
+  "texto": "que",
+  "inicio": 8.05,
+  "fin": 8.2
+ },
+ {
+  "i": 34,
+  "texto": "puedes",
+  "inicio": 8.2,
+  "fin": 8.5
+ },
+ {
+  "i": 35,
+  "texto": "atender",
+  "inicio": 8.5,
+  "fin": 8.84
+ },
+ {
+  "i": 36,
+  "texto": "a",
+  "inicio": 8.85,
+  "fin": 8.9
+ },
+ {
+  "i": 37,
+  "texto": "mano.",
+  "inicio": 8.9,
+  "fin": 9.1
+ },
+ {
+  "i": 38,
+  "texto": "Y",
+  "inicio": 9.28,
+  "fin": 9.33
+ },
+ {
+  "i": 39,
+  "texto": "ahí",
+  "inicio": 9.33,
+  "fin": 9.54
+ },
+ {
+  "i": 40,
+  "texto": "es",
+  "inicio": 9.54,
+  "fin": 9.57
+ },
+ {
+  "i": 41,
+  "texto": "cuando",
+  "inicio": 9.74,
+  "fin": 9.96
+ },
+ {
+  "i": 42,
+  "texto": "empiezas",
+  "inicio": 9.96,
+  "fin": 10.38
+ },
+ {
+  "i": 43,
+  "texto": "a",
+  "inicio": 10.38,
+  "fin": 10.41
+ },
+ {
+  "i": 44,
+  "texto": "perder",
+  "inicio": 10.44,
+  "fin": 10.75
+ },
+ {
+  "i": 45,
+  "texto": "clientes",
+  "inicio": 10.75,
+  "fin": 11.23
+ },
+ {
+  "i": 46,
+  "texto": "que",
+  "inicio": 11.23,
+  "fin": 11.36
+ },
+ {
+  "i": 47,
+  "texto": "te",
+  "inicio": 11.36,
+  "fin": 11.48
+ },
+ {
+  "i": 48,
+  "texto": "ha",
+  "inicio": 11.48,
+  "fin": 11.48
+ },
+ {
+  "i": 49,
+  "texto": "costado",
+  "inicio": 11.48,
+  "fin": 11.88
+ },
+ {
+  "i": 50,
+  "texto": "dinero",
+  "inicio": 11.88,
+  "fin": 12.23
+ },
+ {
+  "i": 51,
+  "texto": "conseguir.",
+  "inicio": 12.23,
+  "fin": 12.76
+ },
+ {
+  "i": 52,
+  "texto": "Terminas",
+  "inicio": 12.96,
+  "fin": 13.38
+ },
+ {
+  "i": 53,
+  "texto": "pagando",
+  "inicio": 13.38,
+  "fin": 13.75
+ },
+ {
+  "i": 54,
+  "texto": "un",
+  "inicio": 13.75,
+  "fin": 13.84
+ },
+ {
+  "i": 55,
+  "texto": "tráfico",
+  "inicio": 13.84,
+  "fin": 14.27
+ },
+ {
+  "i": 56,
+  "texto": "que",
+  "inicio": 14.27,
+  "fin": 14.28
+ },
+ {
+  "i": 57,
+  "texto": "ni",
+  "inicio": 14.47,
+  "fin": 14.53
+ },
+ {
+  "i": 58,
+  "texto": "siquiera",
+  "inicio": 14.53,
+  "fin": 15.04
+ },
+ {
+  "i": 59,
+  "texto": "llegas",
+  "inicio": 15.04,
+  "fin": 15.36
+ },
+ {
+  "i": 60,
+  "texto": "a",
+  "inicio": 15.37,
+  "fin": 15.42
+ },
+ {
+  "i": 61,
+  "texto": "contestar",
+  "inicio": 15.42,
+  "fin": 15.92
+ },
+ {
+  "i": 62,
+  "texto": "a",
+  "inicio": 15.92,
+  "fin": 15.94
+ },
+ {
+  "i": 63,
+  "texto": "tiempo.",
+  "inicio": 16,
+  "fin": 16.31
+ },
+ {
+  "i": 64,
+  "texto": "Escribe",
+  "inicio": 16.48,
+  "fin": 16.87
+ },
+ {
+  "i": 65,
+  "texto": "por",
+  "inicio": 16.87,
+  "fin": 17.02
+ },
+ {
+  "i": 66,
+  "texto": "comentarios",
+  "inicio": 17.07,
+  "fin": 17.66
+ },
+ {
+  "i": 67,
+  "texto": "\"Ayuda\"",
+  "inicio": 17.66,
+  "fin": 18.12
+ },
+ {
+  "i": 68,
+  "texto": "si",
+  "inicio": 18.12,
+  "fin": 18.19
+ },
+ {
+  "i": 69,
+  "texto": "inviertes",
+  "inicio": 18.19,
+  "fin": 18.49
+ },
+ {
+  "i": 70,
+  "texto": "en",
+  "inicio": 18.54,
+  "fin": 18.65
+ },
+ {
+  "i": 71,
+  "texto": "anuncios",
+  "inicio": 18.65,
+  "fin": 19.15
+ },
+ {
+  "i": 72,
+  "texto": "y",
+  "inicio": 19.22,
+  "fin": 19.22
+ },
+ {
+  "i": 73,
+  "texto": "no",
+  "inicio": 19.28,
+  "fin": 19.35
+ },
+ {
+  "i": 74,
+  "texto": "das",
+  "inicio": 19.35,
+  "fin": 19.54
+ },
+ {
+  "i": 75,
+  "texto": "abasto",
+  "inicio": 19.54,
+  "fin": 19.86
+ },
+ {
+  "i": 76,
+  "texto": "a",
+  "inicio": 19.98,
+  "fin": 19.98
+ },
+ {
+  "i": 77,
+  "texto": "contestar",
+  "inicio": 19.98,
+  "fin": 20.55
+ },
+ {
+  "i": 78,
+  "texto": "los",
+  "inicio": 20.55,
+  "fin": 20.74
+ },
+ {
+  "i": 79,
+  "texto": "mensajes",
+  "inicio": 20.74,
+  "fin": 21.14
+ },
+ {
+  "i": 80,
+  "texto": "y",
+  "inicio": 21.31,
+  "fin": 21.31
+ },
+ {
+  "i": 81,
+  "texto": "te",
+  "inicio": 21.32,
+  "fin": 21.38
+ },
+ {
+  "i": 82,
+  "texto": "ayudo",
+  "inicio": 21.45,
+  "fin": 21.76
+ },
+ {
+  "i": 83,
+  "texto": "a",
+  "inicio": 21.76,
+  "fin": 21.82
+ },
+ {
+  "i": 84,
+  "texto": "como",
+  "inicio": 21.82,
+  "fin": 21.97
+ },
+ {
+  "i": 85,
+  "texto": "automatizar",
+  "inicio": 22.08,
+  "fin": 22.88
+ },
+ {
+  "i": 86,
+  "texto": "todo",
+  "inicio": 22.88,
+  "fin": 23.18
+ }
+]

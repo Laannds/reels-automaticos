@@ -1,0 +1,728 @@
+[
+ {
+  "i": 0,
+  "texto": "4",
+  "inicio": 0.03,
+  "fin": 0.15
+ },
+ {
+  "i": 1,
+  "texto": "automatizaciones",
+  "inicio": 0.25,
+  "fin": 1.08
+ },
+ {
+  "i": 2,
+  "texto": "para",
+  "inicio": 1.08,
+  "fin": 1.23
+ },
+ {
+  "i": 3,
+  "texto": "ahorrarte",
+  "inicio": 1.34,
+  "fin": 1.77
+ },
+ {
+  "i": 4,
+  "texto": "10",
+  "inicio": 1.88,
+  "fin": 2.16
+ },
+ {
+  "i": 5,
+  "texto": "horas",
+  "inicio": 2.16,
+  "fin": 2.44
+ },
+ {
+  "i": 6,
+  "texto": "a",
+  "inicio": 2.44,
+  "fin": 2.49
+ },
+ {
+  "i": 7,
+  "texto": "la",
+  "inicio": 2.49,
+  "fin": 2.51
+ },
+ {
+  "i": 8,
+  "texto": "semana",
+  "inicio": 2.6,
+  "fin": 2.94
+ },
+ {
+  "i": 9,
+  "texto": "en",
+  "inicio": 2.94,
+  "fin": 3.05
+ },
+ {
+  "i": 10,
+  "texto": "tu",
+  "inicio": 3.05,
+  "fin": 3.16
+ },
+ {
+  "i": 11,
+  "texto": "negocio.",
+  "inicio": 3.16,
+  "fin": 3.55
+ },
+ {
+  "i": 12,
+  "texto": "1.",
+  "inicio": 3.94,
+  "fin": 4.44
+ },
+ {
+  "i": 13,
+  "texto": "Respuestas",
+  "inicio": 4.94,
+  "fin": 5.33
+ },
+ {
+  "i": 14,
+  "texto": "automáticas.",
+  "inicio": 5.33,
+  "fin": 5.8
+ },
+ {
+  "i": 15,
+  "texto": "Cada",
+  "inicio": 5.94,
+  "fin": 6.15
+ },
+ {
+  "i": 16,
+  "texto": "cliente",
+  "inicio": 6.15,
+  "fin": 6.52
+ },
+ {
+  "i": 17,
+  "texto": "recibe",
+  "inicio": 6.52,
+  "fin": 6.83
+ },
+ {
+  "i": 18,
+  "texto": "respuestas",
+  "inicio": 6.83,
+  "fin": 7.35
+ },
+ {
+  "i": 19,
+  "texto": "al",
+  "inicio": 7.35,
+  "fin": 7.45
+ },
+ {
+  "i": 20,
+  "texto": "momento",
+  "inicio": 7.45,
+  "fin": 7.81
+ },
+ {
+  "i": 21,
+  "texto": "sin",
+  "inicio": 7.95,
+  "fin": 7.98
+ },
+ {
+  "i": 22,
+  "texto": "que",
+  "inicio": 7.98,
+  "fin": 8.08
+ },
+ {
+  "i": 23,
+  "texto": "tú",
+  "inicio": 8.14,
+  "fin": 8.25
+ },
+ {
+  "i": 24,
+  "texto": "tengas",
+  "inicio": 8.3,
+  "fin": 8.61
+ },
+ {
+  "i": 25,
+  "texto": "que",
+  "inicio": 8.61,
+  "fin": 8.66
+ },
+ {
+  "i": 26,
+  "texto": "utilizar",
+  "inicio": 8.77,
+  "fin": 9.19
+ },
+ {
+  "i": 27,
+  "texto": "el",
+  "inicio": 9.19,
+  "fin": 9.29
+ },
+ {
+  "i": 28,
+  "texto": "móvil.",
+  "inicio": 9.29,
+  "fin": 9.56
+ },
+ {
+  "i": 29,
+  "texto": "2.",
+  "inicio": 10.44,
+  "fin": 10.82
+ },
+ {
+  "i": 30,
+  "texto": "Recordatorios",
+  "inicio": 11.32,
+  "fin": 11.88
+ },
+ {
+  "i": 31,
+  "texto": "de",
+  "inicio": 11.96,
+  "fin": 11.96
+ },
+ {
+  "i": 32,
+  "texto": "citas.",
+  "inicio": 12.02,
+  "fin": 12.12
+ },
+ {
+  "i": 33,
+  "texto": "Se",
+  "inicio": 12.32,
+  "fin": 12.43
+ },
+ {
+  "i": 34,
+  "texto": "acabaron",
+  "inicio": 12.43,
+  "fin": 12.84
+ },
+ {
+  "i": 35,
+  "texto": "los",
+  "inicio": 12.92,
+  "fin": 13.02
+ },
+ {
+  "i": 36,
+  "texto": "huecos",
+  "inicio": 13.03,
+  "fin": 13.35
+ },
+ {
+  "i": 37,
+  "texto": "vacíos",
+  "inicio": 13.35,
+  "fin": 13.73
+ },
+ {
+  "i": 38,
+  "texto": "ya",
+  "inicio": 13.73,
+  "fin": 13.84
+ },
+ {
+  "i": 39,
+  "texto": "que",
+  "inicio": 13.84,
+  "fin": 14
+ },
+ {
+  "i": 40,
+  "texto": "tu",
+  "inicio": 14.01,
+  "fin": 14.11
+ },
+ {
+  "i": 41,
+  "texto": "cliente",
+  "inicio": 14.11,
+  "fin": 14.48
+ },
+ {
+  "i": 42,
+  "texto": "recibe",
+  "inicio": 14.51,
+  "fin": 14.82
+ },
+ {
+  "i": 43,
+  "texto": "un",
+  "inicio": 14.82,
+  "fin": 14.93
+ },
+ {
+  "i": 44,
+  "texto": "recordatorio",
+  "inicio": 14.93,
+  "fin": 15.59
+ },
+ {
+  "i": 45,
+  "texto": "automático",
+  "inicio": 15.59,
+  "fin": 16.32
+ },
+ {
+  "i": 46,
+  "texto": "el",
+  "inicio": 16.32,
+  "fin": 16.42
+ },
+ {
+  "i": 47,
+  "texto": "día",
+  "inicio": 16.42,
+  "fin": 16.62
+ },
+ {
+  "i": 48,
+  "texto": "de",
+  "inicio": 16.62,
+  "fin": 16.81
+ },
+ {
+  "i": 49,
+  "texto": "antes",
+  "inicio": 16.81,
+  "fin": 17.25
+ },
+ {
+  "i": 50,
+  "texto": "y",
+  "inicio": 17.36,
+  "fin": 17.4
+ },
+ {
+  "i": 51,
+  "texto": "confirma",
+  "inicio": 17.4,
+  "fin": 18.03
+ },
+ {
+  "i": 52,
+  "texto": "con",
+  "inicio": 18.18,
+  "fin": 18.47
+ },
+ {
+  "i": 53,
+  "texto": "un",
+  "inicio": 18.47,
+  "fin": 18.53
+ },
+ {
+  "i": 54,
+  "texto": "solo",
+  "inicio": 18.66,
+  "fin": 19.04
+ },
+ {
+  "i": 55,
+  "texto": "clic.",
+  "inicio": 19.05,
+  "fin": 19.44
+ },
+ {
+  "i": 56,
+  "texto": "3.",
+  "inicio": 19.8,
+  "fin": 20.27
+ },
+ {
+  "i": 57,
+  "texto": "Reservas",
+  "inicio": 20.8,
+  "fin": 21.15
+ },
+ {
+  "i": 58,
+  "texto": "sin",
+  "inicio": 21.15,
+  "fin": 21.27
+ },
+ {
+  "i": 59,
+  "texto": "llamadas.",
+  "inicio": 21.28,
+  "fin": 21.63
+ },
+ {
+  "i": 60,
+  "texto": "El",
+  "inicio": 21.8,
+  "fin": 21.94
+ },
+ {
+  "i": 61,
+  "texto": "cliente",
+  "inicio": 21.94,
+  "fin": 22.45
+ },
+ {
+  "i": 62,
+  "texto": "elige",
+  "inicio": 22.45,
+  "fin": 22.8
+ },
+ {
+  "i": 63,
+  "texto": "la",
+  "inicio": 22.81,
+  "fin": 22.94
+ },
+ {
+  "i": 64,
+  "texto": "hora",
+  "inicio": 22.95,
+  "fin": 23.24
+ },
+ {
+  "i": 65,
+  "texto": "desde",
+  "inicio": 23.24,
+  "fin": 23.51
+ },
+ {
+  "i": 66,
+  "texto": "un",
+  "inicio": 23.64,
+  "fin": 23.74
+ },
+ {
+  "i": 67,
+  "texto": "enlace",
+  "inicio": 23.87,
+  "fin": 24.13
+ },
+ {
+  "i": 68,
+  "texto": "y",
+  "inicio": 24.18,
+  "fin": 24.25
+ },
+ {
+  "i": 69,
+  "texto": "agenda",
+  "inicio": 24.25,
+  "fin": 24.69
+ },
+ {
+  "i": 70,
+  "texto": "en",
+  "inicio": 24.69,
+  "fin": 24.78
+ },
+ {
+  "i": 71,
+  "texto": "tu",
+  "inicio": 24.86,
+  "fin": 24.97
+ },
+ {
+  "i": 72,
+  "texto": "calendario.",
+  "inicio": 24.97,
+  "fin": 25.7
+ },
+ {
+  "i": 73,
+  "texto": "4.",
+  "inicio": 26.04,
+  "fin": 26.54
+ },
+ {
+  "i": 74,
+  "texto": "Resumen",
+  "inicio": 27.04,
+  "fin": 27.32
+ },
+ {
+  "i": 75,
+  "texto": "diario.",
+  "inicio": 27.46,
+  "fin": 27.82
+ },
+ {
+  "i": 76,
+  "texto": "Cada",
+  "inicio": 28.04,
+  "fin": 28.26
+ },
+ {
+  "i": 77,
+  "texto": "cliente",
+  "inicio": 28.26,
+  "fin": 28.64
+ },
+ {
+  "i": 78,
+  "texto": "recibes",
+  "inicio": 28.64,
+  "fin": 28.96
+ },
+ {
+  "i": 79,
+  "texto": "un",
+  "inicio": 29.08,
+  "fin": 29.13
+ },
+ {
+  "i": 80,
+  "texto": "informe",
+  "inicio": 29.13,
+  "fin": 29.51
+ },
+ {
+  "i": 81,
+  "texto": "con",
+  "inicio": 29.54,
+  "fin": 29.67
+ },
+ {
+  "i": 82,
+  "texto": "las",
+  "inicio": 29.67,
+  "fin": 29.82
+ },
+ {
+  "i": 83,
+  "texto": "reservas,",
+  "inicio": 29.83,
+  "fin": 30.26
+ },
+ {
+  "i": 84,
+  "texto": "los",
+  "inicio": 30.37,
+  "fin": 30.51
+ },
+ {
+  "i": 85,
+  "texto": "mensajes",
+  "inicio": 30.52,
+  "fin": 30.95
+ },
+ {
+  "i": 86,
+  "texto": "y",
+  "inicio": 30.95,
+  "fin": 31
+ },
+ {
+  "i": 87,
+  "texto": "las",
+  "inicio": 31,
+  "fin": 31.11
+ },
+ {
+  "i": 88,
+  "texto": "ventas",
+  "inicio": 31.24,
+  "fin": 31.48
+ },
+ {
+  "i": 89,
+  "texto": "realizadas",
+  "inicio": 31.48,
+  "fin": 32.02
+ },
+ {
+  "i": 90,
+  "texto": "del",
+  "inicio": 32.02,
+  "fin": 32.28
+ },
+ {
+  "i": 91,
+  "texto": "día",
+  "inicio": 32.28,
+  "fin": 32.4
+ },
+ {
+  "i": 92,
+  "texto": "anterior.",
+  "inicio": 32.4,
+  "fin": 33.12
+ },
+ {
+  "i": 93,
+  "texto": "Así",
+  "inicio": 33.4,
+  "fin": 33.6
+ },
+ {
+  "i": 94,
+  "texto": "que",
+  "inicio": 33.6,
+  "fin": 33.75
+ },
+ {
+  "i": 95,
+  "texto": "si",
+  "inicio": 33.75,
+  "fin": 33.85
+ },
+ {
+  "i": 96,
+  "texto": "todavía",
+  "inicio": 33.85,
+  "fin": 34.25
+ },
+ {
+  "i": 97,
+  "texto": "no",
+  "inicio": 34.25,
+  "fin": 34.33
+ },
+ {
+  "i": 98,
+  "texto": "estás",
+  "inicio": 34.35,
+  "fin": 34.62
+ },
+ {
+  "i": 99,
+  "texto": "implementando",
+  "inicio": 34.69,
+  "fin": 35.27
+ },
+ {
+  "i": 100,
+  "texto": "esto",
+  "inicio": 35.31,
+  "fin": 35.5
+ },
+ {
+  "i": 101,
+  "texto": "en",
+  "inicio": 35.5,
+  "fin": 35.6
+ },
+ {
+  "i": 102,
+  "texto": "tu",
+  "inicio": 35.6,
+  "fin": 35.65
+ },
+ {
+  "i": 103,
+  "texto": "negocio,",
+  "inicio": 35.76,
+  "fin": 36.05
+ },
+ {
+  "i": 104,
+  "texto": "sígueme",
+  "inicio": 36.15,
+  "fin": 36.55
+ },
+ {
+  "i": 105,
+  "texto": "y",
+  "inicio": 36.55,
+  "fin": 36.6
+ },
+ {
+  "i": 106,
+  "texto": "escribe",
+  "inicio": 36.6,
+  "fin": 36.95
+ },
+ {
+  "i": 107,
+  "texto": "la",
+  "inicio": 36.95,
+  "fin": 37.06
+ },
+ {
+  "i": 108,
+  "texto": "palabra",
+  "inicio": 37.06,
+  "fin": 37.47
+ },
+ {
+  "i": 109,
+  "texto": "\"TIEMPO\"",
+  "inicio": 37.47,
+  "fin": 37.88
+ },
+ {
+  "i": 110,
+  "texto": "en",
+  "inicio": 37.88,
+  "fin": 37.93
+ },
+ {
+  "i": 111,
+  "texto": "comentarios",
+  "inicio": 38.1,
+  "fin": 38.66
+ },
+ {
+  "i": 112,
+  "texto": "y",
+  "inicio": 38.67,
+  "fin": 38.71
+ },
+ {
+  "i": 113,
+  "texto": "te",
+  "inicio": 38.71,
+  "fin": 38.82
+ },
+ {
+  "i": 114,
+  "texto": "mando",
+  "inicio": 38.82,
+  "fin": 39.06
+ },
+ {
+  "i": 115,
+  "texto": "la",
+  "inicio": 39.11,
+  "fin": 39.21
+ },
+ {
+  "i": 116,
+  "texto": "guía",
+  "inicio": 39.21,
+  "fin": 39.49
+ },
+ {
+  "i": 117,
+  "texto": "para",
+  "inicio": 39.49,
+  "fin": 39.66
+ },
+ {
+  "i": 118,
+  "texto": "que",
+  "inicio": 39.72,
+  "fin": 39.89
+ },
+ {
+  "i": 119,
+  "texto": "puedas",
+  "inicio": 39.89,
+  "fin": 40.15
+ },
+ {
+  "i": 120,
+  "texto": "implementarlo.",
+  "inicio": 40.23,
+  "fin": 40.99
+ }
+]

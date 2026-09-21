@@ -1,0 +1,860 @@
+[
+ {
+  "i": 0,
+  "texto": "Hoy",
+  "inicio": 0,
+  "fin": 0.19
+ },
+ {
+  "i": 1,
+  "texto": "es",
+  "inicio": 0.19,
+  "fin": 0.19
+ },
+ {
+  "i": 2,
+  "texto": "el",
+  "inicio": 0.31,
+  "fin": 0.43
+ },
+ {
+  "i": 3,
+  "texto": "primer",
+  "inicio": 0.43,
+  "fin": 0.81
+ },
+ {
+  "i": 4,
+  "texto": "partido",
+  "inicio": 0.81,
+  "fin": 1.26
+ },
+ {
+  "i": 5,
+  "texto": "de",
+  "inicio": 1.26,
+  "fin": 1.38
+ },
+ {
+  "i": 6,
+  "texto": "Champions",
+  "inicio": 1.38,
+  "fin": 2
+ },
+ {
+  "i": 7,
+  "texto": "y",
+  "inicio": 2,
+  "fin": 2.03
+ },
+ {
+  "i": 8,
+  "texto": "por",
+  "inicio": 2.25,
+  "fin": 2.32
+ },
+ {
+  "i": 9,
+  "texto": "suerte",
+  "inicio": 2.43,
+  "fin": 3.04
+ },
+ {
+  "i": 10,
+  "texto": "he",
+  "inicio": 3.04,
+  "fin": 3.1
+ },
+ {
+  "i": 11,
+  "texto": "tenido",
+  "inicio": 3.17,
+  "fin": 3.5
+ },
+ {
+  "i": 12,
+  "texto": "la",
+  "inicio": 3.5,
+  "fin": 3.61
+ },
+ {
+  "i": 13,
+  "texto": "oportunidad",
+  "inicio": 3.61,
+  "fin": 4.28
+ },
+ {
+  "i": 14,
+  "texto": "de",
+  "inicio": 4.28,
+  "fin": 4.4
+ },
+ {
+  "i": 15,
+  "texto": "ir",
+  "inicio": 4.4,
+  "fin": 4.5
+ },
+ {
+  "i": 16,
+  "texto": "al",
+  "inicio": 4.52,
+  "fin": 4.68
+ },
+ {
+  "i": 17,
+  "texto": "Bernabéu",
+  "inicio": 4.68,
+  "fin": 5.16
+ },
+ {
+  "i": 18,
+  "texto": "varias",
+  "inicio": 5.16,
+  "fin": 5.83
+ },
+ {
+  "i": 19,
+  "texto": "veces,",
+  "inicio": 5.83,
+  "fin": 6.15
+ },
+ {
+  "i": 20,
+  "texto": "pero",
+  "inicio": 6.58,
+  "fin": 6.78
+ },
+ {
+  "i": 21,
+  "texto": "hoy",
+  "inicio": 7.09,
+  "fin": 7.24
+ },
+ {
+  "i": 22,
+  "texto": "no",
+  "inicio": 7.24,
+  "fin": 7.43
+ },
+ {
+  "i": 23,
+  "texto": "puedo.",
+  "inicio": 7.43,
+  "fin": 7.59
+ },
+ {
+  "i": 24,
+  "texto": "Antes",
+  "inicio": 8.2,
+  "fin": 8.49
+ },
+ {
+  "i": 25,
+  "texto": "de",
+  "inicio": 8.49,
+  "fin": 8.6
+ },
+ {
+  "i": 26,
+  "texto": "nada,",
+  "inicio": 8.6,
+  "fin": 8.67
+ },
+ {
+  "i": 27,
+  "texto": "soy",
+  "inicio": 8.95,
+  "fin": 9.07
+ },
+ {
+  "i": 28,
+  "texto": "Pablo,",
+  "inicio": 9.16,
+  "fin": 9.4
+ },
+ {
+  "i": 29,
+  "texto": "me",
+  "inicio": 9.51,
+  "fin": 9.62
+ },
+ {
+  "i": 30,
+  "texto": "dedico",
+  "inicio": 9.62,
+  "fin": 9.95
+ },
+ {
+  "i": 31,
+  "texto": "en",
+  "inicio": 9.96,
+  "fin": 10.07
+ },
+ {
+  "i": 32,
+  "texto": "encontrar",
+  "inicio": 10.07,
+  "fin": 10.59
+ },
+ {
+  "i": 33,
+  "texto": "soluciones",
+  "inicio": 10.59,
+  "fin": 11.11
+ },
+ {
+  "i": 34,
+  "texto": "a",
+  "inicio": 11.2,
+  "fin": 11.21
+ },
+ {
+  "i": 35,
+  "texto": "cualquier",
+  "inicio": 11.21,
+  "fin": 11.73
+ },
+ {
+  "i": 36,
+  "texto": "problema,",
+  "inicio": 11.73,
+  "fin": 12.1
+ },
+ {
+  "i": 37,
+  "texto": "pero",
+  "inicio": 12.42,
+  "fin": 12.53
+ },
+ {
+  "i": 38,
+  "texto": "no",
+  "inicio": 12.53,
+  "fin": 12.76
+ },
+ {
+  "i": 39,
+  "texto": "cualquier",
+  "inicio": 12.76,
+  "fin": 13.28
+ },
+ {
+  "i": 40,
+  "texto": "tipo",
+  "inicio": 13.28,
+  "fin": 13.47
+ },
+ {
+  "i": 41,
+  "texto": "de",
+  "inicio": 13.54,
+  "fin": 13.66
+ },
+ {
+  "i": 42,
+  "texto": "problema,",
+  "inicio": 13.78,
+  "fin": 14.2
+ },
+ {
+  "i": 43,
+  "texto": "de",
+  "inicio": 14.33,
+  "fin": 14.46
+ },
+ {
+  "i": 44,
+  "texto": "esas",
+  "inicio": 14.46,
+  "fin": 14.72
+ },
+ {
+  "i": 45,
+  "texto": "que",
+  "inicio": 14.72,
+  "fin": 14.91
+ },
+ {
+  "i": 46,
+  "texto": "se",
+  "inicio": 14.92,
+  "fin": 15.05
+ },
+ {
+  "i": 47,
+  "texto": "automatizan",
+  "inicio": 15.05,
+  "fin": 15.78
+ },
+ {
+  "i": 48,
+  "texto": "y",
+  "inicio": 15.79,
+  "fin": 15.84
+ },
+ {
+  "i": 49,
+  "texto": "se",
+  "inicio": 15.84,
+  "fin": 15.97
+ },
+ {
+  "i": 50,
+  "texto": "usanía.",
+  "inicio": 15.97,
+  "fin": 16.43
+ },
+ {
+  "i": 51,
+  "texto": "Y",
+  "inicio": 16.74,
+  "fin": 16.78
+ },
+ {
+  "i": 52,
+  "texto": "como",
+  "inicio": 16.78,
+  "fin": 17.04
+ },
+ {
+  "i": 53,
+  "texto": "te",
+  "inicio": 17.04,
+  "fin": 17.17
+ },
+ {
+  "i": 54,
+  "texto": "decía,",
+  "inicio": 17.17,
+  "fin": 17.55
+ },
+ {
+  "i": 55,
+  "texto": "hoy",
+  "inicio": 17.72,
+  "fin": 17.9
+ },
+ {
+  "i": 56,
+  "texto": "es",
+  "inicio": 17.9,
+  "fin": 17.99
+ },
+ {
+  "i": 57,
+  "texto": "el",
+  "inicio": 18.03,
+  "fin": 18.09
+ },
+ {
+  "i": 58,
+  "texto": "primer",
+  "inicio": 18.15,
+  "fin": 18.54
+ },
+ {
+  "i": 59,
+  "texto": "partido",
+  "inicio": 18.66,
+  "fin": 19.02
+ },
+ {
+  "i": 60,
+  "texto": "de",
+  "inicio": 19.02,
+  "fin": 19.15
+ },
+ {
+  "i": 61,
+  "texto": "Champions",
+  "inicio": 19.15,
+  "fin": 19.75
+ },
+ {
+  "i": 62,
+  "texto": "y",
+  "inicio": 19.75,
+  "fin": 19.78
+ },
+ {
+  "i": 63,
+  "texto": "no",
+  "inicio": 19.87,
+  "fin": 19.94
+ },
+ {
+  "i": 64,
+  "texto": "puedo",
+  "inicio": 19.94,
+  "fin": 20.25
+ },
+ {
+  "i": 65,
+  "texto": "ir.",
+  "inicio": 20.27,
+  "fin": 20.38
+ },
+ {
+  "i": 66,
+  "texto": "Así",
+  "inicio": 20.68,
+  "fin": 20.9
+ },
+ {
+  "i": 67,
+  "texto": "que",
+  "inicio": 20.9,
+  "fin": 21.03
+ },
+ {
+  "i": 68,
+  "texto": "en",
+  "inicio": 21.08,
+  "fin": 21.15
+ },
+ {
+  "i": 69,
+  "texto": "vez",
+  "inicio": 21.21,
+  "fin": 21.35
+ },
+ {
+  "i": 70,
+  "texto": "de",
+  "inicio": 21.35,
+  "fin": 21.46
+ },
+ {
+  "i": 71,
+  "texto": "quedarme",
+  "inicio": 21.46,
+  "fin": 21.9
+ },
+ {
+  "i": 72,
+  "texto": "viéndolo",
+  "inicio": 21.9,
+  "fin": 22.38
+ },
+ {
+  "i": 73,
+  "texto": "como",
+  "inicio": 22.38,
+  "fin": 22.55
+ },
+ {
+  "i": 74,
+  "texto": "uno",
+  "inicio": 22.78,
+  "fin": 22.78
+ },
+ {
+  "i": 75,
+  "texto": "más,",
+  "inicio": 22.81,
+  "fin": 23
+ },
+ {
+  "i": 76,
+  "texto": "he",
+  "inicio": 23.14,
+  "fin": 23.22
+ },
+ {
+  "i": 77,
+  "texto": "decidido",
+  "inicio": 23.22,
+  "fin": 23.64
+ },
+ {
+  "i": 78,
+  "texto": "construir",
+  "inicio": 23.7,
+  "fin": 24.16
+ },
+ {
+  "i": 79,
+  "texto": "una",
+  "inicio": 24.16,
+  "fin": 24.32
+ },
+ {
+  "i": 80,
+  "texto": "web",
+  "inicio": 24.33,
+  "fin": 24.48
+ },
+ {
+  "i": 81,
+  "texto": "que",
+  "inicio": 24.7,
+  "fin": 24.76
+ },
+ {
+  "i": 82,
+  "texto": "me",
+  "inicio": 24.76,
+  "fin": 24.88
+ },
+ {
+  "i": 83,
+  "texto": "prediga",
+  "inicio": 24.89,
+  "fin": 25.36
+ },
+ {
+  "i": 84,
+  "texto": "el",
+  "inicio": 25.36,
+  "fin": 25.4
+ },
+ {
+  "i": 85,
+  "texto": "resultado",
+  "inicio": 25.49,
+  "fin": 26.03
+ },
+ {
+  "i": 86,
+  "texto": "final.",
+  "inicio": 26.1,
+  "fin": 26.4
+ },
+ {
+  "i": 87,
+  "texto": "Y",
+  "inicio": 26.68,
+  "fin": 26.74
+ },
+ {
+  "i": 88,
+  "texto": "esto",
+  "inicio": 26.74,
+  "fin": 26.94
+ },
+ {
+  "i": 89,
+  "texto": "es",
+  "inicio": 27.03,
+  "fin": 27.11
+ },
+ {
+  "i": 90,
+  "texto": "lo",
+  "inicio": 27.12,
+  "fin": 27.24
+ },
+ {
+  "i": 91,
+  "texto": "que",
+  "inicio": 27.25,
+  "fin": 27.44
+ },
+ {
+  "i": 92,
+  "texto": "hago",
+  "inicio": 27.44,
+  "fin": 27.69
+ },
+ {
+  "i": 93,
+  "texto": "día",
+  "inicio": 27.69,
+  "fin": 27.93
+ },
+ {
+  "i": 94,
+  "texto": "a",
+  "inicio": 27.93,
+  "fin": 28
+ },
+ {
+  "i": 95,
+  "texto": "día,",
+  "inicio": 28,
+  "fin": 28.21
+ },
+ {
+  "i": 96,
+  "texto": "cojo",
+  "inicio": 28.38,
+  "fin": 28.59
+ },
+ {
+  "i": 97,
+  "texto": "cualquier",
+  "inicio": 28.7,
+  "fin": 29.2
+ },
+ {
+  "i": 98,
+  "texto": "tipo",
+  "inicio": 29.2,
+  "fin": 29.45
+ },
+ {
+  "i": 99,
+  "texto": "de",
+  "inicio": 29.45,
+  "fin": 29.58
+ },
+ {
+  "i": 100,
+  "texto": "problema",
+  "inicio": 29.58,
+  "fin": 30.09
+ },
+ {
+  "i": 101,
+  "texto": "y",
+  "inicio": 30.09,
+  "fin": 30.15
+ },
+ {
+  "i": 102,
+  "texto": "lo",
+  "inicio": 30.15,
+  "fin": 30.23
+ },
+ {
+  "i": 103,
+  "texto": "soluciono",
+  "inicio": 30.28,
+  "fin": 30.85
+ },
+ {
+  "i": 104,
+  "texto": "en",
+  "inicio": 30.96,
+  "fin": 31.06
+ },
+ {
+  "i": 105,
+  "texto": "cuestión",
+  "inicio": 31.06,
+  "fin": 31.56
+ },
+ {
+  "i": 106,
+  "texto": "de",
+  "inicio": 31.56,
+  "fin": 31.72
+ },
+ {
+  "i": 107,
+  "texto": "minutos.",
+  "inicio": 31.72,
+  "fin": 32.18
+ },
+ {
+  "i": 108,
+  "texto": "Hoy",
+  "inicio": 32.56,
+  "fin": 32.75
+ },
+ {
+  "i": 109,
+  "texto": "me",
+  "inicio": 32.8,
+  "fin": 32.87
+ },
+ {
+  "i": 110,
+  "texto": "tocó",
+  "inicio": 32.96,
+  "fin": 33.22
+ },
+ {
+  "i": 111,
+  "texto": "no",
+  "inicio": 33.22,
+  "fin": 33.32
+ },
+ {
+  "i": 112,
+  "texto": "poder",
+  "inicio": 33.43,
+  "fin": 33.67
+ },
+ {
+  "i": 113,
+  "texto": "ir",
+  "inicio": 33.7,
+  "fin": 33.82
+ },
+ {
+  "i": 114,
+  "texto": "al",
+  "inicio": 33.82,
+  "fin": 33.95
+ },
+ {
+  "i": 115,
+  "texto": "Bernabéu,",
+  "inicio": 33.95,
+  "fin": 34.53
+ },
+ {
+  "i": 116,
+  "texto": "pero",
+  "inicio": 34.88,
+  "fin": 34.94
+ },
+ {
+  "i": 117,
+  "texto": "mañana",
+  "inicio": 34.94,
+  "fin": 35.42
+ },
+ {
+  "i": 118,
+  "texto": "le",
+  "inicio": 35.42,
+  "fin": 35.52
+ },
+ {
+  "i": 119,
+  "texto": "toca",
+  "inicio": 35.63,
+  "fin": 35.79
+ },
+ {
+  "i": 120,
+  "texto": "tu",
+  "inicio": 35.86,
+  "fin": 35.94
+ },
+ {
+  "i": 121,
+  "texto": "negocio.",
+  "inicio": 36.02,
+  "fin": 36.42
+ },
+ {
+  "i": 122,
+  "texto": "Si",
+  "inicio": 36.8,
+  "fin": 36.92
+ },
+ {
+  "i": 123,
+  "texto": "tienes",
+  "inicio": 36.94,
+  "fin": 37.33
+ },
+ {
+  "i": 124,
+  "texto": "un",
+  "inicio": 37.33,
+  "fin": 37.43
+ },
+ {
+  "i": 125,
+  "texto": "proceso",
+  "inicio": 37.46,
+  "fin": 37.74
+ },
+ {
+  "i": 126,
+  "texto": "en",
+  "inicio": 38.06,
+  "fin": 38.06
+ },
+ {
+  "i": 127,
+  "texto": "tu",
+  "inicio": 38.15,
+  "fin": 38.19
+ },
+ {
+  "i": 128,
+  "texto": "negocio",
+  "inicio": 38.19,
+  "fin": 38.64
+ },
+ {
+  "i": 129,
+  "texto": "que",
+  "inicio": 38.65,
+  "fin": 38.8
+ },
+ {
+  "i": 130,
+  "texto": "te",
+  "inicio": 38.86,
+  "fin": 38.99
+ },
+ {
+  "i": 131,
+  "texto": "está",
+  "inicio": 38.99,
+  "fin": 39.32
+ },
+ {
+  "i": 132,
+  "texto": "robando",
+  "inicio": 39.32,
+  "fin": 39.79
+ },
+ {
+  "i": 133,
+  "texto": "tiempo",
+  "inicio": 39.79,
+  "fin": 40.19
+ },
+ {
+  "i": 134,
+  "texto": "cada",
+  "inicio": 40.19,
+  "fin": 40.46
+ },
+ {
+  "i": 135,
+  "texto": "día,",
+  "inicio": 40.46,
+  "fin": 40.68
+ },
+ {
+  "i": 136,
+  "texto": "coméntame",
+  "inicio": 40.86,
+  "fin": 41.43
+ },
+ {
+  "i": 137,
+  "texto": "IA",
+  "inicio": 41.65,
+  "fin": 41.74
+ },
+ {
+  "i": 138,
+  "texto": "y",
+  "inicio": 41.74,
+  "fin": 41.8
+ },
+ {
+  "i": 139,
+  "texto": "te",
+  "inicio": 41.8,
+  "fin": 41.9
+ },
+ {
+  "i": 140,
+  "texto": "cuento",
+  "inicio": 41.92,
+  "fin": 42.32
+ },
+ {
+  "i": 141,
+  "texto": "cómo",
+  "inicio": 42.32,
+  "fin": 42.65
+ },
+ {
+  "i": 142,
+  "texto": "automatizarlo.",
+  "inicio": 42.65,
+  "fin": 43.5
+ }
+]

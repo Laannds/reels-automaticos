@@ -1,0 +1,29 @@
+{
+  "slug": "DV_SP3",
+  "duracion": 31.5,
+  "lufs": -14.1,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 0.12,
+      "texto": "\"trucazo\" (palabra 1) — Whisper solo está al 24%"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 7.5,
+      "texto": "checklist \"4 dientes de ajo\" + subtítulos entra en la zona de botones de like/comentar/compartir durante 2.5 s",
+      "hasta": 9.75,
+      "k": 30,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "subtitulos",
+      "gravedad": "aviso",
+      "t": 27.03,
+      "texto": "\"A por ello.\" asoma 0.60 s y lo corta un titular: alarga el titular anterior o adelanta el siguiente para enlazarlos"
+    }
+  ]
+}

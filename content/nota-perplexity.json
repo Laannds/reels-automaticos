@@ -1,0 +1,38 @@
+{
+  "titulo": "Le pongo nota a Perplexity",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "pronunciacion": { "Perplexity": "perplexiti" },
+  "escenas": [
+    {
+      "tipo": "hook",
+      "nota": "el asesino de Google ↘",
+      "texto": "Le pongo *nota* a Perplexity, la IA que quiere ~jubilar~ a Google."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "búsqueda", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Búsqueda: te responde con *fuentes reales* y enlaces. Nada de inventos."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 5, "etiqueta": "actualidad", "tipo": "mejor" },
+      "sello": { "texto": "EXCELENTE", "tipo": "mejor" },
+      "texto": "Actualidad: sabe lo que pasó *esta mañana*. Las demás, no."
+    },
+    {
+      "tipo": "contenido",
+      "puntuacion": { "valor": 2, "etiqueta": "textos largos", "tipo": "malo" },
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Textos largos: para escribir en serio se queda ~corta~."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "🔎",
+      "texto": "Nota final: un *ocho* como buscador. ~Guarda~ esto y sígueme para más notas."
+    }
+  ]
+}

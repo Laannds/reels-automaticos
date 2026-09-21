@@ -1,0 +1,55 @@
+{
+ "enfasis": [
+  [
+   0,
+   1
+  ],
+  [
+   58,
+   59
+  ],
+  [
+   62,
+   63
+  ]
+ ],
+ "elementos": [
+  {
+   "palabra": 1,
+   "tipo": "icono",
+   "dato": "iconos/coins.svg",
+   "duracion": 2.2
+  },
+  {
+   "palabra": 14,
+   "tipo": "icono",
+   "dato": "iconos/message-circle.svg",
+   "duracion": 2.2
+  },
+  {
+   "palabra": 47,
+   "tipo": "icono",
+   "dato": "iconos/clock.svg",
+   "duracion": 2.2
+  },
+  {
+   "palabra": 79,
+   "tipo": "icono",
+   "dato": "iconos/calendar.svg",
+   "duracion": 2.2
+  },
+  {
+   "palabra": 109,
+   "tipo": "icono",
+   "dato": "iconos/circle-check.svg",
+   "duracion": 2.5
+  }
+ ],
+ "pasos": [
+  12.72,
+  22.08,
+  30.9
+ ],
+ "lista": null,
+ "resumen": "Borrador automático: 3 énfasis, 5 elementos, sin listicle. Revisar 'titulo', 'lista.titulo/resaltar' y añadir caos/movil/calculadora/burbuja/titulon a mano si el guión los pide."
+}

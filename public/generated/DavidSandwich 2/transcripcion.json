@@ -1,0 +1,764 @@
+[
+ {
+  "i": 0,
+  "texto": "El",
+  "inicio": 0.01,
+  "fin": 0.14
+ },
+ {
+  "i": 1,
+  "texto": "sándwich",
+  "inicio": 0.14,
+  "fin": 0.76
+ },
+ {
+  "i": 2,
+  "texto": "perfecto",
+  "inicio": 0.77,
+  "fin": 1.33
+ },
+ {
+  "i": 3,
+  "texto": "para",
+  "inicio": 1.33,
+  "fin": 1.61
+ },
+ {
+  "i": 4,
+  "texto": "vagos,",
+  "inicio": 1.61,
+  "fin": 2
+ },
+ {
+  "i": 5,
+  "texto": "2",
+  "inicio": 2.09,
+  "fin": 2.2
+ },
+ {
+  "i": 6,
+  "texto": "minutos",
+  "inicio": 2.21,
+  "fin": 2.48
+ },
+ {
+  "i": 7,
+  "texto": "y",
+  "inicio": 2.62,
+  "fin": 2.62
+ },
+ {
+  "i": 8,
+  "texto": "a",
+  "inicio": 2.66,
+  "fin": 2.68
+ },
+ {
+  "i": 9,
+  "texto": "comer.",
+  "inicio": 2.68,
+  "fin": 3
+ },
+ {
+  "i": 10,
+  "texto": "Untamos",
+  "inicio": 3.23,
+  "fin": 3.57
+ },
+ {
+  "i": 11,
+  "texto": "solo",
+  "inicio": 3.57,
+  "fin": 3.77
+ },
+ {
+  "i": 12,
+  "texto": "una",
+  "inicio": 3.77,
+  "fin": 3.92
+ },
+ {
+  "i": 13,
+  "texto": "cara",
+  "inicio": 3.92,
+  "fin": 4.12
+ },
+ {
+  "i": 14,
+  "texto": "de",
+  "inicio": 4.12,
+  "fin": 4.22
+ },
+ {
+  "i": 15,
+  "texto": "sándwich",
+  "inicio": 4.22,
+  "fin": 4.66
+ },
+ {
+  "i": 16,
+  "texto": "con",
+  "inicio": 4.77,
+  "fin": 4.87
+ },
+ {
+  "i": 17,
+  "texto": "mantequilla",
+  "inicio": 4.87,
+  "fin": 5.42
+ },
+ {
+  "i": 18,
+  "texto": "light.",
+  "inicio": 5.42,
+  "fin": 5.62
+ },
+ {
+  "i": 19,
+  "texto": "Le",
+  "inicio": 5.72,
+  "fin": 5.84
+ },
+ {
+  "i": 20,
+  "texto": "echamos",
+  "inicio": 5.85,
+  "fin": 6.15
+ },
+ {
+  "i": 21,
+  "texto": "una",
+  "inicio": 6.26,
+  "fin": 6.44
+ },
+ {
+  "i": 22,
+  "texto": "lonchita",
+  "inicio": 6.44,
+  "fin": 6.92
+ },
+ {
+  "i": 23,
+  "texto": "de",
+  "inicio": 6.92,
+  "fin": 6.95
+ },
+ {
+  "i": 24,
+  "texto": "queso",
+  "inicio": 7.08,
+  "fin": 7.34
+ },
+ {
+  "i": 25,
+  "texto": "cremoso",
+  "inicio": 7.34,
+  "fin": 7.76
+ },
+ {
+  "i": 26,
+  "texto": "light",
+  "inicio": 7.76,
+  "fin": 7.97
+ },
+ {
+  "i": 27,
+  "texto": "y",
+  "inicio": 8.12,
+  "fin": 8.16
+ },
+ {
+  "i": 28,
+  "texto": "seguido",
+  "inicio": 8.16,
+  "fin": 8.6
+ },
+ {
+  "i": 29,
+  "texto": "unos",
+  "inicio": 8.6,
+  "fin": 8.75
+ },
+ {
+  "i": 30,
+  "texto": "40",
+  "inicio": 8.83,
+  "fin": 9.22
+ },
+ {
+  "i": 31,
+  "texto": "a",
+  "inicio": 9.22,
+  "fin": 9.28
+ },
+ {
+  "i": 32,
+  "texto": "50",
+  "inicio": 9.28,
+  "fin": 9.72
+ },
+ {
+  "i": 33,
+  "texto": "gramos",
+  "inicio": 9.72,
+  "fin": 10.04
+ },
+ {
+  "i": 34,
+  "texto": "de",
+  "inicio": 10.04,
+  "fin": 10.16
+ },
+ {
+  "i": 35,
+  "texto": "jamón",
+  "inicio": 10.16,
+  "fin": 10.48
+ },
+ {
+  "i": 36,
+  "texto": "cocido.",
+  "inicio": 10.48,
+  "fin": 10.79
+ },
+ {
+  "i": 37,
+  "texto": "Es",
+  "inicio": 10.96,
+  "fin": 11.07
+ },
+ {
+  "i": 38,
+  "texto": "muy",
+  "inicio": 11.07,
+  "fin": 11.23
+ },
+ {
+  "i": 39,
+  "texto": "importante",
+  "inicio": 11.23,
+  "fin": 11.79
+ },
+ {
+  "i": 40,
+  "texto": "que",
+  "inicio": 11.79,
+  "fin": 11.95
+ },
+ {
+  "i": 41,
+  "texto": "cortéis",
+  "inicio": 11.95,
+  "fin": 12.34
+ },
+ {
+  "i": 42,
+  "texto": "como",
+  "inicio": 12.45,
+  "fin": 12.61
+ },
+ {
+  "i": 43,
+  "texto": "4",
+  "inicio": 12.61,
+  "fin": 12.77
+ },
+ {
+  "i": 44,
+  "texto": "dedos",
+  "inicio": 12.77,
+  "fin": 13.03
+ },
+ {
+  "i": 45,
+  "texto": "del",
+  "inicio": 13.03,
+  "fin": 13.19
+ },
+ {
+  "i": 46,
+  "texto": "papel",
+  "inicio": 13.22,
+  "fin": 13.48
+ },
+ {
+  "i": 47,
+  "texto": "de",
+  "inicio": 13.48,
+  "fin": 13.59
+ },
+ {
+  "i": 48,
+  "texto": "horno",
+  "inicio": 13.59,
+  "fin": 13.87
+ },
+ {
+  "i": 49,
+  "texto": "para",
+  "inicio": 13.96,
+  "fin": 14.13
+ },
+ {
+  "i": 50,
+  "texto": "reducir",
+  "inicio": 14.13,
+  "fin": 14.46
+ },
+ {
+  "i": 51,
+  "texto": "el",
+  "inicio": 14.46,
+  "fin": 14.55
+ },
+ {
+  "i": 52,
+  "texto": "tamaño.",
+  "inicio": 14.55,
+  "fin": 14.88
+ },
+ {
+  "i": 53,
+  "texto": "Envolvemos",
+  "inicio": 15.08,
+  "fin": 15.69
+ },
+ {
+  "i": 54,
+  "texto": "el",
+  "inicio": 15.71,
+  "fin": 15.85
+ },
+ {
+  "i": 55,
+  "texto": "sándwich",
+  "inicio": 15.85,
+  "fin": 16.43
+ },
+ {
+  "i": 56,
+  "texto": "con",
+  "inicio": 16.43,
+  "fin": 16.63
+ },
+ {
+  "i": 57,
+  "texto": "papel",
+  "inicio": 16.63,
+  "fin": 16.96
+ },
+ {
+  "i": 58,
+  "texto": "de",
+  "inicio": 16.96,
+  "fin": 17.09
+ },
+ {
+  "i": 59,
+  "texto": "horno.",
+  "inicio": 17.09,
+  "fin": 17.48
+ },
+ {
+  "i": 60,
+  "texto": "Y",
+  "inicio": 17.48,
+  "fin": 17.53
+ },
+ {
+  "i": 61,
+  "texto": "ahora",
+  "inicio": 17.53,
+  "fin": 17.78
+ },
+ {
+  "i": 62,
+  "texto": "viendo",
+  "inicio": 17.78,
+  "fin": 18.08
+ },
+ {
+  "i": 63,
+  "texto": "lo",
+  "inicio": 18.08,
+  "fin": 18.17
+ },
+ {
+  "i": 64,
+  "texto": "importante.",
+  "inicio": 18.17,
+  "fin": 18.67
+ },
+ {
+  "i": 65,
+  "texto": "Tenemos",
+  "inicio": 18.86,
+  "fin": 19.25
+ },
+ {
+  "i": 66,
+  "texto": "que",
+  "inicio": 19.25,
+  "fin": 19.43
+ },
+ {
+  "i": 67,
+  "texto": "generar",
+  "inicio": 19.43,
+  "fin": 19.81
+ },
+ {
+  "i": 68,
+  "texto": "aquí",
+  "inicio": 19.85,
+  "fin": 20.13
+ },
+ {
+  "i": 69,
+  "texto": "unos",
+  "inicio": 20.15,
+  "fin": 20.38
+ },
+ {
+  "i": 70,
+  "texto": "pliegues",
+  "inicio": 20.38,
+  "fin": 20.72
+ },
+ {
+  "i": 71,
+  "texto": "que",
+  "inicio": 20.93,
+  "fin": 21.15
+ },
+ {
+  "i": 72,
+  "texto": "van",
+  "inicio": 21.15,
+  "fin": 21.42
+ },
+ {
+  "i": 73,
+  "texto": "a",
+  "inicio": 21.42,
+  "fin": 21.49
+ },
+ {
+  "i": 74,
+  "texto": "ir",
+  "inicio": 21.51,
+  "fin": 21.69
+ },
+ {
+  "i": 75,
+  "texto": "por",
+  "inicio": 21.69,
+  "fin": 21.96
+ },
+ {
+  "i": 76,
+  "texto": "dentro.",
+  "inicio": 21.96,
+  "fin": 22.27
+ },
+ {
+  "i": 77,
+  "texto": "Plegamos",
+  "inicio": 22.55,
+  "fin": 23.15
+ },
+ {
+  "i": 78,
+  "texto": "todo",
+  "inicio": 23.15,
+  "fin": 23.48
+ },
+ {
+  "i": 79,
+  "texto": "así",
+  "inicio": 23.57,
+  "fin": 23.84
+ },
+ {
+  "i": 80,
+  "texto": "para",
+  "inicio": 23.84,
+  "fin": 24.08
+ },
+ {
+  "i": 81,
+  "texto": "que",
+  "inicio": 24.21,
+  "fin": 24.42
+ },
+ {
+  "i": 82,
+  "texto": "note",
+  "inicio": 24.42,
+  "fin": 24.74
+ },
+ {
+  "i": 83,
+  "texto": "que",
+  "inicio": 24.88,
+  "fin": 25
+ },
+ {
+  "i": 84,
+  "texto": "nada",
+  "inicio": 25,
+  "fin": 25.31
+ },
+ {
+  "i": 85,
+  "texto": "del",
+  "inicio": 25.33,
+  "fin": 25.58
+ },
+ {
+  "i": 86,
+  "texto": "papel",
+  "inicio": 25.58,
+  "fin": 25.99
+ },
+ {
+  "i": 87,
+  "texto": "con",
+  "inicio": 26.05,
+  "fin": 26.25
+ },
+ {
+  "i": 88,
+  "texto": "la",
+  "inicio": 26.25,
+  "fin": 26.41
+ },
+ {
+  "i": 89,
+  "texto": "tostadora.",
+  "inicio": 26.41,
+  "fin": 27.15
+ },
+ {
+  "i": 90,
+  "texto": "Una",
+  "inicio": 27.52,
+  "fin": 27.74
+ },
+ {
+  "i": 91,
+  "texto": "vez",
+  "inicio": 27.74,
+  "fin": 27.95
+ },
+ {
+  "i": 92,
+  "texto": "envuelto",
+  "inicio": 27.99,
+  "fin": 28.55
+ },
+ {
+  "i": 93,
+  "texto": "así",
+  "inicio": 28.55,
+  "fin": 28.85
+ },
+ {
+  "i": 94,
+  "texto": "con",
+  "inicio": 28.85,
+  "fin": 29.07
+ },
+ {
+  "i": 95,
+  "texto": "todo",
+  "inicio": 29.2,
+  "fin": 29.37
+ },
+ {
+  "i": 96,
+  "texto": "esto",
+  "inicio": 29.37,
+  "fin": 29.66
+ },
+ {
+  "i": 97,
+  "texto": "metido",
+  "inicio": 29.66,
+  "fin": 30.06
+ },
+ {
+  "i": 98,
+  "texto": "por",
+  "inicio": 30.17,
+  "fin": 30.33
+ },
+ {
+  "i": 99,
+  "texto": "dentro,",
+  "inicio": 30.33,
+  "fin": 30.75
+ },
+ {
+  "i": 100,
+  "texto": "vamos",
+  "inicio": 30.94,
+  "fin": 31.18
+ },
+ {
+  "i": 101,
+  "texto": "a",
+  "inicio": 31.25,
+  "fin": 31.25
+ },
+ {
+  "i": 102,
+  "texto": "la",
+  "inicio": 31.25,
+  "fin": 31.35
+ },
+ {
+  "i": 103,
+  "texto": "tostadora.",
+  "inicio": 31.35,
+  "fin": 31.8
+ },
+ {
+  "i": 104,
+  "texto": "Cuérdalo",
+  "inicio": 32,
+  "fin": 32.48
+ },
+ {
+  "i": 105,
+  "texto": "para",
+  "inicio": 32.48,
+  "fin": 32.7
+ },
+ {
+  "i": 106,
+  "texto": "esos",
+  "inicio": 32.7,
+  "fin": 32.92
+ },
+ {
+  "i": 107,
+  "texto": "días",
+  "inicio": 32.92,
+  "fin": 33.14
+ },
+ {
+  "i": 108,
+  "texto": "que",
+  "inicio": 33.23,
+  "fin": 33.37
+ },
+ {
+  "i": 109,
+  "texto": "no",
+  "inicio": 33.37,
+  "fin": 33.48
+ },
+ {
+  "i": 110,
+  "texto": "te",
+  "inicio": 33.48,
+  "fin": 33.58
+ },
+ {
+  "i": 111,
+  "texto": "apetece",
+  "inicio": 33.59,
+  "fin": 33.97
+ },
+ {
+  "i": 112,
+  "texto": "cocinar.",
+  "inicio": 33.97,
+  "fin": 34.24
+ },
+ {
+  "i": 113,
+  "texto": "Y",
+  "inicio": 34.44,
+  "fin": 34.48
+ },
+ {
+  "i": 114,
+  "texto": "dime,",
+  "inicio": 34.48,
+  "fin": 34.67
+ },
+ {
+  "i": 115,
+  "texto": "¿eres",
+  "inicio": 34.76,
+  "fin": 34.86
+ },
+ {
+  "i": 116,
+  "texto": "de",
+  "inicio": 35.04,
+  "fin": 35.13
+ },
+ {
+  "i": 117,
+  "texto": "los",
+  "inicio": 35.13,
+  "fin": 35.27
+ },
+ {
+  "i": 118,
+  "texto": "que",
+  "inicio": 35.27,
+  "fin": 35.41
+ },
+ {
+  "i": 119,
+  "texto": "cocina",
+  "inicio": 35.41,
+  "fin": 35.69
+ },
+ {
+  "i": 120,
+  "texto": "o",
+  "inicio": 35.69,
+  "fin": 35.72
+ },
+ {
+  "i": 121,
+  "texto": "de",
+  "inicio": 35.74,
+  "fin": 35.82
+ },
+ {
+  "i": 122,
+  "texto": "los",
+  "inicio": 35.82,
+  "fin": 35.96
+ },
+ {
+  "i": 123,
+  "texto": "que",
+  "inicio": 35.96,
+  "fin": 36.03
+ },
+ {
+  "i": 124,
+  "texto": "tira",
+  "inicio": 36.14,
+  "fin": 36.28
+ },
+ {
+  "i": 125,
+  "texto": "el",
+  "inicio": 36.28,
+  "fin": 36.37
+ },
+ {
+  "i": 126,
+  "texto": "sándwich?",
+  "inicio": 36.37,
+  "fin": 36.78
+ }
+]

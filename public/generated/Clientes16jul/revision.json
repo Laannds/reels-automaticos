@@ -1,0 +1,18 @@
+{
+  "eliminar": [
+    { "desde": 48, "hasta": 59, "motivo": "toma abortada de 'y no es porque seas peor' (termina en 'con gente')" },
+    { "desde": 95, "hasta": 95, "motivo": "token de silencio final" }
+  ],
+  "sustituciones": [{ "palabra": 1, "texto": "tú" }],
+  "elementos": [
+    { "palabra": 0, "tipo": "broll", "dato": "stock/datacenter.mp4", "duracion": 3.2 },
+    { "palabra": 15, "tipo": "broll", "dato": "stock/codigo.mp4", "duracion": 3 },
+    { "palabra": 32, "tipo": "rotulo", "dato": "2 MIN" },
+    { "palabra": 38, "tipo": "emoji", "dato": "🐌" },
+    { "palabra": 75, "tipo": "rotulo", "dato": "AUTOMÁTICO" },
+    { "palabra": 89, "tipo": "emoji", "dato": "👇" }
+  ],
+  "titulo": { "texto": "Clientes en automático", "resaltar": "automático" },
+  "pasos": [12, 47, 78],
+  "resumen": "Discurso redondo: hook (mientras duermes) → historia de los dos negocios → la razón (automatización) → CTA 'quiero'. Solo una toma abortada. El b-roll inicial cubre la entrada a plano."
+}

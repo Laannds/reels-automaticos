@@ -1,0 +1,58 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.47,
+  "enfasis": [[8, 11], [54, 55], [73, 75]],
+  "sustituciones": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=LOS BEAGLES|NO OBEDECEN",
+      "y": 0.5,
+      "duracion": 2.3
+    },
+    {
+      "palabra": 26,
+      "tipo": "etiqueta",
+      "dato": "CONTROL 1|Cuándo le llega el premio",
+      "y": 0.16,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 34,
+      "tipo": "etiqueta",
+      "dato": "CONTROL 2|Que no note el experimento",
+      "y": 0.16,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 52,
+      "tipo": "remate",
+      "dato": "FUNCIONA CON|=CUALQUIER PROBLEMA",
+      "y": 0.1,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 59,
+      "tipo": "checklist",
+      "dato": "Plataformas@0.9|Sistemas@2.45",
+      "y": 0.14,
+      "duracion": 3.2
+    },
+    {
+      "palabra": 68,
+      "tipo": "etiqueta",
+      "dato": "LA PRUEBA|Mi propio perro",
+      "y": 0.16,
+      "duracion": 2.1
+    },
+    {
+      "palabra": 82,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=WINNIE|Y TE ESCRIBO",
+      "duracion": 2.0
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (marca azul y handle habituales, no es de cliente). Voz en off sin cara: alterna planos del beagle con grabaciones de pantalla de la app 'El registro'. Restricción de composición doble: en los planos de móvil el teléfono ocupa 0.31-0.80 y solo queda libre la pared de ladrillo (0-0.30); en los primeros planos del perro el ojo está a 0.30, así que arriba tampoco cabe todo. La única franja libre en LOS DOS tipos de plano es la inferior, por eso los subtítulos bajan a 0.79 (justo debajo de la pantalla del móvil y del hocico). Los gráficos van todos a la franja de ladrillo durante los planos de móvil, y los dos remates a pantalla sobre el perro SIN oscurecer (y explícita) para no tapar la cara, que es el gancho emocional. Estructura: titulón de gancho, dos etiquetas de 'control' sobre el experimento, remate con la tesis ('funciona con cualquier problema'), checklist del pitch y CTA 'escribe Winnie'."
+}

@@ -1,0 +1,18 @@
+{
+  "eliminar": [],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "PIERDES|CLIENTES", "duracion": 1.7 },
+    { "palabra": 5, "tipo": "burbuja", "dato": "Hola, ¿cuánto cuesta?", "lado": "izq", "duracion": 2.3 },
+    { "palabra": 15, "tipo": "burbuja", "dato": "¡Buenas! Ahora te cuento 👇", "lado": "der", "duracion": 1.6 },
+    { "palabra": 16, "tipo": "logo", "dato": "WHATSAPP", "duracion": 1.6 },
+    { "palabra": 19, "tipo": "rotulo", "dato": "2 MIN" },
+    { "palabra": 25, "tipo": "emoji", "dato": "🐌" },
+    { "palabra": 36, "tipo": "imagen", "dato": "inserts/noticias-negocios.png", "duracion": 2.4 },
+    { "palabra": 44, "tipo": "broll", "dato": "stock/datacenter.mp4", "duracion": 2.2 },
+    { "palabra": 50, "tipo": "rotulo", "dato": "AUTOMÁTICO" },
+    { "palabra": 64, "tipo": "emoji", "dato": "👇" }
+  ],
+  "titulo": { "texto": "Clientes en automático", "resaltar": "automático" },
+  "pasos": [14, 34, 53],
+  "resumen": "Corte manual del usuario, impecable: historia de los dos negocios → la razón (automatización) → CTA 'quiero'. Solo gráficos y pulido de audio."
+}

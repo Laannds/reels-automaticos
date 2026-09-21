@@ -1,0 +1,30 @@
+# Dependencias y binarios
+node_modules/
+scripts/qa/.bin/
+
+# Whisper: el modelo pesa 1,5 GB. Se reinstala con `npm run whisper`
+.whisper/
+
+# Material en bruto de los clientes y renders: no van al repo
+crudos/
+public/crudos/
+out/
+
+# Trabajo intermedio de cada reel (audio, proxies, máscaras del control de
+# calidad)... pero SÍ se guardan las decisiones de edición de cada reel:
+# la revisión, la transcripción (las anclas dependen de ella), las pistas de
+# seguimiento y el informe de calidad.
+public/generated/*/*
+!public/generated/*/revision.json
+!public/generated/*/revision.sugerida.json
+!public/generated/*/transcripcion.json
+!public/generated/*/pista-*.json
+!public/generated/*/qa.json
+
+# Credenciales reales del panel (el ejemplo sí va)
+panel/datos/credenciales.json
+
+# Sistema y temporales
+.DS_Store
+tmp.json
+carpeta sin título/

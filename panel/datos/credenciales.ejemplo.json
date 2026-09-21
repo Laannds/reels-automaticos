@@ -1,0 +1,36 @@
+{
+  "_instrucciones": [
+    "Copia este archivo a 'credenciales.json' (mismo directorio) y rellena tus tokens.",
+    "",
+    "INSTAGRAM — hace falta una cuenta PROFESIONAL (Business o Creator).",
+    "Hay dos caminos posibles, con permisos distintos. Elige uno:",
+    "  A) Instagram Login  → instagram_business_basic",
+    "                        instagram_business_content_publish",
+    "  B) Facebook Login   → instagram_basic, instagram_content_publish,",
+    "                        pages_read_engagement (+ vincular página de Facebook)",
+    "Ver guía paso a paso en: docs/CONECTAR-REDES.md",
+    "",
+    "  igUserId     : el ID numérico de tu cuenta de Instagram (no el @handle)",
+    "  accessToken  : token de larga duración (60 días, hay que renovarlo)",
+    "  Límite: 100 publicaciones por API cada 24h.",
+    "  En modo desarrollo puedes probar con tu propia cuenta SIN esperar la",
+    "  revisión de Meta (que tarda 2-4 semanas por permiso).",
+    "",
+    "TIKTOK — app en developers.tiktok.com con el scope video.publish.",
+    "  accessToken  : token OAuth del usuario",
+    "  Ojo: hasta que TikTok audite tu app, los vídeos llegan como borrador privado.",
+    "",
+    "urlPublicaBase — Instagram NO acepta subir el archivo: descarga el vídeo desde",
+    "una URL pública. Arranca un túnel apuntando a este panel, por ejemplo:",
+    "  cloudflared tunnel --url http://localhost:4322",
+    "y pega aquí la URL que te dé (sin barra final)."
+  ],
+  "instagram": {
+    "igUserId": "",
+    "accessToken": ""
+  },
+  "tiktok": {
+    "accessToken": ""
+  },
+  "urlPublicaBase": ""
+}

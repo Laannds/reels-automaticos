@@ -1,0 +1,33 @@
+{
+  "name": "reels-automaticos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "reel": "node scripts/generar-reel.mjs",
+    "crudo": "node scripts/editar-crudo.mjs",
+    "editor": "python3 -m http.server 4321",
+    "panel": "node panel/server.mjs",
+    "voces": "node scripts/listar-voces.mjs",
+    "whisper": "node scripts/instalar-whisper.mjs",
+    "qa": "node scripts/qa-reel.mjs",
+    "capturas": "node scripts/capturar-movil.mjs",
+    "seguir": "node scripts/seguir-objeto.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.245",
+    "@remotion/google-fonts": "^4.0.245",
+    "@remotion/install-whisper-cpp": "^4.0.489",
+    "@remotion/media-parser": "^4.0.489",
+    "msedge-tts": "^2.0.7",
+    "music-metadata": "^10.5.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.245"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.3"
+  }
+}

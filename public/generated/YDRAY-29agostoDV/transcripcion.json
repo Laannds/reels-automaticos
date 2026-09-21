@@ -1,0 +1,752 @@
+[
+ {
+  "i": 0,
+  "texto": "No",
+  "inicio": 0.02,
+  "fin": 0.12
+ },
+ {
+  "i": 1,
+  "texto": "te",
+  "inicio": 0.12,
+  "fin": 0.24
+ },
+ {
+  "i": 2,
+  "texto": "puedes",
+  "inicio": 0.24,
+  "fin": 0.5
+ },
+ {
+  "i": 3,
+  "texto": "perder",
+  "inicio": 0.59,
+  "fin": 0.96
+ },
+ {
+  "i": 4,
+  "texto": "estos",
+  "inicio": 0.96,
+  "fin": 1.26
+ },
+ {
+  "i": 5,
+  "texto": "bocaditos",
+  "inicio": 1.26,
+  "fin": 1.8
+ },
+ {
+  "i": 6,
+  "texto": "de",
+  "inicio": 1.8,
+  "fin": 1.92
+ },
+ {
+  "i": 7,
+  "texto": "limón",
+  "inicio": 1.92,
+  "fin": 2.26
+ },
+ {
+  "i": 8,
+  "texto": "este",
+  "inicio": 2.44,
+  "fin": 2.55
+ },
+ {
+  "i": 9,
+  "texto": "verano.",
+  "inicio": 2.64,
+  "fin": 2.97
+ },
+ {
+  "i": 10,
+  "texto": "Empezamos",
+  "inicio": 3.02,
+  "fin": 3.44
+ },
+ {
+  "i": 11,
+  "texto": "añadiendo",
+  "inicio": 3.44,
+  "fin": 3.92
+ },
+ {
+  "i": 12,
+  "texto": "leche",
+  "inicio": 3.92,
+  "fin": 4.16
+ },
+ {
+  "i": 13,
+  "texto": "en",
+  "inicio": 4.16,
+  "fin": 4.25
+ },
+ {
+  "i": 14,
+  "texto": "polvo.",
+  "inicio": 4.25,
+  "fin": 4.48
+ },
+ {
+  "i": 15,
+  "texto": "Ahora",
+  "inicio": 4.57,
+  "fin": 4.84
+ },
+ {
+  "i": 16,
+  "texto": "el",
+  "inicio": 4.84,
+  "fin": 4.9
+ },
+ {
+  "i": 17,
+  "texto": "zumo",
+  "inicio": 4.95,
+  "fin": 5.17
+ },
+ {
+  "i": 18,
+  "texto": "de",
+  "inicio": 5.17,
+  "fin": 5.28
+ },
+ {
+  "i": 19,
+  "texto": "un",
+  "inicio": 5.28,
+  "fin": 5.39
+ },
+ {
+  "i": 20,
+  "texto": "limón.",
+  "inicio": 5.39,
+  "fin": 5.73
+ },
+ {
+  "i": 21,
+  "texto": "Dos",
+  "inicio": 5.94,
+  "fin": 6.12
+ },
+ {
+  "i": 22,
+  "texto": "cucharadas",
+  "inicio": 6.12,
+  "fin": 6.72
+ },
+ {
+  "i": 23,
+  "texto": "grandes",
+  "inicio": 6.72,
+  "fin": 7.12
+ },
+ {
+  "i": 24,
+  "texto": "de",
+  "inicio": 7.17,
+  "fin": 7.26
+ },
+ {
+  "i": 25,
+  "texto": "erititol.",
+  "inicio": 7.26,
+  "fin": 7.74
+ },
+ {
+  "i": 26,
+  "texto": "Con",
+  "inicio": 7.96,
+  "fin": 8.13
+ },
+ {
+  "i": 27,
+  "texto": "todo",
+  "inicio": 8.2,
+  "fin": 8.38
+ },
+ {
+  "i": 28,
+  "texto": "esto",
+  "inicio": 8.38,
+  "fin": 8.49
+ },
+ {
+  "i": 29,
+  "texto": "tenemos",
+  "inicio": 8.64,
+  "fin": 9.03
+ },
+ {
+  "i": 30,
+  "texto": "que",
+  "inicio": 9.09,
+  "fin": 9.26
+ },
+ {
+  "i": 31,
+  "texto": "hacer",
+  "inicio": 9.26,
+  "fin": 9.58
+ },
+ {
+  "i": 32,
+  "texto": "una",
+  "inicio": 9.58,
+  "fin": 9.77
+ },
+ {
+  "i": 33,
+  "texto": "masa.",
+  "inicio": 9.77,
+  "fin": 9.99
+ },
+ {
+  "i": 34,
+  "texto": "Por",
+  "inicio": 10.08,
+  "fin": 10.22
+ },
+ {
+  "i": 35,
+  "texto": "lo",
+  "inicio": 10.22,
+  "fin": 10.33
+ },
+ {
+  "i": 36,
+  "texto": "que",
+  "inicio": 10.33,
+  "fin": 10.49
+ },
+ {
+  "i": 37,
+  "texto": "tendremos",
+  "inicio": 10.49,
+  "fin": 10.91
+ },
+ {
+  "i": 38,
+  "texto": "que",
+  "inicio": 10.98,
+  "fin": 11.13
+ },
+ {
+  "i": 39,
+  "texto": "añadir",
+  "inicio": 11.13,
+  "fin": 11.5
+ },
+ {
+  "i": 40,
+  "texto": "agua",
+  "inicio": 11.5,
+  "fin": 11.71
+ },
+ {
+  "i": 41,
+  "texto": "poco",
+  "inicio": 11.71,
+  "fin": 11.87
+ },
+ {
+  "i": 42,
+  "texto": "a",
+  "inicio": 11.96,
+  "fin": 11.97
+ },
+ {
+  "i": 43,
+  "texto": "poco.",
+  "inicio": 11.97,
+  "fin": 12.18
+ },
+ {
+  "i": 44,
+  "texto": "Con",
+  "inicio": 12.45,
+  "fin": 12.61
+ },
+ {
+  "i": 45,
+  "texto": "todo",
+  "inicio": 12.67,
+  "fin": 12.88
+ },
+ {
+  "i": 46,
+  "texto": "ello",
+  "inicio": 12.88,
+  "fin": 13.12
+ },
+ {
+  "i": 47,
+  "texto": "vamos",
+  "inicio": 13.14,
+  "fin": 13.47
+ },
+ {
+  "i": 48,
+  "texto": "moviendo",
+  "inicio": 13.47,
+  "fin": 13.92
+ },
+ {
+  "i": 49,
+  "texto": "hasta",
+  "inicio": 14.03,
+  "fin": 14.28
+ },
+ {
+  "i": 50,
+  "texto": "que",
+  "inicio": 14.28,
+  "fin": 14.38
+ },
+ {
+  "i": 51,
+  "texto": "quede",
+  "inicio": 14.43,
+  "fin": 14.65
+ },
+ {
+  "i": 52,
+  "texto": "una",
+  "inicio": 14.7,
+  "fin": 15
+ },
+ {
+  "i": 53,
+  "texto": "masa",
+  "inicio": 15,
+  "fin": 15.36
+ },
+ {
+  "i": 54,
+  "texto": "para",
+  "inicio": 15.43,
+  "fin": 15.62
+ },
+ {
+  "i": 55,
+  "texto": "poder",
+  "inicio": 15.67,
+  "fin": 15.84
+ },
+ {
+  "i": 56,
+  "texto": "hacer",
+  "inicio": 15.84,
+  "fin": 16.1
+ },
+ {
+  "i": 57,
+  "texto": "los",
+  "inicio": 16.1,
+  "fin": 16.24
+ },
+ {
+  "i": 58,
+  "texto": "bocaditos.",
+  "inicio": 16.25,
+  "fin": 16.71
+ },
+ {
+  "i": 59,
+  "texto": "Cuando",
+  "inicio": 16.9,
+  "fin": 17.23
+ },
+ {
+  "i": 60,
+  "texto": "se",
+  "inicio": 17.23,
+  "fin": 17.26
+ },
+ {
+  "i": 61,
+  "texto": "nos",
+  "inicio": 17.35,
+  "fin": 17.5
+ },
+ {
+  "i": 62,
+  "texto": "quede",
+  "inicio": 17.5,
+  "fin": 17.77
+ },
+ {
+  "i": 63,
+  "texto": "seco",
+  "inicio": 17.77,
+  "fin": 17.98
+ },
+ {
+  "i": 64,
+  "texto": "añadimos",
+  "inicio": 17.99,
+  "fin": 18.45
+ },
+ {
+  "i": 65,
+  "texto": "agua.",
+  "inicio": 18.52,
+  "fin": 18.69
+ },
+ {
+  "i": 66,
+  "texto": "Lo",
+  "inicio": 18.9,
+  "fin": 19
+ },
+ {
+  "i": 67,
+  "texto": "metemos",
+  "inicio": 19,
+  "fin": 19.35
+ },
+ {
+  "i": 68,
+  "texto": "al",
+  "inicio": 19.37,
+  "fin": 19.46
+ },
+ {
+  "i": 69,
+  "texto": "congelador",
+  "inicio": 19.46,
+  "fin": 19.97
+ },
+ {
+  "i": 70,
+  "texto": "20",
+  "inicio": 19.97,
+  "fin": 20.28
+ },
+ {
+  "i": 71,
+  "texto": "minutos",
+  "inicio": 20.28,
+  "fin": 20.63
+ },
+ {
+  "i": 72,
+  "texto": "y",
+  "inicio": 20.7,
+  "fin": 20.76
+ },
+ {
+  "i": 73,
+  "texto": "empezamos",
+  "inicio": 20.76,
+  "fin": 21.31
+ },
+ {
+  "i": 74,
+  "texto": "dándole",
+  "inicio": 21.31,
+  "fin": 21.79
+ },
+ {
+  "i": 75,
+  "texto": "forma",
+  "inicio": 21.79,
+  "fin": 22.07
+ },
+ {
+  "i": 76,
+  "texto": "a",
+  "inicio": 22.18,
+  "fin": 22.18
+ },
+ {
+  "i": 77,
+  "texto": "nuestros",
+  "inicio": 22.18,
+  "fin": 22.55
+ },
+ {
+  "i": 78,
+  "texto": "bocaditos",
+  "inicio": 22.55,
+  "fin": 22.92
+ },
+ {
+  "i": 79,
+  "texto": "de",
+  "inicio": 22.96,
+  "fin": 23.04
+ },
+ {
+  "i": 80,
+  "texto": "limón.",
+  "inicio": 23.04,
+  "fin": 23.32
+ },
+ {
+  "i": 81,
+  "texto": "Los",
+  "inicio": 23.51,
+  "fin": 23.67
+ },
+ {
+  "i": 82,
+  "texto": "pasamos",
+  "inicio": 23.76,
+  "fin": 24.17
+ },
+ {
+  "i": 83,
+  "texto": "por",
+  "inicio": 24.17,
+  "fin": 24.37
+ },
+ {
+  "i": 84,
+  "texto": "estas",
+  "inicio": 24.37,
+  "fin": 24.71
+ },
+ {
+  "i": 85,
+  "texto": "almendritas",
+  "inicio": 24.71,
+  "fin": 25.35
+ },
+ {
+  "i": 86,
+  "texto": "y",
+  "inicio": 25.51,
+  "fin": 25.56
+ },
+ {
+  "i": 87,
+  "texto": "dejamos",
+  "inicio": 25.56,
+  "fin": 26.02
+ },
+ {
+  "i": 88,
+  "texto": "esta",
+  "inicio": 26.02,
+  "fin": 26.28
+ },
+ {
+  "i": 89,
+  "texto": "forma",
+  "inicio": 26.28,
+  "fin": 26.61
+ },
+ {
+  "i": 90,
+  "texto": "así",
+  "inicio": 26.61,
+  "fin": 26.87
+ },
+ {
+  "i": 91,
+  "texto": "redonda",
+  "inicio": 26.87,
+  "fin": 27.33
+ },
+ {
+  "i": 92,
+  "texto": "aquí.",
+  "inicio": 27.33,
+  "fin": 27.66
+ },
+ {
+  "i": 93,
+  "texto": "Seguimos",
+  "inicio": 27.91,
+  "fin": 28.38
+ },
+ {
+  "i": 94,
+  "texto": "con",
+  "inicio": 28.38,
+  "fin": 28.54
+ },
+ {
+  "i": 95,
+  "texto": "nuestro",
+  "inicio": 28.57,
+  "fin": 28.96
+ },
+ {
+  "i": 96,
+  "texto": "bocadito",
+  "inicio": 28.99,
+  "fin": 29.46
+ },
+ {
+  "i": 97,
+  "texto": "de",
+  "inicio": 29.46,
+  "fin": 29.57
+ },
+ {
+  "i": 98,
+  "texto": "limón",
+  "inicio": 29.66,
+  "fin": 29.94
+ },
+ {
+  "i": 99,
+  "texto": "y",
+  "inicio": 29.94,
+  "fin": 30
+ },
+ {
+  "i": 100,
+  "texto": "rebozamos",
+  "inicio": 30,
+  "fin": 30.54
+ },
+ {
+  "i": 101,
+  "texto": "muy",
+  "inicio": 30.54,
+  "fin": 30.72
+ },
+ {
+  "i": 102,
+  "texto": "bien",
+  "inicio": 30.72,
+  "fin": 30.91
+ },
+ {
+  "i": 103,
+  "texto": "en",
+  "inicio": 31.03,
+  "fin": 31.16
+ },
+ {
+  "i": 104,
+  "texto": "nuestras",
+  "inicio": 31.16,
+  "fin": 31.56
+ },
+ {
+  "i": 105,
+  "texto": "almendras.",
+  "inicio": 31.85,
+  "fin": 32.32
+ },
+ {
+  "i": 106,
+  "texto": "Para",
+  "inicio": 32.68,
+  "fin": 32.85
+ },
+ {
+  "i": 107,
+  "texto": "que",
+  "inicio": 32.85,
+  "fin": 33.07
+ },
+ {
+  "i": 108,
+  "texto": "queden",
+  "inicio": 33.09,
+  "fin": 33.45
+ },
+ {
+  "i": 109,
+  "texto": "bien",
+  "inicio": 33.57,
+  "fin": 33.79
+ },
+ {
+  "i": 110,
+  "texto": "crujientes.",
+  "inicio": 33.79,
+  "fin": 34.47
+ },
+ {
+  "i": 111,
+  "texto": "Los",
+  "inicio": 34.6,
+  "fin": 34.74
+ },
+ {
+  "i": 112,
+  "texto": "probarías,",
+  "inicio": 34.8,
+  "fin": 35.26
+ },
+ {
+  "i": 113,
+  "texto": "guardas",
+  "inicio": 35.49,
+  "fin": 35.9
+ },
+ {
+  "i": 114,
+  "texto": "la",
+  "inicio": 35.95,
+  "fin": 36.05
+ },
+ {
+  "i": 115,
+  "texto": "tarzota",
+  "inicio": 36.05,
+  "fin": 36.56
+ },
+ {
+  "i": 116,
+  "texto": "y",
+  "inicio": 36.56,
+  "fin": 36.59
+ },
+ {
+  "i": 117,
+  "texto": "dime",
+  "inicio": 36.59,
+  "fin": 36.72
+ },
+ {
+  "i": 118,
+  "texto": "qué",
+  "inicio": 36.72,
+  "fin": 36.85
+ },
+ {
+  "i": 119,
+  "texto": "te",
+  "inicio": 36.85,
+  "fin": 36.89
+ },
+ {
+  "i": 120,
+  "texto": "ha",
+  "inicio": 36.91,
+  "fin": 36.97
+ },
+ {
+  "i": 121,
+  "texto": "parecido",
+  "inicio": 36.97,
+  "fin": 37.23
+ },
+ {
+  "i": 122,
+  "texto": "cuando",
+  "inicio": 37.23,
+  "fin": 37.42
+ },
+ {
+  "i": 123,
+  "texto": "los",
+  "inicio": 37.42,
+  "fin": 37.51
+ },
+ {
+  "i": 124,
+  "texto": "hagas.",
+  "inicio": 37.51,
+  "fin": 37.66
+ }
+]

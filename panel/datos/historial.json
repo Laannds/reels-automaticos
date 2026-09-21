@@ -1,0 +1,18 @@
+[
+  {
+    "id": "p1785176017558",
+    "archivo": "5CosasNegocio-editado.mp4",
+    "red": "instagram",
+    "ok": false,
+    "mensaje": "Faltan credenciales de Instagram",
+    "cuando": "2026-07-27T18:32:40.670Z"
+  },
+  {
+    "id": "p1785176017558",
+    "archivo": "5CosasNegocio-editado.mp4",
+    "red": "tiktok",
+    "ok": false,
+    "mensaje": "Falta el accessToken de TikTok",
+    "cuando": "2026-07-27T18:32:40.671Z"
+  }
+]

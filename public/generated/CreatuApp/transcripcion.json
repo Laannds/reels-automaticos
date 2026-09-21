@@ -1,0 +1,1034 @@
+[
+ {
+  "i": 0,
+  "texto": "No",
+  "inicio": 0,
+  "fin": 0.11
+ },
+ {
+  "i": 1,
+  "texto": "necesitas",
+  "inicio": 0.11,
+  "fin": 0.6
+ },
+ {
+  "i": 2,
+  "texto": "ser",
+  "inicio": 0.66,
+  "fin": 0.73
+ },
+ {
+  "i": 3,
+  "texto": "ingeniero",
+  "inicio": 0.82,
+  "fin": 1.28
+ },
+ {
+  "i": 4,
+  "texto": "informático",
+  "inicio": 1.28,
+  "fin": 1.96
+ },
+ {
+  "i": 5,
+  "texto": "si",
+  "inicio": 2.03,
+  "fin": 2.08
+ },
+ {
+  "i": 6,
+  "texto": "quieres",
+  "inicio": 2.08,
+  "fin": 2.35
+ },
+ {
+  "i": 7,
+  "texto": "una",
+  "inicio": 2.39,
+  "fin": 2.52
+ },
+ {
+  "i": 8,
+  "texto": "aplicación",
+  "inicio": 2.52,
+  "fin": 3.01
+ },
+ {
+  "i": 9,
+  "texto": "para",
+  "inicio": 3.08,
+  "fin": 3.25
+ },
+ {
+  "i": 10,
+  "texto": "tu",
+  "inicio": 3.27,
+  "fin": 3.39
+ },
+ {
+  "i": 11,
+  "texto": "negocio.",
+  "inicio": 3.39,
+  "fin": 3.61
+ },
+ {
+  "i": 12,
+  "texto": "Y",
+  "inicio": 3.69,
+  "fin": 3.73
+ },
+ {
+  "i": 13,
+  "texto": "es",
+  "inicio": 3.73,
+  "fin": 3.83
+ },
+ {
+  "i": 14,
+  "texto": "que",
+  "inicio": 3.84,
+  "fin": 3.99
+ },
+ {
+  "i": 15,
+  "texto": "a",
+  "inicio": 3.99,
+  "fin": 4.04
+ },
+ {
+  "i": 16,
+  "texto": "día",
+  "inicio": 4.04,
+  "fin": 4.25
+ },
+ {
+  "i": 17,
+  "texto": "de",
+  "inicio": 4.25,
+  "fin": 4.35
+ },
+ {
+  "i": 18,
+  "texto": "hoy",
+  "inicio": 4.35,
+  "fin": 4.51
+ },
+ {
+  "i": 19,
+  "texto": "es",
+  "inicio": 4.51,
+  "fin": 4.55
+ },
+ {
+  "i": 20,
+  "texto": "muy",
+  "inicio": 4.66,
+  "fin": 4.77
+ },
+ {
+  "i": 21,
+  "texto": "sencillo",
+  "inicio": 4.77,
+  "fin": 5.19
+ },
+ {
+  "i": 22,
+  "texto": "crear",
+  "inicio": 5.19,
+  "fin": 5.45
+ },
+ {
+  "i": 23,
+  "texto": "una",
+  "inicio": 5.45,
+  "fin": 5.61
+ },
+ {
+  "i": 24,
+  "texto": "aplicación.",
+  "inicio": 5.61,
+  "fin": 6.14
+ },
+ {
+  "i": 25,
+  "texto": "��nicamente",
+  "inicio": 6.28,
+  "fin": 6.87
+ },
+ {
+  "i": 26,
+  "texto": "lo",
+  "inicio": 6.87,
+  "fin": 6.94
+ },
+ {
+  "i": 27,
+  "texto": "que",
+  "inicio": 7,
+  "fin": 7.14
+ },
+ {
+  "i": 28,
+  "texto": "tienes",
+  "inicio": 7.14,
+  "fin": 7.44
+ },
+ {
+  "i": 29,
+  "texto": "que",
+  "inicio": 7.47,
+  "fin": 7.63
+ },
+ {
+  "i": 30,
+  "texto": "tener",
+  "inicio": 7.63,
+  "fin": 7.9
+ },
+ {
+  "i": 31,
+  "texto": "claro,",
+  "inicio": 7.9,
+  "fin": 8.17
+ },
+ {
+  "i": 32,
+  "texto": "únicamente",
+  "inicio": 8.32,
+  "fin": 8.98
+ },
+ {
+  "i": 33,
+  "texto": "lo",
+  "inicio": 8.98,
+  "fin": 9.1
+ },
+ {
+  "i": 34,
+  "texto": "que",
+  "inicio": 9.1,
+  "fin": 9.28
+ },
+ {
+  "i": 35,
+  "texto": "tienes",
+  "inicio": 9.28,
+  "fin": 9.64
+ },
+ {
+  "i": 36,
+  "texto": "que",
+  "inicio": 9.68,
+  "fin": 9.83
+ },
+ {
+  "i": 37,
+  "texto": "tener",
+  "inicio": 9.83,
+  "fin": 10.13
+ },
+ {
+  "i": 38,
+  "texto": "claro",
+  "inicio": 10.13,
+  "fin": 10.32
+ },
+ {
+  "i": 39,
+  "texto": "es",
+  "inicio": 10.48,
+  "fin": 10.58
+ },
+ {
+  "i": 40,
+  "texto": "qué",
+  "inicio": 10.58,
+  "fin": 10.65
+ },
+ {
+  "i": 41,
+  "texto": "es",
+  "inicio": 10.79,
+  "fin": 10.88
+ },
+ {
+  "i": 42,
+  "texto": "lo",
+  "inicio": 10.88,
+  "fin": 10.94
+ },
+ {
+  "i": 43,
+  "texto": "que",
+  "inicio": 11.02,
+  "fin": 11.13
+ },
+ {
+  "i": 44,
+  "texto": "quieres",
+  "inicio": 11.13,
+  "fin": 11.49
+ },
+ {
+  "i": 45,
+  "texto": "montar.",
+  "inicio": 11.49,
+  "fin": 11.75
+ },
+ {
+  "i": 46,
+  "texto": "A",
+  "inicio": 12.01,
+  "fin": 12.05
+ },
+ {
+  "i": 47,
+  "texto": "partir",
+  "inicio": 12.05,
+  "fin": 12.4
+ },
+ {
+  "i": 48,
+  "texto": "de",
+  "inicio": 12.4,
+  "fin": 12.51
+ },
+ {
+  "i": 49,
+  "texto": "ahí",
+  "inicio": 12.51,
+  "fin": 12.71
+ },
+ {
+  "i": 50,
+  "texto": "te",
+  "inicio": 12.79,
+  "fin": 12.85
+ },
+ {
+  "i": 51,
+  "texto": "vas",
+  "inicio": 12.85,
+  "fin": 12.94
+ },
+ {
+  "i": 52,
+  "texto": "a",
+  "inicio": 13.02,
+  "fin": 13.07
+ },
+ {
+  "i": 53,
+  "texto": "ayudar",
+  "inicio": 13.07,
+  "fin": 13.41
+ },
+ {
+  "i": 54,
+  "texto": "de",
+  "inicio": 13.42,
+  "fin": 13.51
+ },
+ {
+  "i": 55,
+  "texto": "Claude.",
+  "inicio": 13.61,
+  "fin": 13.8
+ },
+ {
+  "i": 56,
+  "texto": "No",
+  "inicio": 14.08,
+  "fin": 14.2
+ },
+ {
+  "i": 57,
+  "texto": "necesitas",
+  "inicio": 14.2,
+  "fin": 14.73
+ },
+ {
+  "i": 58,
+  "texto": "ser",
+  "inicio": 14.79,
+  "fin": 14.91
+ },
+ {
+  "i": 59,
+  "texto": "técnico,",
+  "inicio": 14.92,
+  "fin": 15.4
+ },
+ {
+  "i": 60,
+  "texto": "te",
+  "inicio": 15.59,
+  "fin": 15.66
+ },
+ {
+  "i": 61,
+  "texto": "lo",
+  "inicio": 15.66,
+  "fin": 15.76
+ },
+ {
+  "i": 62,
+  "texto": "repito",
+  "inicio": 15.76,
+  "fin": 16.02
+ },
+ {
+  "i": 63,
+  "texto": "de",
+  "inicio": 16.08,
+  "fin": 16.18
+ },
+ {
+  "i": 64,
+  "texto": "nuevo.",
+  "inicio": 16.18,
+  "fin": 16.43
+ },
+ {
+  "i": 65,
+  "texto": "Vas",
+  "inicio": 16.65,
+  "fin": 16.87
+ },
+ {
+  "i": 66,
+  "texto": "a",
+  "inicio": 16.87,
+  "fin": 16.94
+ },
+ {
+  "i": 67,
+  "texto": "ir",
+  "inicio": 16.94,
+  "fin": 17.06
+ },
+ {
+  "i": 68,
+  "texto": "paso",
+  "inicio": 17.17,
+  "fin": 17.39
+ },
+ {
+  "i": 69,
+  "texto": "a",
+  "inicio": 17.39,
+  "fin": 17.45
+ },
+ {
+  "i": 70,
+  "texto": "paso",
+  "inicio": 17.53,
+  "fin": 17.8
+ },
+ {
+  "i": 71,
+  "texto": "montando",
+  "inicio": 17.8,
+  "fin": 18.19
+ },
+ {
+  "i": 72,
+  "texto": "cada",
+  "inicio": 18.27,
+  "fin": 18.47
+ },
+ {
+  "i": 73,
+  "texto": "una",
+  "inicio": 18.47,
+  "fin": 18.64
+ },
+ {
+  "i": 74,
+  "texto": "de",
+  "inicio": 18.64,
+  "fin": 18.75
+ },
+ {
+  "i": 75,
+  "texto": "las",
+  "inicio": 18.75,
+  "fin": 18.84
+ },
+ {
+  "i": 76,
+  "texto": "cosas",
+  "inicio": 18.93,
+  "fin": 19.17
+ },
+ {
+  "i": 77,
+  "texto": "que",
+  "inicio": 19.27,
+  "fin": 19.32
+ },
+ {
+  "i": 78,
+  "texto": "te",
+  "inicio": 19.32,
+  "fin": 19.44
+ },
+ {
+  "i": 79,
+  "texto": "va",
+  "inicio": 19.44,
+  "fin": 19.56
+ },
+ {
+  "i": 80,
+  "texto": "a",
+  "inicio": 19.56,
+  "fin": 19.57
+ },
+ {
+  "i": 81,
+  "texto": "ir",
+  "inicio": 19.66,
+  "fin": 19.68
+ },
+ {
+  "i": 82,
+  "texto": "comentando",
+  "inicio": 19.68,
+  "fin": 20.09
+ },
+ {
+  "i": 83,
+  "texto": "Claude.",
+  "inicio": 20.17,
+  "fin": 20.32
+ },
+ {
+  "i": 84,
+  "texto": "Mi",
+  "inicio": 20.44,
+  "fin": 20.56
+ },
+ {
+  "i": 85,
+  "texto": "recomendación",
+  "inicio": 20.56,
+  "fin": 21.4
+ },
+ {
+  "i": 86,
+  "texto": "es",
+  "inicio": 21.42,
+  "fin": 21.54
+ },
+ {
+  "i": 87,
+  "texto": "que",
+  "inicio": 21.54,
+  "fin": 21.72
+ },
+ {
+  "i": 88,
+  "texto": "vayas",
+  "inicio": 21.72,
+  "fin": 22.01
+ },
+ {
+  "i": 89,
+  "texto": "a",
+  "inicio": 22.03,
+  "fin": 22.08
+ },
+ {
+  "i": 90,
+  "texto": "sacar",
+  "inicio": 22.08,
+  "fin": 22.44
+ },
+ {
+  "i": 91,
+  "texto": "un",
+  "inicio": 22.44,
+  "fin": 22.58
+ },
+ {
+  "i": 92,
+  "texto": "primer",
+  "inicio": 22.65,
+  "fin": 23.17
+ },
+ {
+  "i": 93,
+  "texto": "MVP,",
+  "inicio": 23.17,
+  "fin": 23.43
+ },
+ {
+  "i": 94,
+  "texto": "es",
+  "inicio": 23.64,
+  "fin": 23.76
+ },
+ {
+  "i": 95,
+  "texto": "decir,",
+  "inicio": 23.76,
+  "fin": 24.02
+ },
+ {
+  "i": 96,
+  "texto": "un",
+  "inicio": 24.2,
+  "fin": 24.3
+ },
+ {
+  "i": 97,
+  "texto": "mínimo",
+  "inicio": 24.3,
+  "fin": 24.64
+ },
+ {
+  "i": 98,
+  "texto": "producto",
+  "inicio": 24.71,
+  "fin": 25.08
+ },
+ {
+  "i": 99,
+  "texto": "viable.",
+  "inicio": 25.08,
+  "fin": 25.44
+ },
+ {
+  "i": 100,
+  "texto": "A",
+  "inicio": 25.44,
+  "fin": 25.48
+ },
+ {
+  "i": 101,
+  "texto": "partir",
+  "inicio": 25.48,
+  "fin": 25.77
+ },
+ {
+  "i": 102,
+  "texto": "de",
+  "inicio": 25.77,
+  "fin": 25.86
+ },
+ {
+  "i": 103,
+  "texto": "ahí",
+  "inicio": 25.86,
+  "fin": 26.03
+ },
+ {
+  "i": 104,
+  "texto": "que",
+  "inicio": 26.11,
+  "fin": 26.19
+ },
+ {
+  "i": 105,
+  "texto": "lo",
+  "inicio": 26.19,
+  "fin": 26.28
+ },
+ {
+  "i": 106,
+  "texto": "empieces",
+  "inicio": 26.28,
+  "fin": 26.65
+ },
+ {
+  "i": 107,
+  "texto": "a",
+  "inicio": 26.65,
+  "fin": 26.69
+ },
+ {
+  "i": 108,
+  "texto": "escalar",
+  "inicio": 26.69,
+  "fin": 27.12
+ },
+ {
+  "i": 109,
+  "texto": "y",
+  "inicio": 27.12,
+  "fin": 27.18
+ },
+ {
+  "i": 110,
+  "texto": "simplemente",
+  "inicio": 27.18,
+  "fin": 27.92
+ },
+ {
+  "i": 111,
+  "texto": "vayas",
+  "inicio": 27.92,
+  "fin": 28.11
+ },
+ {
+  "i": 112,
+  "texto": "paso",
+  "inicio": 28.3,
+  "fin": 28.56
+ },
+ {
+  "i": 113,
+  "texto": "a",
+  "inicio": 28.56,
+  "fin": 28.59
+ },
+ {
+  "i": 114,
+  "texto": "paso,",
+  "inicio": 28.68,
+  "fin": 28.95
+ },
+ {
+  "i": 115,
+  "texto": "como",
+  "inicio": 29.03,
+  "fin": 29.21
+ },
+ {
+  "i": 116,
+  "texto": "te",
+  "inicio": 29.21,
+  "fin": 29.31
+ },
+ {
+  "i": 117,
+  "texto": "he",
+  "inicio": 29.31,
+  "fin": 29.39
+ },
+ {
+  "i": 118,
+  "texto": "comentado,",
+  "inicio": 29.41,
+  "fin": 29.89
+ },
+ {
+  "i": 119,
+  "texto": "siguiendo",
+  "inicio": 30.04,
+  "fin": 30.46
+ },
+ {
+  "i": 120,
+  "texto": "lo",
+  "inicio": 30.46,
+  "fin": 30.56
+ },
+ {
+  "i": 121,
+  "texto": "que",
+  "inicio": 30.56,
+  "fin": 30.72
+ },
+ {
+  "i": 122,
+  "texto": "te",
+  "inicio": 30.72,
+  "fin": 30.76
+ },
+ {
+  "i": 123,
+  "texto": "va",
+  "inicio": 30.83,
+  "fin": 30.89
+ },
+ {
+  "i": 124,
+  "texto": "diciendo",
+  "inicio": 30.95,
+  "fin": 31.24
+ },
+ {
+  "i": 125,
+  "texto": "Claude.",
+  "inicio": 31.34,
+  "fin": 31.58
+ },
+ {
+  "i": 126,
+  "texto": "En",
+  "inicio": 31.88,
+  "fin": 31.95
+ },
+ {
+  "i": 127,
+  "texto": "cuestión",
+  "inicio": 31.95,
+  "fin": 32.44
+ },
+ {
+  "i": 128,
+  "texto": "de",
+  "inicio": 32.44,
+  "fin": 32.55
+ },
+ {
+  "i": 129,
+  "texto": "varias",
+  "inicio": 32.55,
+  "fin": 32.87
+ },
+ {
+  "i": 130,
+  "texto": "semanas",
+  "inicio": 32.87,
+  "fin": 33.25
+ },
+ {
+  "i": 131,
+  "texto": "vas",
+  "inicio": 33.25,
+  "fin": 33.41
+ },
+ {
+  "i": 132,
+  "texto": "a",
+  "inicio": 33.41,
+  "fin": 33.42
+ },
+ {
+  "i": 133,
+  "texto": "tener",
+  "inicio": 33.48,
+  "fin": 33.67
+ },
+ {
+  "i": 134,
+  "texto": "una",
+  "inicio": 33.78,
+  "fin": 33.9
+ },
+ {
+  "i": 135,
+  "texto": "aplicación",
+  "inicio": 33.9,
+  "fin": 34.43
+ },
+ {
+  "i": 136,
+  "texto": "totalmente",
+  "inicio": 34.5,
+  "fin": 35.05
+ },
+ {
+  "i": 137,
+  "texto": "funcional",
+  "inicio": 35.14,
+  "fin": 35.68
+ },
+ {
+  "i": 138,
+  "texto": "y",
+  "inicio": 35.88,
+  "fin": 35.9
+ },
+ {
+  "i": 139,
+  "texto": "con",
+  "inicio": 35.9,
+  "fin": 36.07
+ },
+ {
+  "i": 140,
+  "texto": "la",
+  "inicio": 36.07,
+  "fin": 36.18
+ },
+ {
+  "i": 141,
+  "texto": "capacidad",
+  "inicio": 36.18,
+  "fin": 36.71
+ },
+ {
+  "i": 142,
+  "texto": "de",
+  "inicio": 36.71,
+  "fin": 36.82
+ },
+ {
+  "i": 143,
+  "texto": "poder",
+  "inicio": 36.82,
+  "fin": 37.11
+ },
+ {
+  "i": 144,
+  "texto": "implementarlo",
+  "inicio": 37.11,
+  "fin": 37.87
+ },
+ {
+  "i": 145,
+  "texto": "en",
+  "inicio": 37.87,
+  "fin": 37.97
+ },
+ {
+  "i": 146,
+  "texto": "tu",
+  "inicio": 37.98,
+  "fin": 38.09
+ },
+ {
+  "i": 147,
+  "texto": "servicio",
+  "inicio": 38.09,
+  "fin": 38.62
+ },
+ {
+  "i": 148,
+  "texto": "para",
+  "inicio": 38.7,
+  "fin": 38.84
+ },
+ {
+  "i": 149,
+  "texto": "mejorar",
+  "inicio": 38.84,
+  "fin": 39.19
+ },
+ {
+  "i": 150,
+  "texto": "tu",
+  "inicio": 39.19,
+  "fin": 39.27
+ },
+ {
+  "i": 151,
+  "texto": "negocio.",
+  "inicio": 39.37,
+  "fin": 39.62
+ },
+ {
+  "i": 152,
+  "texto": "Si",
+  "inicio": 39.86,
+  "fin": 39.9
+ },
+ {
+  "i": 153,
+  "texto": "quieres",
+  "inicio": 39.92,
+  "fin": 40.25
+ },
+ {
+  "i": 154,
+  "texto": "que",
+  "inicio": 40.34,
+  "fin": 40.42
+ },
+ {
+  "i": 155,
+  "texto": "te",
+  "inicio": 40.44,
+  "fin": 40.53
+ },
+ {
+  "i": 156,
+  "texto": "ayude",
+  "inicio": 40.53,
+  "fin": 40.76
+ },
+ {
+  "i": 157,
+  "texto": "a",
+  "inicio": 40.83,
+  "fin": 40.83
+ },
+ {
+  "i": 158,
+  "texto": "montar",
+  "inicio": 40.84,
+  "fin": 41.15
+ },
+ {
+  "i": 159,
+  "texto": "una",
+  "inicio": 41.15,
+  "fin": 41.31
+ },
+ {
+  "i": 160,
+  "texto": "aplicación",
+  "inicio": 41.31,
+  "fin": 41.9
+ },
+ {
+  "i": 161,
+  "texto": "para",
+  "inicio": 42,
+  "fin": 42.16
+ },
+ {
+  "i": 162,
+  "texto": "tu",
+  "inicio": 42.25,
+  "fin": 42.36
+ },
+ {
+  "i": 163,
+  "texto": "negocio,",
+  "inicio": 42.36,
+  "fin": 42.8
+ },
+ {
+  "i": 164,
+  "texto": "escribe",
+  "inicio": 42.85,
+  "fin": 43.26
+ },
+ {
+  "i": 165,
+  "texto": "Claude",
+  "inicio": 43.26,
+  "fin": 43.56
+ },
+ {
+  "i": 166,
+  "texto": "y",
+  "inicio": 43.56,
+  "fin": 43.62
+ },
+ {
+  "i": 167,
+  "texto": "me",
+  "inicio": 43.62,
+  "fin": 43.71
+ },
+ {
+  "i": 168,
+  "texto": "pongo",
+  "inicio": 43.8,
+  "fin": 44.03
+ },
+ {
+  "i": 169,
+  "texto": "en",
+  "inicio": 44.11,
+  "fin": 44.16
+ },
+ {
+  "i": 170,
+  "texto": "contacto",
+  "inicio": 44.16,
+  "fin": 44.59
+ },
+ {
+  "i": 171,
+  "texto": "contigo.",
+  "inicio": 44.68,
+  "fin": 45.01
+ }
+]

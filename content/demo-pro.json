@@ -1,0 +1,48 @@
+{
+  "titulo": "Claude vs ChatGPT con datos",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "vs": ["CLAUDE", "CHATGPT"],
+      "texto": "¿*Claude* o *ChatGPT*? Los datos, sin ~opiniones~."
+    },
+    {
+      "tipo": "contenido",
+      "comparativa": {
+        "a": "CLAUDE",
+        "b": "CHATGPT",
+        "ganador": "a",
+        "metricas": [
+          { "etiqueta": "escritura", "a": 5, "b": 3 },
+          { "etiqueta": "código", "a": 5, "b": 4 },
+          { "etiqueta": "versatilidad", "a": 3, "b": 5 }
+        ]
+      },
+      "texto": "Los números no *mienten*: escritura y código para Claude, versatilidad para ChatGPT. Cada una gana en lo ~suyo~."
+    },
+    {
+      "tipo": "contenido",
+      "chat": {
+        "ia": "CLAUDE",
+        "prompt": "Escríbeme un guión de 20 segundos sobre IA",
+        "respuesta": "Hecho. Hook: la IA ya hace en segundos lo que a ti te cuesta horas. Y quien la aprende hoy..."
+      },
+      "texto": "Y míralo en *acción*: le pido un guión entero y lo escribe en ~segundos~."
+    },
+    {
+      "tipo": "contenido",
+      "rank": { "numero": 1, "nombre": "CLAUDE" },
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Veredicto: *Claude* gana donde de verdad ~importa~ para crear."
+    },
+    {
+      "tipo": "cta",
+      "emoji": "📊",
+      "texto": "Comenta *DATA* y te mando la comparativa completa. ~Sígueme~ para más."
+    }
+  ]
+}

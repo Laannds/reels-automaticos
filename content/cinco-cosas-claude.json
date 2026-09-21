@@ -1,0 +1,51 @@
+{
+  "titulo": "5 cosas que Claude hace mejor que ChatGPT",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "nota": "toma nota ↘",
+      "texto": "*5 cosas* que Claude hace mejor que ChatGPT. La cuarta casi nadie la conoce."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "badge": "#1",
+      "texto": "Uno: textos que suenan a *persona*, no a plantilla."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "badge": "#2",
+      "texto": "Dos: programa aplicaciones enteras casi sin ~errores~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "badge": "#3",
+      "texto": "Tres: analiza documentos larguísimos sin perderse ni un *detalle*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "badge": "#4",
+      "postit": "un antes y un después.",
+      "texto": "Cuatro: los *proyectos*: le das contexto una vez y lo recuerda siempre."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/datacenter.mp4",
+      "badge": "#5",
+      "texto": "Y cinco: te dice *no lo sé* en vez de inventarse la respuesta."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "📌",
+      "texto": "~Guarda~ esta lista y *sígueme*, que de cada punto tengo un vídeo entero."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "titulo": "Duelo con datos: ChatGPT vs Gemini",
+  "handle": "@politecnic__",
+  "sinVoz": true,
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "vs": ["CHATGPT", "GEMINI"],
+      "texto": "*ChatGPT* contra *Gemini*, con ~datos~. Hay sorpresa."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 6.5,
+      "comparativa": {
+        "a": "CHATGPT",
+        "b": "GEMINI",
+        "metricas": [
+          { "etiqueta": "versatilidad", "a": 5, "b": 4 },
+          { "etiqueta": "precio", "a": 3, "b": 5 },
+          { "etiqueta": "documentos", "a": 3, "b": 5 }
+        ]
+      },
+      "texto": "Los números: *ChatGPT* hace más cosas, pero *Gemini* regala más."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "rank": { "numero": 1, "nombre": "GEMINI" },
+      "sello": { "texto": "SORPRESA", "tipo": "mejor" },
+      "texto": "Para el 90% de la gente, gana *Gemini*. Sí, en serio."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4,
+      "nota": "la letra pequeña ↘",
+      "postit": "si pagas, la cosa cambia.",
+      "texto": "Pero ojo: si vas a *pagar*, la respuesta es otra."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4.5,
+      "emoji": "💬",
+      "texto": "Comenta *DUELO* y te mando la comparativa completa. ~Sígueme~."
+    }
+  ]
+}

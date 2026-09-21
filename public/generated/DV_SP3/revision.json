@@ -1,0 +1,133 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.53,
+  "enfasis": [
+    [
+      1,
+      1
+    ],
+    [
+      44,
+      45
+    ],
+    [
+      67,
+      68
+    ],
+    [
+      79,
+      81
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 20,
+      "texto": "cazuela"
+    },
+    {
+      "palabra": 55,
+      "texto": "bañamos"
+    },
+    {
+      "palabra": 82,
+      "texto": "¡No"
+    },
+    {
+      "palabra": 84,
+      "texto": "queméis!"
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=GAMBAS|=AL AJILLO|EN 5 MIN DE MICRO",
+      "y": 0.5,
+      "duracion": 2.7
+    },
+    {
+      "palabra": 12,
+      "tipo": "checklist",
+      "dato": "4 dientes de ajo@0|1 cayena@4.01|Aceite de oliva@4.56",
+      "y": 0.37,
+      "duracion": 6.6
+    },
+    {
+      "palabra": 34,
+      "tipo": "estado",
+      "dato": "2 MIN",
+      "y": 0.4,
+      "duracion": 1.6,
+      "x": 0.72,
+      "tam": 250
+    },
+    {
+      "palabra": 38,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 48,
+      "tipo": "etiqueta",
+      "dato": "PASO 2|Las gambas, al aceite",
+      "y": 0.37,
+      "duracion": 1.7
+    },
+    {
+      "palabra": 55,
+      "tipo": "etiqueta",
+      "dato": "TRUCO|Báñalas bien en el aceite",
+      "y": 0.37,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 67,
+      "tipo": "estado",
+      "dato": "3 MIN",
+      "y": 0.4,
+      "duracion": 1.45,
+      "x": 0.72,
+      "tam": 250
+    },
+    {
+      "palabra": 74,
+      "tipo": "etiqueta",
+      "dato": "OJO|Usa un trapo, que quema",
+      "y": 0.37,
+      "duracion": 3.2
+    },
+    {
+      "palabra": 85,
+      "tipo": "transicion",
+      "dato": "zoomOut",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 87,
+      "tipo": "remate",
+      "dato": "bocadillo:GUARDA=ESTA RECETA",
+      "desfase": 0.44,
+      "duracion": 3.85
+    }
+  ],
+  "resumen": "Receta de DV FIT (David): gambas al ajillo en el microondas. Sin handle, amarillo de marca, mismo lenguaje que los reels del sándwich y los bocaditos: titulón centrado con las dos primeras líneas en amarillo ('EN 5 MIN DE MICRO', 2+3 min), checklist de ingredientes que se marca al nombrarlos, anillos de tiempo en cada paso de micro, etiquetas PASO/TRUCO/OJO y CTA 'GUARDA ESTA RECETA' en bocadillo. Composición medida con Vision en todo el vídeo: la barbilla llega a 0,35 cuando se inclina (5,5-6,5 s y 16,5-17,5 s), así que la franja de 0,33 de las recetas anteriores le taparía la cara; los paneles van desde 0,37, los anillos centrados a 0,43 y los subtítulos a 0,53, por encima de la cazuela (0,62-0,85). El CTA no lo grabó: se coloca sobre el plano final (27,8-31,5 s), cuando ya no habla, anclado a 'ello.' con un desfase. Correcciones: cazola -> cazuela, vayamos -> bañamos (verificado con audio ralentizado). Anillos de tiempo a 250 px y a la derecha, sobre los azulejos (x 0,72): centrados y a 168 px se perdían y el de 3 MIN caía sobre la mano con la que gesticula.",
+  "tiempos": [
+    {
+      "palabra": 82,
+      "inicio": 26.0,
+      "fin": 26.12
+    },
+    {
+      "palabra": 83,
+      "inicio": 26.12,
+      "fin": 26.22
+    },
+    {
+      "palabra": 84,
+      "inicio": 26.22,
+      "fin": 26.49
+    }
+  ]
+}

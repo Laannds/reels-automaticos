@@ -1,0 +1,79 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.42,
+  "enfasis": [
+    [
+      69,
+      71
+    ],
+    [
+      108,
+      110
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 25,
+      "texto": "eritritol."
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 5,
+      "tipo": "titulon",
+      "dato": "=BOCADITOS|=DE LIMÓN|EN MENOS DE 30 MIN",
+      "duracion": 2.2,
+      "y": 0.5
+    },
+    {
+      "palabra": 10,
+      "tipo": "checklist",
+      "dato": "Leche en polvo@0|Zumo de 1 limón@1.5|2 cucharadas de eritritol@2.9",
+      "y": 0.33,
+      "duracion": 5.0
+    },
+    {
+      "palabra": 39,
+      "tipo": "etiqueta",
+      "dato": "TRUCO|El agua, poco a poco",
+      "y": 0.34,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 59,
+      "tipo": "etiqueta",
+      "dato": "SI SE SECA|Añade más agua",
+      "y": 0.34,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 69,
+      "tipo": "estado",
+      "dato": "20 MIN",
+      "y": 0.36,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 77,
+      "tipo": "etiqueta",
+      "dato": "PASO 3|Dar forma a mano",
+      "y": 0.34,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 93,
+      "tipo": "etiqueta",
+      "dato": "PASO 4|Rebozar en almendra",
+      "y": 0.34,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 111,
+      "tipo": "remate",
+      "dato": "bocadillo:GUARDA=LA RECETA",
+      "duracion": 3.2
+    }
+  ],
+  "resumen": "Receta de bocaditos de limón para DV FIT (sin handle, amarillo de marca). Restricción de composición particular: aquí no solo hay que respetar la cara (arriba, 0-0.30) sino EL PLATO (0.50-0.85), que es el contenido. Por eso los subtítulos suben a 0.42 y los paneles se colocan sobre el torso (0.33-0.43), la única franja libre. Estructura: titulón de gancho, checklist de ingredientes que se van marcando conforme los añade, anillo de 20 min al mencionar el congelador, y CTA final de guardar la receta. El remate del CTA silencia los subtítulos, lo que además tapa una palabra mal transcrita al final."
+}

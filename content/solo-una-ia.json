@@ -1,0 +1,42 @@
+{
+  "titulo": "Si solo pudiera usar una IA",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/datacenter.mp4",
+      "nota": "sin dudarlo ↘",
+      "texto": "Si solo pudiera usar *una IA* el resto de mi vida, sería esta."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "texto": "No sería Gemini, aunque sea el mejor *gratis*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/codigo.mp4",
+      "texto": "No sería ChatGPT, aunque haga de *todo*."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "EL MEJOR", "tipo": "mejor" },
+      "texto": "Sería *Claude*. Porque escribir y programar bien es lo que marca la ~diferencia~."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "postit": "mi opinión, mi dinero.",
+      "texto": "Lo demás lo hacen muchas. Esto solo lo hace *una*."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "🤔",
+      "texto": "¿La tuya cuál sería? *Comenta* y ~sígueme~ para más IA sin humo."
+    }
+  ]
+}

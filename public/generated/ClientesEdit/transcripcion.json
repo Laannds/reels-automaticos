@@ -1,0 +1,422 @@
+[
+ {
+  "i": 0,
+  "texto": "Un",
+  "inicio": 0,
+  "fin": 0.12
+ },
+ {
+  "i": 1,
+  "texto": "cliente",
+  "inicio": 0.22,
+  "fin": 0.56
+ },
+ {
+  "i": 2,
+  "texto": "pregunta",
+  "inicio": 0.56,
+  "fin": 1.07
+ },
+ {
+  "i": 3,
+  "texto": "lo",
+  "inicio": 1.07,
+  "fin": 1.19
+ },
+ {
+  "i": 4,
+  "texto": "mismo",
+  "inicio": 1.19,
+  "fin": 1.5
+ },
+ {
+  "i": 5,
+  "texto": "a",
+  "inicio": 1.5,
+  "fin": 1.51
+ },
+ {
+  "i": 6,
+  "texto": "dos",
+  "inicio": 1.58,
+  "fin": 1.75
+ },
+ {
+  "i": 7,
+  "texto": "negocios",
+  "inicio": 1.75,
+  "fin": 2.25
+ },
+ {
+  "i": 8,
+  "texto": "del",
+  "inicio": 2.25,
+  "fin": 2.44
+ },
+ {
+  "i": 9,
+  "texto": "mismo",
+  "inicio": 2.44,
+  "fin": 2.74
+ },
+ {
+  "i": 10,
+  "texto": "sector,",
+  "inicio": 2.74,
+  "fin": 3.07
+ },
+ {
+  "i": 11,
+  "texto": "a",
+  "inicio": 3.3,
+  "fin": 3.35
+ },
+ {
+  "i": 12,
+  "texto": "la",
+  "inicio": 3.35,
+  "fin": 3.45
+ },
+ {
+  "i": 13,
+  "texto": "misma",
+  "inicio": 3.45,
+  "fin": 3.72
+ },
+ {
+  "i": 14,
+  "texto": "hora.",
+  "inicio": 3.72,
+  "fin": 3.95
+ },
+ {
+  "i": 15,
+  "texto": "Uno",
+  "inicio": 4.51,
+  "fin": 4.51
+ },
+ {
+  "i": 16,
+  "texto": "contesta",
+  "inicio": 4.52,
+  "fin": 5.05
+ },
+ {
+  "i": 17,
+  "texto": "a",
+  "inicio": 5.14,
+  "fin": 5.19
+ },
+ {
+  "i": 18,
+  "texto": "los",
+  "inicio": 5.19,
+  "fin": 5.41
+ },
+ {
+  "i": 19,
+  "texto": "dos",
+  "inicio": 5.41,
+  "fin": 5.63
+ },
+ {
+  "i": 20,
+  "texto": "minutos",
+  "inicio": 5.63,
+  "fin": 6.01
+ },
+ {
+  "i": 21,
+  "texto": "y",
+  "inicio": 6.26,
+  "fin": 6.26
+ },
+ {
+  "i": 22,
+  "texto": "el",
+  "inicio": 6.32,
+  "fin": 6.39
+ },
+ {
+  "i": 23,
+  "texto": "otro",
+  "inicio": 6.39,
+  "fin": 6.61
+ },
+ {
+  "i": 24,
+  "texto": "al",
+  "inicio": 6.65,
+  "fin": 6.78
+ },
+ {
+  "i": 25,
+  "texto": "día",
+  "inicio": 6.78,
+  "fin": 7.04
+ },
+ {
+  "i": 26,
+  "texto": "siguiente",
+  "inicio": 7.04,
+  "fin": 7.59
+ },
+ {
+  "i": 27,
+  "texto": "y",
+  "inicio": 7.59,
+  "fin": 7.71
+ },
+ {
+  "i": 28,
+  "texto": "adivina",
+  "inicio": 7.82,
+  "fin": 8.26
+ },
+ {
+  "i": 29,
+  "texto": "con",
+  "inicio": 8.26,
+  "fin": 8.52
+ },
+ {
+  "i": 30,
+  "texto": "cuál",
+  "inicio": 8.52,
+  "fin": 8.7
+ },
+ {
+  "i": 31,
+  "texto": "se",
+  "inicio": 8.74,
+  "fin": 8.84
+ },
+ {
+  "i": 32,
+  "texto": "queda",
+  "inicio": 8.84,
+  "fin": 9.04
+ },
+ {
+  "i": 33,
+  "texto": "el",
+  "inicio": 9.04,
+  "fin": 9.17
+ },
+ {
+  "i": 34,
+  "texto": "cliente.",
+  "inicio": 9.17,
+  "fin": 9.68
+ },
+ {
+  "i": 35,
+  "texto": "Y",
+  "inicio": 9.71,
+  "fin": 9.75
+ },
+ {
+  "i": 36,
+  "texto": "no",
+  "inicio": 9.84,
+  "fin": 9.88
+ },
+ {
+  "i": 37,
+  "texto": "es",
+  "inicio": 9.88,
+  "fin": 10
+ },
+ {
+  "i": 38,
+  "texto": "porque",
+  "inicio": 10,
+  "fin": 10.37
+ },
+ {
+  "i": 39,
+  "texto": "seas",
+  "inicio": 10.37,
+  "fin": 10.57
+ },
+ {
+  "i": 40,
+  "texto": "peor,",
+  "inicio": 10.67,
+  "fin": 10.85
+ },
+ {
+  "i": 41,
+  "texto": "es",
+  "inicio": 10.99,
+  "fin": 11.09
+ },
+ {
+  "i": 42,
+  "texto": "porque",
+  "inicio": 11.18,
+  "fin": 11.36
+ },
+ {
+  "i": 43,
+  "texto": "estás",
+  "inicio": 11.36,
+  "fin": 11.62
+ },
+ {
+  "i": 44,
+  "texto": "compitiendo",
+  "inicio": 11.64,
+  "fin": 12.13
+ },
+ {
+  "i": 45,
+  "texto": "con",
+  "inicio": 12.22,
+  "fin": 12.32
+ },
+ {
+  "i": 46,
+  "texto": "negocios",
+  "inicio": 12.32,
+  "fin": 12.88
+ },
+ {
+  "i": 47,
+  "texto": "que",
+  "inicio": 13.02,
+  "fin": 13.06
+ },
+ {
+  "i": 48,
+  "texto": "ya",
+  "inicio": 13.06,
+  "fin": 13.18
+ },
+ {
+  "i": 49,
+  "texto": "tienen",
+  "inicio": 13.18,
+  "fin": 13.46
+ },
+ {
+  "i": 50,
+  "texto": "automatizado",
+  "inicio": 13.46,
+  "fin": 14.3
+ },
+ {
+  "i": 51,
+  "texto": "todo",
+  "inicio": 14.46,
+  "fin": 14.58
+ },
+ {
+  "i": 52,
+  "texto": "este",
+  "inicio": 14.59,
+  "fin": 14.88
+ },
+ {
+  "i": 53,
+  "texto": "proceso.",
+  "inicio": 14.88,
+  "fin": 15.39
+ },
+ {
+  "i": 54,
+  "texto": "Si",
+  "inicio": 15.41,
+  "fin": 15.5
+ },
+ {
+  "i": 55,
+  "texto": "no",
+  "inicio": 15.57,
+  "fin": 15.58
+ },
+ {
+  "i": 56,
+  "texto": "quieres",
+  "inicio": 15.62,
+  "fin": 16
+ },
+ {
+  "i": 57,
+  "texto": "seguir",
+  "inicio": 16.01,
+  "fin": 16.28
+ },
+ {
+  "i": 58,
+  "texto": "perdiendo",
+  "inicio": 16.39,
+  "fin": 16.84
+ },
+ {
+  "i": 59,
+  "texto": "clientes",
+  "inicio": 16.84,
+  "fin": 17.27
+ },
+ {
+  "i": 60,
+  "texto": "por",
+  "inicio": 17.28,
+  "fin": 17.45
+ },
+ {
+  "i": 61,
+  "texto": "llegar",
+  "inicio": 17.45,
+  "fin": 17.78
+ },
+ {
+  "i": 62,
+  "texto": "tarde,",
+  "inicio": 17.78,
+  "fin": 17.94
+ },
+ {
+  "i": 63,
+  "texto": "escribe",
+  "inicio": 18.28,
+  "fin": 18.66
+ },
+ {
+  "i": 64,
+  "texto": "quiero",
+  "inicio": 18.66,
+  "fin": 19.02
+ },
+ {
+  "i": 65,
+  "texto": "y",
+  "inicio": 19.02,
+  "fin": 19.08
+ },
+ {
+  "i": 66,
+  "texto": "te",
+  "inicio": 19.08,
+  "fin": 19.13
+ },
+ {
+  "i": 67,
+  "texto": "enseño",
+  "inicio": 19.31,
+  "fin": 19.6
+ },
+ {
+  "i": 68,
+  "texto": "cómo",
+  "inicio": 19.62,
+  "fin": 19.92
+ },
+ {
+  "i": 69,
+  "texto": "hacerlo.",
+  "inicio": 19.92,
+  "fin": 20.33
+ }
+]

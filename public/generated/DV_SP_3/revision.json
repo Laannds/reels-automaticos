@@ -1,0 +1,133 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.6,
+  "enfasis": [
+    [
+      64,
+      66
+    ],
+    [
+      84,
+      84
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 0,
+      "texto": "Solo"
+    },
+    {
+      "palabra": 99,
+      "texto": "notas"
+    }
+  ],
+  "elementos": [
+    {
+      "palabra": 2,
+      "tipo": "interrogantes",
+      "dato": "1",
+      "color": "#FF2D2D",
+      "pista": "ipad",
+      "duracion": 2.66
+    },
+    {
+      "palabra": 5,
+      "tipo": "titulon",
+      "dato": "=5 VECES MÁS|RESULTADOS",
+      "y": 0.66,
+      "duracion": 2.0
+    },
+    {
+      "palabra": 13,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 18,
+      "tipo": "etiqueta",
+      "dato": "EL PROBLEMA|No sabes si levantas más",
+      "y": 0.7,
+      "duracion": 3.6
+    },
+    {
+      "palabra": 24,
+      "tipo": "broll",
+      "dato": "stock/gym-barra-sentadilla.mp4",
+      "duracion": 2.4
+    },
+    {
+      "palabra": 39,
+      "tipo": "broll",
+      "dato": "stock/movil-cascos-mensajes.mp4",
+      "duracion": 2.5
+    },
+    {
+      "palabra": 42,
+      "tipo": "siNo",
+      "dato": "Música y mensajes@0|Apuntar tus entrenos@2.87",
+      "y": 0.69,
+      "duracion": 4.05
+    },
+    {
+      "palabra": 57,
+      "tipo": "remate",
+      "dato": "SIN CONTROL|NO HAY=PROGRESO",
+      "duracion": 2.3
+    },
+    {
+      "palabra": 69,
+      "tipo": "movil",
+      "dato": "inserts/rutina-planes.png|inserts/rutina-plan.png|inserts/rutina-sesion.png",
+      "duracion": 5.0
+    },
+    {
+      "palabra": 86,
+      "tipo": "etiqueta",
+      "dato": "COMENTA RUTINA|Y te paso el acceso",
+      "y": 0.7,
+      "duracion": 1.8
+    },
+    {
+      "palabra": 93,
+      "tipo": "transicion",
+      "dato": "zoomOut",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 95,
+      "tipo": "etiqueta",
+      "dato": "PLAN B|El bloc de notas del móvil",
+      "y": 0.7,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 97,
+      "tipo": "broll",
+      "dato": "stock/movil-escribir-notas.mp4",
+      "duracion": 2.1
+    },
+    {
+      "palabra": 107,
+      "tipo": "checklist",
+      "dato": "Peso@0|Repeticiones@0.30|Series@1.04",
+      "y": 0.69,
+      "duracion": 2.0
+    },
+    {
+      "palabra": 112,
+      "tipo": "etiqueta",
+      "dato": "CADA SEMANA|¿Subes, bajas o igual?",
+      "y": 0.7,
+      "duracion": 2.9
+    },
+    {
+      "palabra": 123,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA|Y TE DOY ACCESO",
+      "duracion": 1.84
+    }
+  ],
+  "resumen": "Reel de DV FIT (David): apuntar los entrenos para progresar, con su propia plataforma (rutina-kappa.vercel.app). Sin handle, amarillo de marca. Gancho pedido por Pablo: una interrogación ROJA grande sobre la pantalla del iPad que sostiene David cuando dice 'solo con ESTO…' (iPad en x 0,50-0,85 y 0,38-0,50), más titulón '5 VECES MÁS RESULTADOS' sobre las piernas. Cara medida con Vision: de pie 0,21-0,33; sentado 0,22-0,40 y centrada, así que en los planos sentado todo va por debajo: subtítulos a 0,60 y paneles a 0,69-0,70. Problema: etiqueta + panel ✓/✗ (música y mensajes sí, apuntar tus entrenos no), cada fila con su frase, y remate 'SIN CONTROL NO HAY PROGRESO'. Al decir 'mi propia plataforma', teléfono a pantalla completa con tres capturas en modo móvil (planes por días, plan con sesiones, sesión con series/descanso/RIR) que se deslizan como al navegar; capturadas a 1170x2532 con Chrome sin ventana y el plan de 3 días fijado. Después: comenta RUTINA, plan B con el bloc de notas, checklist peso/repeticiones/series y CTA 'ESCRIBE RUTINA Y TE DOY ACCESO'. Corrección: 'bloc de nota' -> 'notas'. Ajustes tras la primera versión: la interrogación roja va PEGADA al iPad (seguimiento con Vision fotograma a fotograma: posición y tamaño con VNTrackObjectRequest, ángulo por la orientación de los bordes del iPad, 23-31°), hasta el corte de 3,00 s. Tres clips de stock de Mixkit donde David cuenta algo que no enseña: sentadilla con barra en un box español ('el peso que has levantado'), chico con cascos escribiendo en el móvil ('música y mensajes', con el ✓ encima) y manos escribiendo en el móvil ('el bloc de notas'). La voz va tal cual la grabó David: sin reductor, compresor ni normalización; música y efectos se colocan relativos a su volumen real y el máster solo aplica ganancia."
+}

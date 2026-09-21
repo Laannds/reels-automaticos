@@ -1,0 +1,42 @@
+{
+  "titulo": "Crea tu app con Claude",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "stock": false,
+  "escenas": [
+    {
+      "tipo": "hook",
+      "duracion": 4,
+      "nota": "esto ya no es así ↘",
+      "texto": "Si no sabes programar, crees que *nunca* vas a tener tu propia aplicación."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "logo": "logos/claude.svg",
+      "texto": "Hoy puedes crear una app para tu negocio *sin escribir ni una línea de código*."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 7,
+      "chat": {
+        "ia": "CLAUDE",
+        "prompt": "Quiero una app para gestionar las citas de mi negocio",
+        "respuesta": "Perfecto, empecemos por el MVP: pantalla de reservas, calendario y recordatorios automáticos."
+      },
+      "texto": "Tú solo describes lo que necesitas. *Claude* hace el resto."
+    },
+    {
+      "tipo": "contenido",
+      "duracion": 4.5,
+      "sello": { "texto": "TÚ PUEDES", "tipo": "mejor" },
+      "postit": "sin ser programador/a",
+      "texto": "No necesitas un equipo técnico. *Lo puedes montar tú misma*."
+    },
+    {
+      "tipo": "cta",
+      "duracion": 4,
+      "texto": "~Sígueme~ y te enseño paso a paso cómo montar la tuya."
+    }
+  ]
+}

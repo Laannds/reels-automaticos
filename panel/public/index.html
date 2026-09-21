@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Central de automatización de redes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎛 Central de automatización</h1>
+    <p class="subt">@politecnic__ — producción, planificación y generación de contenido</p>
+    <nav id="nav">
+      <button data-seccion="produccion" class="activo">Producción</button>
+      <button data-seccion="planificacion">Planificación</button>
+      <button data-seccion="automatizaciones">Respuestas auto</button>
+      <button data-seccion="ideas">Ideas IA</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ── Producción ───────────────────────────────────────────── -->
+    <div class="seccion activa" id="seccion-produccion">
+      <section>
+        <h2>Crudos <span class="contador" id="contador-crudos"></span></h2>
+        <div class="lista" id="lista-crudos">Cargando…</div>
+      </section>
+      <section>
+        <h2>Guiones automáticos <span class="contador" id="contador-historias"></span></h2>
+        <div class="lista" id="lista-historias">Cargando…</div>
+      </section>
+    </div>
+
+    <!-- ── Planificación ────────────────────────────────────────── -->
+    <div class="seccion" id="seccion-planificacion">
+      <div id="estado-conexiones" class="aviso"></div>
+      <div class="acciones" style="margin-bottom:24px">
+        <button id="btn-probar-conexion">Probar conexión</button>
+        <span class="pista" id="resultado-prueba"></span>
+      </div>
+
+      <section>
+        <h2>Programar publicación</h2>
+        <div class="formulario">
+          <label>
+            Vídeo
+            <select id="nuevo-archivo"></select>
+          </label>
+          <label>
+            Fecha y hora
+            <input type="datetime-local" id="nueva-fecha" />
+          </label>
+          <label class="ancho">
+            Caption
+            <textarea id="nuevo-caption" rows="4" placeholder="Texto del post, hashtags incluidos…"></textarea>
+          </label>
+          <label class="redes">
+            Redes
+            <span>
+              <label class="check"><input type="checkbox" value="instagram" checked /> Instagram</label>
+              <label class="check"><input type="checkbox" value="tiktok" checked /> TikTok</label>
+            </span>
+          </label>
+          <button class="primario" id="btn-programar">Añadir al calendario</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Publicación automática</h2>
+        <div class="planificador">
+          <div class="planificador-estado">
+            <label class="interruptor">
+              <input type="checkbox" id="planificador-activo" />
+              <span>Publicar solo a la hora programada</span>
+            </label>
+            <span class="pista" id="planificador-info"></span>
+          </div>
+          <button id="btn-revisar-ahora">Revisar ahora</button>
+        </div>
+        <details id="historial-caja">
+          <summary>Historial de publicaciones</summary>
+          <div id="historial"></div>
+        </details>
+      </section>
+
+      <section>
+        <h2>Calendario <span class="contador" id="contador-calendario"></span></h2>
+        <div id="lista-calendario">Cargando…</div>
+      </section>
+    </div>
+
+    <!-- ── Respuestas automáticas (tipo ManyChat) ───────────────── -->
+    <div class="seccion" id="seccion-automatizaciones">
+      <div class="aviso">
+        <span class="pendiente">○ API de Meta sin conectar</span>
+        <p class="aviso-ayuda">
+          Las reglas y el simulador ya funcionan: puedes montarlas y probarlas aquí mismo.
+          Lo que falta para que respondan solas de verdad es enganchar los webhooks de
+          Instagram (Messenger API), que haremos al desplegar.
+        </p>
+      </div>
+
+      <section>
+        <h2>Nueva automatización</h2>
+        <div class="formulario">
+          <label class="ancho">
+            Nombre
+            <input type="text" id="auto-nombre" placeholder="Ej: Palabra clave LISTA" />
+          </label>
+          <label>
+            Cuándo se dispara
+            <select id="auto-tipo">
+              <option value="comentario">Comentario en post o reel</option>
+              <option value="dm">Mensaje directo</option>
+              <option value="mencion_historia">Mención en historia</option>
+            </select>
+          </label>
+          <label>
+            Condición
+            <select id="auto-condicion">
+              <option value="contiene">Contiene la palabra</option>
+              <option value="exacto">Es exactamente la palabra</option>
+              <option value="cualquiera">Cualquier mensaje</option>
+            </select>
+          </label>
+          <label class="ancho">
+            Palabras clave <span class="pista">separadas por comas</span>
+            <input type="text" id="auto-palabras" placeholder="LISTA, guía, quiero" />
+          </label>
+          <label class="ancho">
+            Respuesta pública al comentario <span class="pista">déjalo vacío para no responder</span>
+            <textarea id="auto-respuesta" rows="2" placeholder="¡Te lo acabo de mandar por privado!"></textarea>
+          </label>
+          <label class="ancho">
+            Mensaje directo <span class="pista">usa {{usuario}} para su nombre</span>
+            <textarea id="auto-dm" rows="3" placeholder="Hola {{usuario}}, aquí tienes lo que te prometí…"></textarea>
+          </label>
+          <label class="ancho">
+            Etiqueta del contacto <span class="pista">opcional, para segmentar</span>
+            <input type="text" id="auto-etiqueta" placeholder="lead-lista" />
+          </label>
+          <button class="primario" id="btn-guardar-auto">Guardar automatización</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Probador <span class="pista">comprueba qué regla saltaría</span></h2>
+        <div class="formulario">
+          <label>
+            Tipo de evento
+            <select id="sim-tipo">
+              <option value="comentario">Comentario</option>
+              <option value="dm">Mensaje directo</option>
+              <option value="mencion_historia">Mención en historia</option>
+            </select>
+          </label>
+          <label>
+            Usuario ficticio
+            <input type="text" id="sim-usuario" value="maria" />
+          </label>
+          <label class="ancho">
+            Texto que escribiría
+            <input type="text" id="sim-texto" placeholder="Ej: quiero la lista" />
+          </label>
+          <button id="btn-simular">Probar</button>
+        </div>
+        <div id="resultado-simulacion"></div>
+      </section>
+
+      <section>
+        <h2>Automatizaciones <span class="contador" id="contador-autos"></span></h2>
+        <div id="lista-autos">Cargando…</div>
+      </section>
+    </div>
+
+    <!-- ── Ideas IA ─────────────────────────────────────────────── -->
+    <div class="seccion" id="seccion-ideas">
+      <section>
+        <h2>Generar guión nuevo</h2>
+        <div class="formulario">
+          <label>
+            Línea de contenido
+            <select id="idea-linea">
+              <option value="1">Línea 1 — negocio local / automatización</option>
+              <option value="2" selected>Línea 2 — viral / IA general</option>
+            </select>
+          </label>
+          <label class="ancho">
+            Tema (opcional)
+            <input type="text" id="idea-tema" placeholder="Déjalo vacío para que elija la IA" />
+          </label>
+          <button class="primario" id="btn-generar-idea">Generar guión</button>
+        </div>
+        <div id="resultado-idea"></div>
+      </section>
+    </div>
+  </main>
+
+  <div id="panel-log" class="panel-log oculto">
+    <div class="panel-log-cabecera">
+      <span id="panel-log-titulo">Ejecutando…</span>
+      <button id="cerrar-log">✕</button>
+    </div>
+    <pre id="panel-log-contenido"></pre>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

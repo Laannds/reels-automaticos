@@ -1,0 +1,37 @@
+{
+  "titulo": "Lo bueno, lo malo y lo feo de ChatGPT",
+  "handle": "@politecnic__",
+  "voz": "es-ES-AlvaroNeural",
+  "velocidad": "+8%",
+  "escenas": [
+    {
+      "tipo": "hook",
+      "video": "stock/codigo.mp4",
+      "texto": "Lo *bueno*, lo *malo* y lo ~feo~ de ChatGPT en 2026."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/lineas-3d.mp4",
+      "sello": { "texto": "BUENO", "tipo": "bueno" },
+      "texto": "Lo bueno: hace de *todo*: habla, ve, dibuja, razona y busca en internet."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/database-3d.mp4",
+      "sello": { "texto": "MALO", "tipo": "malo" },
+      "texto": "Lo malo: sus textos huelen a *IA* a un kilómetro. Relleno por todas partes."
+    },
+    {
+      "tipo": "contenido",
+      "video": "stock/mapa-digital.mp4",
+      "nota": "¿te ha pasado? ↘",
+      "texto": "Lo feo: con tanta función nueva, a veces parece que ninguna está *terminada*."
+    },
+    {
+      "tipo": "cta",
+      "video": "stock/circuito.mp4",
+      "emoji": "📌",
+      "texto": "*Guarda* esto para tu próxima suscripción y ~sígueme~ para el de Gemini."
+    }
+  ]
+}
