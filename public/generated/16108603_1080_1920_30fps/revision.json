@@ -1,0 +1,59 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0.0,
+      "tipo": "titulon",
+      "dato": "=PRUÉBATELO|ANTES DE COMPRARLO",
+      "duracion": 2.4,
+      "y": 0.28
+    },
+    {
+      "t": 2.5,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "t": 2.8,
+      "tipo": "congelado",
+      "dato": "generated/16108603_1080_1920_30fps/congelado.png|¿TE GUSTA SU LOOK?",
+      "duracion": 12.2
+    },
+    {
+      "t": 4.4,
+      "tipo": "movil",
+      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png",
+      "duracion": 7.2
+    },
+    {
+      "t": 4.4,
+      "tipo": "etiqueta",
+      "dato": "SUBE TU FOTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 6.8,
+      "tipo": "etiqueta",
+      "dato": "LA IA HACE EL RESTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 9.2,
+      "tipo": "etiqueta",
+      "dato": "ASÍ TE QUEDA",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 11.6,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO",
+      "duracion": 3.4
+    }
+  ],
+  "resumen": "Primer reel de la serie 'Pruébatelo' (app propia de probador virtual con IA): gancho + demo, sin diálogo (--sin-voz), sobre un clip de stock mudo de modelos/ (persona caminando con un look completo). Estructura: titulón 'PRUÉBATELO ANTES DE COMPRARLO' sobre el vídeo real (0-2.4s); acercamiento hacia el momento de enfoque; a los 2.8s el vídeo se congela en ese fotograma (extraído aparte a congelado.png) con un efecto de autofocus de cámara (esquinas que se cierran + flash, ~1,4s) y la pregunta '¿TE GUSTA SU LOOK?'. La FOTO se queda de fondo hasta el final del reel (12,2s de duración): el clip de origen sigue reproduciéndose por detrás, invisible, solo para rellenar duración (--duracion 15 lo repite), y si la foto se retirase antes de tiempo asomaría un fotograma suelto y desincronizado justo en el empalme con el 'movil' (pasó en la primera versión: un 'fantasma' de la persona caminando se colaba 0,2s al entrar el teléfono). Con la foto de fondo fija, esa rendija ya no existe. A los 4.4s, teléfono a pantalla completa con las 3 capturas reales de la app (Pruébatelo: sube tu foto → 'Preparando tu look...' → resultado con la prenda puesta) deslizándose, con una etiqueta corta narrando cada fase ya que no hay voz. CTA final: comenta QUIERO y se manda el acceso. Marca politecnic por defecto (sin marca propia de Pruébatelo todavía). Música 'Cat Walk' (tech-cat-walk-371), elegida por el juego de palabras con el vídeo de pasarela."
+}

@@ -28,7 +28,7 @@
 import { execFileSync, spawnSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
-import { paginaEn, paginar, tramosSilenciados } from "../src/paginar.ts";
+import { limitesDe, paginaEn, paginar, tramosSilenciados } from "../src/paginar.ts";
 
 const RAIZ = resolve(new URL("..", import.meta.url).pathname);
 const slug = process.argv[2];
@@ -206,10 +206,14 @@ print(json.dumps(out))
 // En los remates que oscurecen toda la pantalla (sin "y"), tapar es a propósito
 const oscurece = (t) =>
   elementos.some(
-    (e) => ((e.tipo === "remate" && e.y === undefined) || e.tipo === "movil") && t >= e.t && t < fin(e)
+    (e) =>
+      ((e.tipo === "remate" && e.y === undefined) || e.tipo === "movil" || e.tipo === "congelado") &&
+      t >= e.t &&
+      t < fin(e)
   );
 const silenciar = tramosSilenciados(elementos);
-const paginas = paginar(props.palabras, silenciar);
+// Con los mismos límites que el render: el look "cristal" pagina de 3 en 3.
+const paginas = paginar(props.palabras, silenciar, limitesDe(props.subtitulos));
 // Quién puede ser el responsable: lo que está en pantalla en ese instante y,
 // si se pasa una franja vertical [y0, y1], solo lo que cae cerca de ella (la
 // máscara lo junta todo; así no se culpa a unos subtítulos que están abajo de
@@ -313,12 +317,19 @@ for (const g of agrupar(enZona, (m) => m.zona)) {
   // En la columna de botones manda la x: en cada instante, si hay un gráfico
   // colocado a la derecha, ese es el sospechoso; si no, lo que haya a esa
   // altura (algo centrado solo llega ahí si es muy ancho)
-  const quien = [...new Set(g.muestras.flatMap((m) => {
+  const todos = [...new Set(g.muestras.flatMap((m) => {
     const aLaDerecha = z.x0 > 0 ? activosEn(m.t).filter((e) => (e.x ?? 0.5) >= 0.7) : [];
     return aLaDerecha.length
       ? aLaDerecha.map((e) => `${e.tipo} (x=${e.x})`)
       : culpables(m.t, [z.y0, z.y1]);
   }))];
+  // Una "tapa" no comunica nada: está ahí para BORRAR un rótulo que el cliente
+  // ya traía quemado en el crudo, así que da igual que caiga bajo la interfaz
+  // de la app —de hecho suele tener que caer ahí, porque ahí es donde el
+  // cliente puso su rótulo—. Si los únicos señalados son tapas, no es un
+  // aviso: en prueba1 salían 38 y ahogaban los avisos que sí importaban.
+  const quien = todos.filter((q) => !/^tapa\b/.test(q));
+  if (todos.length > 0 && quien.length === 0) continue;
   avisar(
     "zona", "aviso", g.desde,
     `${quien.join(" + ") || "un gráfico"} entra en la zona de ${z.que}` +
@@ -432,11 +443,15 @@ for (const e of elementos) {
   if (e.tipo !== "contador") eventos.add(redondea(e.t));
   // Que un gráfico se vaya también es un cambio visual
   if (fin(e) < duracion - 0.2) eventos.add(redondea(fin(e)));
-  // Y cada ✓ del checklist / cada salto del contador
-  if (e.tipo === "checklist")
+  // Y cada ✓ del checklist / cada salto del contador. Los tipos con marcas
+  // "@" cuentan todos: una listaPlana de 9,6 s con cuatro líneas que van
+  // entrando NO es un tramo parado, y el aviso de ritmo la señalaba como tal
+  // porque solo miraba la entrada y la salida del elemento.
+  if (["checklist", "listaPlana", "noticia", "terminal", "chips", "capturas"].includes(e.tipo))
     for (const l of String(e.dato).split("|")) eventos.add(redondea(e.t + parseFloat(l.split("@")[1] ?? "0")));
   if (e.tipo === "contador")
     for (const m of String(e.dato).split("|").slice(1)) eventos.add(redondea(e.t + parseFloat(m)));
+  if (e.tipo === "dm") eventos.add(redondea(e.t + 1.05));
   // Un móvil con varias pantallas cambia de pantalla por dentro
   if (e.tipo === "movil") {
     const n = String(e.dato).split("|").length;

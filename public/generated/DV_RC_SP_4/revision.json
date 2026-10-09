@@ -1,0 +1,111 @@
+{
+  "subtitulos": "bold",
+  "subtitulosY": 0.42,
+  "enfasis": [
+    [
+      13,
+      14
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      88,
+      88
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 19,
+      "texto": "mantequilla"
+    },
+    {
+      "palabra": 20,
+      "texto": "de"
+    },
+    {
+      "palabra": 40,
+      "texto": "chorrito"
+    },
+    {
+      "palabra": 45,
+      "texto": "¡Perfecto!"
+    },
+    {
+      "palabra": 68,
+      "texto": "hiciera"
+    },
+    {
+      "palabra": 69,
+      "texto": "falta"
+    },
+    {
+      "palabra": 94,
+      "texto": "recetas"
+    }
+  ],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=MOUSSE DE|=CHOCOLATE FIT|EL INGREDIENTE SECRETO",
+      "duracion": 2.8,
+      "y": 0.5
+    },
+    {
+      "palabra": 12,
+      "tipo": "checklist",
+      "y": 0.47,
+      "duracion": 6.9,
+      "dato": "#Ingredientes|2 huevos@0.7|Mantequilla de cacahuete@3.4|Cacao desgrasado@5.3"
+    },
+    {
+      "palabra": 30,
+      "tipo": "checklist",
+      "y": 0.47,
+      "duracion": 4.4,
+      "dato": "#Y también|Eritritol@0.15|Esencia de vainilla@1.85|Un chorrito de leche@3.45"
+    },
+    {
+      "palabra": 47,
+      "tipo": "remate",
+      "dato": "SE COMPLICA|LA RECETA",
+      "y": 0.48,
+      "tam": 96,
+      "tapaSubtitulos": true,
+      "duracion": 2.0
+    },
+    {
+      "palabra": 52,
+      "tipo": "remate",
+      "dato": "NO FUNCIONA|LA BATIDORA",
+      "y": 0.48,
+      "tam": 96,
+      "tapaSubtitulos": true,
+      "duracion": 2.3
+    },
+    {
+      "palabra": 71,
+      "tipo": "etiqueta",
+      "dato": "TRUCO|Un chorrito más de leche si queda espesa",
+      "y": 0.5,
+      "duracion": 3.0
+    },
+    {
+      "palabra": 89,
+      "tipo": "remate",
+      "dato": "bocadillo:GUARDA=ESTA RECETA",
+      "duracion": 2.6
+    }
+  ],
+  "resumen": "Receta de DV FIT (David): mousse de chocolate fit. Sin handle, amarillo de marca, lenguaje de las recetas anteriores. Cara medida con Vision segundo a segundo: la barbilla más baja es 0,40, así que nada macizo sube por encima de 0,42 (las alturas definitivas están al final de esta nota, que se fue corrigiendo). El crudo trae un tramo en BLANCO Y NEGRO de 14,77 a 19,40 s (medido con signalstats: saturación 0 exacta) que Pablo montó como meme de momento crítico: David pelea con la batidora de brazo, que no le encaja, durante 4,6 s, y a los 19,4 vuelve el color ya batiendo. Se le ponen dos cartelones de remate (que llevan golpe de impacto), los que pidió Pablo: 'SE COMPLICA LA RECETA' al entrar y 'NO FUNCIONA LA BATIDORA' mientras la enrosca, este último hasta el segundo 19,4 exacto, que es cuando vuelve el color. Sin cartel de remate al volver a color: Pablo lo quitó, el propio cambio a color ya es el remate. Los dos van encadenados sin hueco (el primero acaba en el segundo en que entra el otro) para que entre ambos no asome media palabra de subtítulo. Los dos primeros llevan tapaSubtitulos: ahí el audio es medio ininteligible y los subtítulos competirían con el cartel. Correcciones de Whisper: 'una pequeña cacahuete' era 'mantequilla de cacahuete' (comprobado retranscribiendo el fragmento al 70%) y 'retas' era 'recetas'. CTA de recetas de la casa. Ojo: en 'remate' un '=' al principio de línea se descarta (el filter quita la parte vacía), así que para pintar la línea entera en amarillo hay que partirla dentro ('CRISIS=SUPERADA'); en 'titulon' sí funciona el '=' inicial. Alturas replanteadas tras el primer QA: el titulón iba arriba por defecto y le tapaba el 29% de la cara (mide 3 líneas y la cabeza está muy alta en cuadro), así que baja a y 0,50, sobre el pecho, por debajo de la barbilla más baja (0,40). Los subtítulos suben a 0,42 —el valor que ya usan DV_SP_22 y YDRAY— porque el bloque de subtítulos llega hasta x 0,92 (tiene 90 px de margen y hasta 32 caracteres por página) y a 0,72 se metía bajo la columna de botones de Instagram, que va de y 0,45 a 0,83. El checklist pasa entonces a 0,50 y ocupa hasta 0,78, y su tarjeta no llega más allá de x 0,66, así que esa no era la culpable. Segunda vuelta sobre el listado: Pablo avisó de que el panel tapaba cómo echa los ingredientes. Medido con rejilla, la jarra ocupa x 0,21-0,57 e y 0,68-0,90, y los vertidos (mano, bote, brik) pasan por y 0,42-0,72 y x 0,22-0,72; con la cara arriba (barbilla máxima 0,40) no queda ni un hueco para un panel de 6 filas, que mide 0,29 de alto. Se parte en DOS tarjetas de 3 ingredientes (0,166 de alto cada una) a y 0,47: van de 0,47 a 0,64 y dejan la jarra entera a la vista. La segunda lleva cabecera propia ('Y también') porque el checklist renumera desde 01 en cada tarjeta y con la misma cabecera parecería un fallo. Tercer retoque: 'Cacao desgrasado' solo aguantaba 0,6 s porque era el último ítem de la tarjeta y esta se iba enseguida. Se adelanta a @5,3 (justo cuando lo nombra, 8,45 s) y la tarjeta se alarga a 6,9 s; para que quepa, la segunda pasa a colgar de 'eritritol' (10,13) en vez de 'Endulzamos' (9,42). El cacao queda 1,6 s en pantalla.",
+  "tiempos": [
+    {
+      "palabra": 67,
+      "inicio": 22.72,
+      "fin": 22.9
+    }
+  ]
+}

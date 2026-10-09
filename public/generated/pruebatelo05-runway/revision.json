@@ -1,0 +1,59 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0.0,
+      "tipo": "titulon",
+      "dato": "=PRUÉBATELO|ANTES DE COMPRARLO",
+      "duracion": 2.4,
+      "y": 0.38
+    },
+    {
+      "t": 4.5,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "t": 5.0,
+      "tipo": "congelado",
+      "dato": "generated/pruebatelo05-runway/congelado.png|¿TE GUSTA SU LOOK?",
+      "duracion": 11.39
+    },
+    {
+      "t": 6.6,
+      "tipo": "movil",
+      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png",
+      "duracion": 7.2
+    },
+    {
+      "t": 6.6,
+      "tipo": "etiqueta",
+      "dato": "SUBE TU FOTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 9.0,
+      "tipo": "etiqueta",
+      "dato": "LA IA HACE EL RESTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 11.4,
+      "tipo": "etiqueta",
+      "dato": "ASÍ TE QUEDA",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 13.8,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO",
+      "duracion": 2.59
+    }
+  ],
+  "resumen": "Reel de la serie 'Pruébatelo' (misma plantilla que los 4 anteriores). Fuente de Mixkit: pasarela con luces rojas/azules, congelado en un giro dinámico a los 5s tras dejar correr el gancho más de lo habitual (la modelo tarda en acercarse). Mismas 3 capturas de ejemplo de la app y mismo CTA que el resto de la serie."
+}

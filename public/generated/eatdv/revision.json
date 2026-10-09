@@ -1,0 +1,34 @@
+{
+  "subtitulos": "ninguno",
+  "enfasis": [],
+  "sustituciones": [],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "t": 0,
+      "tipo": "titulon",
+      "dato": "LA REPETICIÓN DE *PATRONES* ES EL RESULTADO",
+      "y": 0.5,
+      "tam": 134,
+      "fijo": true
+    },
+    {
+      "t": 4.5,
+      "tipo": "bajada",
+      "dato": "No es el entrenamiento perfecto.|Es el que *repites*.",
+      "y": 0.553,
+      "tam": 42,
+      "duracion": 10.4
+    },
+    {
+      "t": 15.2,
+      "tipo": "remate",
+      "dato": "bocadillo:MÁNDASELO A ESE AMIGO|QUE DEJA EL GIMNASIO|=CADA DOS POR TRES",
+      "y": 0.6,
+      "tam": 58,
+      "duracion": 4.7
+    }
+  ],
+  "resumen": "Reel de DV FIT ya montado y sonorizado en CapCut (19,9 s, música propia a -14,8 LUFS). Solo se le superpone grafismo, con --solo-graficos: sin transcribir, sin música añadida y con los gráficos mudos. Tres piezas: el titulón FIJO de principio a fin, en blanco con PATRONES en el amarillo de marca; una bajada que entra a los 4,5 s y remata la idea ('No es el entrenamiento perfecto. Es el que repites'), en sans normal y caja baja a propósito, porque en versales competiría con el titular y el ojo no sabría cuál leer primero; y un CTA en bocadillo los últimos 4,7 s para que lo manden a quien deja el gimnasio cada dos por tres. El titulón baja de y 0.5 a 0.43 por dos motivos: deja sitio a la bajada —el conjunto titular+bajada queda centrado— y esquiva la columna de botones de like/comentar de Instagram, que va de 0.45 a 0.83 y antes se comía el final de la frase los 19,9 s enteros."
+}

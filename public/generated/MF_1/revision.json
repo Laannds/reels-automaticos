@@ -1,0 +1,114 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0.0,
+      "tipo": "titulon",
+      "dato": "ASÍ LE ROBO LOS CLIENTES|=A MIS COMPETIDORES",
+      "duracion": 2.6,
+      "y": 0.54
+    },
+    {
+      "t": 2.6,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.3
+    },
+    {
+      "t": 2.9,
+      "tipo": "broll",
+      "dato": "stock/fondo-mf.mp4",
+      "duracion": 15.1
+    },
+    {
+      "t": 3.0,
+      "tipo": "logo",
+      "dato": "claude",
+      "duracion": 1.3
+    },
+    {
+      "t": 3.15,
+      "tipo": "interrogantes",
+      "dato": "1",
+      "x": 0.6,
+      "y": 0.17,
+      "tam": 190,
+      "duracion": 1.15
+    },
+    {
+      "t": 3.25,
+      "tipo": "etiqueta",
+      "dato": "LA IDEA|¿Y si lo hace Claude?",
+      "y": 0.7,
+      "duracion": 1.1
+    },
+    {
+      "t": 4.4,
+      "tipo": "imagen",
+      "dato": "inserts/mf-logo.png",
+      "tam": 620,
+      "y": 0.34,
+      "duracion": 1.3
+    },
+    {
+      "t": 4.5,
+      "tipo": "etiqueta",
+      "dato": "LA HERRAMIENTA|Mailerfind",
+      "y": 0.7,
+      "duracion": 1.2
+    },
+    {
+      "t": 5.8,
+      "tipo": "imagen",
+      "dato": "inserts/mf-instagram.png|Los seguidores de tu competencia",
+      "tam": 960,
+      "y": 0.15,
+      "duracion": 1.7
+    },
+    {
+      "t": 5.9,
+      "tipo": "etiqueta",
+      "dato": "01|Sus seguidores",
+      "y": 0.6,
+      "duracion": 1.6
+    },
+    {
+      "t": 7.6,
+      "tipo": "imagen",
+      "dato": "inserts/mf-maps.png|O los negocios de tu zona",
+      "tam": 960,
+      "y": 0.15,
+      "duracion": 1.6
+    },
+    {
+      "t": 7.7,
+      "tipo": "etiqueta",
+      "dato": "02|O tu zona",
+      "y": 0.6,
+      "duracion": 1.5
+    },
+    {
+      "t": 9.3,
+      "tipo": "remate",
+      "dato": "343 NEGOCIOS|=EN UNA BÚSQUEDA",
+      "y": 0.3,
+      "duracion": 2.1,
+      "tam": 118
+    },
+    {
+      "t": 11.5,
+      "tipo": "checklist",
+      "dato": "#Y DE ESA LISTA|269 teléfonos@0|183 correos@0.6",
+      "y": 0.4,
+      "duracion": 2.7
+    },
+    {
+      "t": 14.3,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA=CLIENTES|Y TE MANDO|CÓMO LO MONTO",
+      "duracion": 3.5
+    }
+  ],
+  "resumen": "v7. Mas rapido todavia (planos de 1,1-1,7s) y con el resultado a pantalla grande. Fuera las dos capturas que eran tiras finas ilegibles (panel del gestor y barra de pasos): se quedan las dos tarjetas que si se leen, Instagram y Google Maps, ambas recortes REALES de la app. El dato va en dos tiempos: remate grande con 343 NEGOCIOS y despues el desglose 269 telefonos / 183 correos. Todas las cifras son reales y medidas de la busqueda Gimnasio-Alcala de Henares lanzada en la cuenta de Pablo (analisis zNhapwWfjhUVpJUC2lUD). Fondo propio, sin congelar su imagen."
+}

@@ -2,6 +2,14 @@
 /**
  * Editor automático de crudos:
  *   npm run crudo -- crudos/mi-video.mp4 [--plan] [--sin-claude] [--estilo gym|tech|cine] [--musica ambient-127] [--sin-qa] [--limpiar-voz]
+ *   npm run crudo -- modelos/mi-clip.mp4 --sin-voz --duracion 15 --revision ...json
+ *
+ * --sin-voz    reel sin diálogo (stock mudo + motion graphics + música). No
+ *              transcribe: los elementos se anclan con "t" (segundos en la
+ *              línea de tiempo FINAL) en vez de "palabra". La música manda,
+ *              sin ducking. --duracion fuerza un total más largo que el
+ *              propio clip, repitiéndolo (tapado por gráficos a pantalla
+ *              completa: es para el hueco tras un "congelado" o un "movil")
  *
  * 1. Transcribe tu voz con Whisper (local, por palabra)
  * 2. Corta silencios y, con Claude, muletillas / tomas repetidas
@@ -32,9 +40,48 @@ const iRevision = process.argv.indexOf("--revision");
 const archivoRevision = iRevision > -1 ? process.argv[iRevision + 1] : null;
 // --sin-cortes: el corte del usuario es final. No se toca ni un frame:
 // ni silencios, ni eliminaciones. Solo voz, subtítulos y gráficos.
-const sinCortes = process.argv.includes("--sin-cortes");
+// --sin-voz: reel de motion graphics puro sobre stock mudo (sin diálogo que
+// transcribir). Fuerza --sin-cortes (no hay silencios de habla que recortar).
+const sinVoz = process.argv.includes("--sin-voz");
+// --solo-graficos: el reel YA viene montado y sonorizado (típico export de
+// CapCut) y aquí solo se le superpone grafismo. No transcribe (los elementos
+// se anclan con "t", en segundos), no añade música y no pone efectos: meter
+// un golpe de sonido sobre una pista que el usuario ya ha mezclado es tocar
+// justo lo que ha pedido no tocar. El audio del crudo pasa tal cual.
+const soloGraficos = process.argv.includes("--solo-graficos");
+// --grade: corrige la dominante de color del crudo en el proxy. Mide el propio
+// material (U y V medios, que en 8 bits son 128 si la imagen es neutra) y
+// calcula cuánto hay que compensar, en vez de aplicar un "look" a ojo. Los
+// móviles graban con balance automático y bajo luz cálida sacan U por debajo y
+// V por encima: eso es el tono amarillo-rojizo que hace que un plano de
+// escritorio parezca grabado con una bombilla vieja.
+const grade = process.argv.includes("--grade");
+const sinCortes = process.argv.includes("--sin-cortes") || sinVoz || soloGraficos;
 const sugerir = process.argv.includes("--sugerir");
+// --duracion: alarga el total más allá de lo que dura el propio clip,
+// repitiéndolo desde el principio. Solo tiene sentido si esa cola queda
+// tapada por un gráfico a pantalla completa (congelado, movil, el CTA...).
+const iDuracion = process.argv.indexOf("--duracion");
+const duracionObjetivo = iDuracion > -1 ? parseFloat(process.argv[iDuracion + 1]) : undefined;
 const iMusica = process.argv.indexOf("--musica");
+// --musica-db: cuánto queda la música por debajo de la voz ANTES del ducking.
+// Por defecto -22, que es lo medido y acordado para los reels donde hay pausas.
+// En un reel hablado a cañón, sin una sola pausa, el ducking no suelta nunca y
+// a -22 la música no se oye: ahí se sube con esta opción.
+const iMusicaDb = process.argv.indexOf("--musica-db");
+const musicaDb = iMusicaDb > -1 ? parseFloat(process.argv[iMusicaDb + 1]) : null;
+// --sin-ducking: música a volumen fijo, sin sidechain. El ducking existe para
+// que la música suba en las pausas; en un reel hablado sin una sola pausa no
+// sube nunca y lo único que hace es restar 10,5 dB constantes (medido en
+// David01_Octubre), que es lo que dejaba la música inaudible.
+const sinDucking = process.argv.includes("--sin-ducking");
+// --concurrencia N: fotogramas que Remotion renderiza en paralelo. Por defecto
+// los decide él por los núcleos, y con la máquina justa de memoria el render se
+// cae con "Timeout exceeded rendering the component" (no es que el timeout sea
+// corto: es que no llega a leer el fotograma). Bajarla a 2-3 lo arregla a costa
+// de tardar más.
+const iConcurrencia = process.argv.indexOf("--concurrencia");
+const concurrencia = iConcurrencia > -1 ? process.argv[iConcurrencia + 1] : null;
 // --estilo gym|tech|cine: rota dentro del estilo (ver elegirMusica, más abajo).
 // --musica <nombre> sigue forzando una pista concreta.
 const iEstilo = process.argv.indexOf("--estilo");
@@ -43,6 +90,30 @@ const iHandle = process.argv.indexOf("--handle");
 // --handle "" (vacío) = no pintar handle, para vídeos de cliente
 const handle = iHandle > -1 ? process.argv[iHandle + 1] : "@politecnic__";
 // --color "#F5B301" = color de marca del cliente; por defecto el azul nuestro
+// --look cristal: lenguaje visual del reel de referencia (@herasmedia) —
+// blanco translúcido, subtítulos de dos o tres palabras en geométrica y un
+// encuadre distinto en cada corte que ya trae el crudo. "clasico" (por
+// defecto) es el de siempre, para no mover los reels ya afinados de DV FIT.
+// --encuadre lienzo[:offsetY]: para crudos grabados en HORIZONTAL. En vez de
+// recortarlos a 9:16 (que parte al presentador por la cara si no está
+// centrado, y tira justo la pared vacía donde va el texto), el plano se
+// conserva entero y se encaja sobre negro dentro del 1080x1920, como el reel
+// de @juradonegocios que pasó Pablo de referencia. offsetY = píxeles desde
+// arriba a los que se pega el plano; por defecto, centrado.
+const iEncuadre = process.argv.indexOf("--encuadre");
+const encuadreArg = iEncuadre > -1 ? process.argv[iEncuadre + 1] : "";
+const enLienzo = encuadreArg.startsWith("lienzo");
+const offsetLienzo = enLienzo && encuadreArg.includes(":")
+  ? parseInt(encuadreArg.split(":")[1], 10)
+  : null;
+// --comprimir: el máster deja de ser solo ganancia y usa loudnorm en dos
+// pasadas para clavar -14 LUFS. Comprime el rango dinámico de la voz, que es
+// justo lo que la norma de la casa evita (ver el punto 6 del README): solo
+// para crudos grabados tan bajos que la ganancia sola los deja inaudibles
+// frente al resto del feed.
+const comprimir = process.argv.includes("--comprimir");
+const iLook = process.argv.indexOf("--look");
+const look = iLook > -1 ? process.argv[iLook + 1] : "clasico";
 const iColor = process.argv.indexOf("--color");
 const color = iColor > -1 ? process.argv[iColor + 1] : undefined;
 
@@ -62,6 +133,7 @@ mkdirSync(join(RAIZ, "public", "crudos"), { recursive: true });
 // estilo (un re-render por correcciones), se mantiene: la música no puede
 // cambiar entre la versión que vio el cliente y la corregida.
 function elegirMusica() {
+  if (soloGraficos) return null; // el reel ya trae la suya
   if (iMusica > -1) return `musica/${process.argv[iMusica + 1]}.mp3`;
   const catalogo = JSON.parse(readFileSync(join(RAIZ, "public", "musica", "catalogo.json"), "utf8"));
   const pistas = catalogo[estilo];
@@ -88,7 +160,11 @@ function elegirMusica() {
   return [...pistas].sort((a, b) => (ultimoUso[a] ?? 0) - (ultimoUso[b] ?? 0))[0];
 }
 const musica = elegirMusica();
-console.log(`🎵 Música (${iMusica > -1 ? "forzada" : estilo}): ${musica}`);
+console.log(
+  musica
+    ? `🎵 Música (${iMusica > -1 ? "forzada" : estilo}): ${musica}`
+    : "🎵 Sin música añadida: el reel conserva la suya"
+);
 
 // ── 1. Metadatos y proxy de trabajo ──────────────────────────────────────
 const probe = JSON.parse(
@@ -104,15 +180,88 @@ console.log(`\n🎞  Crudo: ${basename(rutaCrudo)} — ${duracionTotal.toFixed(1
 // H.264 a 30fps (recorte centrado). Mucho más rápido de renderizar.
 const esVertical = v.height >= v.width;
 const necesitaProxy = !esVertical || v.width > 1600 || v.codec_name === "hevc";
+
+/** Mide U, V y saturación medias del crudo (8 bits: neutro = 128). */
+function medirColor(ruta, filtros = "null") {
+  const salida = spawnSync("ffmpeg", [
+    "-hide_banner", "-ss", "3", "-i", ruta, "-frames:v", "18",
+    "-vf", `${filtros},format=yuv420p,signalstats,metadata=print:file=-`,
+    "-an", "-f", "null", "-",
+  ], { encoding: "utf8" });
+  // metadata=print:file=- escribe en STDOUT, no en stderr. Leyendo solo stderr
+  // la medición salía NaN y el grade se aplicaba en silencio con valores
+  // inválidos: se juntan las dos salidas y no se depende de cuál use ffmpeg.
+  const texto = `${salida.stdout ?? ""}\n${salida.stderr ?? ""}`;
+  const media = (clave) => {
+    const v = [...texto.matchAll(new RegExp(`${clave}=([\\d.]+)`, "g"))].map((m) => parseFloat(m[1]));
+    return v.length ? v.reduce((a, b) => a + b, 0) / v.length : NaN;
+  };
+  return { u: media("UAVG"), v: media("VAVG"), sat: media("SATAVG") };
+}
+
+/** Cadena de corrección, calculada a partir de lo medido. */
+function filtroGrade(ruta) {
+  const antes = medirColor(ruta);
+  if (!Number.isFinite(antes.u) || !Number.isFinite(antes.v)) return { filtro: null, antes, despues: antes };
+  // Calibrado midiendo: 0.079 por punto de desvío neutraliza la media del todo.
+  // Pero se aplica la MITAD a propósito. Que U y V medios valgan 128 no
+  // significa "color correcto": una escena con pared de ladrillo blanco y ropa
+  // beige tiene una media cálida legítima, y forzarla a neutro la vuelve azul
+  // —comparado en el crudo del 30/09, al 100 % la chaqueta perdía el beige y
+  // las sombras viraban—. Al 50 % se quita el exceso de dominante sin robarle
+  // el tono propio a la escena.
+  const K = 0.079 / 2;
+  const bm = Math.max(-0.9, Math.min(0.9, (128 - antes.u) * K));
+  const rm = Math.max(-0.9, Math.min(0.9, -(antes.v - 128) * K));
+  const filtro = `colorbalance=bm=${bm.toFixed(3)}:rm=${rm.toFixed(3)},eq=saturation=1.22:contrast=1.07`;
+  return { filtro, antes, despues: medirColor(ruta, filtro) };
+}
+// Alto del plano una vez llevado a 1080 de ancho, y dónde se pega en el lienzo
+const g = grade && necesitaProxy ? filtroGrade(rutaCrudo) : null;
+const gradeFiltro = g?.filtro ?? null;
+if (g) {
+  console.log(
+    `🎨 Grade medido (neutro=128): U ${g.antes.u.toFixed(1)}→${g.despues.u.toFixed(1)} · ` +
+      `V ${g.antes.v.toFixed(1)}→${g.despues.v.toFixed(1)} · saturación ${g.antes.sat.toFixed(1)}→${g.despues.sat.toFixed(1)}`
+  );
+}
+const altoEnLienzo = Math.round((1080 * v.height) / v.width / 2) * 2;
+const yLienzo = offsetLienzo ?? Math.round((1920 - altoEnLienzo) / 2);
+// El render necesita saber dónde queda el plano para pegarle el texto justo
+// por encima y por debajo, en vez de dejarlo flotando en mitad del negro.
+const lienzo = enLienzo ? { y0: yLienzo / 1920, y1: (yLienzo + altoEnLienzo) / 1920 } : undefined;
 let videoRel;
 if (necesitaProxy) {
   videoRel = `crudos/${slug}-1080.mp4`;
   const proxy = join(RAIZ, "public", videoRel);
   if (!existsSync(proxy)) {
-    console.log("🔁 Generando proxy vertical 1080x1920 (recorte centrado, encoder por hardware)...");
+    console.log(
+      enLienzo
+        ? `🔁 Proxy 1080x1920 en lienzo: el plano entero (1080x${altoEnLienzo}) sobre negro, pegado a y=${yLienzo}`
+        : "🔁 Generando proxy vertical 1080x1920 (recorte centrado, encoder por hardware)..."
+    );
     execFileSync("ffmpeg", [
       "-y", "-i", rutaCrudo,
-      "-vf", esVertical ? "scale=1080:1920" : "crop=ih*9/16:ih,scale=1080:1920",
+      ...(gradeFiltro && !enLienzo
+        ? ["-vf", `${gradeFiltro},${esVertical ? "scale=1080:1920" : "crop=ih*9/16:ih,scale=1080:1920"}`]
+        : []),
+      ...(enLienzo
+        ? ["-filter_complex",
+           // Fondo: el propio plano ampliado a cubrir el cuadro, desenfocado,
+           // muy oscurecido y con viñeta. Un negro liso detrás del plano se ve
+           // barato —parece un vídeo mal exportado—; así el lienzo tiene
+           // textura y profundidad pero sigue siendo casi negro, que es lo que
+           // necesita el texto blanco de encima para leerse.
+           `[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,` +
+           `gblur=sigma=70,eq=brightness=-0.52:saturation=0.35,vignette=PI/3.2[bg];` +
+           // Y el plano nítido encima, con un filete claro de 3 px que lo
+           // despega del fondo.
+           `[0:v]scale=1080:${altoEnLienzo},` +
+           `drawbox=x=0:y=0:w=iw:h=ih:color=white@0.16:t=3[fg];` +
+           `[bg][fg]overlay=0:${yLienzo}`]
+        : gradeFiltro
+          ? []
+          : ["-vf", esVertical ? "scale=1080:1920" : "crop=ih*9/16:ih,scale=1080:1920"]),
       "-r", "30",
       "-c:v", "h264_videotoolbox", "-b:v", "9M",
       "-an", proxy,
@@ -134,7 +283,17 @@ if (necesitaProxy) {
 // WAV y no AAC: cada codificación AAC mete ~20-25 ms de retraso y se sumaban.
 const vozRel = `generated/${slug}/voz.wav`;
 const limpiarVoz = process.argv.includes("--limpiar-voz");
-{
+if (sinVoz) {
+  // Sin diálogo (reel de motion graphics sobre stock mudo): muchos de estos
+  // clips ni siquiera traen pista de audio, y los que la traen suelen llevar
+  // música de la propia librería de stock que no queremos colar. Se genera
+  // un silencio de la duración exacta del crudo: la música manda sola.
+  console.log("🔇 Sin voz (--sin-voz): silencio de base, música y efectos al mando");
+  execFileSync("ffmpeg", [
+    "-y", "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-t", String(duracionTotal),
+    "-c:a", "pcm_s16le", join(RAIZ, "public", vozRel),
+  ], { stdio: "pipe" });
+} else {
   // Remuestreo de alta calidad del propio ffmpeg (este build no trae soxr);
   // si el crudo ya está a 48 kHz, no hace nada
   let cadena = "aresample=48000:filter_size=64:phase_shift=10:cutoff=0.97";
@@ -157,55 +316,66 @@ const limpiarVoz = process.argv.includes("--limpiar-voz");
     "-y", "-i", rutaCrudo, "-vn", "-af", cadena, "-ar", "48000", "-c:a", "pcm_s16le", join(RAIZ, "public", vozRel),
   ], { stdio: "pipe" });
 }
-// Sonoridad real de la voz: música y efectos se colocan RELATIVOS a ella
-const nivelVoz = (() => {
-  const o = spawnSync("ffmpeg", ["-hide_banner", "-i", join(RAIZ, "public", vozRel), "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" }).stderr;
-  const v = Number((o.match(/I:\s+(-?[\d.]+) LUFS/g) ?? []).at(-1)?.match(/-?[\d.]+/)?.[0]);
-  return Number.isFinite(v) ? Math.min(-8, Math.max(-40, v)) : -16;
-})();
-console.log(`   sonoridad de la voz: ${nivelVoz.toFixed(1)} LUFS`);
+// Sonoridad real de la voz: música y efectos se colocan RELATIVOS a ella.
+// Sin voz, se usa directamente el valor de referencia (-16, el mismo con el
+// que están calibrados los volúmenes de música y efectos): no hay diálogo
+// que medir, y así ni la música se atenúa de más ni los efectos se recalculan.
+const nivelVoz = sinVoz
+  ? -16
+  : (() => {
+      const o = spawnSync("ffmpeg", ["-hide_banner", "-i", join(RAIZ, "public", vozRel), "-af", "ebur128", "-f", "null", "-"], { encoding: "utf8" }).stderr;
+      const v = Number((o.match(/I:\s+(-?[\d.]+) LUFS/g) ?? []).at(-1)?.match(/-?[\d.]+/)?.[0]);
+      return Number.isFinite(v) ? Math.min(-8, Math.max(-40, v)) : -16;
+    })();
+if (!sinVoz) console.log(`   sonoridad de la voz: ${nivelVoz.toFixed(1)} LUFS`);
 
 const wav = join(dirGen, "audio-16k.wav");
-execFileSync("ffmpeg", ["-y", "-i", rutaCrudo, "-ar", "16000", "-ac", "1", "-vn", wav], { stdio: "pipe" });
+if (!sinVoz) {
+  execFileSync("ffmpeg", ["-y", "-i", rutaCrudo, "-ar", "16000", "-ac", "1", "-vn", wav], { stdio: "pipe" });
+}
 
 // Detección de silencios sobre el audio REAL (los timestamps de Whisper
 // estiran palabras sobre las pausas y las esconden). Todo lo que suene a
 // silencio de más de 0.22s se conoce con precisión de milisegundos.
-const salidaSil = spawnSync(
-  "ffmpeg",
-  ["-i", wav, "-af", "silencedetect=n=-32dB:d=0.22", "-f", "null", "-"],
-  { encoding: "utf8" }
-).stderr;
-const silencios = [];
-{
-  let inicioSil = null;
-  for (const linea of salidaSil.split("\n")) {
-    const s = linea.match(/silence_start: ([\d.]+)/);
-    const e = linea.match(/silence_end: ([\d.]+)/);
-    if (s) inicioSil = parseFloat(s[1]);
-    if (e && inicioSil !== null) {
-      silencios.push({ desde: inicioSil, hasta: parseFloat(e[1]) });
-      inicioSil = null;
+// Sin voz no hay nada que transcribir, así que tampoco hay silencios de habla
+// que detectar: quedan vacíos y el resto del pipeline los trata como tal.
+let silencios = [];
+let tramosVoz = [];
+if (!sinVoz) {
+  const salidaSil = spawnSync(
+    "ffmpeg",
+    ["-i", wav, "-af", "silencedetect=n=-32dB:d=0.22", "-f", "null", "-"],
+    { encoding: "utf8" }
+  ).stderr;
+  {
+    let inicioSil = null;
+    for (const linea of salidaSil.split("\n")) {
+      const s = linea.match(/silence_start: ([\d.]+)/);
+      const e = linea.match(/silence_end: ([\d.]+)/);
+      if (s) inicioSil = parseFloat(s[1]);
+      if (e && inicioSil !== null) {
+        silencios.push({ desde: inicioSil, hasta: parseFloat(e[1]) });
+        inicioSil = null;
+      }
+    }
+    if (inicioSil !== null) silencios.push({ desde: inicioSil, hasta: duracionTotal });
+  }
+  // tramos con voz = total menos silencios, con un pelín de aire
+  const AIRE = 0.06;
+  {
+    let cursor = 0;
+    for (const s of silencios) {
+      if (s.desde - cursor > 0.05) {
+        tramosVoz.push({ desde: Math.max(0, cursor - AIRE), hasta: s.desde + AIRE });
+      }
+      cursor = s.hasta;
+    }
+    if (duracionTotal - cursor > 0.05) {
+      tramosVoz.push({ desde: Math.max(0, cursor - AIRE), hasta: duracionTotal });
     }
   }
-  if (inicioSil !== null) silencios.push({ desde: inicioSil, hasta: duracionTotal });
+  console.log(`   ${silencios.length} silencios reales detectados en el audio`);
 }
-// tramos con voz = total menos silencios, con un pelín de aire
-const AIRE = 0.06;
-const tramosVoz = [];
-{
-  let cursor = 0;
-  for (const s of silencios) {
-    if (s.desde - cursor > 0.05) {
-      tramosVoz.push({ desde: Math.max(0, cursor - AIRE), hasta: s.desde + AIRE });
-    }
-    cursor = s.hasta;
-  }
-  if (duracionTotal - cursor > 0.05) {
-    tramosVoz.push({ desde: Math.max(0, cursor - AIRE), hasta: duracionTotal });
-  }
-}
-console.log(`   ${silencios.length} silencios reales detectados en el audio`);
 
 // ── 3. Transcripción con timestamps por palabra ──────────────────────────
 // La revisión ancla cada gráfico a un NÚMERO de palabra. Si cada render
@@ -263,7 +433,13 @@ async function transcribirConWhisper() {
 }
 
 let palabras;
-if (reutilizar) {
+if (soloGraficos) {
+  palabras = [];
+  console.log('📝 Solo gráficos (--solo-graficos): audio intacto, sin música ni efectos. Anclas en "t" (segundos)');
+} else if (sinVoz) {
+  palabras = [];
+  console.log('📝 Sin voz (--sin-voz): 0 palabras. Los elementos se anclan con "t" (segundos de la línea final)');
+} else if (reutilizar) {
   palabras = JSON.parse(readFileSync(rutaTranscripcion, "utf8")).map(({ i, ...p }) => p);
   console.log(`📝 Transcripción reutilizada (${palabras.length} palabras): las anclas de la revisión no se mueven`);
 } else {
@@ -472,15 +648,25 @@ if (sugerir) {
 
 // ── 4. Revisión de contenido ─────────────────────────────────────────────
 let eliminar = [];
+// "tomas": [[inicioSrc, finSrc], ...] en segundos del CRUDO. Con --sin-cortes
+// el corte del usuario es final y no hay palabras de las que colgar
+// "eliminar" (en --sin-voz no hay ninguna), así que esta es la única forma de
+// acortar planos: se elige a mano el tramo que se queda de cada toma y esos
+// tramos SON los segmentos. Un lifestyle mudo exportado de CapCut viene con
+// planos de 3,5 s, demasiado lentos para un reel; recortarlos a ~2,4 s es lo
+// que le da ritmo, y hacerlo aquí (y no acelerando el vídeo) deja el
+// movimiento natural.
+let tomas = [];
 let elementos = [];
 let subtitulosY;
 let resumen = "";
 let titulo = null;
 let pasosIdx = [];
-let subtitulos = "bold";
+let subtitulos = look === "cristal" ? "cristal" : "bold";
 let enfasis = [];
 let lista = null;
 let revelacionesIdx = [];
+let margenLateral; // px a cada lado de titulares y subtítulos (look cristal)
 
 // Muletillas obvias: siempre se quitan, con o sin revisión
 const MULETILLAS = /^(eh+|e+h|em+|mm+|hm+)[.,!?…]*$/i;
@@ -493,6 +679,7 @@ for (let i = 0; i < palabras.length; i++) {
 if (archivoRevision) {
   const plan = JSON.parse(readFileSync(resolve(RAIZ, archivoRevision), "utf8"));
   eliminar = eliminar.concat(plan.eliminar ?? []);
+  tomas = plan.tomas ?? [];
   elementos = plan.elementos ?? [];
   resumen = plan.resumen ?? "";
   // Tiempos fijados a mano: {"palabra": N, "inicio": s, "fin": s}. Para lo
@@ -513,11 +700,12 @@ if (archivoRevision) {
   }
   titulo = plan.titulo ?? null;
   pasosIdx = plan.pasos ?? []; // índices de palabra donde se completa cada hito
-  subtitulos = plan.subtitulos ?? "bold";
+  subtitulos = plan.subtitulos ?? (look === "cristal" ? "cristal" : "bold");
   subtitulosY = plan.subtitulosY;
   enfasis = plan.enfasis ?? []; // rangos [desde, hasta] de palabras en azul
   lista = plan.lista ?? null; // panel listicle {titulo, resaltar, items}
   revelacionesIdx = plan.revelaciones ?? []; // índice de palabra que destapa cada item
+  margenLateral = plan.margenLateral;
   console.log(`🧠 Revisión cargada de ${archivoRevision}`);
 } else if (!sinClaude) {
   console.log("🧠 Revisando contenido con Claude (muletillas, tomas repetidas, elementos)...");
@@ -579,35 +767,64 @@ const conservadas = palabras
   .map((p, i) => ({ ...p, indice: i }))
   .filter((p) => !eliminada.has(p.indice));
 
-if (conservadas.length === 0) {
+if (!sinVoz && !soloGraficos && conservadas.length === 0) {
   console.error("❌ No quedan palabras tras la revisión. Revisa el crudo.");
   process.exit(1);
 }
 
-// Segmentos base según palabras conservadas (elección de tomas)
+// Segmentos base según palabras conservadas (elección de tomas). Sin voz no
+// hay palabras de las que partir: se salta entero (el bloque de abajo ya
+// arma el único segmento que hace falta a partir de sinCortes).
 const segmentosBase = [];
-let segInicio = Math.max(0, conservadas[0].inicio - MARGEN);
-for (let i = 0; i < conservadas.length - 1; i++) {
-  const hueco = conservadas[i + 1].inicio - conservadas[i].fin;
-  if (hueco > MAX_HUECO) {
-    segmentosBase.push({
-      srcInicio: segInicio,
-      srcFin: Math.min(duracionTotal, conservadas[i].fin + MARGEN),
-    });
-    segInicio = Math.max(0, conservadas[i + 1].inicio - MARGEN);
+if (conservadas.length > 0) {
+  let segInicio = Math.max(0, conservadas[0].inicio - MARGEN);
+  for (let i = 0; i < conservadas.length - 1; i++) {
+    const hueco = conservadas[i + 1].inicio - conservadas[i].fin;
+    if (hueco > MAX_HUECO) {
+      segmentosBase.push({
+        srcInicio: segInicio,
+        srcFin: Math.min(duracionTotal, conservadas[i].fin + MARGEN),
+      });
+      segInicio = Math.max(0, conservadas[i + 1].inicio - MARGEN);
+    }
   }
+  segmentosBase.push({
+    srcInicio: segInicio,
+    srcFin: Math.min(duracionTotal, conservadas.at(-1).fin + 0.25),
+  });
 }
-segmentosBase.push({
-  srcInicio: segInicio,
-  srcFin: Math.min(duracionTotal, conservadas.at(-1).fin + 0.25),
-});
 
 // Refinado con los silencios REALES del audio: cada segmento se recorta a
 // sus tramos con voz, eliminando todas las pausas internas que Whisper no ve
 const segmentos = [];
 if (sinCortes) {
-  // El corte del usuario es final: un único segmento, el vídeo entero
-  segmentos.push({ srcInicio: 0, srcFin: duracionTotal });
+  if (tomas.length) {
+    // Tomas elegidas a mano en la revisión: cada tramo es un segmento, y cada
+    // empalme entre ellos es un corte de verdad (no un microcorte de silencio).
+    for (const [a, b] of tomas) {
+      const srcInicio = Math.max(0, Math.min(duracionTotal, a));
+      const srcFin = Math.max(srcInicio + 0.1, Math.min(duracionTotal, b));
+      segmentos.push({ srcInicio, srcFin });
+    }
+    console.log(`   ✂️  ${tomas.length} tomas de la revisión: ${segmentos.reduce((n, s2) => n + s2.srcFin - s2.srcInicio, 0).toFixed(1)}s de ${duracionTotal.toFixed(1)}s`);
+  } else {
+    // El corte del usuario es final: un único segmento, el vídeo entero
+    segmentos.push({ srcInicio: 0, srcFin: duracionTotal });
+  }
+  // --duracion pide un total más largo que el propio clip: se rellena
+  // repitiéndolo desde el principio. Solo tiene sentido si esa cola queda
+  // tapada por un gráfico a pantalla completa (congelado, movil, el CTA...),
+  // como en los reels --sin-voz de gancho + demo de app: lo que se vea debajo
+  // es irrelevante.
+  if (duracionObjetivo && duracionObjetivo > duracionTotal) {
+    let restante = duracionObjetivo - duracionTotal;
+    while (restante > 0.05) {
+      const trozo = Math.min(duracionTotal, restante);
+      segmentos.push({ srcInicio: 0, srcFin: trozo });
+      restante -= trozo;
+    }
+    console.log(`   ⏱  --duracion ${duracionObjetivo}s: clip de ${duracionTotal.toFixed(1)}s repetido hasta completar (${segmentos.length} tramos)`);
+  }
 }
 for (const seg of sinCortes ? [] : segmentosBase) {
   for (const voz of tramosVoz) {
@@ -638,11 +855,17 @@ for (const p of conservadas) {
 }
 segmentos.sort((a, b) => a.srcInicio - b.srcInicio);
 
-// fusiona segmentos casi contiguos o solapados (evita microcortes)
-for (let i = segmentos.length - 2; i >= 0; i--) {
-  if (segmentos[i + 1].srcInicio - segmentos[i].srcFin < 0.12) {
-    segmentos[i].srcFin = Math.max(segmentos[i].srcFin, segmentos[i + 1].srcFin);
-    segmentos.splice(i + 1, 1);
+// fusiona segmentos casi contiguos o solapados (evita microcortes). Con
+// sinCortes esto no aplica NUNCA: o hay un único segmento natural, o son los
+// tramos de --duracion repitiendo el clip desde srcInicio=0 a propósito —
+// fusionarlos por "solape" (todos empiezan en 0) los habría colapsado en uno
+// solo y roto el relleno de duración por completo.
+if (!sinCortes) {
+  for (let i = segmentos.length - 2; i >= 0; i--) {
+    if (segmentos[i + 1].srcInicio - segmentos[i].srcFin < 0.12) {
+      segmentos[i].srcFin = Math.max(segmentos[i].srcFin, segmentos[i + 1].srcFin);
+      segmentos.splice(i + 1, 1);
+    }
   }
 }
 
@@ -675,7 +898,12 @@ const palabrasFinales = conservadas
       ...(p.corregida ? { corregida: true } : {}),
     };
   })
-  .filter(Boolean);
+  // Una palabra vaciada con una sustitución ("texto": "") es una forma de
+  // quitar del subtítulo lo que Whisper partió o inventó (un "GPT" suelto, las
+  // palabras que completa tras un audio cortado). Se descarta aquí, DESPUÉS de
+  // calcular los índices, y no antes: así la numeración no se mueve y las
+  // anclas de la revisión siguen apuntando a la misma palabra.
+  .filter((p) => p && p.texto.trim() !== "");
 
 const duracionFinal = segmentos.reduce((a, s) => a + (s.srcFin - s.srcInicio), 0);
 
@@ -697,17 +925,28 @@ const posRobusta = (palabra) => {
 
 const elementosFinales = elementos
   .map((e) => {
-    const palabra = palabras[e.palabra];
-    if (!palabra || eliminada.has(e.palabra)) return null;
-    const tPalabra = posRobusta(palabra);
-    if (tPalabra === null) return null;
+    let tAncla;
+    if (e.palabra !== undefined) {
+      const palabra = palabras[e.palabra];
+      if (!palabra || eliminada.has(e.palabra)) return null;
+      tAncla = posRobusta(palabra);
+      if (tAncla === null) return null;
+    } else if (e.t !== undefined) {
+      // Ancla directa en segundos de la línea de tiempo FINAL del reel (para
+      // --sin-voz: no hay palabras a las que enganchar el gráfico, así que el
+      // storyboard se escribe en segundos, como un guion de motion graphics).
+      tAncla = e.t;
+    } else {
+      return null;
+    }
     // desfase (s): para lo que no tiene palabra propia, p. ej. un CTA que el
     // cliente olvidó grabar y va sobre el plano final, cuando ya no habla
-    const t = tPalabra + (e.desfase ?? 0);
+    const t = tAncla + (e.desfase ?? 0);
     // cabeceraTop, riel y fotoCirc son persistentes: cubren el resto del reel
     const PERSISTENTES = ["cabeceraTop", "riel", "fotoCirc", "antesDespues", "contador"];
+    // "fijo" también cubre hasta el final salvo que se le dé una duración
     const dur =
-      e.duracion ?? (PERSISTENTES.includes(e.tipo)
+      e.duracion ?? (e.fijo || PERSISTENTES.includes(e.tipo)
         ? duracionFinal - t
         : e.tipo === "rotulo"
           ? 1.8
@@ -715,6 +954,7 @@ const elementosFinales = elementos
     return {
       t: Math.max(0, Math.min(t, duracionFinal - dur)),
       tipo: e.tipo,
+      fijo: e.fijo,
       dato: e.dato,
       color: e.color,
       lado: e.lado,
@@ -777,13 +1017,33 @@ const mezclaRel = `generated/${slug}/mezcla.wav`;
   // -22: con -9 y luego -12 Pablo la oía casi por encima de su voz. Medido en el
   // reel 30apps con -12: música a -20 dB de la voz mientras habla. Con -22 queda
   // a unos -30 dB, que es lo discreto en un reel donde manda la voz.
-  const MUSICA_DB = -22;
-  const filtro = musica
-    ? `${tramosVoz2};${concatVoz};[voz]asplit=2[vozmix][vozllave];` +
-      `[1:a]atrim=0:${duracionFinal},asetpts=PTS-STARTPTS,loudnorm=I=${nivelVoz.toFixed(1)}:TP=-2:LRA=11,aresample=48000,volume=${MUSICA_DB}dB[mus];` +
-      `[mus][vozllave]sidechaincompress=threshold=0.02:ratio=3:attack=20:release=400:makeup=1[musduck];` +
-      `[vozmix][musduck]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[out]`
-    : `${tramosVoz2};${concatVoz}[out]`;
+  const MUSICA_DB = Number.isFinite(musicaDb) ? musicaDb : -22;
+  if (musica && !sinVoz) {
+    console.log(
+      `   🎚  música a ${MUSICA_DB} dB bajo la voz` +
+        (Number.isFinite(musicaDb) ? " (--musica-db)" : " (por defecto)") +
+        (sinDucking ? ", a volumen fijo (--sin-ducking)" : ", y el ducking la baja otros ~10 dB mientras habla")
+    );
+  }
+  // Sin voz no hay nada que "duckear" bajo: la música es la pista principal
+  // y va directa a una sonoridad cómoda (-14, el objetivo del máster), sin
+  // sidechain ni atenuación relativa a una voz que no existe.
+  const filtro = !musica
+    // concatVoz ya cierra en [voz]: pegarle "[out]" detrás le daba DOS salidas
+    // al mismo concat y ffmpeg lo rechazaba. Se encadena un anull.
+    ? `${tramosVoz2};${concatVoz};[voz]anull[out]`
+    : sinVoz
+      ? `${tramosVoz2};${concatVoz};` +
+        `[1:a]atrim=0:${duracionFinal},asetpts=PTS-STARTPTS,loudnorm=I=-14:TP=-2:LRA=11,aresample=48000[mus];` +
+        `[voz][mus]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[out]`
+      : sinDucking
+        ? `${tramosVoz2};${concatVoz};` +
+          `[1:a]atrim=0:${duracionFinal},asetpts=PTS-STARTPTS,loudnorm=I=${nivelVoz.toFixed(1)}:TP=-2:LRA=11,aresample=48000,volume=${MUSICA_DB}dB[mus];` +
+          `[voz][mus]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[out]`
+        : `${tramosVoz2};${concatVoz};[voz]asplit=2[vozmix][vozllave];` +
+          `[1:a]atrim=0:${duracionFinal},asetpts=PTS-STARTPTS,loudnorm=I=${nivelVoz.toFixed(1)}:TP=-2:LRA=11,aresample=48000,volume=${MUSICA_DB}dB[mus];` +
+          `[mus][vozllave]sidechaincompress=threshold=0.02:ratio=3:attack=20:release=400:makeup=1[musduck];` +
+          `[vozmix][musduck]amix=inputs=2:duration=first:dropout_transition=0:normalize=0[out]`;
 
   execFileSync(
     "ffmpeg",
@@ -792,6 +1052,61 @@ const mezclaRel = `generated/${slug}/mezcla.wav`;
   );
 }
 console.log(`   ✅ mezcla.wav lista`);
+
+// ── Cámara: un encuadre por toma ─────────────────────────────────────────
+// Con --sin-cortes el montaje es un único segmento, así que el render no sabe
+// dónde están los cortes que hizo el usuario y trata los 40 s como un plano.
+// Se buscan aquí (diferencia entre fotogramas consecutivos) y se le pasan.
+const detectarCortes = () => {
+  if (!sinCortes || look !== "cristal") return undefined;
+  const salida = spawnSync(
+    "ffmpeg",
+    ["-v", "error", "-i", join(RAIZ, "public", videoRel),
+     "-vf", "select='gt(scene,0.03)',metadata=print:file=-", "-an", "-f", "null", "-"],
+    { encoding: "utf8" }
+  ).stdout ?? "";
+  const crudos = [...salida.matchAll(/pts_time:([\d.]+)/g)].map((m) => parseFloat(m[1]));
+  // Un mismo corte deja dos fotogramas marcados: se funden los que caen juntos
+  const cortes = [];
+  for (const c of crudos) if (!cortes.length || c - cortes[cortes.length - 1] > 0.5) cortes.push(c);
+  return cortes.length ? cortes : undefined;
+};
+
+// Punto fijo del acercamiento: el centro de la cara. Si se hace zoom sobre el
+// centro del fotograma, en un plano de busto la cabeza se va por arriba.
+const detectarFoco = () => {
+  if (look !== "cristal") return undefined;
+  try {
+    const bin = join(RAIZ, "scripts", "qa", ".bin", "caras");
+    if (!existsSync(bin)) {
+      mkdirSync(join(RAIZ, "scripts", "qa", ".bin"), { recursive: true });
+      execFileSync("swiftc", ["-O", join(RAIZ, "scripts", "qa", "caras.swift"), "-o", bin], { stdio: "pipe" });
+    }
+    const dirF = join(dirGen, "foco");
+    mkdirSync(dirF, { recursive: true });
+    execFileSync("ffmpeg", ["-y", "-v", "error", "-i", join(RAIZ, "public", videoRel),
+      "-vf", "fps=1/5,scale=540:-2", "-frames:v", "6", join(dirF, "f_%02d.png")], { stdio: "pipe" });
+    const fotos = readdirSync(dirF).filter((f) => f.endsWith(".png")).map((f) => join(dirF, f));
+    if (!fotos.length) return undefined;
+    const cajas = Object.values(JSON.parse(execFileSync(bin, fotos, { encoding: "utf8" })))
+      .flat()
+      .filter((c) => c.tipo === "cara");
+    if (!cajas.length) return undefined;
+    const media = (f) => cajas.reduce((a, c) => a + f(c), 0) / cajas.length;
+    return { x: +(media((c) => c.x + c.w / 2)).toFixed(3), y: +(media((c) => c.y + c.h / 2)).toFixed(3) };
+  } catch {
+    return undefined; // sin Xcode o sin cara: el render usa su centro por defecto
+  }
+};
+
+const cortes = detectarCortes();
+const foco = detectarFoco();
+if (look === "cristal") {
+  console.log(
+    `   🎥 look cristal · ${cortes ? `${cortes.length} cortes detectados` : "sin cortes propios"}` +
+      `${foco ? ` · foco de cámara en ${foco.x}/${foco.y}` : ""}`
+  );
+}
 
 const props = {
   video: videoRel,
@@ -808,6 +1123,16 @@ const props = {
   pasos,
   subtitulos,
   subtitulosY,
+  look,
+  cortes: enLienzo ? undefined : cortes,
+  foco,
+  // Los segmentos vienen de tomas elegidas a mano: el render le da a cada una
+  // su tamaño de plano y un golpe de sonido en cada empalme.
+  tomasManuales: tomas.length > 1 || undefined,
+  camaraFija: enLienzo || undefined,
+  margenLateral,
+  sinSfx: soloGraficos || undefined,
+  lienzo,
   lista,
   revelaciones: revelacionesIdx
     .map((idx) => (palabras[idx] ? posRobusta(palabras[idx]) : null))
@@ -878,6 +1203,9 @@ function masterizar(mp4, referencia) {
   const eb = spawnSync("ffmpeg", ["-hide_banner", "-i", mp4, "-af", `${ajuste}ebur128=peak=true`, "-f", "null", "-"], { encoding: "utf8" }).stderr;
   const I = Number((eb.match(/I:\s+(-?[\d.]+) LUFS/g) ?? []).at(-1)?.match(/-?[\d.]+/)?.[0]);
   const TP = Number((eb.match(/Peak:\s+(-?[\d.]+) dBFS/g) ?? []).at(-1)?.match(/-?[\d.]+/)?.[0]);
+
+  if (comprimir) return masterizarComprimido(mp4, referencia, ajuste, dur, tarde, I, TP);
+
   const ganancia = Math.min(-14 - I, -1.5 - TP);
   const tmp = mp4.replace(/\.mp4$/, ".master.mp4");
   execFileSync("ffmpeg", [
@@ -894,19 +1222,72 @@ function masterizar(mp4, referencia) {
   );
 }
 
+// Máster con compresión (--comprimir). loudnorm en DOS pasadas, que es la
+// forma de clavar un objetivo de sonoridad sin ir a ciegas: la primera mide el
+// programa entero y la segunda aplica la corrección exacta. Con linear=true
+// aplica solo ganancia mientras le quepa, y únicamente comprime el rango
+// cuando el pico no deja llegar a -14 —que es el caso de los crudos grabados
+// muy bajos—. Así se aprieta lo mínimo y no todo por sistema.
+function masterizarComprimido(mp4, referencia, ajuste, dur, tarde, I, TP) {
+  const OBJ = "I=-14:TP=-1.5:LRA=11";
+  const medida = spawnSync(
+    "ffmpeg",
+    ["-hide_banner", "-i", mp4, "-af", `${ajuste}loudnorm=${OBJ}:print_format=json`, "-f", "null", "-"],
+    { encoding: "utf8" }
+  ).stderr;
+  const bruto = medida.slice(medida.lastIndexOf("{"), medida.lastIndexOf("}") + 1);
+  let m;
+  try {
+    m = JSON.parse(bruto);
+  } catch {
+    console.warn("   ⚠️  loudnorm no devolvió medida; se deja el máster en solo ganancia");
+    m = null;
+  }
+  const filtro = m
+    ? `${ajuste}loudnorm=${OBJ}:measured_I=${m.input_i}:measured_TP=${m.input_tp}` +
+      `:measured_LRA=${m.input_lra}:measured_thresh=${m.input_thresh}` +
+      `:offset=${m.target_offset}:linear=true,aresample=48000`
+    : `${ajuste}volume=${Math.min(-14 - I, -1.5 - TP).toFixed(2)}dB`;
+
+  const tmp = mp4.replace(/\.mp4$/, ".master.mp4");
+  execFileSync("ffmpeg", [
+    "-y", "-i", mp4, "-c:v", "copy", "-af", filtro,
+    "-c:a", "aac", "-b:a", "320k", "-movflags", "+faststart", tmp,
+  ], { stdio: "pipe" });
+  renameSync(tmp, mp4);
+
+  // Se vuelve a medir el resultado: loudnorm promete el objetivo, pero con
+  // linear=true puede quedarse corto si el pico manda, y eso hay que verlo.
+  const fin = spawnSync("ffmpeg", ["-hide_banner", "-i", mp4, "-af", "ebur128=peak=true", "-f", "null", "-"], { encoding: "utf8" }).stderr;
+  const I2 = Number((fin.match(/I:\s+(-?[\d.]+) LUFS/g) ?? []).at(-1)?.match(/-?[\d.]+/)?.[0]);
+  const TP2 = Number((fin.match(/Peak:\s+(-?[\d.]+) dBFS/g) ?? []).at(-1)?.match(/-?[\d.]+/)?.[0]);
+  const queda = existsSync(referencia) ? retardo(referencia, mp4, dur) : 0;
+  console.log(
+    `🔊 Máster COMPRIMIDO (--comprimir, loudnorm 2 pasadas): ${I.toFixed(1)} → ${I2.toFixed(1)} LUFS · ` +
+      `pico ${TP.toFixed(1)} → ${TP2.toFixed(1)} dBTP · rango ${m ? Number(m.input_lra).toFixed(1) : "?"} LU · ` +
+      `sincronía: voz ${Math.round(tarde * 1000)} ms tarde → ${Math.round(queda * 1000)} ms` +
+      (Math.abs(queda) > 0.02 ? " ⚠️" : "")
+  );
+}
+
 // ── 7. Render ─────────────────────────────────────────────────────────────
 console.log("\n🎬 Renderizando el reel editado...\n");
 const salidaMp4 = `out/${slug}-editado.mp4`;
 const render = spawnSync(
   "npx",
-  ["remotion", "render", "ReelCrudo", salidaMp4, `--props=${rutaProps}`, "--audio-bitrate=320k"],
+  // --timeout: los 30 s por defecto de Remotion se quedaban cortos leyendo un
+  // fotograma del proxy en reels largos y el render se caía a mitad.
+  ["remotion", "render", "ReelCrudo", salidaMp4, `--props=${rutaProps}`, "--audio-bitrate=320k", "--timeout=120000",
+   ...(concurrencia ? [`--concurrency=${concurrencia}`] : [])],
   { cwd: RAIZ, stdio: "inherit" }
 );
 if (render.status === 0) {
   // Referencia de sincronía: sin cortes, el reel va en la línea de tiempo del
   // crudo y se mide contra él (incluye el retardo de la limpieza de voz); con
-  // cortes, contra la mezcla, que es la que está en la línea de tiempo final
-  const sinRecortes = segmentos.length === 1 && segmentos[0].srcInicio < 0.01;
+  // cortes, contra la mezcla, que es la que está en la línea de tiempo final.
+  // Sin voz siempre contra la mezcla: muchos de estos clips no tienen ni
+  // pista de audio, y no hay diálogo cuyo labial sincronizar de todos modos.
+  const sinRecortes = !sinVoz && segmentos.length === 1 && segmentos[0].srcInicio < 0.01;
   masterizar(join(RAIZ, salidaMp4), sinRecortes ? rutaCrudo : join(RAIZ, "public", mezclaRel));
   console.log(`\n✨ Reel editado: ${salidaMp4}\n`);
   // Control de calidad automático (scripts/qa-reel.mjs). No bloquea: el reel

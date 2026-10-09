@@ -1,0 +1,100 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.67,
+  "enfasis": [
+    [
+      36,
+      36
+    ],
+    [
+      99,
+      101
+    ],
+    [
+      120,
+      122
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 50,
+      "texto": "x"
+    },
+    {
+      "palabra": 86,
+      "texto": "reducir."
+    }
+  ],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "t": 0,
+      "tipo": "imagenFija",
+      "dato": "inserts/futuro-empleo.png",
+      "x": 0.37,
+      "y": 0.07,
+      "tam": 600,
+      "fijo": true
+    },
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=¿MIEDO A PERDER|tu empleo por la IA?",
+      "y": 0.76,
+      "duracion": 6.8
+    },
+    {
+      "palabra": 30,
+      "tipo": "remate",
+      "dato": "SOLO TIENES UNA OPCIÓN:|=ADAPTARTE",
+      "y": 0.69,
+      "duracion": 5.3
+    },
+    {
+      "palabra": 46,
+      "tipo": "remate",
+      "dato": "SE VA A USAR EN|TODOS LOS=ÁMBITOS",
+      "y": 0.69,
+      "duracion": 4.5
+    },
+    {
+      "palabra": 81,
+      "tipo": "remate",
+      "dato": "¿SE PUEDE REDUCIR?|PUES=QUIZÁS",
+      "y": 0.69,
+      "duracion": 3.2
+    },
+    {
+      "palabra": 99,
+      "tipo": "remate",
+      "dato": "HACES=FALTA",
+      "y": 0.69,
+      "tam": 130,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 120,
+      "tipo": "remate",
+      "dato": "bocadillo:NO TE=PREOCUPES|FAMILIARÍZATE CON LA IA",
+      "y": 0.67,
+      "tam": 60,
+      "duracion": 3.5
+    },
+    {
+      "palabra": 70,
+      "tipo": "remate",
+      "dato": "NO TE QUEDA OTRA|SI QUIERES MANTENER=TU EMPLEO",
+      "y": 0.69,
+      "duracion": 4.3
+    },
+    {
+      "palabra": 108,
+      "tipo": "remate",
+      "dato": "FAMILIARÍZATE|CON EL USO DE LA=IA",
+      "y": 0.69,
+      "duracion": 3.4
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (40 s): mensaje tranquilizador y de opinión para quien teme perder el empleo por la IA (adaptarse, familiarizarse; puede que se reduzca pero 'haces falta'). A diferencia de los anteriores no hay pasos ni datos que ilustrar, es un discurso; los gráficos van a los giros del argumento. Mismo tratamiento: look cristal, música videoplayback, voz limpia, máster comprimido, --sin-cortes y márgenes laterales nuevos. RECURSO VISUAL, replicando la referencia de Pablo: imagen fija del tema sobre la cabeza todo el reel. Al ser opinión, la imagen no puede afirmar nada que él no diga: es la portada del informe 'The Future of Jobs Report 2025' del Foro Económico Mundial (capturada con Chrome sin ventana en modo escritorio, recortada al bloque de título y descripción, sin la ilustración), que es contexto del tema 'empleo y cambio tecnológico' y no una cifra. Se intentó el blog del FMI sobre IA y economía y devolvió 'Access Denied': no se insiste ni se busca la forma de saltárselo. Cara en x 0.17-0.55, y 0.325-0.592 (la gorra llega a 0.302), tarjeta en y 0.07-0.30. El texto está en inglés y el reel en español; se avisa a Pablo. Final natural: la voz acaba en 'adelante' a 39,8 s y la envolvente lo confirma. La 'X' de 'de aquí a X tiempo' (Whisper 37 %) se pone en minúscula. Segunda pasada: los gráficos iniciales dejaban dos tramos largos sin nada nuevo en pantalla (16,9-23,4 s y 31,4-36,4 s, de 6,6 y 5,0 s); en un discurso sin pasos ni cifras cada giro del argumento necesita su momento, así que se añaden dos remates con lo que dice en esos tramos ('no te queda otra opción si quieres mantener tu empleo' y 'familiarízate con el uso de la IA'). Tercera pasada, avisos de subtítulos del QA: 'escuchar.' asomaba 0,13 s entre el titulón y el primer remate, y 'de la IA' 0,53 s entre el primer y el segundo remate. Se enlazan alargando el titulón a 6,8 s y el primer remate a 5,3 s."
+}

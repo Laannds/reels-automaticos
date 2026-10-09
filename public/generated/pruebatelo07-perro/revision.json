@@ -1,0 +1,59 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0.0,
+      "tipo": "titulon",
+      "dato": "=PRUÉBATELO|ANTES DE COMPRARLO",
+      "duracion": 2.4,
+      "y": 0.36
+    },
+    {
+      "t": 9.5,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "t": 10.0,
+      "tipo": "congelado",
+      "dato": "generated/pruebatelo07-perro/congelado.png|¿TE GUSTA SU LOOK?",
+      "duracion": 12.04
+    },
+    {
+      "t": 11.6,
+      "tipo": "movil",
+      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png",
+      "duracion": 7.2
+    },
+    {
+      "t": 11.6,
+      "tipo": "etiqueta",
+      "dato": "SUBE TU FOTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 14.0,
+      "tipo": "etiqueta",
+      "dato": "LA IA HACE EL RESTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 16.4,
+      "tipo": "etiqueta",
+      "dato": "ASÍ TE QUEDA",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 18.8,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO",
+      "duracion": 3.24
+    }
+  ],
+  "resumen": "Reel de la serie 'Pruébatelo' (misma plantilla que los 4 anteriores). Fuente de Mixkit: hombre de traje paseando un dóberman junto a un molino. Clip largo (26s originales, recortado a 22s ya en el archivo de origen); se aprovecha para un gancho más largo, congelando a los 10s cuando ya está bien de plano. Mismas 3 capturas de ejemplo de la app y mismo CTA que el resto de la serie."
+}

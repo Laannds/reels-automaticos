@@ -1,0 +1,85 @@
+{
+  "subtitulos": "ninguno",
+  "eliminar": [],
+  "tomas": [
+    [
+      0.5,
+      3.1
+    ],
+    [
+      3.85,
+      5.55
+    ],
+    [
+      6.75,
+      9.05
+    ],
+    [
+      9.6,
+      12.0
+    ],
+    [
+      13.35,
+      15.95
+    ],
+    [
+      16.85,
+      19.25
+    ],
+    [
+      20.4,
+      24.6
+    ]
+  ],
+  "elementos": [
+    {
+      "t": 0.1,
+      "tipo": "titulon",
+      "dato": "UN DÍA|TENIENDO UN GIMNASIO|=Y +200 ATLETAS",
+      "y": 0.6,
+      "duracion": 2.4
+    },
+    {
+      "t": 2.75,
+      "tipo": "etiqueta",
+      "dato": "Grabando",
+      "y": 0.66,
+      "duracion": 3.6
+    },
+    {
+      "t": 6.75,
+      "tipo": "etiqueta",
+      "dato": "Parada para comer y juego con Blu",
+      "y": 0.66,
+      "duracion": 2.0
+    },
+    {
+      "t": 9.15,
+      "tipo": "etiqueta",
+      "dato": "Videollamadas con clientes online",
+      "y": 0.66,
+      "duracion": 2.2
+    },
+    {
+      "t": 11.75,
+      "tipo": "etiqueta",
+      "dato": "Cerramos el gimnasio y para casa",
+      "y": 0.66,
+      "duracion": 2.0
+    },
+    {
+      "t": 14.15,
+      "tipo": "etiqueta",
+      "dato": "Cenamos y a dormir",
+      "y": 0.66,
+      "duracion": 1.85
+    },
+    {
+      "t": 16.05,
+      "tipo": "remate",
+      "dato": "bocadillo:SÍGUEME|PARA=MÁS",
+      "duracion": 2.15
+    }
+  ],
+  "resumen": "Lifestyle de DV FIT (David): un día con gimnasio y +200 atletas. Crudo MUDO (-90 dB): va con --sin-voz, los elementos se anclan por segundos y la música manda sin ducking. El crudo trae 7 planos ya montados (cortes en 3,57 / 6,63 / 9,37 / 13,17 / 16,63 / 20,17), pero de ~3,5 s cada uno: a Pablo le pareció lento. Se recortan con 'tomas' a ~2,4 s y el de la bici a 1,7 s (Pablo lo vio largo en la primera pasada: es el único plano donde David solo habla a cámara, sin acción que sostenga el tiempo) — 25,0 s → 18,2 s quedándose con el trozo donde pasa algo — la serie de repeticiones, el post-it que pega, el movimiento de cámara del gimnasio vacío. Se recorta en vez de acelerar el vídeo para que el movimiento siga siendo natural. Al haber 7 segmentos de verdad, el render le da a cada plano su tamaño de encuadre y suena un golpe en cada empalme. Titular de Pablo (segunda versión, más corta) en 3 líneas sobre el plano de entreno, con '+200 ATLETAS' en amarillo; va a y 0,60, sobre el suelo vacío, porque arriba está él. Música: 'Deep Urban' (gym, 125 bpm), forzada con --musica. La que salía por rotación ('Rising Forest') le pareció poco pegadiza: medido, tiene 2,1 golpes por segundo frente a los 4,2 de Deep Urban, que es la más densa del estilo gym y la que mejor sostiene un montaje de cortes de 2,4 s. Blu es el nombre del perro, no 'el Blu'. Una etiqueta por plano con el texto que dio Pablo; los planos 2 y 3 son los dos 'grabando', así que llevan UNA sola etiqueta que cruza el corte en vez de repetir la palabra. El plano 1 no lleva etiqueta: el titulón ocupa ese hueco. Todas a y 0,66: la cara más baja medida con Vision es la del plano del perro (barbilla en 0,53), así que 0,66 queda por debajo de todas y por encima de la interfaz de Instagram. La etiqueta de las videollamadas se acortó a 33 caracteres: con el texto entero se iba a dos líneas y el borde derecho de la tarjeta entraba en la columna de botones de Instagram (x 0,88). CTA 'SÍGUEME PARA MÁS' (no el de RUTINA: esto es lifestyle, no una oferta de entreno), pegado al final para que no acabe antes que el vídeo."
+}

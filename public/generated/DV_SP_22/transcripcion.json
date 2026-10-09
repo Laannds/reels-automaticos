@@ -1,0 +1,870 @@
+[
+ {
+  "i": 0,
+  "texto": "Estas",
+  "inicio": 0.03,
+  "fin": 0.28,
+  "prob": 0.89
+ },
+ {
+  "i": 1,
+  "texto": "tres",
+  "inicio": 0.28,
+  "fin": 0.51,
+  "prob": 0.73
+ },
+ {
+  "i": 2,
+  "texto": "cosas",
+  "inicio": 0.51,
+  "fin": 0.8,
+  "prob": 0.99
+ },
+ {
+  "i": 3,
+  "texto": "te",
+  "inicio": 0.8,
+  "fin": 0.87,
+  "prob": 0.98
+ },
+ {
+  "i": 4,
+  "texto": "hacen",
+  "inicio": 0.94,
+  "fin": 1.2,
+  "prob": 0.99
+ },
+ {
+  "i": 5,
+  "texto": "no",
+  "inicio": 1.2,
+  "fin": 1.31,
+  "prob": 0.98
+ },
+ {
+  "i": 6,
+  "texto": "perder",
+  "inicio": 1.31,
+  "fin": 1.66,
+  "prob": 1
+ },
+ {
+  "i": 7,
+  "texto": "grasa",
+  "inicio": 1.66,
+  "fin": 2,
+  "prob": 0.97
+ },
+ {
+  "i": 8,
+  "texto": "aunque",
+  "inicio": 2,
+  "fin": 2.28,
+  "prob": 0.64
+ },
+ {
+  "i": 9,
+  "texto": "estés",
+  "inicio": 2.28,
+  "fin": 2.56,
+  "prob": 0.96
+ },
+ {
+  "i": 10,
+  "texto": "comiendo",
+  "inicio": 2.56,
+  "fin": 2.96,
+  "prob": 0.93
+ },
+ {
+  "i": 11,
+  "texto": "y",
+  "inicio": 2.96,
+  "fin": 2.99,
+  "prob": 0.98
+ },
+ {
+  "i": 12,
+  "texto": "entrenando",
+  "inicio": 2.99,
+  "fin": 3.37,
+  "prob": 0.95
+ },
+ {
+  "i": 13,
+  "texto": "bien.",
+  "inicio": 3.37,
+  "fin": 3.52,
+  "prob": 0.98
+ },
+ {
+  "i": 14,
+  "texto": "Número",
+  "inicio": 3.7,
+  "fin": 4.15,
+  "prob": 0.41
+ },
+ {
+  "i": 15,
+  "texto": "uno,",
+  "inicio": 4.15,
+  "fin": 4.32,
+  "prob": 0.33
+ },
+ {
+  "i": 16,
+  "texto": "comes",
+  "inicio": 4.49,
+  "fin": 4.72,
+  "prob": 0.78
+ },
+ {
+  "i": 17,
+  "texto": "más",
+  "inicio": 4.72,
+  "fin": 4.91,
+  "prob": 0.85
+ },
+ {
+  "i": 18,
+  "texto": "de",
+  "inicio": 4.91,
+  "fin": 4.99,
+  "prob": 0.98
+ },
+ {
+  "i": 19,
+  "texto": "lo",
+  "inicio": 5,
+  "fin": 5.09,
+  "prob": 0.99
+ },
+ {
+  "i": 20,
+  "texto": "que",
+  "inicio": 5.09,
+  "fin": 5.23,
+  "prob": 0.99
+ },
+ {
+  "i": 21,
+  "texto": "gastas.",
+  "inicio": 5.23,
+  "fin": 5.47,
+  "prob": 0.99
+ },
+ {
+  "i": 22,
+  "texto": "La",
+  "inicio": 5.56,
+  "fin": 5.64,
+  "prob": 0.99
+ },
+ {
+  "i": 23,
+  "texto": "proteína",
+  "inicio": 5.64,
+  "fin": 6.11,
+  "prob": 0.98
+ },
+ {
+  "i": 24,
+  "texto": "ayuda",
+  "inicio": 6.11,
+  "fin": 6.37,
+  "prob": 0.99
+ },
+ {
+  "i": 25,
+  "texto": "a",
+  "inicio": 6.37,
+  "fin": 6.42,
+  "prob": 0.94
+ },
+ {
+  "i": 26,
+  "texto": "ganar",
+  "inicio": 6.42,
+  "fin": 6.67,
+  "prob": 0.94
+ },
+ {
+  "i": 27,
+  "texto": "músculo,",
+  "inicio": 6.67,
+  "fin": 7.07,
+  "prob": 0.8
+ },
+ {
+  "i": 28,
+  "texto": "pero",
+  "inicio": 7.23,
+  "fin": 7.42,
+  "prob": 0.85
+ },
+ {
+  "i": 29,
+  "texto": "si",
+  "inicio": 7.42,
+  "fin": 7.51,
+  "prob": 0.99
+ },
+ {
+  "i": 30,
+  "texto": "tomas",
+  "inicio": 7.51,
+  "fin": 7.74,
+  "prob": 0.99
+ },
+ {
+  "i": 31,
+  "texto": "más",
+  "inicio": 7.74,
+  "fin": 7.93,
+  "prob": 0.95
+ },
+ {
+  "i": 32,
+  "texto": "calorías",
+  "inicio": 7.93,
+  "fin": 8.36,
+  "prob": 0.94
+ },
+ {
+  "i": 33,
+  "texto": "de",
+  "inicio": 8.36,
+  "fin": 8.45,
+  "prob": 0.96
+ },
+ {
+  "i": 34,
+  "texto": "las",
+  "inicio": 8.45,
+  "fin": 8.59,
+  "prob": 0.95
+ },
+ {
+  "i": 35,
+  "texto": "que",
+  "inicio": 8.59,
+  "fin": 8.8,
+  "prob": 0.99
+ },
+ {
+  "i": 36,
+  "texto": "gastas,",
+  "inicio": 8.8,
+  "fin": 9.21,
+  "prob": 0.97
+ },
+ {
+  "i": 37,
+  "texto": "no",
+  "inicio": 9.37,
+  "fin": 9.5,
+  "prob": 0.58
+ },
+ {
+  "i": 38,
+  "texto": "vas",
+  "inicio": 9.5,
+  "fin": 9.65,
+  "prob": 0.92
+ },
+ {
+  "i": 39,
+  "texto": "a",
+  "inicio": 9.66,
+  "fin": 9.71,
+  "prob": 0.99
+ },
+ {
+  "i": 40,
+  "texto": "perder",
+  "inicio": 9.71,
+  "fin": 10.04,
+  "prob": 1
+ },
+ {
+  "i": 41,
+  "texto": "grasa.",
+  "inicio": 10.04,
+  "fin": 10.26,
+  "prob": 0.99
+ },
+ {
+  "i": 42,
+  "texto": "Número",
+  "inicio": 10.37,
+  "fin": 10.69,
+  "prob": 0.95
+ },
+ {
+  "i": 43,
+  "texto": "dos,",
+  "inicio": 10.69,
+  "fin": 10.83,
+  "prob": 0.97
+ },
+ {
+  "i": 44,
+  "texto": "entrenar",
+  "inicio": 10.95,
+  "fin": 11.34,
+  "prob": 0.98
+ },
+ {
+  "i": 45,
+  "texto": "por",
+  "inicio": 11.34,
+  "fin": 11.49,
+  "prob": 0.99
+ },
+ {
+  "i": 46,
+  "texto": "entrenar",
+  "inicio": 11.49,
+  "fin": 11.89,
+  "prob": 0.98
+ },
+ {
+  "i": 47,
+  "texto": "no",
+  "inicio": 11.89,
+  "fin": 11.99,
+  "prob": 0.99
+ },
+ {
+  "i": 48,
+  "texto": "funciona.",
+  "inicio": 11.99,
+  "fin": 12.39,
+  "prob": 1
+ },
+ {
+  "i": 49,
+  "texto": "Todo",
+  "inicio": 12.61,
+  "fin": 12.81,
+  "prob": 0.99
+ },
+ {
+  "i": 50,
+  "texto": "necesita",
+  "inicio": 12.81,
+  "fin": 13.31,
+  "prob": 0.99
+ },
+ {
+  "i": 51,
+  "texto": "llevar",
+  "inicio": 13.31,
+  "fin": 13.69,
+  "prob": 1
+ },
+ {
+  "i": 52,
+  "texto": "un",
+  "inicio": 13.69,
+  "fin": 13.81,
+  "prob": 0.98
+ },
+ {
+  "i": 53,
+  "texto": "orden.",
+  "inicio": 13.81,
+  "fin": 14.12,
+  "prob": 1
+ },
+ {
+  "i": 54,
+  "texto": "Sin",
+  "inicio": 14.43,
+  "fin": 14.5,
+  "prob": 0.97
+ },
+ {
+  "i": 55,
+  "texto": "una",
+  "inicio": 14.5,
+  "fin": 14.66,
+  "prob": 0.99
+ },
+ {
+  "i": 56,
+  "texto": "estructura",
+  "inicio": 14.66,
+  "fin": 15.21,
+  "prob": 1
+ },
+ {
+  "i": 57,
+  "texto": "y",
+  "inicio": 15.21,
+  "fin": 15.24,
+  "prob": 0.87
+ },
+ {
+  "i": 58,
+  "texto": "sin",
+  "inicio": 15.36,
+  "fin": 15.42,
+  "prob": 1
+ },
+ {
+  "i": 59,
+  "texto": "saber",
+  "inicio": 15.42,
+  "fin": 15.69,
+  "prob": 1
+ },
+ {
+  "i": 60,
+  "texto": "que",
+  "inicio": 15.71,
+  "fin": 15.86,
+  "prob": 0.84
+ },
+ {
+  "i": 61,
+  "texto": "estás",
+  "inicio": 15.86,
+  "fin": 16.19,
+  "prob": 0.68
+ },
+ {
+  "i": 62,
+  "texto": "trabajando",
+  "inicio": 16.19,
+  "fin": 16.74,
+  "prob": 1
+ },
+ {
+  "i": 63,
+  "texto": "cada",
+  "inicio": 16.77,
+  "fin": 16.97,
+  "prob": 0.99
+ },
+ {
+  "i": 64,
+  "texto": "día,",
+  "inicio": 16.97,
+  "fin": 17.18,
+  "prob": 0.99
+ },
+ {
+  "i": 65,
+  "texto": "puedes",
+  "inicio": 17.38,
+  "fin": 17.64,
+  "prob": 0.74
+ },
+ {
+  "i": 66,
+  "texto": "estar",
+  "inicio": 17.71,
+  "fin": 17.93,
+  "prob": 0.99
+ },
+ {
+  "i": 67,
+  "texto": "entrenando",
+  "inicio": 17.93,
+  "fin": 18.43,
+  "prob": 1
+ },
+ {
+  "i": 68,
+  "texto": "meses",
+  "inicio": 18.43,
+  "fin": 18.67,
+  "prob": 0.98
+ },
+ {
+  "i": 69,
+  "texto": "sin",
+  "inicio": 18.72,
+  "fin": 18.85,
+  "prob": 0.96
+ },
+ {
+  "i": 70,
+  "texto": "ver",
+  "inicio": 18.85,
+  "fin": 19,
+  "prob": 0.98
+ },
+ {
+  "i": 71,
+  "texto": "un",
+  "inicio": 19,
+  "fin": 19.1,
+  "prob": 1
+ },
+ {
+  "i": 72,
+  "texto": "cambio",
+  "inicio": 19.1,
+  "fin": 19.4,
+  "prob": 1
+ },
+ {
+  "i": 73,
+  "texto": "real.",
+  "inicio": 19.4,
+  "fin": 19.6,
+  "prob": 0.99
+ },
+ {
+  "i": 74,
+  "texto": "Número",
+  "inicio": 19.8,
+  "fin": 20.13,
+  "prob": 0.99
+ },
+ {
+  "i": 75,
+  "texto": "tres,",
+  "inicio": 20.13,
+  "fin": 20.34,
+  "prob": 0.95
+ },
+ {
+  "i": 76,
+  "texto": "si",
+  "inicio": 20.54,
+  "fin": 20.57,
+  "prob": 1
+ },
+ {
+  "i": 77,
+  "texto": "no",
+  "inicio": 20.57,
+  "fin": 20.68,
+  "prob": 1
+ },
+ {
+  "i": 78,
+  "texto": "duermes",
+  "inicio": 20.68,
+  "fin": 21.06,
+  "prob": 0.95
+ },
+ {
+  "i": 79,
+  "texto": "bien,",
+  "inicio": 21.06,
+  "fin": 21.28,
+  "prob": 1
+ },
+ {
+  "i": 80,
+  "texto": "no",
+  "inicio": 21.39,
+  "fin": 21.43,
+  "prob": 1
+ },
+ {
+  "i": 81,
+  "texto": "vas",
+  "inicio": 21.53,
+  "fin": 21.66,
+  "prob": 1
+ },
+ {
+  "i": 82,
+  "texto": "a",
+  "inicio": 21.66,
+  "fin": 21.71,
+  "prob": 1
+ },
+ {
+  "i": 83,
+  "texto": "tener",
+  "inicio": 21.71,
+  "fin": 21.98,
+  "prob": 0.99
+ },
+ {
+  "i": 84,
+  "texto": "resultados.",
+  "inicio": 21.98,
+  "fin": 22.55,
+  "prob": 1
+ },
+ {
+  "i": 85,
+  "texto": "La",
+  "inicio": 22.85,
+  "fin": 22.9,
+  "prob": 0.99
+ },
+ {
+  "i": 86,
+  "texto": "recuperación",
+  "inicio": 22.9,
+  "fin": 23.58,
+  "prob": 1
+ },
+ {
+  "i": 87,
+  "texto": "es",
+  "inicio": 23.58,
+  "fin": 23.65,
+  "prob": 0.96
+ },
+ {
+  "i": 88,
+  "texto": "tan",
+  "inicio": 23.68,
+  "fin": 23.72,
+  "prob": 1
+ },
+ {
+  "i": 89,
+  "texto": "importante",
+  "inicio": 23.87,
+  "fin": 24.36,
+  "prob": 1
+ },
+ {
+  "i": 90,
+  "texto": "como",
+  "inicio": 24.36,
+  "fin": 24.57,
+  "prob": 0.98
+ },
+ {
+  "i": 91,
+  "texto": "el",
+  "inicio": 24.57,
+  "fin": 24.67,
+  "prob": 0.99
+ },
+ {
+  "i": 92,
+  "texto": "entrenamiento",
+  "inicio": 24.67,
+  "fin": 25.35,
+  "prob": 1
+ },
+ {
+  "i": 93,
+  "texto": "y",
+  "inicio": 25.35,
+  "fin": 25.4,
+  "prob": 1
+ },
+ {
+  "i": 94,
+  "texto": "la",
+  "inicio": 25.4,
+  "fin": 25.5,
+  "prob": 1
+ },
+ {
+  "i": 95,
+  "texto": "comida.",
+  "inicio": 25.5,
+  "fin": 25.81,
+  "prob": 1
+ },
+ {
+  "i": 96,
+  "texto": "Sin",
+  "inicio": 26.06,
+  "fin": 26.23,
+  "prob": 0.72
+ },
+ {
+  "i": 97,
+  "texto": "sueño,",
+  "inicio": 26.23,
+  "fin": 26.61,
+  "prob": 0.99
+ },
+ {
+  "i": 98,
+  "texto": "tu",
+  "inicio": 26.72,
+  "fin": 26.8,
+  "prob": 0.99
+ },
+ {
+  "i": 99,
+  "texto": "cuerpo",
+  "inicio": 27.04,
+  "fin": 27.23,
+  "prob": 1
+ },
+ {
+  "i": 100,
+  "texto": "no",
+  "inicio": 27.23,
+  "fin": 27.35,
+  "prob": 1
+ },
+ {
+  "i": 101,
+  "texto": "repara.",
+  "inicio": 27.35,
+  "fin": 27.73,
+  "prob": 0.98
+ },
+ {
+  "i": 102,
+  "texto": "Altera",
+  "inicio": 28.01,
+  "fin": 28.3,
+  "prob": 0.83
+ },
+ {
+  "i": 103,
+  "texto": "las",
+  "inicio": 28.3,
+  "fin": 28.47,
+  "prob": 0.99
+ },
+ {
+  "i": 104,
+  "texto": "hormonas",
+  "inicio": 28.47,
+  "fin": 28.93,
+  "prob": 0.99
+ },
+ {
+  "i": 105,
+  "texto": "que",
+  "inicio": 28.93,
+  "fin": 29.02,
+  "prob": 0.91
+ },
+ {
+  "i": 106,
+  "texto": "hacen",
+  "inicio": 29.16,
+  "fin": 29.39,
+  "prob": 0.98
+ },
+ {
+  "i": 107,
+  "texto": "que",
+  "inicio": 29.39,
+  "fin": 29.56,
+  "prob": 0.99
+ },
+ {
+  "i": 108,
+  "texto": "tu",
+  "inicio": 29.56,
+  "fin": 29.67,
+  "prob": 0.99
+ },
+ {
+  "i": 109,
+  "texto": "cuerpo",
+  "inicio": 29.67,
+  "fin": 30.02,
+  "prob": 1
+ },
+ {
+  "i": 110,
+  "texto": "pierda",
+  "inicio": 30.02,
+  "fin": 30.36,
+  "prob": 0.97
+ },
+ {
+  "i": 111,
+  "texto": "grasa",
+  "inicio": 30.36,
+  "fin": 30.63,
+  "prob": 0.99
+ },
+ {
+  "i": 112,
+  "texto": "y",
+  "inicio": 30.63,
+  "fin": 30.67,
+  "prob": 0.99
+ },
+ {
+  "i": 113,
+  "texto": "gande",
+  "inicio": 30.69,
+  "fin": 30.86,
+  "prob": 0.72
+ },
+ {
+  "i": 114,
+  "texto": "masa",
+  "inicio": 31,
+  "fin": 31.2,
+  "prob": 0.97
+ },
+ {
+  "i": 115,
+  "texto": "muscular.",
+  "inicio": 31.2,
+  "fin": 31.66,
+  "prob": 1
+ },
+ {
+  "i": 116,
+  "texto": "Sígueme",
+  "inicio": 31.99,
+  "fin": 32.34,
+  "prob": 0.89
+ },
+ {
+  "i": 117,
+  "texto": "si",
+  "inicio": 32.34,
+  "fin": 32.39,
+  "prob": 0.82
+ },
+ {
+  "i": 118,
+  "texto": "quieres",
+  "inicio": 32.62,
+  "fin": 32.8,
+  "prob": 0.99
+ },
+ {
+  "i": 119,
+  "texto": "aprender",
+  "inicio": 32.8,
+  "fin": 33.21,
+  "prob": 0.99
+ },
+ {
+  "i": 120,
+  "texto": "a",
+  "inicio": 33.21,
+  "fin": 33.26,
+  "prob": 1
+ },
+ {
+  "i": 121,
+  "texto": "tener",
+  "inicio": 33.26,
+  "fin": 33.51,
+  "prob": 0.99
+ },
+ {
+  "i": 122,
+  "texto": "resultados",
+  "inicio": 33.51,
+  "fin": 34.02,
+  "prob": 1
+ },
+ {
+  "i": 123,
+  "texto": "reales.",
+  "inicio": 34.02,
+  "fin": 34.34,
+  "prob": 0.97
+ }
+]

@@ -1,0 +1,14 @@
+{
+  "slug": "0925",
+  "duracion": 45.233333,
+  "lufs": -14.8,
+  "pico": -1.4,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 4.65,
+      "texto": "\"empiezas\" (palabra 19) — Whisper solo está al 20%"
+    }
+  ]
+}

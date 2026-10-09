@@ -1,0 +1,116 @@
+{
+  "subtitulos": "bold",
+  "subtitulosY": 0.525,
+  "enfasis": [
+    [
+      8,
+      9
+    ],
+    [
+      14,
+      15
+    ]
+  ],
+  "sustituciones": [],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "tapa",
+      "dato": "",
+      "y": 0.872,
+      "tam": 255,
+      "duracion": 27.7,
+      "ocultar": [
+        [
+          18.4,
+          21.1
+        ]
+      ]
+    },
+    {
+      "palabra": 0,
+      "tipo": "tapa",
+      "dato": "",
+      "y": 0.15,
+      "tam": 250,
+      "duracion": 3.6
+    },
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=MISMOS PLATOS|EL DOBLE DE CALORÍAS",
+      "y": 0.21,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 8,
+      "tipo": "tapa",
+      "dato": "",
+      "y": 0.595,
+      "tam": 235,
+      "duracion": 4.6
+    },
+    {
+      "palabra": 8,
+      "tipo": "comparativa",
+      "dato": "PASTA FITY|200 kcal|PASTA PORKY|400 kcal",
+      "y": 0.175,
+      "duracion": 5.2
+    },
+    {
+      "palabra": 23,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 23,
+      "tipo": "checklist",
+      "dato": "#PASTA FITY · 200 KCAL|100 g pasta de lenteja@0|100 g tomate natural triturado@2.4",
+      "y": 0.13,
+      "duracion": 5.8
+    },
+    {
+      "palabra": 39,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.8
+    },
+    {
+      "palabra": 39,
+      "tipo": "checklist",
+      "dato": "#PASTA PORKY · 400 KCAL|100 g pasta de lenteja@0|100 g tomate FRITO@2.3",
+      "y": 0.13,
+      "duracion": 4.9
+    },
+    {
+      "palabra": 55,
+      "tipo": "broll",
+      "dato": "stock/gym-hamburguesa.mp4",
+      "duracion": 2.3
+    },
+    {
+      "palabra": 64,
+      "tipo": "remate",
+      "dato": "NO ES UNA CÁRCEL|ES=ELEGIR BIEN",
+      "duracion": 3.2
+    },
+    {
+      "palabra": 74,
+      "tipo": "tapa",
+      "dato": "",
+      "y": 0.638,
+      "tam": 175,
+      "duracion": 2.7
+    },
+    {
+      "palabra": 74,
+      "tipo": "remate",
+      "dato": "bocadillo:SÍGUEME PARA|MÁS=TRUCOS ASÍ",
+      "duracion": 2.5
+    }
+  ],
+  "resumen": "Prueba comercial para un posible cliente (comparativa de dos platos de pasta, 27,8 s). Look DV FIT: amarillo #F5B301, sin handle, música gym. CONDICIONANTE PRINCIPAL: el crudo llega con grafismos QUEMADOS del propio cliente, que no se pueden borrar. Medidos con recortes: titular neón arriba (y 0.05-0.12, primeros 3 s), globos '200cals/400cal' (y 0.17-0.21, de 2,5 a 6,5 s), etiquetas 'PASTA FITY/PASTA PORKY' sobre el mantel (y 0.89-0.95, TODO el vídeo) y botón FOLLOW rosa (x 0.36-0.63, y 0.66-0.71, al final). Se ocultan con el elemento 'tapa', que difumina y oscurece la franja en vez de taparla con una barra maciza (una barra canta a censura; el desenfoque del propio plano se lee como profundidad de campo). La tapa de abajo es persistente pero se aparta entre 18,4 y 21,1 s para no ensuciar el b-roll, que va a pantalla completa. Encuadre: Vision sitúa la cara en x 0.41-0.65, y 0.35-0.52, y los dos platos ocupan de 0.63 a 0.88 y son el tema, así que no se tapan. Eso deja la banda de arriba (0.02-0.33) para el grafismo y la franja 0.53-0.62 para los subtítulos, que van a 0.55. Montaje: titulón de gancho sobre el neón tapado; comparativa de dos tarjetas (amarillo la fity, rojo la porky) justo cuando dice las dos cifras, que es donde el crudo ponía sus globos; un checklist por plato con los gramos que va marcando al nombrarlos; b-roll de hamburguesa en 'hacer dieta no es estar metido en una cárcel' (el contraste hace el chiste); remate a pantalla en el giro y CTA en bocadillo sobre el FOLLOW tapado. Dos gestos de cámara en los cambios de plato (7,6 s y 13,5 s). Énfasis en amarillo solo en las dos cifras de calorías: son la promesa del reel."
+}

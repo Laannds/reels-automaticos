@@ -1,0 +1,76 @@
+{
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0,
+      "tipo": "duoLogos",
+      "dato": "claude|inserts/mf-logo-recorte.png",
+      "y": 0.2,
+      "duracion": 2.85
+    },
+    {
+      "t": 0.25,
+      "tipo": "titulon",
+      "dato": "ASÍ LE ROBO LOS SEGUIDORES|=A LA COMPETENCIA|CON CLAUDE",
+      "y": 0.7,
+      "duracion": 2.55
+    },
+    {
+      "t": 3.1,
+      "tipo": "etiqueta",
+      "dato": "LA HERRAMIENTA|Claude + Mailerfind",
+      "y": 0.1,
+      "duracion": 1.5
+    },
+    {
+      "t": 4.3,
+      "tipo": "flecha",
+      "dato": "NUEVO ANÁLISIS|der",
+      "x": 0.43,
+      "y": 0.7,
+      "duracion": 2.3
+    },
+    {
+      "t": 6.65,
+      "tipo": "etiqueta",
+      "dato": "PASO 1|Pincha en Instagram",
+      "y": 0.1,
+      "duracion": 1.15
+    },
+    {
+      "t": 7.85,
+      "tipo": "etiqueta",
+      "dato": "PASO 2|Elige Seguidores",
+      "y": 0.1,
+      "duracion": 1.8
+    },
+    {
+      "t": 9.7,
+      "tipo": "etiqueta",
+      "dato": "PASO 3|Pon la cuenta de tu competencia",
+      "y": 0.1,
+      "duracion": 1.25
+    },
+    {
+      "t": 11.0,
+      "tipo": "etiqueta",
+      "dato": "PASO 4|Selecciónala de la lista",
+      "y": 0.1,
+      "duracion": 2.15
+    },
+    {
+      "t": 13.3,
+      "tipo": "etiqueta",
+      "dato": "RESULTADO|Sus seguidores, analizados",
+      "y": 0.1,
+      "duracion": 1.9
+    },
+    {
+      "t": 15.2,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=QUIERO|Y TE ENVÍO EL ACCESO",
+      "duracion": 2.2
+    }
+  ],
+  "resumen": "Variante B (crecer en Instagram): titulón \"ASÍ LE ROBO LOS SEGUIDORES A LA COMPETENCIA CON CLAUDE\", etiquetas genéricas (sin Portugal). Mismo crudo mailerfind1.mov."
+}

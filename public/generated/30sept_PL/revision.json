@@ -1,0 +1,110 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.55,
+  "enfasis": [
+    [
+      81,
+      83
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 125,
+      "texto": "¿qué"
+    },
+    {
+      "palabra": 184,
+      "texto": "proyectos."
+    }
+  ],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=INFLUENCERS DE IA|la mayoría no sabe de lo que habla",
+      "y": 0.13,
+      "duracion": 2.7
+    },
+    {
+      "palabra": 27,
+      "tipo": "remate",
+      "dato": "LO QUE TE VENDEN|NO TE VA A=SERVIR",
+      "y": 0.1,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 40,
+      "tipo": "chips",
+      "dato": "Prompts@0.98|Ideas que ya conoces@1.71",
+      "y": 0.075,
+      "duracion": 3.4,
+      "tam": 46
+    },
+    {
+      "palabra": 68,
+      "tipo": "cifra",
+      "dato": "TÚ SOLO|PUEDES APRENDER LO MISMO",
+      "y": 0.085,
+      "tam": 175,
+      "duracion": 2.8
+    },
+    {
+      "palabra": 81,
+      "tipo": "cifra",
+      "dato": "MILES €|POR LO QUE YA ES GRATIS",
+      "y": 0.07,
+      "tam": 210,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 99,
+      "tipo": "terminal",
+      "x": 0.05,
+      "y": 0.075,
+      "tam": 420,
+      "duracion": 4.2,
+      "dato": "tu-ia|te guía paso a paso@0.4|+sin pagar un curso@2.3"
+    },
+    {
+      "palabra": 118,
+      "tipo": "remate",
+      "dato": "LA PREGUNTA REAL|¿QUÉ NECESITAS=DE VERDAD?",
+      "y": 0.1,
+      "duracion": 3.0
+    },
+    {
+      "palabra": 140,
+      "tipo": "cifra",
+      "dato": "1 BASE|LA ESTRUCTURA DE PROGRAMACIÓN",
+      "y": 0.07,
+      "tam": 190,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 155,
+      "tipo": "chips",
+      "dato": "Qué sí@0.62|Qué no@1.18|Cómo hacerlo@1.55",
+      "y": 0.075,
+      "duracion": 3.2,
+      "tam": 44
+    },
+    {
+      "palabra": 172,
+      "tipo": "remate",
+      "dato": "SIN SABER PROGRAMAR|YA PUEDES=CONSTRUIR",
+      "y": 0.1,
+      "duracion": 3.4
+    },
+    {
+      "palabra": 189,
+      "tipo": "remate",
+      "dato": "bocadillo:SÍGUEME PARA|IA=SIN FILTROS",
+      "y": 0.075,
+      "duracion": 2.4,
+      "tam": 64
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (54,8 s) con una opinión fuerte: los cursos e influencers de IA no aportan lo que cobran. Look cristal. Vision sitúa la cara en x 0.36-0.63, y 0.27-0.45 —más alta que en otros reels suyos—, así que el grafismo va en la banda 0.07-0.24 y los subtítulos a 0.55, bajo la barbilla y sobre el teclado. Once elementos en 55 s, repartidos para que no haya ningún tramo de más de 4,5 s sin cambio visual, que es lo que el control de calidad marca como parado: titulón de gancho, remate del giro, pastillas con lo que venden (prompts, ideas que ya conoces), dos cifras seguidas para el contraste 'tú solo puedes / miles de euros', un panel de consola sobre 'la propia IA te va a guiar', remate con la pregunta real, cifra de la única base que hace falta, pastillas con qué sí / qué no / cómo hacerlo, remate final y CTA. Color: SIN corregir, a petición de Pablo. Se probó --grade (el crudo mide U 122.3 y V 133.7 sobre un neutro de 128, o sea dominante amarillo-rojiza, y SAT 8.3) pero incluso aplicando solo la mitad de la corrección el resultado le gustaba menos que el original: la escena tiene pared de ladrillo blanco y ropa beige, y su calidez forma parte del plano. Se renderiza sin --grade. Música: videoplayback.mp3, que pidió Pablo. Voz con --limpiar-voz. Correcciones de Whisper: 'proyects' por 'proyectos' y el 'que' de la pregunta por '¿qué'."
+}

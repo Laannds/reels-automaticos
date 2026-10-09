@@ -1,0 +1,856 @@
+[
+ {
+  "i": 0,
+  "texto": "847",
+  "inicio": 0,
+  "fin": 1.27,
+  "prob": 0.69
+ },
+ {
+  "i": 1,
+  "texto": "euros.",
+  "inicio": 1.27,
+  "fin": 2,
+  "prob": 0.64
+ },
+ {
+  "i": 2,
+  "texto": "Eso",
+  "inicio": 2.14,
+  "fin": 2.29,
+  "prob": 0.7
+ },
+ {
+  "i": 3,
+  "texto": "es",
+  "inicio": 2.29,
+  "fin": 2.35,
+  "prob": 0.87
+ },
+ {
+  "i": 4,
+  "texto": "lo",
+  "inicio": 2.41,
+  "fin": 2.49,
+  "prob": 0.99
+ },
+ {
+  "i": 5,
+  "texto": "que",
+  "inicio": 2.49,
+  "fin": 2.64,
+  "prob": 1
+ },
+ {
+  "i": 6,
+  "texto": "me",
+  "inicio": 2.64,
+  "fin": 2.73,
+  "prob": 0.97
+ },
+ {
+  "i": 7,
+  "texto": "gaste",
+  "inicio": 2.74,
+  "fin": 2.97,
+  "prob": 0.59
+ },
+ {
+  "i": 8,
+  "texto": "en",
+  "inicio": 3.01,
+  "fin": 3.1,
+  "prob": 0.93
+ },
+ {
+  "i": 9,
+  "texto": "un",
+  "inicio": 3.1,
+  "fin": 3.2,
+  "prob": 0.87
+ },
+ {
+  "i": 10,
+  "texto": "año",
+  "inicio": 3.2,
+  "fin": 3.4,
+  "prob": 0.98
+ },
+ {
+  "i": 11,
+  "texto": "en",
+  "inicio": 3.4,
+  "fin": 3.44,
+  "prob": 0.77
+ },
+ {
+  "i": 12,
+  "texto": "suplementación.",
+  "inicio": 3.47,
+  "fin": 4,
+  "prob": 0.69
+ },
+ {
+  "i": 13,
+  "texto": "Y",
+  "inicio": 4.09,
+  "fin": 4.13,
+  "prob": 0.55
+ },
+ {
+  "i": 14,
+  "texto": "de",
+  "inicio": 4.13,
+  "fin": 4.24,
+  "prob": 0.97
+ },
+ {
+  "i": 15,
+  "texto": "todo",
+  "inicio": 4.24,
+  "fin": 4.48,
+  "prob": 0.99
+ },
+ {
+  "i": 16,
+  "texto": "esto,",
+  "inicio": 4.48,
+  "fin": 4.8,
+  "prob": 0.96
+ },
+ {
+  "i": 17,
+  "texto": "lo",
+  "inicio": 4.86,
+  "fin": 5.3,
+  "prob": 0.77
+ },
+ {
+  "i": 18,
+  "texto": "único",
+  "inicio": 5.3,
+  "fin": 5.64,
+  "prob": 0.96
+ },
+ {
+  "i": 19,
+  "texto": "que",
+  "inicio": 5.64,
+  "fin": 5.74,
+  "prob": 0.83
+ },
+ {
+  "i": 20,
+  "texto": "hizo",
+  "inicio": 5.74,
+  "fin": 5.84,
+  "prob": 0.47
+ },
+ {
+  "i": 21,
+  "texto": "algo",
+  "inicio": 5.84,
+  "fin": 6.13,
+  "prob": 0.93
+ },
+ {
+  "i": 22,
+  "texto": "fueron",
+  "inicio": 6.19,
+  "fin": 6.4,
+  "prob": 0.5
+ },
+ {
+  "i": 23,
+  "texto": "dos",
+  "inicio": 6.4,
+  "fin": 6.44,
+  "prob": 0.81
+ },
+ {
+  "i": 24,
+  "texto": "cosas.",
+  "inicio": 6.58,
+  "fin": 6.76,
+  "prob": 0.99
+ },
+ {
+  "i": 25,
+  "texto": "CLA.",
+  "inicio": 7.01,
+  "fin": 7.19,
+  "prob": 0.45
+ },
+ {
+  "i": 26,
+  "texto": "Fuera.",
+  "inicio": 7.44,
+  "fin": 7.65,
+  "prob": 0.72
+ },
+ {
+  "i": 27,
+  "texto": "Lo",
+  "inicio": 8,
+  "fin": 8.08,
+  "prob": 0.9
+ },
+ {
+  "i": 28,
+  "texto": "único",
+  "inicio": 8.08,
+  "fin": 8.39,
+  "prob": 1
+ },
+ {
+  "i": 29,
+  "texto": "que",
+  "inicio": 8.39,
+  "fin": 8.55,
+  "prob": 0.97
+ },
+ {
+  "i": 30,
+  "texto": "me",
+  "inicio": 8.55,
+  "fin": 8.65,
+  "prob": 0.74
+ },
+ {
+  "i": 31,
+  "texto": "das",
+  "inicio": 8.65,
+  "fin": 8.77,
+  "prob": 0.29
+ },
+ {
+  "i": 32,
+  "texto": "con",
+  "inicio": 8.86,
+  "fin": 8.97,
+  "prob": 1
+ },
+ {
+  "i": 33,
+  "texto": "esto",
+  "inicio": 8.97,
+  "fin": 9.18,
+  "prob": 0.99
+ },
+ {
+  "i": 34,
+  "texto": "es",
+  "inicio": 9.18,
+  "fin": 9.27,
+  "prob": 0.88
+ },
+ {
+  "i": 35,
+  "texto": "el",
+  "inicio": 9.3,
+  "fin": 9.38,
+  "prob": 0.99
+ },
+ {
+  "i": 36,
+  "texto": "dinero.",
+  "inicio": 9.38,
+  "fin": 9.69,
+  "prob": 1
+ },
+ {
+  "i": 37,
+  "texto": "Beceas.",
+  "inicio": 9.92,
+  "fin": 10.23,
+  "prob": 0.12
+ },
+ {
+  "i": 38,
+  "texto": "Fuera.",
+  "inicio": 10.4,
+  "fin": 10.65,
+  "prob": 0.98
+ },
+ {
+  "i": 39,
+  "texto": "Si",
+  "inicio": 10.92,
+  "fin": 11,
+  "prob": 0.91
+ },
+ {
+  "i": 40,
+  "texto": "tomas",
+  "inicio": 11.01,
+  "fin": 11.25,
+  "prob": 0.96
+ },
+ {
+  "i": 41,
+  "texto": "la",
+  "inicio": 11.25,
+  "fin": 11.35,
+  "prob": 0.98
+ },
+ {
+  "i": 42,
+  "texto": "proteína",
+  "inicio": 11.35,
+  "fin": 11.8,
+  "prob": 0.98
+ },
+ {
+  "i": 43,
+  "texto": "suficiente,",
+  "inicio": 11.8,
+  "fin": 12.3,
+  "prob": 0.99
+ },
+ {
+  "i": 44,
+  "texto": "ya",
+  "inicio": 12.4,
+  "fin": 12.49,
+  "prob": 0.99
+ },
+ {
+  "i": 45,
+  "texto": "lo",
+  "inicio": 12.51,
+  "fin": 12.6,
+  "prob": 0.98
+ },
+ {
+  "i": 46,
+  "texto": "tienes.",
+  "inicio": 12.6,
+  "fin": 12.9,
+  "prob": 0.94
+ },
+ {
+  "i": 47,
+  "texto": "Quemadores",
+  "inicio": 13.06,
+  "fin": 13.45,
+  "prob": 0.53
+ },
+ {
+  "i": 48,
+  "texto": "de",
+  "inicio": 13.45,
+  "fin": 13.53,
+  "prob": 0.98
+ },
+ {
+  "i": 49,
+  "texto": "grasa.",
+  "inicio": 13.53,
+  "fin": 13.71,
+  "prob": 0.96
+ },
+ {
+  "i": 50,
+  "texto": "Si",
+  "inicio": 13.86,
+  "fin": 13.95,
+  "prob": 0.97
+ },
+ {
+  "i": 51,
+  "texto": "llevas",
+  "inicio": 13.95,
+  "fin": 14.23,
+  "prob": 0.93
+ },
+ {
+  "i": 52,
+  "texto": "una",
+  "inicio": 14.23,
+  "fin": 14.37,
+  "prob": 0.98
+ },
+ {
+  "i": 53,
+  "texto": "buena",
+  "inicio": 14.37,
+  "fin": 14.61,
+  "prob": 0.99
+ },
+ {
+  "i": 54,
+  "texto": "alimentación",
+  "inicio": 14.61,
+  "fin": 15.22,
+  "prob": 1
+ },
+ {
+  "i": 55,
+  "texto": "y",
+  "inicio": 15.22,
+  "fin": 15.22,
+  "prob": 0.8
+ },
+ {
+  "i": 56,
+  "texto": "un",
+  "inicio": 15.32,
+  "fin": 15.35,
+  "prob": 0.36
+ },
+ {
+  "i": 57,
+  "texto": "déficit",
+  "inicio": 15.35,
+  "fin": 15.71,
+  "prob": 0.53
+ },
+ {
+  "i": 58,
+  "texto": "calórico,",
+  "inicio": 15.78,
+  "fin": 16.14,
+  "prob": 0.94
+ },
+ {
+  "i": 59,
+  "texto": "no",
+  "inicio": 16.32,
+  "fin": 16.4,
+  "prob": 0.97
+ },
+ {
+  "i": 60,
+  "texto": "te",
+  "inicio": 16.4,
+  "fin": 16.45,
+  "prob": 0.96
+ },
+ {
+  "i": 61,
+  "texto": "vale",
+  "inicio": 16.48,
+  "fin": 16.65,
+  "prob": 0.82
+ },
+ {
+  "i": 62,
+  "texto": "nada.",
+  "inicio": 16.65,
+  "fin": 16.81,
+  "prob": 0.8
+ },
+ {
+  "i": 63,
+  "texto": "Quedan",
+  "inicio": 16.99,
+  "fin": 17.23,
+  "prob": 0.94
+ },
+ {
+  "i": 64,
+  "texto": "dos",
+  "inicio": 17.23,
+  "fin": 17.36,
+  "prob": 0.97
+ },
+ {
+  "i": 65,
+  "texto": "cosas.",
+  "inicio": 17.36,
+  "fin": 17.59,
+  "prob": 1
+ },
+ {
+  "i": 66,
+  "texto": "Proteína",
+  "inicio": 17.72,
+  "fin": 18.13,
+  "prob": 0.96
+ },
+ {
+  "i": 67,
+  "texto": "en",
+  "inicio": 18.13,
+  "fin": 18.22,
+  "prob": 0.98
+ },
+ {
+  "i": 68,
+  "texto": "polvo.",
+  "inicio": 18.22,
+  "fin": 18.44,
+  "prob": 0.99
+ },
+ {
+  "i": 69,
+  "texto": "Que",
+  "inicio": 18.65,
+  "fin": 18.74,
+  "prob": 0.87
+ },
+ {
+  "i": 70,
+  "texto": "no",
+  "inicio": 18.74,
+  "fin": 18.82,
+  "prob": 1
+ },
+ {
+  "i": 71,
+  "texto": "es",
+  "inicio": 18.82,
+  "fin": 18.9,
+  "prob": 1
+ },
+ {
+  "i": 72,
+  "texto": "magia.",
+  "inicio": 18.9,
+  "fin": 19.09,
+  "prob": 0.99
+ },
+ {
+  "i": 73,
+  "texto": "Es",
+  "inicio": 19.23,
+  "fin": 19.36,
+  "prob": 0.73
+ },
+ {
+  "i": 74,
+  "texto": "comida",
+  "inicio": 19.36,
+  "fin": 19.79,
+  "prob": 0.99
+ },
+ {
+  "i": 75,
+  "texto": "cómoda",
+  "inicio": 19.79,
+  "fin": 20.32,
+  "prob": 0.96
+ },
+ {
+  "i": 76,
+  "texto": "para",
+  "inicio": 20.35,
+  "fin": 20.53,
+  "prob": 0.83
+ },
+ {
+  "i": 77,
+  "texto": "llegar",
+  "inicio": 20.53,
+  "fin": 20.76,
+  "prob": 0.92
+ },
+ {
+  "i": 78,
+  "texto": "a",
+  "inicio": 20.91,
+  "fin": 20.91,
+  "prob": 0.98
+ },
+ {
+  "i": 79,
+  "texto": "tu",
+  "inicio": 20.91,
+  "fin": 21.01,
+  "prob": 0.95
+ },
+ {
+  "i": 80,
+  "texto": "proteína",
+  "inicio": 21.01,
+  "fin": 21.5,
+  "prob": 0.97
+ },
+ {
+  "i": 81,
+  "texto": "diaria",
+  "inicio": 21.5,
+  "fin": 21.92,
+  "prob": 0.58
+ },
+ {
+  "i": 82,
+  "texto": "cuando",
+  "inicio": 22.08,
+  "fin": 22.25,
+  "prob": 0.85
+ },
+ {
+  "i": 83,
+  "texto": "comes",
+  "inicio": 22.25,
+  "fin": 22.46,
+  "prob": 0.94
+ },
+ {
+  "i": 84,
+  "texto": "fuera.",
+  "inicio": 22.46,
+  "fin": 22.67,
+  "prob": 0.98
+ },
+ {
+  "i": 85,
+  "texto": "Creatina.",
+  "inicio": 22.84,
+  "fin": 23.22,
+  "prob": 0.46
+ },
+ {
+  "i": 86,
+  "texto": "Que",
+  "inicio": 23.52,
+  "fin": 23.52,
+  "prob": 0.98
+ },
+ {
+  "i": 87,
+  "texto": "es",
+  "inicio": 23.52,
+  "fin": 23.62,
+  "prob": 0.98
+ },
+ {
+  "i": 88,
+  "texto": "de",
+  "inicio": 23.62,
+  "fin": 23.7,
+  "prob": 0.97
+ },
+ {
+  "i": 89,
+  "texto": "las",
+  "inicio": 23.72,
+  "fin": 23.87,
+  "prob": 0.99
+ },
+ {
+  "i": 90,
+  "texto": "pocas",
+  "inicio": 23.87,
+  "fin": 24.12,
+  "prob": 1
+ },
+ {
+  "i": 91,
+  "texto": "cosas",
+  "inicio": 24.12,
+  "fin": 24.36,
+  "prob": 1
+ },
+ {
+  "i": 92,
+  "texto": "que",
+  "inicio": 24.36,
+  "fin": 24.52,
+  "prob": 0.89
+ },
+ {
+  "i": 93,
+  "texto": "tienen",
+  "inicio": 24.52,
+  "fin": 24.82,
+  "prob": 0.76
+ },
+ {
+  "i": 94,
+  "texto": "montañas",
+  "inicio": 24.82,
+  "fin": 25.27,
+  "prob": 0.95
+ },
+ {
+  "i": 95,
+  "texto": "de",
+  "inicio": 25.27,
+  "fin": 25.37,
+  "prob": 1
+ },
+ {
+  "i": 96,
+  "texto": "estudio",
+  "inicio": 25.37,
+  "fin": 25.65,
+  "prob": 0.98
+ },
+ {
+  "i": 97,
+  "texto": "detrás.",
+  "inicio": 25.74,
+  "fin": 26.06,
+  "prob": 0.98
+ },
+ {
+  "i": 98,
+  "texto": "Cuesta",
+  "inicio": 26.31,
+  "fin": 26.65,
+  "prob": 0.34
+ },
+ {
+  "i": 99,
+  "texto": "4",
+  "inicio": 26.66,
+  "fin": 26.86,
+  "prob": 0.72
+ },
+ {
+  "i": 100,
+  "texto": "euros",
+  "inicio": 26.86,
+  "fin": 27.19,
+  "prob": 0.79
+ },
+ {
+  "i": 101,
+  "texto": "al",
+  "inicio": 27.19,
+  "fin": 27.32,
+  "prob": 0.99
+ },
+ {
+  "i": 102,
+  "texto": "mes",
+  "inicio": 27.32,
+  "fin": 27.52,
+  "prob": 0.99
+ },
+ {
+  "i": 103,
+  "texto": "y",
+  "inicio": 27.52,
+  "fin": 27.58,
+  "prob": 0.92
+ },
+ {
+  "i": 104,
+  "texto": "funciona.",
+  "inicio": 27.58,
+  "fin": 28.12,
+  "prob": 0.99
+ },
+ {
+  "i": 105,
+  "texto": "Antes",
+  "inicio": 28.4,
+  "fin": 28.66,
+  "prob": 0.75
+ },
+ {
+  "i": 106,
+  "texto": "de",
+  "inicio": 28.66,
+  "fin": 28.78,
+  "prob": 1
+ },
+ {
+  "i": 107,
+  "texto": "gastar",
+  "inicio": 28.78,
+  "fin": 29.14,
+  "prob": 0.79
+ },
+ {
+  "i": 108,
+  "texto": "tu",
+  "inicio": 29.14,
+  "fin": 29.26,
+  "prob": 0.8
+ },
+ {
+  "i": 109,
+  "texto": "nuro",
+  "inicio": 29.26,
+  "fin": 29.5,
+  "prob": 0.4
+ },
+ {
+  "i": 110,
+  "texto": "más,",
+  "inicio": 29.5,
+  "fin": 29.65,
+  "prob": 0.93
+ },
+ {
+  "i": 111,
+  "texto": "escribe",
+  "inicio": 29.88,
+  "fin": 30.26,
+  "prob": 0.88
+ },
+ {
+  "i": 112,
+  "texto": "rutina.",
+  "inicio": 30.26,
+  "fin": 30.56,
+  "prob": 0.95
+ },
+ {
+  "i": 113,
+  "texto": "El",
+  "inicio": 30.62,
+  "fin": 30.72,
+  "prob": 0.9
+ },
+ {
+  "i": 114,
+  "texto": "plan",
+  "inicio": 30.72,
+  "fin": 30.93,
+  "prob": 0.91
+ },
+ {
+  "i": 115,
+  "texto": "lo",
+  "inicio": 30.93,
+  "fin": 31.03,
+  "prob": 1
+ },
+ {
+  "i": 116,
+  "texto": "cambia",
+  "inicio": 31.03,
+  "fin": 31.34,
+  "prob": 0.99
+ },
+ {
+  "i": 117,
+  "texto": "todo",
+  "inicio": 31.34,
+  "fin": 31.55,
+  "prob": 0.83
+ },
+ {
+  "i": 118,
+  "texto": "más",
+  "inicio": 31.55,
+  "fin": 31.76,
+  "prob": 0.99
+ },
+ {
+  "i": 119,
+  "texto": "que",
+  "inicio": 31.76,
+  "fin": 31.91,
+  "prob": 0.98
+ },
+ {
+  "i": 120,
+  "texto": "cualquier",
+  "inicio": 31.91,
+  "fin": 32.38,
+  "prob": 1
+ },
+ {
+  "i": 121,
+  "texto": "bote.",
+  "inicio": 32.38,
+  "fin": 32.61,
+  "prob": 0.96
+ }
+]

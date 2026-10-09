@@ -1,0 +1,106 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.44,
+  "enfasis": [
+    [
+      6,
+      8
+    ],
+    [
+      36,
+      37
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 12,
+      "texto": "en menos"
+    },
+    {
+      "palabra": 26,
+      "texto": "de"
+    },
+    {
+      "palabra": 65,
+      "texto": "para el"
+    },
+    {
+      "palabra": 66,
+      "texto": "entrenamiento,"
+    }
+  ],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=TOSTADA ALTA|=EN PROTEÍNA|EN MENOS DE 5 MIN",
+      "y": 0.5,
+      "tam": 88,
+      "duracion": 3.9
+    },
+    {
+      "palabra": 16,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "palabra": 16,
+      "tipo": "etiqueta",
+      "dato": "PASO 1|Tuesta el pan",
+      "y": 0.52,
+      "duracion": 1.6
+    },
+    {
+      "palabra": 24,
+      "tipo": "etiqueta",
+      "dato": "PASO 2|Mantequilla de cacahuete",
+      "y": 0.52,
+      "duracion": 1.55
+    },
+    {
+      "palabra": 28,
+      "tipo": "etiqueta",
+      "dato": "PASO 3|2 cucharadas de queso cottage",
+      "y": 0.52,
+      "duracion": 1.9
+    },
+    {
+      "palabra": 34,
+      "tipo": "etiqueta",
+      "dato": "PASO 4|Mermelada 0% azúcar",
+      "y": 0.52,
+      "duracion": 2.0
+    },
+    {
+      "palabra": 42,
+      "tipo": "etiqueta",
+      "dato": "TAMBIÉN VALE|Melocotón o arándanos",
+      "y": 0.52,
+      "duracion": 1.9
+    },
+    {
+      "palabra": 50,
+      "tipo": "etiqueta",
+      "dato": "PASO 5|Unos arándanos por encima",
+      "y": 0.52,
+      "duracion": 1.75
+    },
+    {
+      "palabra": 54,
+      "tipo": "remate",
+      "dato": "GUARDA ESTO|PARA EL=DOMINGO",
+      "y": 0.5,
+      "tam": 110,
+      "duracion": 1.4
+    },
+    {
+      "palabra": 61,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA",
+      "duracion": 3.4
+    }
+  ],
+  "resumen": "Receta de DV FIT (David): tostada alta en proteína (pan, mantequilla de cacahuete, queso cottage, mermelada 0% y arándanos). Sin handle, amarillo de marca. Geometría medida antes de colocar nada: la barbilla baja hasta 0,427 (Vision, segundo a segundo) y el plato con la tostada ocupa de 0,69 a 0,84, con las manos trabajando desde 0,63. Queda una banda libre de 0,44 a 0,66 y en ella cabe todo: subtítulos a 0,44 y grafismo a 0,50. NO se usa checklist aquí aunque sea una receta: un panel de 5 ingredientes mide 0,24 de alto y se comía la tostada, que es justo la queja que puso Pablo en DV_RC_SP_4. En su lugar van etiquetas numeradas PASO 1-5 que entran y se van con cada ingrediente, miden 0,068 y nunca se quedan sobre la acción. (Se intentó el anillo de tiempo de las recetas; no cabe en este encuadre — ver el final de esta nota.) Doble CTA porque él dice los dos: 'GUARDA ESTO PARA EL DOMINGO' cuando lo pide, y el bocadillo de RUTINA al final, pegado al último fotograma. Subtítulos en 'cristal' (el estilo de @politecnic__), heredado de lo que pidió Pablo en David01_Octubre; se vuelve a 'bold' cambiando una palabra. Correcciones de Whisper, las cuatro comprobadas retranscribiendo el fragmento al 75%: 'se hace menos de 5 minutos' -> 'en menos', 'mantequilla y cacahuete' -> 'de cacahuete' (la palabra dura 0,04 s, es un 'de' reducido), y el cierre 'también de penedramiento' -> 'también para el entrenamiento'. Ajustes tras ver los primeros fotogramas: el titulón a tamaño completo (128 px) cruzaba la tostada que sostiene en el gancho, así que baja a tam 95 y queda entre la barbilla (0,427) y la tostada (0,55); el anillo de 5 MIN era ilegible a tam 150 y competía con el subtítulo, que además decía lo mismo, así que sube a 200 y silencia el subtítulo mientras está; y las etiquetas pasan de 0,50 a 0,52 para despegarlas del subtítulo. Audio: con el ajuste por defecto la música quedaba 25,7 dB bajo la voz (medida aislándola de la mezcla), o sea inaudible — las pausas de este crudo son de 0,15-0,25 s y el sidechain, con 400 ms de release, no llega a soltar. Va con --musica-db -20 --sin-ducking: música 19,1 dB por debajo, fija, el mismo criterio que David01_Octubre. Música gym-trap-electro-vibes-126 (la que tocaba por rotación). Segunda vuelta: (1) fuera el anillo de 5 MIN — a tam 150 era ilegible y a un tamaño que sí se leyera se comía la tostada del gancho; el dato pasa a la tercera línea del titulón, que además se alarga a 3,9 s y encadena con los subtítulos sin dejar el hueco de 0,17 s que marcó el QA. (2) Anclas de los pasos recolocadas a la palabra que los nombra: el cartel del queso cottage seguía en pantalla cuando ya estaba diciendo 'añadimos mermelada'."
+}

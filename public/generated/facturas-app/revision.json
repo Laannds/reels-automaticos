@@ -1,0 +1,34 @@
+{
+  "subtitulos": "ninguno",
+  "enfasis": [],
+  "sustituciones": [],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "t": 0.15,
+      "tipo": "titulon",
+      "dato": "TARDAR 10 MINUTOS|EN CADA FACTURA|=ES UNA MIERD*",
+      "y": 0.17,
+      "tam": 150,
+      "duracion": 2.85
+    },
+    {
+      "t": 3.1,
+      "tipo": "bajada",
+      "dato": "Hasta que recuerdas que tienes|*tu propia app*|para generar facturas en segundos",
+      "y": 0.135,
+      "tam": 44,
+      "duracion": 4.4
+    },
+    {
+      "t": 10.7,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA QUIERO|Y TE PASO EL=ACCESO",
+      "y": 0.62,
+      "tam": 66,
+      "duracion": 3.1
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (13,8 s) que viene ya montado de CapCut: 3 s de Pablo en el escritorio con cara de hartazgo y 10,8 s de demo de su app de presupuestos/facturas. Se monta con --solo-graficos: audio intacto (ya viene a -15,6 LUFS), sin música añadida y gráficos mudos. OJO CON EL SLUG: el archivo se llama prueba1.mov y colisionaba con el reel de la pasta del día 24, así que se procesa por un enlace simbólico crudos/facturas-app.mov para no sobrescribir aquel montaje. Tres textos, los que pidió Pablo: el titular sobre el primer plano, el giro en el cambio de frame (3,0 s, donde el crudo corta al móvil) y el CTA al final. El titular va en tres líneas y no en dos porque el titulón escala CADA línea por separado según su longitud: con 'TARDAR 10 MINUTOS EN CADA FACTURA' (33 caracteres) y 'ES UNA MIERD*' (14) la segunda saldría al doble de tamaño que la primera. Repartido en 17/15/15 quedan parejas. El texto del móvil dura 4,4 s y se retira: la demo de la app ES el producto y taparle la pantalla todo el rato sería taparlo. El CTA va a y 0.62, sobre la mitad baja del teléfono, para dejar ver la parte de arriba."
+}

@@ -1,0 +1,178 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.36,
+  "enfasis": [
+    [
+      11,
+      13
+    ],
+    [
+      34,
+      35
+    ],
+    [
+      46,
+      47
+    ],
+    [
+      105,
+      106
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 4,
+      "texto": "que hagas"
+    },
+    {
+      "palabra": 6,
+      "texto": "cardio,"
+    },
+    {
+      "palabra": 15,
+      "texto": "pretendes"
+    },
+    {
+      "palabra": 22,
+      "texto": "Hazte"
+    },
+    {
+      "palabra": 74,
+      "texto": "vayas a"
+    },
+    {
+      "palabra": 138,
+      "texto": "escríbeme"
+    }
+  ],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=TU PROBLEMA|=NO ES EL CARDIO",
+      "duracion": 2.0
+    },
+    {
+      "palabra": 11,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "palabra": 11,
+      "tipo": "remate",
+      "dato": "11 H|SENTADO AL DÍA",
+      "y": 0.42,
+      "duracion": 1.3,
+      "tam": 160
+    },
+    {
+      "palabra": 18,
+      "tipo": "remate",
+      "dato": "45 MIN|DE BICI",
+      "y": 0.42,
+      "duracion": 1.2,
+      "tam": 160
+    },
+    {
+      "palabra": 28,
+      "tipo": "broll",
+      "dato": "stock/dia-coche.mp4",
+      "duracion": 0.44
+    },
+    {
+      "palabra": 29,
+      "tipo": "broll",
+      "dato": "stock/dia-oficina.mp4",
+      "duracion": 0.65
+    },
+    {
+      "palabra": 30,
+      "tipo": "broll",
+      "dato": "stock/dia-sofa.mp4",
+      "duracion": 0.72
+    },
+    {
+      "palabra": 34,
+      "tipo": "remate",
+      "dato": "2.000|PASOS AL DÍA",
+      "y": 0.42,
+      "duracion": 1.5,
+      "tam": 160
+    },
+    {
+      "palabra": 46,
+      "tipo": "remate",
+      "dato": "6.000|PASOS",
+      "y": 0.42,
+      "duracion": 1.4,
+      "tam": 160
+    },
+    {
+      "palabra": 62,
+      "tipo": "remate",
+      "dato": "24 H|NO 45 MINUTOS",
+      "y": 0.42,
+      "duracion": 1.7,
+      "tam": 160
+    },
+    {
+      "palabra": 69,
+      "tipo": "broll",
+      "dato": "stock/paso-escaleras.mp4",
+      "duracion": 1.4
+    },
+    {
+      "palabra": 69,
+      "tipo": "cifra",
+      "dato": "01|ESCALERAS, NO ASCENSOR",
+      "y": 0.42,
+      "tam": 200,
+      "duracion": 1.4
+    },
+    {
+      "palabra": 84,
+      "tipo": "broll",
+      "dato": "stock/paso-compra.mp4",
+      "duracion": 1.4
+    },
+    {
+      "palabra": 84,
+      "tipo": "cifra",
+      "dato": "02|LA COMPRA, ANDANDO",
+      "y": 0.42,
+      "tam": 200,
+      "duracion": 1.4
+    },
+    {
+      "palabra": 95,
+      "tipo": "broll",
+      "dato": "stock/paso-llamada.mp4",
+      "duracion": 1.4
+    },
+    {
+      "palabra": 95,
+      "tipo": "cifra",
+      "dato": "03|LA LLAMADA, DE PIE",
+      "y": 0.42,
+      "tam": 200,
+      "duracion": 1.4
+    },
+    {
+      "palabra": 105,
+      "tipo": "remate",
+      "dato": "10.000|PASOS SIN ENTERARTE",
+      "y": 0.42,
+      "duracion": 1.9,
+      "tam": 160
+    },
+    {
+      "palabra": 133,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA",
+      "duracion": 1.67
+    }
+  ],
+  "resumen": "Reel de gimnasio de DV FIT (David), grabado sobre la bici de aire. Sin handle, amarillo de marca, música gym-rising-forest-471 forzada (la misma que pidió Pablo para DV_RC_SP_4). Cara medida con Vision segundo a segundo: la barbilla no baja de 0,33, así que los subtítulos van a 0,36 (justo debajo, y por encima de la franja de botones de Instagram, que empieza en 0,45) y todo el grafismo a 0,42. DOS ENUMERACIONES tratadas distinto a propósito: (1) 'coche, oficina, sofá' son tres cortes rápidos a stock, de 0,44 / 0,65 / 0,72 s, uno por palabra, que es lo que dura cada palabra — el corte va con la voz y el último aguanta más porque el sofá es el remate del día sedentario; (2) los tres consejos llevan número grande (01/02/03) sobre un corte a stock de 1,4 s con la acción concreta: escaleras, la compra andando y la llamada caminando. Las CIFRAS son el otro hilo: cada dato que suelta (11 h, 45 min, 2.000, 6.000, 24 h, 10.000) sale en grande y translúcido en el mismo sitio, para que el reel se lea como una cuenta que va subiendo. Stock nuevo descargado de Mixkit con permiso de Pablo (misma licencia que el resto de la librería): dia-coche 72, dia-oficina 4827, dia-sofa 4548, paso-escaleras 770, paso-compra 25379, paso-llamada 32043. El de la llamada se recortó a partir del segundo 5,4, que es cuando se le ve el móvil; el primero que bajé para las escaleras (20017) eran unas escaleras de duna en la playa y no leía 'ascensor vs escaleras', se cambió por el 770, que es una escalera de edificio. Correcciones de Whisper (las tres primeras por sentido, el audio no las aclara ni ralentizado): 'jaga poco cardio' -> 'que hagas poco cardio', 'pretenden' -> 'pretendes', 'Hazle la cuenta' -> 'Hazte la cuenta', 'Cuando veas hacer la compra' -> 'Cuando vayas a hacer la compra'. CTA RUTINA, el de gimnasio de la casa, pegado al final: él lo dice en el segundo 35,4 y el vídeo acaba en 36,27, así que el bocadillo entra en 34,60 para que dé tiempo a leerlo. Tras ver los primeros fotogramas: (1) los tres cortes rápidos salían como transparencias, porque la animación de entrada del b-roll tarda más que los 0,44-0,72 s que duran; se cambió el componente para que por debajo de un segundo entre a corte seco, sin fundido, que es lo que haría un editor. (2) Las cifras sobre David no se leían: el tipo 'cifra' es blanco translúcido y está pensado para fondos limpios, y detrás hay mancuernas, espejos y focos. Los seis datos pasan a 'remate' con y (Anton, sombra dura, subrayado amarillo), que es el lenguaje de la casa. Las cifras se quedan solo en los tres consejos, que van sobre stock limpio, donde sí lucen. El umbral de 'corte seco' del b-roll se subió de 1 s a 1,5 s: los tres cortes de los consejos duran 1,4 s y con fundido se pasaban medio segundo mezclando el plano de recurso, a David y el número. De los reels ya entregados solo hay un b-roll por debajo de 1,5 s (PL_1, 1,4 s), así que no mueve nada más. Cambios pedidos después de ver el montaje: (1) subtítulos al estilo de @politecnic__, que es 'cristal' —Poppins en minúscula, bloques de 2-3 palabras (máx. 5 palabras / 24 caracteres, partiendo por unidades de sentido) que se relevan al ritmo del habla en vez de acumular seis palabras por página—; el estilo de subtítulo es independiente del look, así que el resto del reel sigue en clásico. De paso encaja mejor con los cortes a stock: con páginas de dos palabras, 'coche', 'oficina' y 'sofá' caen cada una sobre su plano, en vez de una sola página de seis palabras cruzando los tres cortes. (2) El gancho no tenía nada: se le pone titulón 'TU PROBLEMA / NO ES EL CARDIO' en amarillo (arriba del todo, que en los tres primeros segundos la cara no sube de 0,20) durante 2 s, con su golpe de impacto, y un zoomIn en el segundo 2,0 justo cuando se va el titular y entra el primer dato, para que el paso del gancho a la cuenta se note. Con las páginas cortas de cristal el remate de '24 H' cortaba la página 'mira las' a los 0,5 s (todo remate silencia los subtítulos mientras está), así que pasa a colgar de 'horas' en vez de '24'."
+}

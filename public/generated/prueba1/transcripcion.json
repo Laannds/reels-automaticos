@@ -1,0 +1,576 @@
+[
+ {
+  "i": 0,
+  "texto": "los",
+  "inicio": 0.04,
+  "fin": 0.21,
+  "prob": 0.6
+ },
+ {
+  "i": 1,
+  "texto": "dos",
+  "inicio": 0.21,
+  "fin": 0.42,
+  "prob": 0.98
+ },
+ {
+  "i": 2,
+  "texto": "mismos",
+  "inicio": 0.42,
+  "fin": 0.84,
+  "prob": 0.98
+ },
+ {
+  "i": 3,
+  "texto": "platos",
+  "inicio": 0.84,
+  "fin": 1.26,
+  "prob": 0.99
+ },
+ {
+  "i": 4,
+  "texto": "de",
+  "inicio": 1.26,
+  "fin": 1.33,
+  "prob": 1
+ },
+ {
+  "i": 5,
+  "texto": "pasta,",
+  "inicio": 1.41,
+  "fin": 1.58,
+  "prob": 0.99
+ },
+ {
+  "i": 6,
+  "texto": "uno",
+  "inicio": 1.88,
+  "fin": 2.06,
+  "prob": 0.89
+ },
+ {
+  "i": 7,
+  "texto": "con",
+  "inicio": 2.09,
+  "fin": 2.26,
+  "prob": 0.98
+ },
+ {
+  "i": 8,
+  "texto": "200",
+  "inicio": 2.26,
+  "fin": 2.84,
+  "prob": 0.97
+ },
+ {
+  "i": 9,
+  "texto": "calorías",
+  "inicio": 2.84,
+  "fin": 3.17,
+  "prob": 0.97
+ },
+ {
+  "i": 10,
+  "texto": "y",
+  "inicio": 3.47,
+  "fin": 3.52,
+  "prob": 0.8
+ },
+ {
+  "i": 11,
+  "texto": "el",
+  "inicio": 3.52,
+  "fin": 3.68,
+  "prob": 0.99
+ },
+ {
+  "i": 12,
+  "texto": "otro",
+  "inicio": 3.68,
+  "fin": 3.96,
+  "prob": 0.99
+ },
+ {
+  "i": 13,
+  "texto": "con",
+  "inicio": 4.09,
+  "fin": 4.19,
+  "prob": 0.96
+ },
+ {
+  "i": 14,
+  "texto": "400",
+  "inicio": 4.2,
+  "fin": 4.77,
+  "prob": 0.99
+ },
+ {
+  "i": 15,
+  "texto": "calorías.",
+  "inicio": 4.87,
+  "fin": 5.17,
+  "prob": 0.97
+ },
+ {
+  "i": 16,
+  "texto": "Y",
+  "inicio": 5.39,
+  "fin": 5.39,
+  "prob": 0.95
+ },
+ {
+  "i": 17,
+  "texto": "te",
+  "inicio": 5.4,
+  "fin": 5.5,
+  "prob": 0.99
+ },
+ {
+  "i": 18,
+  "texto": "explico",
+  "inicio": 5.54,
+  "fin": 6.03,
+  "prob": 0.99
+ },
+ {
+  "i": 19,
+  "texto": "cuál",
+  "inicio": 6.03,
+  "fin": 6.09,
+  "prob": 0.79
+ },
+ {
+  "i": 20,
+  "texto": "es",
+  "inicio": 6.4,
+  "fin": 6.53,
+  "prob": 1
+ },
+ {
+  "i": 21,
+  "texto": "la",
+  "inicio": 6.53,
+  "fin": 6.67,
+  "prob": 1
+ },
+ {
+  "i": 22,
+  "texto": "diferencia.",
+  "inicio": 6.67,
+  "fin": 7.27,
+  "prob": 1
+ },
+ {
+  "i": 23,
+  "texto": "Este",
+  "inicio": 7.57,
+  "fin": 7.79,
+  "prob": 0.98
+ },
+ {
+  "i": 24,
+  "texto": "plato",
+  "inicio": 7.79,
+  "fin": 8.17,
+  "prob": 0.98
+ },
+ {
+  "i": 25,
+  "texto": "lleva",
+  "inicio": 8.17,
+  "fin": 8.56,
+  "prob": 0.97
+ },
+ {
+  "i": 26,
+  "texto": "100",
+  "inicio": 8.56,
+  "fin": 9.26,
+  "prob": 0.96
+ },
+ {
+  "i": 27,
+  "texto": "gramos",
+  "inicio": 9.26,
+  "fin": 9.72,
+  "prob": 0.84
+ },
+ {
+  "i": 28,
+  "texto": "de",
+  "inicio": 9.72,
+  "fin": 9.78,
+  "prob": 1
+ },
+ {
+  "i": 29,
+  "texto": "pasta",
+  "inicio": 9.87,
+  "fin": 10.26,
+  "prob": 0.99
+ },
+ {
+  "i": 30,
+  "texto": "de",
+  "inicio": 10.26,
+  "fin": 10.41,
+  "prob": 1
+ },
+ {
+  "i": 31,
+  "texto": "lenteja",
+  "inicio": 10.41,
+  "fin": 10.87,
+  "prob": 0.6
+ },
+ {
+  "i": 32,
+  "texto": "y",
+  "inicio": 11.05,
+  "fin": 11.05,
+  "prob": 0.85
+ },
+ {
+  "i": 33,
+  "texto": "100",
+  "inicio": 11.1,
+  "fin": 11.52,
+  "prob": 0.99
+ },
+ {
+  "i": 34,
+  "texto": "gramos",
+  "inicio": 11.52,
+  "fin": 11.74,
+  "prob": 0.98
+ },
+ {
+  "i": 35,
+  "texto": "de",
+  "inicio": 11.92,
+  "fin": 11.99,
+  "prob": 0.99
+ },
+ {
+  "i": 36,
+  "texto": "tomate",
+  "inicio": 11.99,
+  "fin": 12.44,
+  "prob": 0.94
+ },
+ {
+  "i": 37,
+  "texto": "natural",
+  "inicio": 12.44,
+  "fin": 12.84,
+  "prob": 0.97
+ },
+ {
+  "i": 38,
+  "texto": "triturado.",
+  "inicio": 12.91,
+  "fin": 13.38,
+  "prob": 0.99
+ },
+ {
+  "i": 39,
+  "texto": "Y",
+  "inicio": 13.52,
+  "fin": 13.54,
+  "prob": 0.98
+ },
+ {
+  "i": 40,
+  "texto": "este",
+  "inicio": 13.54,
+  "fin": 13.81,
+  "prob": 0.97
+ },
+ {
+  "i": 41,
+  "texto": "otro",
+  "inicio": 13.81,
+  "fin": 14.08,
+  "prob": 1
+ },
+ {
+  "i": 42,
+  "texto": "lleva",
+  "inicio": 14.08,
+  "fin": 14.21,
+  "prob": 0.87
+ },
+ {
+  "i": 43,
+  "texto": "100",
+  "inicio": 14.43,
+  "fin": 15.01,
+  "prob": 1
+ },
+ {
+  "i": 44,
+  "texto": "gramos",
+  "inicio": 15.01,
+  "fin": 15.39,
+  "prob": 0.99
+ },
+ {
+  "i": 45,
+  "texto": "de",
+  "inicio": 15.39,
+  "fin": 15.53,
+  "prob": 1
+ },
+ {
+  "i": 46,
+  "texto": "pasta",
+  "inicio": 15.53,
+  "fin": 15.86,
+  "prob": 1
+ },
+ {
+  "i": 47,
+  "texto": "de",
+  "inicio": 15.86,
+  "fin": 15.92,
+  "prob": 1
+ },
+ {
+  "i": 48,
+  "texto": "lenteja",
+  "inicio": 16.02,
+  "fin": 16.33,
+  "prob": 0.99
+ },
+ {
+  "i": 49,
+  "texto": "y",
+  "inicio": 16.58,
+  "fin": 16.58,
+  "prob": 0.98
+ },
+ {
+  "i": 50,
+  "texto": "100",
+  "inicio": 16.63,
+  "fin": 17.14,
+  "prob": 1
+ },
+ {
+  "i": 51,
+  "texto": "gramos",
+  "inicio": 17.14,
+  "fin": 17.3,
+  "prob": 0.99
+ },
+ {
+  "i": 52,
+  "texto": "de",
+  "inicio": 17.58,
+  "fin": 17.62,
+  "prob": 1
+ },
+ {
+  "i": 53,
+  "texto": "tomate",
+  "inicio": 17.62,
+  "fin": 17.97,
+  "prob": 0.69
+ },
+ {
+  "i": 54,
+  "texto": "frito.",
+  "inicio": 18.02,
+  "fin": 18.28,
+  "prob": 0.98
+ },
+ {
+  "i": 55,
+  "texto": "Hacer",
+  "inicio": 18.58,
+  "fin": 18.84,
+  "prob": 0.97
+ },
+ {
+  "i": 56,
+  "texto": "dieta",
+  "inicio": 18.84,
+  "fin": 19.07,
+  "prob": 0.98
+ },
+ {
+  "i": 57,
+  "texto": "no",
+  "inicio": 19.16,
+  "fin": 19.3,
+  "prob": 0.96
+ },
+ {
+  "i": 58,
+  "texto": "es",
+  "inicio": 19.3,
+  "fin": 19.32,
+  "prob": 1
+ },
+ {
+  "i": 59,
+  "texto": "estar",
+  "inicio": 19.58,
+  "fin": 19.76,
+  "prob": 0.99
+ },
+ {
+  "i": 60,
+  "texto": "metido",
+  "inicio": 19.76,
+  "fin": 20.16,
+  "prob": 0.99
+ },
+ {
+  "i": 61,
+  "texto": "en",
+  "inicio": 20.16,
+  "fin": 20.29,
+  "prob": 1
+ },
+ {
+  "i": 62,
+  "texto": "una",
+  "inicio": 20.29,
+  "fin": 20.49,
+  "prob": 1
+ },
+ {
+  "i": 63,
+  "texto": "cárcel.",
+  "inicio": 20.49,
+  "fin": 20.93,
+  "prob": 0.99
+ },
+ {
+  "i": 64,
+  "texto": "Simplemente",
+  "inicio": 21.09,
+  "fin": 21.74,
+  "prob": 0.99
+ },
+ {
+  "i": 65,
+  "texto": "es",
+  "inicio": 21.74,
+  "fin": 21.79,
+  "prob": 0.92
+ },
+ {
+  "i": 66,
+  "texto": "elegir",
+  "inicio": 21.89,
+  "fin": 22.27,
+  "prob": 1
+ },
+ {
+  "i": 67,
+  "texto": "bien",
+  "inicio": 22.27,
+  "fin": 22.55,
+  "prob": 1
+ },
+ {
+  "i": 68,
+  "texto": "los",
+  "inicio": 22.55,
+  "fin": 22.75,
+  "prob": 1
+ },
+ {
+  "i": 69,
+  "texto": "alimentos",
+  "inicio": 22.75,
+  "fin": 23.28,
+  "prob": 1
+ },
+ {
+  "i": 70,
+  "texto": "y",
+  "inicio": 23.47,
+  "fin": 23.47,
+  "prob": 0.97
+ },
+ {
+  "i": 71,
+  "texto": "adaptar",
+  "inicio": 23.48,
+  "fin": 24,
+  "prob": 1
+ },
+ {
+  "i": 72,
+  "texto": "las",
+  "inicio": 24,
+  "fin": 24.22,
+  "prob": 0.99
+ },
+ {
+  "i": 73,
+  "texto": "cantidades.",
+  "inicio": 24.22,
+  "fin": 24.7,
+  "prob": 1
+ },
+ {
+  "i": 74,
+  "texto": "Y",
+  "inicio": 25.06,
+  "fin": 25.06,
+  "prob": 0.97
+ },
+ {
+  "i": 75,
+  "texto": "si",
+  "inicio": 25.08,
+  "fin": 25.17,
+  "prob": 0.98
+ },
+ {
+  "i": 76,
+  "texto": "quieres",
+  "inicio": 25.23,
+  "fin": 25.65,
+  "prob": 0.98
+ },
+ {
+  "i": 77,
+  "texto": "más",
+  "inicio": 25.65,
+  "fin": 25.91,
+  "prob": 0.99
+ },
+ {
+  "i": 78,
+  "texto": "consejos",
+  "inicio": 25.91,
+  "fin": 26.43,
+  "prob": 0.99
+ },
+ {
+  "i": 79,
+  "texto": "como",
+  "inicio": 26.43,
+  "fin": 26.69,
+  "prob": 0.99
+ },
+ {
+  "i": 80,
+  "texto": "este,",
+  "inicio": 26.69,
+  "fin": 26.76,
+  "prob": 0.78
+ },
+ {
+  "i": 81,
+  "texto": "sígueme.",
+  "inicio": 27.21,
+  "fin": 27.57,
+  "prob": 0.6
+ }
+]

@@ -1,0 +1,14 @@
+{
+  "slug": "PL_2",
+  "duracion": 32.533333,
+  "lufs": -14.5,
+  "pico": -1.4,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 8.68,
+      "texto": "\"qué\" (palabra 29) — Whisper solo está al 39%"
+    }
+  ]
+}

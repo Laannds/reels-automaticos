@@ -1,0 +1,76 @@
+{
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0,
+      "tipo": "duoLogos",
+      "dato": "claude|inserts/mf-logo-recorte.png",
+      "y": 0.2,
+      "duracion": 2.85
+    },
+    {
+      "t": 0.25,
+      "tipo": "titulon",
+      "dato": "ASÍ VEO LOS SEGUIDORES|=QUE PERDIÓ PORTUGAL|CON LA SALIDA DE CRISTIANO",
+      "y": 0.7,
+      "duracion": 2.55
+    },
+    {
+      "t": 3.1,
+      "tipo": "etiqueta",
+      "dato": "LA HERRAMIENTA|Claude + Mailerfind",
+      "y": 0.1,
+      "duracion": 1.5
+    },
+    {
+      "t": 4.3,
+      "tipo": "flecha",
+      "dato": "NUEVO ANÁLISIS|der",
+      "x": 0.43,
+      "y": 0.7,
+      "duracion": 2.3
+    },
+    {
+      "t": 6.65,
+      "tipo": "etiqueta",
+      "dato": "PASO 1|Pincha en Instagram",
+      "y": 0.1,
+      "duracion": 1.15
+    },
+    {
+      "t": 7.85,
+      "tipo": "etiqueta",
+      "dato": "PASO 2|Elige Seguidores",
+      "y": 0.1,
+      "duracion": 1.8
+    },
+    {
+      "t": 9.7,
+      "tipo": "etiqueta",
+      "dato": "PASO 3|Pon la cuenta a analizar",
+      "y": 0.1,
+      "duracion": 1.25
+    },
+    {
+      "t": 11.0,
+      "tipo": "etiqueta",
+      "dato": "PASO 4|Selecciona Portugal",
+      "y": 0.1,
+      "duracion": 2.15
+    },
+    {
+      "t": 13.3,
+      "tipo": "etiqueta",
+      "dato": "RESULTADO|Suben los perfiles analizados",
+      "y": 0.1,
+      "duracion": 1.9
+    },
+    {
+      "t": 15.2,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=QUIERO|Y TE ENVÍO EL ACCESO",
+      "duracion": 2.2
+    }
+  ],
+  "resumen": "v1 sobre el export de CapCut mailerfind1.mov (17,4 s, 6 planos: 0-2,87 Pablo; 2,87-6,6 Claude+Mailerfind; 6,6-7,83 Instagram; 7,83-9,67 Seguidores; 9,7-10,97 cuenta; 10,97-13,2 selecciona Portugal; 13,2-17,4 perfiles analizados). Gancho: Claude + Mailerfind centrados arriba y titular debajo del mentón. Flecha sobre Nuevo análisis a ~(0,47, 0,70). CTA: ESCRIBE QUIERO y te envío el acceso."
+}

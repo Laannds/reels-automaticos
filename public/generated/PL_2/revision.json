@@ -1,0 +1,69 @@
+{
+  "subtitulos": "ninguno",
+  "enfasis": [],
+  "sustituciones": [],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "noticia",
+      "duracion": 6.3,
+      "dato": "#!ÚLTIMA HORA · RTVE|Un agente de *OpenAI* entra sin permiso en la sanidad *australiana*|Primer hackeo conocido de una IA a un Gobierno@3.3|Services Australia · sistema Medicare@5.0"
+    },
+    {
+      "palabra": 0,
+      "tipo": "terminal",
+      "x": 0.035,
+      "y": 0.4,
+      "tam": 400,
+      "duracion": 6.3,
+      "dato": "openai.agent|conecta services.gov.au@0.4|!SIN AUTORIZACIÓN@2.6|!datos de salud@4.1|+acceso conseguido@5.3"
+    },
+    {
+      "palabra": 29,
+      "tipo": "noticia",
+      "duracion": 9.6,
+      "dato": "#CONCEPTO|¿Qué es un agente de IA?|Trabaja de forma autónoma@3.7|Elabora sus propias estrategias@6.4|Para conseguir sus objetivos@7.9"
+    },
+    {
+      "palabra": 37,
+      "tipo": "terminal",
+      "x": 0.035,
+      "y": 0.4,
+      "tam": 400,
+      "duracion": 7.2,
+      "dato": "agente.openai|+AGENTE ACTIVO@0|sin supervisión@2.9|planifica solo@4.9"
+    },
+    {
+      "palabra": 56,
+      "tipo": "noticia",
+      "duracion": 9.3,
+      "dato": "#LO QUE PASÓ|Sorteó los bloqueos del portal de Medicare|Investigaba el gasto público en medicamentos@1.9|Consultó el portal de Medicare@4.1|Y accedió a lo que no debía@6.2"
+    },
+    {
+      "palabra": 63,
+      "tipo": "terminal",
+      "x": 0.035,
+      "y": 0.4,
+      "tam": 400,
+      "duracion": 7.4,
+      "dato": "medicare.gov.au|solicita estadísticas@0.6|!ACCESO DENEGADO@2.4|!ACCESO DENEGADO@3.2|+ACCESO CONCEDIDO@5.6"
+    },
+    {
+      "palabra": 80,
+      "tipo": "noticia",
+      "duracion": 2.5,
+      "dato": "#ANTHONY ALBANESE · PRIMER MINISTRO|«No aceptó un no por respuesta»"
+    },
+    {
+      "palabra": 90,
+      "tipo": "remate",
+      "dato": "bocadillo:SÍGUEME PARA|MÁS=NOTICIAS DE IA",
+      "duracion": 2.0,
+      "y": 0.705,
+      "tam": 86
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ sobre la noticia de RTVE del 24/09/2026. Formato lienzo (--encuadre lienzo, crudo grabado en horizontal): el plano se conserva entero y va CENTRADO en el 1080x1920, con el texto repartido arriba y abajo. Segunda versión del diseño: la primera, con el plano descentrado y el texto flotando sobre negro liso, se veía barata —parecía una diapositiva mal maquetada—. Cambios: (1) el fondo ya no es negro liso sino el propio plano ampliado, desenfocado (sigma 70), oscurecido -0.52 y con viñeta, que da textura y profundidad sin comerse el texto blanco; (2) el plano lleva un filete claro de 3 px que lo despega del fondo; (3) el texto se ANCLA a los bordes del plano en vez de a una altura fija, así los tres elementos se leen como una sola pieza; (4) jerarquía real: antetítulo en azul de marca con filete, titular a 64 px en negrita y los datos debajo con barrita de color, que además mete el azul en la mitad inferior del cuadro. Cámara fija, obligatoria en lienzo: cualquier acercamiento escalaría también el fondo y el encuadre bailaría. Sin subtítulos, como la referencia de @juradonegocios: el texto de pantalla ES el contenido, y solo se escribe lo que la voz dice o atribuye. Los datos y la cita de Albanese salen de la noticia de RTVE. Motion graphics DENTRO del plano, aprovechando que Pablo está a la derecha del encuadre y la mitad izquierda (x 0-0.44) es pared vacía: un panel de consola mientras define qué es un agente (el anillo de estado que probé primero sale diminuto y sin texto legible: ese componente es para tiempos de receta), y un panel de consola con el host de Medicare cuyas líneas van cayendo al ritmo de lo que cuenta —solicita, ACCESO DENEGADO dos veces y ACCESO CONCEDIDO justo cuando dice que accedió a lo que no debía—. Contar el bloqueo en imagen ahorra tener que escribirlo en un rótulo. Apertura reforzada: los primeros 6 s eran lo más plano del reel (un titular que entraba de golpe y una sola línea a los 3,4 s) y son justo los que deciden si alguien se queda. Ahora hay un estímulo cada segundo y pico: chapa roja de ÚLTIMA HORA con un punto latiendo —algo que se mueve solo, porque un filete quieto no sujeta a nadie—, dos palabras del titular encendidas en azul (OpenAI y australiana) para dar un punto de entrada al ojo en vez de un párrafo uniforme, un panel de consola que arranca a los 0,4 s y va soltando SIN AUTORIZACIÓN justo cuando la voz dice 'accede sin permiso' y 'datos de salud' cuando los nombra, y dos datos abajo en vez de uno."
+}

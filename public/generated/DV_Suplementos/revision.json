@@ -1,0 +1,101 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.44,
+  "enfasis": [
+    [
+      0,
+      1
+    ],
+    [
+      99,
+      102
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 37,
+      "texto": "BCAA."
+    },
+    {
+      "palabra": 107,
+      "texto": "gastarte"
+    },
+    {
+      "palabra": 108,
+      "texto": "un"
+    },
+    {
+      "palabra": 109,
+      "texto": "euro"
+    }
+  ],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=847 €|=EN UN AÑO|EN SUPLEMENTOS",
+      "y": 0.5,
+      "tam": 110,
+      "duracion": 3.9
+    },
+    {
+      "palabra": 25,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "palabra": 25,
+      "tipo": "etiqueta",
+      "dato": "CLA|Fuera",
+      "y": 0.49,
+      "duracion": 2.8,
+      "tapaSubtitulos": true
+    },
+    {
+      "palabra": 37,
+      "tipo": "etiqueta",
+      "dato": "BCAA|Fuera, si llegas a tu proteína",
+      "y": 0.49,
+      "duracion": 2.9
+    },
+    {
+      "palabra": 47,
+      "tipo": "etiqueta",
+      "dato": "QUEMADORES DE GRASA|No valen nada sin déficit",
+      "y": 0.49,
+      "duracion": 3.5
+    },
+    {
+      "palabra": 66,
+      "tipo": "etiqueta",
+      "dato": "PROTEÍNA EN POLVO|Comida cómoda, no magia",
+      "y": 0.49,
+      "duracion": 4.4
+    },
+    {
+      "palabra": 85,
+      "tipo": "etiqueta",
+      "dato": "CREATINA|4 € al mes y funciona",
+      "y": 0.07,
+      "duracion": 1.95,
+      "tapaSubtitulos": true
+    },
+    {
+      "palabra": 94,
+      "tipo": "etiqueta",
+      "dato": "ESTUDIO|ISSN 2017 · Kreider et al.",
+      "y": 0.07,
+      "duracion": 3.4,
+      "tapaSubtitulos": true
+    },
+    {
+      "palabra": 111,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA",
+      "duracion": 2.8
+    }
+  ],
+  "resumen": "Reel de suplementación de DV FIT (David): gastó 847 € en un año y solo dos cosas le sirvieron. Sin handle, amarillo de marca. Es una LISTA DE VEREDICTOS, así que cada suplemento lleva su tarjeta con el nombre arriba y el veredicto debajo: CLA fuera, BCAA fuera, quemadores no valen nada, y las dos que sí (proteína en polvo y creatina). Encuadre medido: los botes ocupan de 0,60 hacia abajo durante casi todo el reel, y la cara va de 0,15 a 0,41 — queda una banda libre de 0,44 a 0,58, con los subtítulos a 0,44 y las tarjetas a 0,49. EXCEPCIÓN del segundo 23 al 27: ahí se acerca con la bolsa de creatina a cámara, la barbilla le baja a 0,54 y la bolsa ocupa de 0,52 a 0,95, así que no queda hueco abajo; esas tarjetas (la de creatina y la del estudio) se van ARRIBA, a y 0,07, que es lo único libre, y silencian los subtítulos mientras están para que el texto no le caiga en la cara. ESTUDIO DE CREATINA que pidió Pablo: posicionamiento de la International Society of Sports Nutrition (Kreider RB, Kalman DS, Antonio J y cols., J Int Soc Sports Nutr 2017;14:18, DOI 10.1186/s12970-017-0173-z, acceso abierto). Comprobado abriendo la ficha de la revista, no citado de memoria. La referencia completa va en la caption; en pantalla solo la tarjeta corta. OJO: la frase del CLA (palabras 27-36) no se entiende ni retranscribiendo el fragmento al 60% — Whisper saca 'lo único que me das con esto es el dinero' y 'lo único que más con esto es el dinero', las dos mal. NO se ha inventado nada: la tarjeta 'CLA / Fuera' lleva tapaSubtitulos y cubre justo ese tramo, así que esas palabras no salen en pantalla. Si Pablo lo escucha y nos dice qué dice, se añade. Correcciones seguras: 'Beceas' -> 'BCAA' y el cierre 'antes de gastar tu nuro más' -> 'antes de gastarte un euro más'. Audio: con el ajuste por defecto la música quedaba 22,0 dB bajo la voz (aislada de la mezcla), inaudible. Va con --musica-db -23 --sin-ducking: 19,6 dB por debajo, fija. Es el tercer reel seguido de David que lo necesita, porque habla sin pausas largas. Música beat-235 (la que tocaba por rotación). Máster: este crudo viene grabado muy bajo (-32,3 dB de media) y con picos altos, así que el máster de solo ganancia se quedaba en -17,1 LUFS y el QA lo marcó como incidencia grave (3 dB por debajo del objetivo de -14; en el feed se oiría más flojo que el resto). Se probó --comprimir (llega a -13,9) pero se DESCARTA: Pablo dejó dicho en septiembre, sobre este mismo caso, 'es aceptable; comprimir no'. La salida que él eligió cuando le pasó en PL_1 es --limpiar-voz, y aquí funciona: la voz sube de -29,9 a -24,0 LUFS (limpieza suave, nf medido en -49) y el máster de solo ganancia la deja en -16,3, el mismo sitio que los otros tres reels de la tanda, que el QA pasa como aviso informativo. Queda una copia comprimida en out/DV_Suplementos-editado-COMPRIMIDO.mp4 por si quiere comparar."
+}

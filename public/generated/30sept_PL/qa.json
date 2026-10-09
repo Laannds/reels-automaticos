@@ -1,0 +1,14 @@
+{
+  "slug": "30sept_PL",
+  "duracion": 55.1,
+  "lufs": -14.8,
+  "pico": -1.4,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 50.16,
+      "texto": "\"grandes\" (palabra 183) — Whisper solo está al 36%"
+    }
+  ]
+}

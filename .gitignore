@@ -20,6 +20,7 @@ public/generated/*/*
 !public/generated/*/transcripcion.json
 !public/generated/*/pista-*.json
 !public/generated/*/qa.json
+!public/generated/*/congelado.png
 
 # Credenciales reales del panel (el ejemplo sí va)
 panel/datos/credenciales.json

@@ -1,0 +1,14 @@
+{
+  "slug": "PL_1",
+  "duracion": 43.666667,
+  "lufs": -19,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -19 LUFS (objetivo -14)"
+    }
+  ]
+}

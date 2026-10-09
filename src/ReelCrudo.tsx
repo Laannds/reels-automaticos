@@ -16,6 +16,8 @@ import {
 import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
 import { loadFont as loadAnton } from "@remotion/google-fonts/Anton";
 import { loadFont as loadPlayfair } from "@remotion/google-fonts/PlayfairDisplay";
+import { loadFont as loadPoppins } from "@remotion/google-fonts/Poppins";
+import { loadFont as loadMono } from "@remotion/google-fonts/JetBrainsMono";
 import {
   logoDe,
   LogoCirculo,
@@ -29,7 +31,7 @@ import {
   caveat,
 } from "./Reel";
 import { FPS, type Palabra, type Segmento } from "./tipos";
-import { paginaEn, paginar, tramosSilenciados } from "./paginar";
+import { limitesDe, paginaEn, paginar, tramosSilenciados } from "./paginar";
 
 const { fontFamily: inter } = loadInter("normal", {
   weights: ["600", "700", "800"],
@@ -41,6 +43,19 @@ const { fontFamily: anton } = loadAnton("normal", {
 });
 const { fontFamily: playfair } = loadPlayfair("italic", {
   weights: ["500"],
+  subsets: ["latin"],
+});
+// Geométrica de palo seco: la del reel de referencia (@herasmedia). Inter es
+// una grotesca neutra y en minúscula se lee "de interfaz"; la geométrica de
+// 'a' de un piso es la que da el aire de pieza de productora.
+const { fontFamily: poppins } = loadPoppins("normal", {
+  weights: ["400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+});
+// Monoespaciada para el panel de terminal: en una consola falsa, la letra de
+// ancho fijo es la mitad del efecto.
+const { fontFamily: mono } = loadMono("normal", {
+  weights: ["400", "500", "700"],
   subsets: ["latin"],
 });
 
@@ -73,6 +88,86 @@ const fijarColorDeMarca = (color?: string) => {
   AZUL_OSCURO = oscurecer(AZUL);
 };
 
+// Look activo. Misma técnica que el color de marca (variable de módulo fijada
+// por el componente raíz): lo consultan el titulón y el remate para pintarse
+// en cristal en vez de en tarjeta maciza, sin tocar la firma de veinte
+// componentes.
+let LOOK: "clasico" | "cristal" = "clasico";
+// Ruta del crudo. La necesita Tapa para repintar el plano desenfocado.
+let VIDEO_FONDO = "";
+const fijarVideoFondo = (v?: string) => {
+  VIDEO_FONDO = v ?? "";
+};
+
+// Margen lateral de los textos del look cristal (ver CrudoProps.margenLateral).
+let MARGEN_LATERAL = 130;
+const fijarMargen = (m?: number) => {
+  MARGEN_LATERAL = typeof m === "number" && m >= 0 ? m : 130;
+};
+
+// Ancho real que ocupa un texto, medido con la fuente ya cargada. Estimar por
+// número de caracteres no vale: un titular en versales negras de 12 letras y
+// una frase en regular de 32 ocupan casi lo mismo y la fórmula por caracteres
+// los trataba distinto, dejando un titular a 21 px del borde del cuadro
+// (medido: 96 % del ancho). Devuelve null si no hay DOM (render sin navegador).
+const medirTexto = (
+  texto: string,
+  familia: string,
+  peso: number,
+  tam: number,
+  espaciado = 0
+): number | null => {
+  if (typeof document === "undefined") return null;
+  try {
+    const ctx = document.createElement("canvas").getContext("2d");
+    if (!ctx) return null;
+    ctx.font = `${peso} ${tam}px "${familia.replace(/"/g, "")}"`;
+    const w = ctx.measureText(texto).width + espaciado * texto.length;
+    return Number.isFinite(w) && w > 0 ? w : null;
+  } catch {
+    return null;
+  }
+};
+
+/** Tamaño de letra que cabe en `anchoMax`: el pedido si ya cabe, o el reducido. */
+const tamQueCabe = (
+  texto: string,
+  familia: string,
+  peso: number,
+  tam: number,
+  anchoMax: number,
+  espaciado = 0
+): number => {
+  const w = medirTexto(texto, familia, peso, tam, espaciado);
+  if (w === null || w <= anchoMax) return tam;
+  return Math.max(14, Math.floor((tam * anchoMax) / w));
+};
+
+// Bordes del plano dentro del lienzo. Por defecto, cuadro completo.
+let LIENZO = { y0: 0, y1: 1 };
+const fijarLienzo = (l?: { y0: number; y1: number }) => {
+  LIENZO = l ?? { y0: 0, y1: 1 };
+};
+const fijarLook = (look?: "clasico" | "cristal") => {
+  LOOK = look === "cristal" ? "cristal" : "clasico";
+};
+
+// Vocabulario del look "cristal", medido sobre el reel de referencia:
+// blanco puro, sombras muy abiertas (la pieza nunca usa cajas de color) y
+// vidrio apenas teñido con un borde de un pelo.
+const CRISTAL = {
+  // Tres capas: una pegada y densa que despega la letra del fondo, una media
+  // y un halo abierto. La pegada es la que salva el caso peor —texto blanco
+  // sobre camiseta blanca—, donde con solo las dos abiertas el subtítulo se
+  // leía a duras penas.
+  sombraTexto:
+    "0 1px 2px rgba(0,0,0,0.55), 0 2px 10px rgba(0,0,0,0.45), 0 10px 40px rgba(0,0,0,0.45)",
+  fondo: "rgba(255,255,255,0.13)",
+  fondoFuerte: "rgba(255,255,255,0.19)",
+  borde: "1px solid rgba(255,255,255,0.30)",
+  sombraCaja: "0 26px 60px rgba(0,0,0,0.42), 0 2px 0 rgba(255,255,255,0.14) inset",
+};
+
 const TURQUESA = "#3AE0D0"; // círculos de anotación
 
 export type ElementoCrudo = {
@@ -82,6 +177,10 @@ export type ElementoCrudo = {
   // cuadros = [centroX, centroY, ancho, alto, ánguloGrados] en coords 0-1 del crudo.
   pista?: { fps: number; desde: number; cuadros: [number, number, number, number, number][] };
   tam?: number; // tamaño en px para los que lo admiten (anillo de estado: 168 por defecto)
+  // Rótulo puesto de principio a fin, sin entrada ni salida: ya está ahí
+  // cuando empieza el reel y no se mueve. Para las frases de marca que
+  // acompañan todo el vídeo, donde una animación solo distrae.
+  fijo?: boolean;
   // Tramos ABSOLUTOS [desde, hasta] en los que el gráfico se aparta con un
   // fundido. Para persistentes como la cabecera fija: si el presentador se
   // acerca a cámara y le quedaría sobre la boca, se retira y luego vuelve.
@@ -114,6 +213,24 @@ export type ElementoCrudo = {
                       // "pista", pegados a un objeto que se mueve
     | "plazas" // plazas de clase + lista de espera; dato = "8|3" (total|la que cancela)
     | "etiqueta" // tarjeta editorial; dato = "TRUCO|Agua poco a poco"
+    | "congelado" // fotograma congelado + brackets de enfoque; dato = "ruta.png|Texto opcional"
+    | "carta" // carta de restaurante pegada a la mano abierta (necesita "pista");
+              // dato = "CABECERA|Plato|Plato@1.5|Plato" — el @ tacha ese plato
+              // a los N segundos desde que entra la carta
+    // ── Look "cristal" (ver LOOK más abajo) ──
+    | "cifra" // cifra enorme translúcida + pie; dato = "01|LA PRIMERA" o "2-6 h|A LA SEMANA"
+    | "chips" // pastillas de cristal que entran en cadena; dato = "Un correo@0|Un Excel@0.5"
+    | "capturas" // capturas reales en abanico; dato = "inserts/a.png@0|inserts/b.png@0.9"
+    | "tapa" // oculta una franja del crudo (rótulos que ya trae quemados el cliente)
+    | "comparativa" // dos tarjetas enfrentadas; dato = "IZQ|cifra izq|DER|cifra der"
+    | "listaPlana" // lista que se acumula sobre negro; dato = "TÍTULO|Línea@0|Línea@2.4"
+    | "noticia" // titular arriba del plano y datos debajo; dato = "#KICKER|TITULAR|dato@0"
+    | "terminal" // consola con líneas de estado; dato = "host|línea@0|!denegado@1.4|+ok@5"
+    | "bajada" // línea de apoyo bajo el titular; dato = "Texto|Segunda línea"
+    | "imagenFija" // captura del tema flotando sobre la cabeza, fija; dato = "inserts/x.png"
+    | "duoLogos" // dos marcas centradas con un "+"; dato = "claude|inserts/mf-logo.png"
+    | "flecha" // flecha que señala un punto; x,y = la punta; dato = "TEXTO|izq|der|arriba" (lado desde el que llega)
+    | "dm" // barra de mensaje directo con la palabra del CTA; dato = "TEST"
     | "transicion"; // gesto de cámara entre bloques; dato = zoomIn | zoomOut | fade
   dato: string; // nombre IA / texto / emoji / ruta de imagen o video / texto del rótulo
   color?: "bueno" | "malo" | "mejor";
@@ -137,8 +254,40 @@ export type CrudoProps = {
   pasos?: number[]; // segundos en que se completa cada hito (ticks)
   // "ninguno" para vídeos que ya traen su propio texto (grabaciones de
   // pantalla, piezas ya diseñadas): evita duplicar mensaje.
-  subtitulos?: "bold" | "serif" | "ninguno";
+  subtitulos?: "bold" | "serif" | "cristal" | "ninguno";
   subtitulosY?: number; // altura 0-1 de los subtítulos (por defecto 0.54)
+  // Lenguaje visual. "clasico" es el de siempre (tarjetas macizas con el color
+  // de marca). "cristal" es el del reel de referencia que pasó Pablo: blanco
+  // translúcido, sombras largas, nada permanente en pantalla.
+  look?: "clasico" | "cristal";
+  // Segundos (en la línea de tiempo del montaje) en los que el crudo ya trae
+  // un corte hecho por el usuario. Cada toma recibe su propio encuadre, así
+  // que los jump cuts se leen como cambios de plano y no como parpadeos.
+  cortes?: number[];
+  // Centro de la cara (0-1) medido en el crudo. Es el punto fijo del
+  // acercamiento: si se hace zoom sobre el centro geométrico del fotograma, en
+  // un plano de busto la cabeza se sale por arriba. Por defecto, medio arriba.
+  foco?: { x: number; y: number };
+  // Cámara quieta. Obligatorio cuando el crudo viene en "lienzo" (un plano
+  // horizontal encajado sobre negro dentro del 1080x1920): cualquier
+  // acercamiento escala TAMBIÉN las bandas negras, así que el plano crece, las
+  // bandas menguan y el encuadre baila durante todo el reel.
+  camaraFija?: boolean;
+  // Margen lateral (px a cada lado) de titulares y subtítulos del look cristal.
+  // Por defecto 130: deja el texto en el 76 % central del cuadro y fuera de la
+  // columna de botones de Instagram (x > 0.88). Se puede tocar por reel con
+  // "margenLateral" en la revisión.
+  margenLateral?: number;
+  // El reel ya viene sonorizado: los gráficos entran mudos. Un golpe de
+  // impacto sobre una mezcla que ya ha hecho el usuario es tocarle el audio.
+  sinSfx?: boolean;
+  // Los segmentos NO son microcortes de silencio: son tomas elegidas a mano en
+  // la revisión ("tomas" en revision.json). Cada una es un plano distinto, así
+  // que cada una recibe su propio tamaño de encuadre y su empalme suena.
+  tomasManuales?: boolean;
+  // Dónde queda el plano dentro del lienzo (fracciones 0-1). El texto se pega
+  // a sus bordes en vez de flotar en mitad del negro.
+  lienzo?: { y0: number; y1: number };
   // Modo control de calidad: solo gráficos y subtítulos sobre fondo
   // transparente. El alfa de ese render es la huella REAL de lo que tapa cada
   // gráfico; scripts/qa-reel.mjs la cruza con las caras detectadas.
@@ -167,26 +316,54 @@ const VideoCortado: React.FC<{ props: CrudoProps }> = ({ props }) => {
         // Cambio de toma real (salto grande en el crudo) → whoosh y cambio
         // de plano. Microcortes de silencio → mismo encuadre, sin ruido.
         const gapSrc = i > 0 ? s.srcInicio - props.segmentos[i - 1].srcFin : 0;
-        const cambioDeToma = gapSrc > 1;
-        const zoomBase = 1 + (Math.floor(i / 2) % 2 === 0 ? 0 : 0.08);
+        // Con tomas elegidas a mano, TODO empalme es un cambio de plano: no
+        // hace falta adivinarlo por el hueco (que entre dos tomas seguidas del
+        // mismo crudo puede ser de medio segundo) y el golpe suena en los seis,
+        // no en los tres que pasaban del umbral.
+        const cambioDeToma = props.tomasManuales ? i > 0 : gapSrc > 1;
+        // Microcortes de silencio → mismo encuadre de dos en dos, sin ruido.
+        // Tomas a mano → cada plano su tamaño, que es lo que hace que un
+        // montaje de clips estáticos se lea como una pieza rodada.
+        const zoomBase = props.tomasManuales
+          ? ENCUADRES[i % ENCUADRES.length]
+          : 1 + (Math.floor(i / 2) % 2 === 0 ? 0 : 0.08);
+        // El crudo ya viene cortado por el usuario (--sin-cortes): no hay un
+        // segmento por toma, hay UN segmento con quince jump cuts dentro. Los
+        // segundos de esos cortes llegan en props.cortes y la cámara se
+        // reencuadra en cada uno.
+        const video = (
+          <OffthreadVideo
+            src={staticFile(props.video)}
+            muted
+            trimBefore={Math.round(s.srcInicio * FPS)}
+            trimAfter={Math.round(s.srcFin * FPS)}
+            style={{
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              // El look clásico lleva un grade cinematográfico suave. El
+              // cristal NO: la referencia respeta el color de cámara, y al
+              // sumarle contraste + saturación + la viñeta el plano se iba de
+              // tono. Aquí solo se le da un punto de cuerpo.
+              filter:
+                props.look === "cristal"
+                  ? "contrast(1.02) saturate(1.03)"
+                  : "contrast(1.07) saturate(1.08) brightness(0.96)",
+            }}
+          />
+        );
         return (
           <Sequence key={i} from={desde} durationInFrames={dur}>
             <AbsoluteFill>
-              <ZoomInterno base={zoomBase}>
-                <OffthreadVideo
-                  src={staticFile(props.video)}
-                  muted
-                  trimBefore={Math.round(s.srcInicio * FPS)}
-                  trimAfter={Math.round(s.srcFin * FPS)}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    // grade cinematográfico suave
-                    filter: "contrast(1.07) saturate(1.08) brightness(0.96)",
-                  }}
-                />
-              </ZoomInterno>
+              {props.camaraFija ? (
+                video
+              ) : props.cortes?.length ? (
+                <CamaraPorTomas cortes={props.cortes} foco={props.foco}>
+                  {video}
+                </CamaraPorTomas>
+              ) : (
+                <ZoomInterno base={zoomBase}>{video}</ZoomInterno>
+              )}
             </AbsoluteFill>
             {cambioDeToma ? (
               <Audio src={staticFile("sfx/corte.mp3")} volume={0.16} />
@@ -203,9 +380,53 @@ const ZoomInterno: React.FC<{ base: number; children: React.ReactNode }> = ({
   children,
 }) => {
   const frame = useCurrentFrame();
-  const drift = 1 + frame * 0.00025; // deriva lenta continua
+  // Deriva lenta continua, pero TOPADA al 5 %. Sin tope, un reel montado con
+  // --sin-cortes es un único segmento de 40 s y la deriva llegaba a 1,33: el
+  // plano terminaba recortadísimo y blando, y el espectador lo lee como un
+  // zoom digital, no como una cámara.
+  const drift = 1 + Math.min(frame, 200) * 0.00025;
   return (
     <AbsoluteFill style={{ transform: `scale(${base * drift})` }}>
+      {children}
+    </AbsoluteFill>
+  );
+};
+
+// Cámara del look "cristal": un encuadre por toma. En cada corte que ya trae
+// el crudo se cambia de tamaño de plano (ancho / medio / cerrado, sin repetir
+// el anterior) y dentro de la toma la cámara empuja despacio. Es lo que hace
+// que un trípode quieto se vea como una pieza rodada: el reel de referencia no
+// tiene un solo plano estático.
+const ENCUADRES = [1.0, 1.085, 1.035, 1.115, 1.015, 1.065];
+const CamaraPorTomas: React.FC<{
+  cortes: number[];
+  foco?: { x: number; y: number };
+  children: React.ReactNode;
+}> = ({ cortes, foco, children }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const t = frame / fps;
+  const fin = durationInFrames / fps;
+  const marcas = [0, ...cortes.filter((c) => c > 0.3 && c < fin - 0.3), fin];
+  let i = 0;
+  while (i < marcas.length - 2 && t >= marcas[i + 1]) i++;
+  const desde = marcas[i];
+  const largo = Math.max(0.8, marcas[i + 1] - desde);
+  const base = ENCUADRES[i % ENCUADRES.length];
+  // El empuje es mayor en las tomas cortas (se nota menos) y suave en las
+  // largas, para que ninguna termine mucho más cerrada de lo que empezó.
+  const empuje = interpolate((t - desde) / largo, [0, 1], [1, 1 + (largo < 2 ? 0.05 : 0.03)], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+    easing: Easing.out(Easing.quad),
+  });
+  return (
+    <AbsoluteFill
+      style={{
+        transform: `scale(${base * empuje})`,
+        transformOrigin: `${(foco?.x ?? 0.5) * 100}% ${(foco?.y ?? 0.4) * 100}%`,
+      }}
+    >
       {children}
     </AbsoluteFill>
   );
@@ -242,7 +463,7 @@ const VozMezclada: React.FC<{ props: CrudoProps }> = ({ props }) => {
 // Subtítulos sobre vídeo: páginas de 3 palabras, estilo bold o serif elegante
 const SubtitulosCrudo: React.FC<{
   palabras: Palabra[];
-  estilo?: "bold" | "serif" | "ninguno";
+  estilo?: "bold" | "serif" | "cristal" | "ninguno";
   // Tramos [inicio, fin] en los que NO se pintan subtítulos, porque hay un
   // remate a pantalla completa diciendo ya lo mismo en grande.
   silenciar?: [number, number][];
@@ -256,8 +477,36 @@ const SubtitulosCrudo: React.FC<{
 
   if (estilo === "ninguno") return null;
   // Misma lógica que usa el control de calidad (ver src/paginar.ts)
-  const pagina = paginaEn(paginar(palabras, silenciar), silenciar ?? [], t);
+  const paginas = paginar(palabras, silenciar, limitesDe(estilo));
+  const pagina = paginaEn(paginas, silenciar ?? [], t);
   if (!pagina) return null;
+
+  // El bloque entero entra y sale junto (no palabra a palabra): así se lee
+  // como una frase que aparece y se retira, en vez de una pieza de texto que
+  // se ensancha y luego se corta en seco al cambiar de página. Referencia:
+  // reel de @clogamez que Pablo pasó como ejemplo — los bloques aparecen y
+  // desaparecen enteros, respetando lo que se va diciendo.
+  const idx = paginas.findIndex((pag) => pag[0]?.inicio === pagina[0]?.inicio);
+  const inicioPagina = pagina[0].inicio;
+  const siguienteInicio = idx >= 0 && idx < paginas.length - 1 ? paginas[idx + 1][0].inicio : null;
+  const proximoSilencio = (silenciar ?? [])
+    .map(([desde]) => desde)
+    .filter((desde) => desde > inicioPagina)
+    .sort((a, b) => a - b)[0];
+  const finVisible = [siguienteInicio, proximoSilencio]
+    .filter((v): v is number => v !== undefined && v !== null)
+    .sort((a, b) => a - b)[0];
+
+  const DUR_SALIDA = 0.16;
+  const entraBloque = spring({
+    frame: frame - Math.round(inicioPagina * fps),
+    fps,
+    config: { damping: 28, stiffness: 210 },
+  });
+  const salBloque = finVisible !== undefined
+    ? Math.max(0, Math.min(1, (t - (finVisible - DUR_SALIDA)) / DUR_SALIDA))
+    : 0;
+  const visible = Math.min(1, entraBloque) * (1 - salBloque);
 
   return (
     <div
@@ -270,47 +519,69 @@ const SubtitulosCrudo: React.FC<{
         flexWrap: "wrap",
         justifyContent: "center",
         rowGap: 4,
-        padding: "0 90px",
+        // En cristal el margen sale del ajuste global; el clásico conserva sus
+        // 90 px de siempre para no mover lo ya afinado.
+        padding: `0 ${estilo === "cristal" ? MARGEN_LATERAL : 90}px`,
+        opacity: visible,
+        transform:
+          estilo === "cristal"
+            ? // Entrada corta y seca: el bloque sube 8 px y crece un 3 %. En el
+              // reel de referencia el texto no "aterriza", solo aparece.
+              `translateY(${(1 - Math.min(1, entraBloque)) * 8 + salBloque * -6}px) scale(${0.97 + Math.min(1, entraBloque) * 0.03})`
+            : `translateY(${(1 - Math.min(1, entraBloque)) * 14 + salBloque * -10}px)`,
       }}
     >
-      {/* Solo se pintan las palabras ya dichas. Antes las siguientes ocupaban
-          su hueco (invisibles) y lo visible quedaba descentrado a la izquierda
-          mientras se completaba la frase: "os queréis ___". Ahora cada palabra
-          entra ensanchándose, así que la frase crece centrada y sin saltos. */}
-      {pagina.filter((p) => t >= p.inicio).map((p, i) => {
-        const dicha = true;
-        // Presencia sólida y seria: fade + leve asentamiento, sin rebote,
-        // sin rotación, sin pulso. El énfasis es solo color y peso, sin slam.
+      {/* El bloque ya entra y sale como conjunto (arriba). Cada palabra solo
+          suma un fundido corto propio, para que la frase se siga leyendo
+          como un karaoke suave sin que cada una "se desenrolle". */}
+      {(() => {
+        // En "cristal" la página se ve entera desde que entra: son dos o tres
+        // palabras que duran lo que dura el aliento, y el karaoke palabra a
+        // palabra dentro de un bloque tan corto solo hacía parpadear el texto.
+        const dichas = estilo === "cristal" ? pagina : pagina.filter((p) => t >= p.inicio);
+        return dichas.map((p, i) => {
         const enfasis = p.estilo === "resaltado";
-        const entra = spring({
-          frame: frame - Math.round(p.inicio * fps),
-          fps,
-          config: { damping: 26, stiffness: 180 },
-        });
-        const base = estilo === "serif" ? 46 : 54;
+        const entraPalabra =
+          estilo === "cristal"
+            ? 1
+            : Math.min(
+                1,
+                spring({
+                  frame: frame - Math.round(p.inicio * fps),
+                  fps,
+                  config: { damping: 22, stiffness: 260 },
+                })
+              );
+        const base = estilo === "serif" ? 46 : estilo === "cristal" ? 60 : 54;
         return (
           <span
             key={`${p.texto}-${i}-${p.inicio}`}
             style={{
-              fontFamily: enfasis ? inter : estilo === "serif" ? playfair : inter,
+              fontFamily:
+                estilo === "cristal" ? poppins : enfasis ? inter : estilo === "serif" ? playfair : inter,
               fontStyle: !enfasis && estilo === "serif" ? "italic" : "normal",
-              fontWeight: enfasis ? 800 : estilo === "serif" ? 500 : 700,
-              fontSize: enfasis ? Math.round(base * 1.14) : base,
-              letterSpacing: estilo === "serif" && !enfasis ? 1 : 0,
+              fontWeight:
+                estilo === "cristal"
+                  ? enfasis
+                    ? 700
+                    : 500
+                  : enfasis
+                    ? 800
+                    : estilo === "serif"
+                      ? 500
+                      : 700,
+              fontSize: enfasis && estilo !== "cristal" ? Math.round(base * 1.14) : base,
+              letterSpacing: estilo === "serif" && !enfasis ? 1 : estilo === "cristal" ? -0.5 : 0,
               lineHeight: 1.2,
               color: enfasis ? AZUL : "#FFFFFF",
-              opacity: dicha ? entra : 0,
-              transform: `translateY(${dicha ? (1 - entra) * 8 : 8}px)`,
-              // Ensanche: el ancho máximo crece con la entrada. El relleno con
-              // margen negativo da sitio a la sombra sin mover la maqueta.
+              opacity: entraPalabra,
               display: "inline-block",
-              whiteSpace: "nowrap",
-              overflow: "hidden",
               verticalAlign: "top",
-              maxWidth: Math.round(Math.min(1, entra) * 760),
-              padding: "0 12px 16px",
-              margin: `0 -12px -16px ${i === 0 ? -12 : Math.round(14 * Math.min(1, entra)) - 12}px`,
-              textShadow: enfasis
+              marginRight: i < dichas.length - 1 ? 12 : 0,
+              paddingBottom: 16,
+              textShadow: estilo === "cristal"
+                ? CRISTAL.sombraTexto
+                : enfasis
                 ? "0 0 14px rgba(61,155,255,0.45), 0 3px 14px rgba(0,0,0,0.8)"
                 : estilo === "serif"
                   ? "0 2px 12px rgba(0,0,0,0.7)"
@@ -320,7 +591,8 @@ const SubtitulosCrudo: React.FC<{
             {p.texto}
           </span>
         );
-      })}
+        });
+      })()}
     </div>
   );
 };
@@ -1007,6 +1279,106 @@ const Etiqueta: React.FC<{ dato: string; y?: number }> = ({ dato, y }) => {
   );
 };
 
+// Congela el vídeo en un fotograma (extraído aparte, ffmpeg) y le pone encima
+// un efecto de "enfoque" tipo autofocus de cámara: cuatro esquinas en L que
+// se cierran de golpe sobre el sujeto, con un flash breve. Para el gancho de
+// un reel sin diálogo: la cámara parece fijarse en la persona/outfit antes de
+// pasar a lo importante. dato = "ruta.png" o "ruta.png|Texto bajo el enfoque".
+//
+// La FOTO DE FONDO no se desvanece nunca (solo entra): en un reel --sin-voz
+// el vídeo de origen sigue "sonando" de fondo, invisible, solo para rellenar
+// duración (ver --duracion en editar-crudo.mjs) — si esta foto se retirase,
+// esa rendija dejaría asomar un fotograma suelto y desincronizado del vídeo
+// real justo en el empalme con lo siguiente (se vio como un "fantasma" al
+// entrar el "movil"). Por eso este elemento se pone con una duración que
+// cubre TODO lo que venga detrás tapado (movil, CTA...), de pared hasta el
+// final. Lo que sí es breve es el EFECTO de enfoque (esquinas + flash +
+// etiqueta), que se retira solo a los ~1,4 s con su propio reloj, no con el
+// de todo el elemento.
+const Congelado: React.FC<{ dato: string }> = ({ dato }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const [ruta, etiqueta] = dato.split("|");
+
+  const entra = spring({ frame, fps, config: { damping: 22, stiffness: 200 } });
+  // Las esquinas arrancan abiertas (como buscando el enfoque) y se cierran de
+  // golpe sobre el sujeto, con un pelín de rebote al asentar; a los ~42
+  // fotogramas (1,4 s) el efecto entero se retira, aunque la foto se quede.
+  const snap = Math.min(1, spring({ frame: frame - 2, fps, config: { damping: 12, stiffness: 260 } }));
+  const saleEfecto = Math.min(1, spring({ frame: frame - 42, fps, config: { damping: 26, stiffness: 220 } }));
+  const efecto = snap * (1 - saleEfecto);
+  const margen = Math.round(140 - snap * 92); // 140px → 48px: se cierran hacia dentro
+  // Sesgado hacia abajo: en un plano de "persona caminando hacia cámara" el
+  // sujeto ocupa la mitad inferior del encuadre y arriba solo hay fachada o
+  // cielo. Un recuadro simétrico deja un hueco vacío enorme por encima de la
+  // cabeza; este margen extra en la parte de arriba lo compensa sin necesitar
+  // detectar a la persona en cada clip.
+  const margenArriba = margen + 210;
+  const flash = interpolate(frame, [3, 6, 11], [0, 0.5, 0], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+  const LARGO = 74;
+  const GROSOR = 6;
+  const esquina = (arriba: boolean, izq: boolean): React.CSSProperties => ({
+    position: "absolute",
+    [arriba ? "top" : "bottom"]: arriba ? margenArriba : margen,
+    [izq ? "left" : "right"]: margen,
+    width: LARGO,
+    height: LARGO,
+    borderTop: arriba ? `${GROSOR}px solid #fff` : "none",
+    borderBottom: !arriba ? `${GROSOR}px solid #fff` : "none",
+    borderLeft: izq ? `${GROSOR}px solid #fff` : "none",
+    borderRight: !izq ? `${GROSOR}px solid #fff` : "none",
+    opacity: efecto,
+  });
+  const etiquetaEntra = Math.min(1, spring({ frame: frame - 9, fps, config: { damping: 20, stiffness: 190 } })) * efecto;
+
+  return (
+    <AbsoluteFill style={{ opacity: entra, backgroundColor: "#000" }}>
+      <Img src={staticFile(ruta)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      <AbsoluteFill style={{ backgroundColor: "#fff", opacity: flash * efecto }} />
+      <div style={esquina(true, true)} />
+      <div style={esquina(true, false)} />
+      <div style={esquina(false, true)} />
+      <div style={esquina(false, false)} />
+      {etiqueta ? (
+        <div
+          style={{
+            position: "absolute",
+            left: 0,
+            right: 0,
+            bottom: 240,
+            display: "flex",
+            justifyContent: "center",
+            opacity: etiquetaEntra,
+            transform: `translateY(${(1 - etiquetaEntra) * 14}px)`,
+          }}
+        >
+          <div
+            style={{
+              fontFamily: inter,
+              fontWeight: 800,
+              fontSize: 34,
+              letterSpacing: 2,
+              textTransform: "uppercase",
+              color: "#fff",
+              backgroundColor: "rgba(10,10,12,0.6)",
+              backdropFilter: "blur(10px)",
+              border: `1px solid ${AZUL}66`,
+              borderRadius: 999,
+              padding: "12px 30px",
+              textShadow: "0 2px 10px rgba(0,0,0,0.6)",
+            }}
+          >
+            {etiqueta}
+          </div>
+        </div>
+      ) : null}
+    </AbsoluteFill>
+  );
+};
+
 // Plazas de una clase que se llenan, una se libera al cancelar alguien y
 // entra sola la siguiente de la lista de espera. Cuenta la función estrella
 // de una app de gestión: la plaza no se queda vacía sin que hagas nada.
@@ -1210,6 +1582,152 @@ const InterroganteSeguido: React.FC<{
       }}
     >
       ?
+    </div>
+  );
+};
+
+// Carta de restaurante pegada a la mano abierta del presentador. En el gancho
+// de DV_Menu, David levanta la palma y dice "esta es la carta": el gráfico
+// completa el gesto en vez de explicarlo, así que tiene que ir SOBRE la mano,
+// girando y escalando con ella (misma pista que la "?" del iPad).
+// dato = "CABECERA|Plato|Plato@1.5|Plato" — el @ tacha ese plato a los N
+// segundos desde que entra la carta ("no voy a pedir ensalada").
+const CartaSeguida: React.FC<{
+  dato: string;
+  pista: NonNullable<ElementoCrudo["pista"]>;
+  inicio: number;
+}> = ({ dato, pista, inicio }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const tAbs = inicio + frame / fps;
+  const k = Math.min(pista.cuadros.length - 1, Math.max(0, Math.round((tAbs - pista.desde) * pista.fps)));
+  // El seguidor de Vision es firme en posición pero ruidoso en tamaño y giro:
+  // medido en esta pista, el ancho oscila un 19% y el ángulo pega saltos de 1°
+  // de un fotograma a otro. Tal cual, la carta "respira" y tiembla. Así que:
+  // el TAMAÑO se congela en la mediana de toda la pista (la mano no se acerca
+  // ni se aleja de cámara, esa variación es ruido) y el GIRO y la POSICIÓN se
+  // suavizan con una media móvil, que quita el temblor y deja la inclinación
+  // real, que sí cambia (de -4° a -11° mientras baja la mano).
+  const media = (idx: number, radio: number) => {
+    let suma = 0;
+    let n = 0;
+    for (let j = k - radio; j <= k + radio; j++) {
+      const c = pista.cuadros[Math.min(pista.cuadros.length - 1, Math.max(0, j))];
+      suma += c[idx];
+      n++;
+    }
+    return suma / n;
+  };
+  const cx = media(0, 2);
+  const cy = media(1, 2);
+  const ang = media(4, 4);
+  const anchos = pista.cuadros.map((c) => c[2]).sort((a, b) => a - b);
+  const ancho = anchos[Math.floor(anchos.length / 2)];
+  // Misma deriva que ZoomInterno aplica al vídeo base, o la carta se despega
+  const esc = 1 + Math.round(tAbs * fps) * 0.00025;
+  const X = (0.5 + (cx - 0.5) * esc) * 1080;
+  const Y = (0.5 + (cy - 0.5) * esc) * 1920;
+  // La carta es algo mayor que la palma: una carta de verdad asoma por encima
+  // de la mano que la sostiene. Y no va centrada en la palma, sino desplazada
+  // hacia dentro del cuadro y un poco arriba: centrada sobre una mano que está
+  // pegada al borde izquierdo, la carta se salía de plano y se comía los
+  // platos de la izquierda.
+  const W = Math.round(ancho * 1080 * esc * 1.3);
+  const H = Math.round(W * 1.38);
+  const DESPX = W * 0.11;
+  const DESPY = -H * 0.045;
+  const partes = dato.split("|");
+  const cabecera = partes.shift() ?? "CARTA";
+  const platos = partes.map((linea) => {
+    const [texto, cuando] = linea.split("@");
+    return { texto: texto.trim(), tachar: cuando === undefined ? null : parseFloat(cuando) };
+  });
+  const t = frame / fps;
+  // Una carta no crece desde cero: se posa. Entra al 88% y con un pelín de
+  // caída, no con un globo inflándose, que es lo que delata el gráfico pegado.
+  const pop = Math.min(1, spring({ frame: frame - 1, fps, config: { damping: 20, stiffness: 200 } }));
+  const sale = spring({ frame: frame - (durationInFrames - 7), fps, config: { damping: 30, stiffness: 260 } });
+  const tamPlato = Math.max(11, Math.round(W * 0.095));
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: X + DESPX,
+        top: Y + DESPY,
+        width: W,
+        height: H,
+        transform:
+          `translate(-50%, calc(-50% + ${(1 - pop) * -14}px)) ` +
+          `rotate(${ang}deg) scale(${0.88 + pop * 0.12})`,
+        transformOrigin: "50% 50%",
+        opacity: Math.min(1, pop * 1.6) * (1 - sale),
+        backgroundColor: "#FBF7EE",
+        borderRadius: Math.round(W * 0.035),
+        boxShadow: "0 18px 46px rgba(0,0,0,0.5), 0 2px 6px rgba(0,0,0,0.35)",
+        padding: `${Math.round(H * 0.07)}px ${Math.round(W * 0.1)}px`,
+        display: "flex",
+        flexDirection: "column",
+        boxSizing: "border-box",
+      }}
+    >
+      <div
+        style={{
+          fontFamily: anton,
+          fontSize: Math.round(W * 0.14),
+          letterSpacing: Math.round(W * 0.012),
+          textTransform: "uppercase",
+          textAlign: "center",
+          color: "#14110C",
+          lineHeight: 1,
+        }}
+      >
+        {cabecera}
+      </div>
+      <div
+        style={{
+          height: Math.max(2, Math.round(W * 0.016)),
+          backgroundColor: AZUL,
+          borderRadius: 99,
+          margin: `${Math.round(H * 0.035)}px 0 ${Math.round(H * 0.045)}px`,
+        }}
+      />
+      {platos.map((plato, i) => {
+        const entra = Math.min(1, spring({ frame: frame - 5 - i * 3, fps, config: { damping: 24, stiffness: 190 } }));
+        // El tachón se dibuja de izquierda a derecha cuando toca
+        const tach =
+          plato.tachar === null
+            ? 0
+            : Math.min(1, Math.max(0, spring({ frame: Math.round((t - plato.tachar) * fps), fps, config: { damping: 26, stiffness: 160 } })));
+        return (
+          <div
+            key={i}
+            style={{
+              position: "relative",
+              fontFamily: inter,
+              fontWeight: 500,
+              fontSize: tamPlato,
+              lineHeight: 1.1,
+              color: "#2A251C",
+              opacity: entra * (1 - tach * 0.55),
+              marginBottom: Math.round(H * 0.038),
+            }}
+          >
+            {plato.texto}
+            <div
+              style={{
+                position: "absolute",
+                left: 0,
+                top: "52%",
+                height: Math.max(2, Math.round(tamPlato * 0.12)),
+                width: `${tach * 104}%`,
+                backgroundColor: ROJO,
+                borderRadius: 99,
+              }}
+            />
+          </div>
+        );
+      })}
     </div>
   );
 };
@@ -1866,19 +2384,32 @@ const Movil: React.FC<{ ruta: string }> = ({ ruta }) => {
 };
 
 // Título gigante multilínea sobre el video (estilo hook cinematográfico)
-const Titulon: React.FC<{ texto: string; y?: number }> = ({ texto, y }) => {
+const Titulon: React.FC<{ texto: string; y?: number; tam?: number; fijo?: boolean }> = ({
+  texto,
+  y,
+  tam,
+  fijo,
+}) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
-  const sale = spring({
-    frame: frame - (durationInFrames - 8),
-    fps,
-    config: { damping: 30, stiffness: 240 },
-  });
+  const sale = fijo
+    ? 0
+    : spring({
+        frame: frame - (durationInFrames - 8),
+        fps,
+        config: { damping: 30, stiffness: 240 },
+      });
   const lineas = texto.split("|");
   // Encoge las líneas largas para que no se salgan de cuadro
-  const ANCHO_SEGURO = 13; // caracteres que caben a 128px
-  const tam = (t: string) =>
-    Math.round(128 * (t.length > ANCHO_SEGURO ? ANCHO_SEGURO / t.length : 1));
+  const ANCHO_SEGURO = 13; // caracteres que caben al tamaño base
+  // `tam` sube o baja el tamaño base. Hace falta para los titulares de UNA
+  // línea larga: el autoajuste es conservador y una frase de cuarenta
+  // caracteres se queda en 41 px, desaprovechando un cuarto del ancho.
+  const base = tam ?? 128;
+  const tamDe = (t: string) => {
+    const largo = t.replace(/\*/g, "").length; // los asteriscos no se pintan
+    return Math.round(base * (largo > ANCHO_SEGURO ? ANCHO_SEGURO / largo : 1));
+  };
   // Sin y va arriba (comportamiento de siempre); con y se centra en esa altura
   const centrado = y !== undefined;
   return (
@@ -1902,17 +2433,19 @@ const Titulon: React.FC<{ texto: string; y?: number }> = ({ texto, y }) => {
         const linea = enColor ? lineaCruda.slice(1) : lineaCruda;
         // Presencia sólida: fade + leve asentamiento vertical, sin overshoot
         // lateral ni sombra dinámica
-        const entra = spring({
-          frame: frame - i * 4,
-          fps,
-          config: { damping: 26, stiffness: 170 },
-        });
+        const entra = fijo
+          ? 1
+          : spring({
+              frame: frame - i * 4,
+              fps,
+              config: { damping: 26, stiffness: 170 },
+            });
         return (
           <div
             key={i}
             style={{
               fontFamily: anton,
-              fontSize: tam(linea),
+              fontSize: tamDe(linea),
               lineHeight: 0.92, // líneas apretadas, como un lockup
               letterSpacing: 3,
               textTransform: "uppercase",
@@ -1923,7 +2456,17 @@ const Titulon: React.FC<{ texto: string; y?: number }> = ({ texto, y }) => {
               transform: `translateY(${(1 - entra) * 22}px)`,
             }}
           >
-            {linea}
+            {/* El "=" delante pinta la línea entera; los *asteriscos* pintan
+                solo lo que envuelven, para resaltar una palabra suelta. */}
+            {linea.split(/(\*[^*]+\*)/g).map((parte, j) =>
+              parte.startsWith("*") && parte.endsWith("*") ? (
+                <span key={j} style={{ color: AZUL }}>
+                  {parte.slice(1, -1)}
+                </span>
+              ) : (
+                <span key={j}>{parte}</span>
+              )
+            )}
           </div>
         );
       })}
@@ -2330,12 +2873,24 @@ const PanelClientes: React.FC<{ contadorFinal: number }> = ({
 const BRoll: React.FC<{ ruta: string }> = ({ ruta }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
-  const entra = spring({ frame, fps, config: { damping: 24, stiffness: 200 } });
-  const sale = spring({
-    frame: frame - (durationInFrames - 7),
-    fps,
-    config: { damping: 30, stiffness: 240 },
-  });
+  // Por debajo de segundo y medio esto no es un inserto: es un CORTE, y va sin
+  // fundido. Con el fundido de siempre, una ráfaga de tres planos de medio
+  // segundo ("coche, oficina, sofá", uno por palabra) no llegaba nunca a
+  // opacidad 1 — el plano empezaba a irse antes de haber terminado de entrar
+  // y los tres se veían como transparencias encima del presentador. Y un
+  // corte de 1,4 s con un rótulo encima pasaba medio segundo mezclando las
+  // dos imágenes y el rótulo, que es justo lo que no hace un editor: a un
+  // plano de recurso corto se va de corte. Los insertos largos (2 s y más,
+  // que es lo que llevan el resto de los reels) conservan su fundido.
+  const corte = durationInFrames < 45;
+  const entra = corte ? 1 : spring({ frame, fps, config: { damping: 24, stiffness: 200 } });
+  const sale = corte
+    ? 0
+    : spring({
+        frame: frame - (durationInFrames - 7),
+        fps,
+        config: { damping: 30, stiffness: 240 },
+      });
   const zoom = 1.06 + frame * 0.0012;
   return (
     <AbsoluteFill style={{ opacity: entra * (1 - sale), backgroundColor: "#000" }}>
@@ -2357,6 +2912,19 @@ const BRoll: React.FC<{ ruta: string }> = ({ ruta }) => {
             "radial-gradient(ellipse at 50% 45%, transparent 50%, rgba(0,0,0,0.4) 100%)",
         }}
       />
+      {/* En cristal el texto del gancho va SOBRE el b-roll, casi siempre en su
+          mitad inferior para no taparle la cara a quien salga. Un clip claro
+          (una blusa blanca, una pared) deja ese texto blanco sin contraste, así
+          que se oscurece suavemente de la mitad hacia abajo. Solo en cristal:
+          el clásico lleva sus propias tarjetas macizas. */}
+      {LOOK === "cristal" ? (
+        <AbsoluteFill
+          style={{
+            background:
+              "linear-gradient(180deg, transparent 36%, rgba(0,0,0,0.30) 62%, rgba(0,0,0,0.52) 100%)",
+          }}
+        />
+      ) : null}
     </AbsoluteFill>
   );
 };
@@ -3234,15 +3802,57 @@ const sonidosDe = (e: ElementoCrudo): Sonido[] => {
       return [{ src: "sfx/pop-2354.mp3", vol: 0.16 }];
     case "siNo":
       return [{ src: "sfx/acierto-2870.mp3", vol: 0.2 }];
+    case "cifra":
+      // Mismo golpe que el titulón, más bajo: la cifra es un acento, no un
+      // corte de sentido. Pico a 0.55 s → entra a 0.2 s, ya a tamaño.
+      return [{ src: "sfx/impacto-1143.mp3", vol: 0.14, en: -0.35 }];
+    case "chips":
+      // Una pastilla, un pop, en su @ (igual que el checklist)
+      return e.dato.split("|").map((trozo) => ({
+        src: "sfx/pop-2356.mp3",
+        vol: 0.16,
+        en: parseFloat(trozo.split("@")[1] ?? "0") || 0,
+      }));
+    case "terminal":
+      // Un clic por línea, en su @: suena a consola escupiendo respuestas.
+      return e.dato.split("|").slice(1).map((trozo) => ({
+        src: "sfx/click-1109.mp3",
+        vol: 0.2,
+        en: parseFloat(trozo.split("@")[1] ?? "0") || 0,
+      }));
+    case "noticia":
+    case "listaPlana":
+      // Un toque por línea, en su @: el mismo criterio que el checklist.
+      return e.dato.split("|").slice(1).map((trozo) => ({
+        src: "sfx/pop-2356.mp3",
+        vol: 0.14,
+        en: parseFloat(trozo.split("@")[1] ?? "0") || 0,
+      }));
+    case "comparativa":
+      return [{ src: "sfx/impacto-1143.mp3", vol: 0.16, en: -0.35 }];
+    case "capturas":
+      return e.dato.split("|").map((trozo) => ({
+        src: "sfx/aparicion.mp3",
+        vol: 0.18,
+        en: parseFloat(trozo.split("@")[1] ?? "0") || 0,
+      }));
+    case "dm":
+      // La notificación suena cuando la palabra termina de escribirse (1.05 s)
+      return [{ src: "sfx/burbuja-2357.mp3", vol: 0.3, en: 1.05 }];
+    case "congelado":
+      // Golpe seco de enfoque (clic de cámara), justo cuando las esquinas
+      // terminan de cerrarse sobre el sujeto
+      return [{ src: "sfx/click-1109.mp3", vol: 0.25, en: 0.15 }];
     default:
       return [];
   }
 };
 
-const ElementosCrudo: React.FC<{ elementos: ElementoCrudo[]; nivelVoz?: number }> = ({
-  elementos,
-  nivelVoz,
-}) => {
+const ElementosCrudo: React.FC<{
+  elementos: ElementoCrudo[];
+  nivelVoz?: number;
+  sinSfx?: boolean;
+}> = ({ elementos, nivelVoz, sinSfx }) => {
   const { fps } = useVideoConfig();
   return (
     <>
@@ -3253,7 +3863,7 @@ const ElementosCrudo: React.FC<{ elementos: ElementoCrudo[]; nivelVoz?: number }
         // los adelantos arrancan antes que el gráfico. Si el adelanto cae antes
         // del segundo 0 (el titular del gancho), se recorta el principio del
         // sonido en vez de desplazar el golpe.
-        const sonidos = sonidosDe(e)
+        const sonidos = (sinSfx ? [] : sonidosDe(e))
           .filter((s) => Number.isFinite(s.en ?? 0) && (s.en ?? 0) * fps < dur)
           .map((s, j) => {
             const inicio = e.t + (s.en ?? 0);
@@ -3278,6 +3888,1168 @@ const ElementosCrudo: React.FC<{ elementos: ElementoCrudo[]; nivelVoz?: number }
         ];
       })}
     </>
+  );
+};
+
+// ─────────────────────────────────────────────────────────────────────────
+// Look "cristal". Tres piezas nuevas (cifra, chips, dm) y las versiones en
+// cristal del titulón y del remate. Todo comparte la misma entrada: la pieza
+// llega ligeramente grande y desenfocada y "se posa" en dos décimas. Es lo que
+// separa un gráfico de plantilla de uno montado: nada aparece de golpe y nada
+// rebota.
+// ─────────────────────────────────────────────────────────────────────────
+
+/** Entrada común: escala + desenfoque + opacidad. `retardo` en fotogramas. */
+const posarse = (frame: number, fps: number, retardo = 0) => {
+  const e = Math.min(1, spring({
+    frame: frame - retardo,
+    fps,
+    config: { damping: 30, stiffness: 150 },
+  }));
+  return {
+    opacity: e,
+    escala: 1.10 - e * 0.10,
+    desenfoque: (1 - e) * 16,
+    avance: e,
+  };
+};
+
+/** Salida común: los últimos 10 fotogramas del Sequence. */
+const retirarse = (frame: number, fps: number, durationInFrames: number) =>
+  Math.min(1, spring({
+    frame: frame - (durationInFrames - 10),
+    fps,
+    config: { damping: 30, stiffness: 240 },
+  }));
+
+// Titulón del look cristal: primera línea enorme en negra, las siguientes en
+// regular y del tamaño de un pie. Como "MADURAR / en Redes Sociales" del reel
+// de referencia. El "=" delante de una línea la pinta en el color de marca.
+const TitulonCristal: React.FC<{ texto: string; y?: number }> = ({ texto, y }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, width } = useVideoConfig();
+  const sale = retirarse(frame, fps, durationInFrames);
+  const lineas = texto.split("|");
+  const anchoMax = width - 2 * MARGEN_LATERAL;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        ...(y !== undefined ? { top: `${y * 100}%`, transform: "translateY(-50%)" } : { top: 150 }),
+        left: MARGEN_LATERAL,
+        right: MARGEN_LATERAL,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        opacity: 1 - sale,
+      }}
+    >
+      {lineas.map((cruda, i) => {
+        const enColor = cruda.startsWith("=");
+        const linea = enColor ? cruda.slice(1) : cruda;
+        const p = posarse(frame, fps, i * 5);
+        // La primera línea es el titular; las demás, el pie que lo explica.
+        const titular = i === 0;
+        const ANCHO = titular ? 11 : 30; // caracteres que caben al tamaño base
+        const tamBase = titular ? 132 : 62;
+        const tamPorCaracteres = Math.round(tamBase * (linea.length > ANCHO ? ANCHO / linea.length : 1));
+        // Y se recorta a lo que cabe de verdad entre los márgenes
+        const tam = tamQueCabe(
+          titular ? linea.toUpperCase() : linea,
+          poppins,
+          titular ? 800 : 400,
+          tamPorCaracteres,
+          anchoMax,
+          titular ? -2 : 0
+        );
+        return (
+          <div
+            key={i}
+            style={{
+              fontFamily: poppins,
+              fontWeight: titular ? 800 : 400,
+              fontSize: tam,
+              lineHeight: titular ? 0.98 : 1.25,
+              letterSpacing: titular ? -2 : 0,
+              textTransform: titular ? "uppercase" : "none",
+              textAlign: "center",
+              marginTop: titular ? 0 : 10,
+              color: enColor ? AZUL : "#FFFFFF",
+              textShadow: CRISTAL.sombraTexto,
+              opacity: p.opacity,
+              filter: `blur(${p.desenfoque}px)`,
+              transform: `scale(${p.escala})`,
+            }}
+          >
+            {linea}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+// Remate del look cristal: la frase a pantalla completa. Sin `y` oscurece el
+// fondo (es un corte de sentido); con `y` se posa sobre el plano. El prefijo
+// "bocadillo:" lo mete en una tarjeta de cristal, para los CTA.
+const RemateCristal: React.FC<{ dato: string; y?: number; tamMax?: number }> = ({
+  dato,
+  y,
+  tamMax,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, height, width } = useVideoConfig();
+  const sale = retirarse(frame, fps, durationInFrames);
+  const enTarjeta = dato.startsWith("bocadillo:");
+  // En tarjeta, al margen se le suman los 60 px de relleno de cada lado
+  const anchoMax = width - 2 * MARGEN_LATERAL - (enTarjeta ? 120 : 0);
+  const lineas = (enTarjeta ? dato.slice("bocadillo:".length) : dato).split("|");
+  const oscurecer = y === undefined && !enTarjeta;
+  const p0 = posarse(frame, fps);
+  const cuerpo = (
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+      {lineas.map((cruda, i) => {
+        // "PALABRA=DESTACADA": lo que va tras el "=" se pinta en color de marca
+        const partes = cruda.split("=");
+        const p = posarse(frame, fps, i * 5);
+        const ANCHO = 15;
+        const largo = cruda.replace("=", "").length;
+        const base = tamMax ?? 104;
+        const tam = tamQueCabe(
+          cruda.replace("=", " ").toUpperCase().trim(),
+          poppins,
+          800,
+          Math.round(base * (largo > ANCHO ? ANCHO / largo : 1)),
+          anchoMax,
+          -1.5
+        );
+        return (
+          <div
+            key={i}
+            style={{
+              fontFamily: poppins,
+              fontWeight: 800,
+              fontSize: tam,
+              lineHeight: 1.04,
+              letterSpacing: -1.5,
+              textTransform: "uppercase",
+              textAlign: "center",
+              textShadow: CRISTAL.sombraTexto,
+              opacity: p.opacity,
+              filter: `blur(${p.desenfoque}px)`,
+              transform: `scale(${p.escala})`,
+            }}
+          >
+            {partes.map((parte, j) => (
+              <span key={j} style={{ color: j === 0 ? "#FFFFFF" : AZUL }}>
+                {parte}
+                {j < partes.length - 1 ? " " : ""}
+              </span>
+            ))}
+          </div>
+        );
+      })}
+    </div>
+  );
+  return (
+    <AbsoluteFill
+      style={{
+        alignItems: "center",
+        justifyContent: y === undefined ? "center" : "flex-start",
+        // En píxeles a propósito: un padding en % se resuelve contra el ANCHO
+        // del bloque, no contra el alto, y el remate aterrizaba 120 px alto.
+        paddingTop: y === undefined ? 0 : Math.round(y * height),
+        backgroundColor: oscurecer ? `rgba(0,0,0,${0.55 * p0.avance})` : "transparent",
+        opacity: 1 - sale,
+      }}
+    >
+      {enTarjeta ? (
+        <div
+          style={{
+            padding: "44px 60px",
+            borderRadius: 42,
+            background: CRISTAL.fondoFuerte,
+            border: CRISTAL.borde,
+            boxShadow: CRISTAL.sombraCaja,
+            backdropFilter: "blur(22px)",
+            transform: `scale(${p0.escala})`,
+            opacity: p0.opacity,
+          }}
+        >
+          {cuerpo}
+        </div>
+      ) : (
+        cuerpo
+      )}
+    </AbsoluteFill>
+  );
+};
+
+// Cifra enorme translúcida con su pie: "01 | LA PRIMERA", "2-6 h | A LA SEMANA".
+// En el reel de referencia es el gráfico que más se repite (el "10% / Audiencia
+// más cualificada"): un número que ocupa media pantalla, blanco al 90 %, con el
+// plano leyéndose por debajo.
+const Cifra: React.FC<{ dato: string; x?: number; y?: number; tam?: number }> = ({
+  dato,
+  x,
+  y,
+  tam,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, width } = useVideoConfig();
+  const sale = retirarse(frame, fps, durationInFrames);
+  const [numero, pie, apellido] = dato.split("|");
+  const p = posarse(frame, fps);
+  const pPie = posarse(frame, fps, 6);
+  const anchoMax = width - 2 * MARGEN_LATERAL;
+  const tamNum = tamQueCabe(numero ?? "", poppins, 800, tam ?? 240, anchoMax);
+  const tamPie = tamQueCabe(
+    (pie ?? "").toUpperCase(),
+    poppins,
+    600,
+    Math.round(tamNum * 0.22),
+    anchoMax,
+    Math.round(tamNum * 0.015)
+  );
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: `${(y ?? 0.16) * 100}%`,
+        left: 0,
+        right: 0,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: x === undefined ? "center" : "flex-start",
+        paddingLeft: x === undefined ? 0 : `${x * 100}%`,
+        opacity: 1 - sale,
+      }}
+    >
+      <div
+        style={{
+          fontFamily: poppins,
+          fontWeight: 800,
+          fontSize: tamNum,
+          lineHeight: 0.92,
+          letterSpacing: -tamNum * 0.03,
+          color: "rgba(255,255,255,0.93)",
+          textShadow: CRISTAL.sombraTexto,
+          opacity: p.opacity,
+          filter: `blur(${p.desenfoque}px)`,
+          transform: `scale(${p.escala})`,
+        }}
+      >
+        {numero}
+      </div>
+      {pie ? (
+        <div
+          style={{
+            fontFamily: poppins,
+            fontWeight: 600,
+            fontSize: tamPie,
+            letterSpacing: Math.round(tamNum * 0.015),
+            textTransform: "uppercase",
+            textAlign: "center",
+            color: "#FFFFFF",
+            textShadow: CRISTAL.sombraTexto,
+            marginTop: Math.round(tamNum * 0.04),
+            opacity: pPie.opacity,
+            transform: `translateY(${(1 - pPie.avance) * 14}px)`,
+          }}
+        >
+          {pie}
+        </div>
+      ) : null}
+      {apellido ? (
+        <div
+          style={{
+            fontFamily: poppins,
+            fontWeight: 400,
+            fontSize: Math.round(tamNum * 0.19),
+            textAlign: "center",
+            color: "rgba(255,255,255,0.88)",
+            textShadow: CRISTAL.sombraTexto,
+            marginTop: 6,
+            opacity: pPie.opacity,
+            transform: `translateY(${(1 - pPie.avance) * 14}px)`,
+          }}
+        >
+          {apellido}
+        </div>
+      ) : null}
+    </div>
+  );
+};
+
+// Pastillas de cristal que entran en cadena, una por cosa que se nombra:
+// "Un correo@0|Un Excel@0.6|Un WhatsApp@1.2". Los @ son segundos desde que
+// entra el elemento, igual que en el checklist.
+const Chips: React.FC<{ dato: string; y?: number; tam?: number }> = ({ dato, y, tam }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const t = frame / fps;
+  const sale = retirarse(frame, fps, durationInFrames);
+  const items = dato.split("|").map((trozo) => {
+    const [texto, cuando] = trozo.split("@");
+    return { texto: texto.trim(), t: parseFloat(cuando ?? "0") || 0 };
+  });
+  const tamTexto = tam ?? 52;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: `${(y ?? 0.10) * 100}%`,
+        left: 0,
+        right: 0,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: 20,
+        opacity: 1 - sale,
+      }}
+    >
+      {items.map((item, i) => {
+        if (t < item.t) return null;
+        const p = posarse(frame, fps, Math.round(item.t * fps));
+        // Flotación lenta y desfasada: sin ella las pastillas parecen pegadas
+        // al cristal de la pantalla en vez de estar delante del plano.
+        const flota = Math.sin(frame / 22 + i * 1.7) * 5;
+        const giro = (i % 2 === 0 ? -1 : 1) * 1.4;
+        return (
+          <div
+            key={i}
+            style={{
+              fontFamily: poppins,
+              fontWeight: 600,
+              fontSize: tamTexto,
+              color: "#FFFFFF",
+              padding: `${Math.round(tamTexto * 0.38)}px ${Math.round(tamTexto * 0.72)}px`,
+              borderRadius: 999,
+              background: CRISTAL.fondoFuerte,
+              border: CRISTAL.borde,
+              boxShadow: CRISTAL.sombraCaja,
+              backdropFilter: "blur(20px)",
+              textShadow: "0 2px 10px rgba(0,0,0,0.35)",
+              whiteSpace: "nowrap",
+              opacity: p.opacity,
+              filter: `blur(${p.desenfoque}px)`,
+              transform: `translateY(${flota + (1 - p.avance) * 26}px) scale(${p.escala}) rotate(${giro}deg)`,
+            }}
+          >
+            {item.texto}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+// Capturas reales flotando, en abanico y en cadena: la pieza que más se repite
+// en el reel de referencia (los tres posts con sus visualizaciones). Cada
+// tarjeta entra en su @ —segundos desde que entra el elemento— con su sombra
+// larga, ligeramente girada, y se queda flotando despacio.
+const CapturasFlotantes: React.FC<{ dato: string; y?: number; tam?: number }> = ({
+  dato,
+  y,
+  tam,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const t = frame / fps;
+  const sale = retirarse(frame, fps, durationInFrames);
+  const items = dato.split("|").map((trozo) => {
+    const [ruta, cuando] = trozo.split("@");
+    return { ruta: ruta.trim(), t: parseFloat(cuando ?? "0") || 0 };
+  });
+  const ancho = tam ?? 420;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: `${(y ?? 0.08) * 100}%`,
+        left: 0,
+        right: 0,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "flex-start",
+        gap: items.length > 2 ? -40 : 26,
+        opacity: 1 - sale,
+      }}
+    >
+      {items.map((item, i) => {
+        // Las tarjetas que aún no han entrado se pintan invisibles en vez de
+        // no pintarse: si se quitan del flex, al entrar la segunda la primera
+        // se desplaza a un lado y el abanico da un salto lateral en mitad del
+        // plano. El hueco se reserva desde el principio.
+        const p =
+          t < item.t
+            ? { opacity: 0, escala: 1.1, desenfoque: 16, avance: 0 }
+            : posarse(frame, fps, Math.round(item.t * fps));
+        const flota = Math.sin(frame / 24 + i * 1.9) * 6;
+        const giro = (i - (items.length - 1) / 2) * 3.2;
+        return (
+          <Img
+            key={i}
+            src={staticFile(item.ruta)}
+            style={{
+              width: ancho,
+              height: "auto",
+              borderRadius: 26,
+              border: "1px solid rgba(255,255,255,0.22)",
+              boxShadow: "0 34px 70px rgba(0,0,0,0.55)",
+              opacity: p.opacity,
+              filter: `blur(${p.desenfoque}px)`,
+              transform: `translateY(${flota + (1 - p.avance) * 30}px) scale(${p.escala}) rotate(${giro}deg)`,
+            }}
+          />
+        );
+      })}
+    </div>
+  );
+};
+
+// Barra de mensaje directo con la palabra del CTA escribiéndose sola. Es el
+// cierre del reel de referencia: no un rótulo que dice "comenta", sino la
+// acción ya hecha en pantalla.
+const MensajeDirecto: React.FC<{ dato: string; y?: number }> = ({ dato, y }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const t = frame / fps;
+  const sale = retirarse(frame, fps, durationInFrames);
+  const p = posarse(frame, fps);
+  const palabra = dato.trim().toUpperCase();
+  // Se escribe en 0,7 s tras posarse la barra, y el botón de enviar se ilumina
+  // cuando termina.
+  const letras = Math.max(0, Math.min(palabra.length, Math.floor(((t - 0.35) / 0.7) * palabra.length)));
+  const escrita = palabra.slice(0, letras);
+  const completa = letras >= palabra.length;
+  const cursor = !completa && Math.floor(frame / 8) % 2 === 0;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: `${(y ?? 0.30) * 100}%`,
+        left: 70,
+        right: 70,
+        display: "flex",
+        alignItems: "center",
+        gap: 20,
+        padding: "22px 24px",
+        borderRadius: 999,
+        background: "rgba(18,18,20,0.78)",
+        border: CRISTAL.borde,
+        boxShadow: CRISTAL.sombraCaja,
+        backdropFilter: "blur(22px)",
+        opacity: p.opacity * (1 - sale),
+        filter: `blur(${p.desenfoque}px)`,
+        transform: `scale(${p.escala})`,
+      }}
+    >
+      <div
+        style={{
+          flex: 1,
+          fontFamily: poppins,
+          fontWeight: 600,
+          fontSize: 50,
+          letterSpacing: 1,
+          color: escrita ? "#FFFFFF" : "rgba(255,255,255,0.45)",
+          paddingLeft: 18,
+          whiteSpace: "nowrap",
+          overflow: "hidden",
+        }}
+      >
+        {escrita || "Comenta…"}
+        {cursor ? <span style={{ opacity: 0.8 }}>|</span> : null}
+      </div>
+      <div
+        style={{
+          width: 74,
+          height: 74,
+          borderRadius: 999,
+          backgroundColor: completa ? AZUL : "rgba(255,255,255,0.16)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          transition: "none",
+          transform: `scale(${completa ? 1 : 0.94})`,
+          boxShadow: completa ? `0 0 34px ${AZUL}66` : "none",
+        }}
+      >
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M12 19V5M12 5l-6 6M12 5l6 6"
+            stroke="#FFFFFF"
+            strokeWidth="2.6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+  );
+};
+
+// Tapa una franja del crudo. Para material de cliente que YA viene con
+// rótulos quemados: no se pueden borrar, así que se difuminan y se oscurecen,
+// y encima va el rótulo bueno. El desenfoque del propio plano disimula mucho
+// mejor que una barra maciza, que canta como una censura.
+// y = borde superior de la franja (0-1), tam = alto en píxeles.
+const Tapa: React.FC<{ dato: string; y?: number; tam?: number; inicio: number }> = ({
+  dato,
+  y,
+  tam,
+  inicio,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, height, width } = useVideoConfig();
+  const entra = Math.min(1, spring({ frame, fps, config: { damping: 30, stiffness: 260 } }));
+  const sale = retirarse(frame, fps, durationInFrames);
+  const solido = dato.trim().startsWith("#") ? dato.trim() : null;
+  const arriba = Math.round((y ?? 0) * height);
+  const alto = tam ?? 200;
+  const borde = Math.min(44, Math.round(alto / 4));
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: arriba,
+        left: 0,
+        width,
+        height: alto,
+        overflow: "hidden",
+        opacity: entra * (1 - sale),
+        // Los cantos se funden para que la franja no se lea como una pegatina
+        // pegada encima del plano. En PÍXELES, nunca con calc(): un
+        // "calc(100% - 44px)" dentro del linear-gradient de la máscara dejaba
+        // el elemento entero invisible en el render —ni un relleno sólido
+        // llegaba a verse— y costó tres renders enteros descubrirlo.
+        maskImage: `linear-gradient(180deg, transparent 0px, #000 ${borde}px, #000 ${alto - borde}px, transparent ${alto}px)`,
+        WebkitMaskImage: `linear-gradient(180deg, transparent 0px, #000 ${borde}px, #000 ${alto - borde}px, transparent ${alto}px)`,
+        ...(solido ? { backgroundColor: solido } : {}),
+      }}
+    >
+      {solido ? null : (
+        <>
+          {/* Se REPINTA el plano desenfocado en vez de usar backdrop-filter:
+              el backdrop no llega a ver el vídeo porque este vive dentro del
+              contexto de apilamiento que crea el transform de la cámara, y la
+              franja salía solo oscurecida, con el rótulo debajo aún legible.
+              El vídeo va recortado al mismo segundo, así que el desenfoque
+              coincide con lo que tapa. */}
+          <div
+            style={{
+              position: "absolute",
+              top: -arriba,
+              left: 0,
+              width,
+              height,
+              // Fuerte a propósito: el rótulo que tapa suele ser de trazo
+              // grueso y color saturado (un neón verde/rosa), y con 26 px de
+              // desenfoque seguía leyéndose como manchas de color. La
+              // desaturación es la que remata: mata el fluor.
+              filter: "blur(70px) saturate(0.3)",
+              // Un pelo de escala para que el desenfoque no deje los bordes
+              // del recuadro translúcidos.
+              transform: "scale(1.12)",
+            }}
+          >
+            <OffthreadVideo
+              src={staticFile(VIDEO_FONDO)}
+              muted
+              trimBefore={Math.round(inicio * fps)}
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
+          </div>
+          <div style={{ position: "absolute", inset: 0, backgroundColor: "rgba(0,0,0,0.26)" }} />
+        </>
+      )}
+    </div>
+  );
+};
+
+// Dos tarjetas enfrentadas, una sobre cada mitad del cuadro: el gráfico del
+// "esto contra esto". La izquierda toma el color de marca y la derecha el
+// rojo, que es como se lee de un vistazo cuál es cuál sin leer la cifra.
+// dato = "PASTA FITY|200 kcal|PASTA PORKY|400 kcal"
+const Comparativa: React.FC<{ dato: string; y?: number; tam?: number }> = ({ dato, y, tam }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, height } = useVideoConfig();
+  const sale = retirarse(frame, fps, durationInFrames);
+  const [tIzq, cIzq, tDer, cDer] = dato.split("|").map((x) => x.trim());
+  const lados = [
+    { titulo: tIzq, cifra: cIzq, color: AZUL, retardo: 0 },
+    { titulo: tDer, cifra: cDer, color: ROJO, retardo: 6 },
+  ];
+  const ancho = tam ?? 400;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: Math.round((y ?? 0.55) * height),
+        left: 0,
+        right: 0,
+        display: "flex",
+        justifyContent: "space-between",
+        padding: "0 40px",
+        opacity: 1 - sale,
+      }}
+    >
+      {lados.map((l, i) => {
+        const entra = Math.min(1, spring({ frame: frame - l.retardo, fps, config: ANIM.pop }));
+        return (
+          <div
+            key={i}
+            style={{
+              width: ancho,
+              borderRadius: 26,
+              overflow: "hidden",
+              backgroundColor: "rgba(10,10,12,0.86)",
+              border: `3px solid ${l.color}`,
+              boxShadow: "0 22px 50px rgba(0,0,0,0.5)",
+              opacity: entra,
+              transform: `translateY(${(1 - entra) * 26}px) scale(${0.9 + entra * 0.1})`,
+            }}
+          >
+            <div
+              style={{
+                backgroundColor: l.color,
+                color: "#0A0A0C",
+                fontFamily: anton,
+                fontSize: 38,
+                letterSpacing: 1.5,
+                textAlign: "center",
+                padding: "10px 12px",
+                textTransform: "uppercase",
+              }}
+            >
+              {l.titulo}
+            </div>
+            <div
+              style={{
+                fontFamily: anton,
+                fontSize: 74,
+                color: "#FFFFFF",
+                textAlign: "center",
+                padding: "14px 12px 20px",
+                letterSpacing: 1,
+              }}
+            >
+              {l.cifra}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+// Lista de texto plano que se va acumulando línea a línea, con el título en
+// el color de marca y las líneas en blanco, alineadas a la izquierda sobre el
+// negro del lienzo. Es el formato del reel de @juradonegocios que pasó Pablo:
+// no hay tarjetas ni cajas ni iconos, solo texto que crece al ritmo de la voz.
+// Funciona porque el espectador puede LEER por delante de lo que se dice y se
+// queda a ver si la lista sigue.
+// dato = "TÍTULO|Primera línea@0|Segunda línea@2.4"  (los @, segundos desde
+// que entra el elemento, igual que en el checklist).
+const ListaPlana: React.FC<{ dato: string; y?: number; tam?: number; numerar?: boolean }> = ({
+  dato,
+  y,
+  tam,
+  numerar,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, height } = useVideoConfig();
+  const t = frame / fps;
+  const sale = retirarse(frame, fps, durationInFrames);
+  const [titulo, ...crudas] = dato.split("|");
+  const lineas = crudas.map((trozo) => {
+    const [texto, cuando] = trozo.split("@");
+    return { texto: texto.trim(), t: parseFloat(cuando ?? "0") || 0 };
+  });
+  const tamTitulo = tam ?? 56;
+  const tamLinea = Math.round(tamTitulo * 0.82);
+  const entraTitulo = Math.min(1, spring({ frame, fps, config: { damping: 30, stiffness: 180 } }));
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: Math.round((y ?? 0.07) * height),
+        left: 72,
+        right: 72,
+        opacity: 1 - sale,
+      }}
+    >
+      <div
+        style={{
+          fontFamily: inter,
+          fontWeight: 600,
+          fontSize: tamTitulo,
+          lineHeight: 1.22,
+          color: AZUL,
+          marginBottom: Math.round(tamTitulo * 0.42),
+          opacity: entraTitulo,
+          transform: `translateY(${(1 - entraTitulo) * 12}px)`,
+          textShadow: "0 2px 14px rgba(0,0,0,0.6)",
+        }}
+      >
+        {titulo}
+      </div>
+      {lineas.map((linea, i) => {
+        if (t < linea.t) return null;
+        const entra = Math.min(
+          1,
+          spring({
+            frame: frame - Math.round(linea.t * fps),
+            fps,
+            config: { damping: 30, stiffness: 190 },
+          })
+        );
+        return (
+          <div
+            key={i}
+            style={{
+              fontFamily: inter,
+              fontWeight: 400,
+              fontSize: tamLinea,
+              lineHeight: 1.5,
+              color: "#FFFFFF",
+              marginBottom: Math.round(tamLinea * 0.30),
+              opacity: entra,
+              // Entra deslizándose un pelo desde la izquierda, como si la
+              // fuese escribiendo: 14 px, lo justo para que se note el relevo
+              // sin que el bloque "salte".
+              transform: `translateX(${(1 - entra) * -14}px)`,
+              textShadow: "0 2px 14px rgba(0,0,0,0.6)",
+            }}
+          >
+            {numerar ? `${i + 1}. ` : ""}
+            {linea.texto}
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+// Bloque de noticia para el formato lienzo: antetítulo y titular PEGADOS por
+// encima del plano, y los datos entrando uno a uno por debajo. Los dos bloques
+// se anclan a los bordes del plano (no a una altura fija) para que se lean como
+// una sola pieza: con el texto suelto en mitad del negro, el reel parecía una
+// diapositiva mal maquetada.
+// dato = "#ANTETÍTULO|TITULAR|dato@0|dato@2.4"
+const Noticia: React.FC<{ dato: string; tam?: number }> = ({ dato, tam }) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, height } = useVideoConfig();
+  const t = frame / fps;
+  const sale = retirarse(frame, fps, durationInFrames);
+  const trozos = dato.split("|");
+  let kicker = trozos[0].startsWith("#") ? trozos.shift()!.slice(1).trim() : null;
+  // "#!ÚLTIMA HORA" → chapa roja latiendo en vez de filete azul
+  const urgente = kicker?.startsWith("!") ?? false;
+  if (urgente) kicker = kicker!.slice(1).trim();
+  const late = (Math.sin(frame / 7) + 1) / 2;
+  const titular = trozos.shift() ?? "";
+  const datos = trozos.map((trozo) => {
+    const [texto, cuando] = trozo.split("@");
+    return { texto: texto.trim(), t: parseFloat(cuando ?? "0") || 0 };
+  });
+  const tamTitular = tam ?? 64;
+  const entra = Math.min(1, spring({ frame, fps, config: { damping: 30, stiffness: 170 } }));
+  const MARGEN = 46; // aire entre el texto y el borde del plano
+
+  return (
+    <AbsoluteFill style={{ opacity: 1 - sale }}>
+      {/* ── Encima del plano: antetítulo + titular ── */}
+      <div
+        style={{
+          position: "absolute",
+          left: 68,
+          right: 68,
+          bottom: Math.round(height * (1 - LIENZO.y0) + MARGEN),
+          opacity: entra,
+          transform: `translateY(${(1 - entra) * 14}px)`,
+        }}
+      >
+        {kicker ? (
+          urgente ? (
+            // Antetítulo de ÚLTIMA HORA: chapa roja con un punto latiendo. En
+            // los primeros segundos hace falta algo que se mueva por sí solo;
+            // un filete quieto no sujeta a nadie.
+            <div
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 12,
+                marginBottom: 18,
+                padding: "9px 18px 9px 14px",
+                borderRadius: 999,
+                backgroundColor: "rgba(226,54,44,0.92)",
+                boxShadow: `0 0 ${18 + late * 26}px rgba(226,54,44,${0.25 + late * 0.4})`,
+              }}
+            >
+              <div
+                style={{
+                  width: 12,
+                  height: 12,
+                  borderRadius: 999,
+                  backgroundColor: "#FFFFFF",
+                  opacity: 0.45 + late * 0.55,
+                  transform: `scale(${0.8 + late * 0.35})`,
+                }}
+              />
+              <div
+                style={{
+                  fontFamily: inter,
+                  fontWeight: 800,
+                  fontSize: Math.round(tamTitular * 0.40),
+                  letterSpacing: 3,
+                  textTransform: "uppercase",
+                  color: "#FFFFFF",
+                }}
+              >
+                {kicker}
+              </div>
+            </div>
+          ) : (
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 14,
+                marginBottom: 18,
+              }}
+            >
+              <div style={{ width: 34, height: 5, borderRadius: 999, backgroundColor: AZUL }} />
+              <div
+                style={{
+                  fontFamily: inter,
+                  fontWeight: 700,
+                  fontSize: Math.round(tamTitular * 0.42),
+                  letterSpacing: 4,
+                  textTransform: "uppercase",
+                  color: AZUL,
+                }}
+              >
+                {kicker}
+              </div>
+            </div>
+          )
+        ) : null}
+        <div
+          style={{
+            fontFamily: inter,
+            fontWeight: 700,
+            fontSize: tamTitular,
+            lineHeight: 1.14,
+            letterSpacing: -0.8,
+            color: "#FFFFFF",
+            textShadow: "0 3px 22px rgba(0,0,0,0.75)",
+          }}
+        >
+          {/* Lo que va entre asteriscos se pinta en el color de marca: en un
+              titular de tres líneas, dos palabras encendidas dan un punto de
+              entrada al ojo en vez de un párrafo uniforme. */}
+          {titular.split(/(\*[^*]+\*)/g).map((parte, i) =>
+            parte.startsWith("*") && parte.endsWith("*") ? (
+              <span key={i} style={{ color: AZUL }}>
+                {parte.slice(1, -1)}
+              </span>
+            ) : (
+              <span key={i}>{parte}</span>
+            )
+          )}
+        </div>
+      </div>
+
+      {/* ── Debajo del plano: los datos, uno a uno ── */}
+      <div
+        style={{
+          position: "absolute",
+          left: 68,
+          right: 68,
+          top: Math.round(height * LIENZO.y1 + MARGEN),
+        }}
+      >
+        {datos.map((d, i) => {
+          if (t < d.t) return null;
+          const e = Math.min(
+            1,
+            spring({
+              frame: frame - Math.round(d.t * fps),
+              fps,
+              config: { damping: 30, stiffness: 190 },
+            })
+          );
+          return (
+            <div
+              key={i}
+              style={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: 18,
+                marginBottom: 18,
+                opacity: e,
+                transform: `translateX(${(1 - e) * -16}px)`,
+              }}
+            >
+              {/* Barrita de color en vez de un punto: marca el renglón y de
+                  paso mete el color de marca en la mitad inferior, que si no
+                  se queda en blanco y negro. */}
+              <div
+                style={{
+                  width: 6,
+                  height: Math.round(tamTitular * 0.62),
+                  borderRadius: 999,
+                  backgroundColor: AZUL,
+                  marginTop: 6,
+                  flexShrink: 0,
+                }}
+              />
+              <div
+                style={{
+                  fontFamily: inter,
+                  fontWeight: 500,
+                  fontSize: Math.round(tamTitular * 0.66),
+                  lineHeight: 1.3,
+                  color: "#FFFFFF",
+                  textShadow: "0 3px 18px rgba(0,0,0,0.7)",
+                }}
+              >
+                {d.texto}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+// Panel de consola: un host arriba y líneas de estado que van cayendo, cada
+// una con su punto de color. "!" delante pinta la línea en rojo (algo falló o
+// se denegó) y "+" en verde (salió bien). Para contar en imagen lo que la voz
+// está narrando —pidió acceso, le dijeron que no, entró igual— sin tener que
+// escribirlo en un rótulo.
+// dato = "medicare.gov.au|solicita acceso@0|!ACCESO DENEGADO@1.4|+ACCESO CONCEDIDO@5"
+const Terminal: React.FC<{ dato: string; x?: number; y?: number; tam?: number }> = ({
+  dato,
+  x,
+  y,
+  tam,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames, width, height } = useVideoConfig();
+  const t = frame / fps;
+  const sale = retirarse(frame, fps, durationInFrames);
+  const entra = Math.min(1, spring({ frame, fps, config: { damping: 28, stiffness: 180 } }));
+  const [host, ...crudas] = dato.split("|");
+  const lineas = crudas.map((trozo) => {
+    const [bruto, cuando] = trozo.split("@");
+    const texto = bruto.trim();
+    const mal = texto.startsWith("!");
+    const bien = texto.startsWith("+");
+    return {
+      texto: mal || bien ? texto.slice(1) : texto,
+      color: mal ? "#FF5A4E" : bien ? "#3BD16F" : "rgba(255,255,255,0.62)",
+      t: parseFloat(cuando ?? "0") || 0,
+    };
+  });
+  const ancho = tam ?? 430;
+  const tamLinea = Math.round(ancho * 0.062);
+  const cursor = Math.floor(frame / 9) % 2 === 0;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: Math.round((x ?? 0.04) * width),
+        top: Math.round((y ?? 0.37) * height),
+        width: ancho,
+        borderRadius: 16,
+        overflow: "hidden",
+        backgroundColor: "rgba(9,11,15,0.86)",
+        border: "1px solid rgba(255,255,255,0.14)",
+        boxShadow: "0 24px 60px rgba(0,0,0,0.6)",
+        opacity: entra * (1 - sale),
+        transform: `scale(${0.92 + entra * 0.08})`,
+      }}
+    >
+      {/* Barra de la ventana */}
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 8,
+          padding: "10px 14px",
+          backgroundColor: "rgba(255,255,255,0.07)",
+          borderBottom: "1px solid rgba(255,255,255,0.10)",
+        }}
+      >
+        {["#FF5F57", "#FEBC2E", "#28C840"].map((c) => (
+          <div key={c} style={{ width: 9, height: 9, borderRadius: 999, backgroundColor: c }} />
+        ))}
+        <div
+          style={{
+            fontFamily: mono,
+            fontWeight: 400,
+            fontSize: Math.round(tamLinea * 0.86),
+            color: "rgba(255,255,255,0.55)",
+            marginLeft: 6,
+          }}
+        >
+          {host}
+        </div>
+      </div>
+
+      <div style={{ padding: "14px 16px 16px" }}>
+        {lineas.map((l, i) => {
+          if (t < l.t) return null;
+          const e = Math.min(
+            1,
+            spring({ frame: frame - Math.round(l.t * fps), fps, config: { damping: 30, stiffness: 220 } })
+          );
+          return (
+            <div
+              key={i}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 10,
+                marginBottom: 9,
+                opacity: e,
+                transform: `translateX(${(1 - e) * -10}px)`,
+              }}
+            >
+              <div
+                style={{
+                  width: 8,
+                  height: 8,
+                  borderRadius: 999,
+                  backgroundColor: l.color,
+                  flexShrink: 0,
+                  boxShadow: `0 0 12px ${l.color}`,
+                }}
+              />
+              <div
+                style={{
+                  fontFamily: mono,
+                  fontWeight: l.color === "rgba(255,255,255,0.62)" ? 400 : 700,
+                  fontSize: tamLinea,
+                  letterSpacing: -0.3,
+                  color: l.color,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {l.texto}
+              </div>
+            </div>
+          );
+        })}
+        <div
+          style={{
+            fontFamily: mono,
+            fontSize: tamLinea,
+            color: "rgba(255,255,255,0.5)",
+            opacity: cursor ? 1 : 0.15,
+          }}
+        >
+          _
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Bajada: la línea de apoyo que va bajo un titular. Deliberadamente sobria
+// —sans normal, caja baja, sin fondo ni caja— porque su trabajo es rematar la
+// idea del titulón sin competir con él. Si se pone en versales y condensada
+// como el titular, el ojo no sabe cuál de las dos leer primero.
+// dato = "Primera línea|Segunda línea", con *asteriscos* para resaltar.
+const Bajada: React.FC<{ dato: string; y?: number; tam?: number; fijo?: boolean }> = ({
+  dato,
+  y,
+  tam,
+  fijo,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, durationInFrames } = useVideoConfig();
+  const entra = fijo
+    ? 1
+    : Math.min(1, spring({ frame, fps, config: { damping: 30, stiffness: 180 } }));
+  const sale = fijo
+    ? 0
+    : Math.min(1, spring({ frame: frame - (durationInFrames - 8), fps, config: { damping: 30, stiffness: 240 } }));
+  const tamBase = tam ?? 46;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        top: `${(y ?? 0.58) * 100}%`,
+        left: 70,
+        right: 70,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        opacity: entra * (1 - sale),
+        transform: `translateY(${(1 - entra) * 10}px)`,
+      }}
+    >
+      {dato.split("|").map((linea, i) => (
+        <div
+          key={i}
+          style={{
+            fontFamily: inter,
+            fontWeight: 500,
+            fontSize: tamBase,
+            lineHeight: 1.32,
+            textAlign: "center",
+            color: "#FFFFFF",
+            textShadow: "0 3px 18px rgba(0,0,0,0.75), 0 1px 4px rgba(0,0,0,0.6)",
+          }}
+        >
+          {linea.split(/(\*[^*]+\*)/g).map((parte, j) =>
+            parte.startsWith("*") && parte.endsWith("*") ? (
+              <span key={j} style={{ color: AZUL }}>
+                {parte.slice(1, -1)}
+              </span>
+            ) : (
+              <span key={j}>{parte}</span>
+            )
+          )}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+// Captura del tema pegada encima de la cabeza y FIJA todo el reel: es el
+// recurso de la referencia de Pablo (una noticia de Reuters flotando sobre él
+// de principio a fin). No entra ni sale ni se mueve: ya está puesta cuando
+// arranca el reel. Sirve para mostrar de qué se habla —una noticia, la página
+// de precios de lo que se compara— sin tapar la cara ni cortar el plano.
+// x = centro horizontal (0-1), y = borde superior (0-1), tam = ancho en px.
+const ImagenFija: React.FC<{ ruta: string; x?: number; y?: number; tam?: number }> = ({
+  ruta,
+  x,
+  y,
+  tam,
+}) => {
+  const { width, height } = useVideoConfig();
+  const ancho = tam ?? 580;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: Math.round((x ?? 0.37) * width - ancho / 2),
+        top: Math.round((y ?? 0.07) * height),
+        width: ancho,
+        borderRadius: 14,
+        overflow: "hidden",
+        border: "1px solid rgba(255,255,255,0.18)",
+        boxShadow: "0 22px 50px rgba(0,0,0,0.45)",
+      }}
+    >
+      <Img src={staticFile(ruta)} style={{ width: "100%", height: "auto", display: "block" }} />
+    </div>
   );
 };
 
@@ -3341,7 +5113,51 @@ const ElementoVisual: React.FC<{ elemento: ElementoCrudo; indice: number }> = ({
     return <Rotulo texto={elemento.dato} />;
   }
   if (elemento.tipo === "titulon") {
-    return <Titulon texto={elemento.dato} y={elemento.y} />;
+    return LOOK === "cristal" ? (
+      <TitulonCristal texto={elemento.dato} y={elemento.y} />
+    ) : (
+      <Titulon texto={elemento.dato} y={elemento.y} tam={elemento.tam} fijo={elemento.fijo} />
+    );
+  }
+  if (elemento.tipo === "cifra") {
+    return <Cifra dato={elemento.dato} x={elemento.x} y={elemento.y} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "chips") {
+    return <Chips dato={elemento.dato} y={elemento.y} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "tapa") {
+    return <Tapa dato={elemento.dato} y={elemento.y} tam={elemento.tam} inicio={elemento.t} />;
+  }
+  if (elemento.tipo === "imagenFija") {
+    return <ImagenFija ruta={elemento.dato} x={elemento.x} y={elemento.y} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "bajada") {
+    return <Bajada dato={elemento.dato} y={elemento.y} tam={elemento.tam} fijo={elemento.fijo} />;
+  }
+  if (elemento.tipo === "terminal") {
+    return <Terminal dato={elemento.dato} x={elemento.x} y={elemento.y} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "noticia") {
+    return <Noticia dato={elemento.dato} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "listaPlana") {
+    return (
+      <ListaPlana
+        dato={elemento.dato}
+        y={elemento.y}
+        tam={elemento.tam}
+        numerar={elemento.color === "mejor"}
+      />
+    );
+  }
+  if (elemento.tipo === "comparativa") {
+    return <Comparativa dato={elemento.dato} y={elemento.y} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "capturas") {
+    return <CapturasFlotantes dato={elemento.dato} y={elemento.y} tam={elemento.tam} />;
+  }
+  if (elemento.tipo === "dm") {
+    return <MensajeDirecto dato={elemento.dato} y={elemento.y} />;
   }
   if (elemento.tipo === "movil") {
     return <Movil ruta={elemento.dato} />;
@@ -3368,13 +5184,23 @@ const ElementoVisual: React.FC<{ elemento: ElementoCrudo; indice: number }> = ({
     return <Regalo dato={elemento.dato} x={elemento.x} y={elemento.y} />;
   }
   if (elemento.tipo === "remate") {
-    return <Remate dato={elemento.dato} y={elemento.y} tamMax={elemento.tam} />;
+    return LOOK === "cristal" ? (
+      <RemateCristal dato={elemento.dato} y={elemento.y} tamMax={elemento.tam} />
+    ) : (
+      <Remate dato={elemento.dato} y={elemento.y} tamMax={elemento.tam} />
+    );
   }
   if (elemento.tipo === "siNo") {
     return <SiNo dato={elemento.dato} y={elemento.y} />;
   }
   if (elemento.tipo === "contador") {
     return <Contador dato={elemento.dato} x={elemento.x} y={elemento.y} />;
+  }
+  if (elemento.tipo === "carta") {
+    // Sin pista no hay dónde pegarla: la carta solo existe sobre la mano
+    return elemento.pista ? (
+      <CartaSeguida dato={elemento.dato} pista={elemento.pista} inicio={elemento.t} />
+    ) : null;
   }
   if (elemento.tipo === "interrogantes") {
     return (
@@ -3394,6 +5220,9 @@ const ElementoVisual: React.FC<{ elemento: ElementoCrudo; indice: number }> = ({
   }
   if (elemento.tipo === "etiqueta") {
     return <Etiqueta dato={elemento.dato} y={elemento.y} />;
+  }
+  if (elemento.tipo === "congelado") {
+    return <Congelado dato={elemento.dato} />;
   }
   if (elemento.tipo === "transicion") {
     return <Transicion dato={elemento.dato} />;
@@ -3509,6 +5338,117 @@ const ElementoVisual: React.FC<{ elemento: ElementoCrudo; indice: number }> = ({
     );
   }
 
+  if (elemento.tipo === "duoLogos") {
+    const [a, b] = elemento.dato.split("|");
+    const srcA = logoDe(a) ?? a;
+    const dib = spring({ frame, fps, config: ANIM.pop });
+    const fuera = spring({
+      frame: frame - (durationInFrames - 8),
+      fps,
+      config: { damping: 30, stiffness: 240 },
+    });
+    const cy = (elemento.y ?? 0.2) * 1920;
+    return (
+      <div
+        style={{
+          position: "absolute",
+          left: 0,
+          right: 0,
+          top: cy,
+          transform: `translateY(-50%) scale(${0.7 + dib * 0.3})`,
+          display: "flex",
+          justifyContent: "center",
+          opacity: dib * (1 - fuera),
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 34,
+            padding: "34px 52px",
+            borderRadius: 44,
+            backgroundColor: "#FFFFFF",
+            boxShadow: "0 24px 70px rgba(0,0,0,0.38)",
+          }}
+        >
+          <Img src={staticFile(srcA)} style={{ width: 150, height: 150 }} />
+          <span style={{ fontFamily: "Poppins, sans-serif", fontSize: 92, fontWeight: 600, color: "#111827", lineHeight: 1 }}>
+            +
+          </span>
+          <Img src={staticFile(b)} style={{ width: 520, height: "auto" }} />
+        </div>
+      </div>
+    );
+  }
+  if (elemento.tipo === "flecha") {
+    const [texto, lado = "der"] = elemento.dato.split("|");
+    const dib = spring({ frame, fps, config: ANIM.trazo });
+    const fuera = spring({
+      frame: frame - (durationInFrames - 6),
+      fps,
+      config: { damping: 30, stiffness: 240 },
+    });
+    const marca = "#F5B301";
+    const px = (elemento.x ?? 0.5) * 1080;
+    const py = (elemento.y ?? 0.5) * 1920;
+    const desdeDer = lado !== "izq"; // la flecha llega desde la derecha y apunta a la izquierda
+    const sentido = desdeDer ? 1 : -1;
+    // vaivén hacia el punto señalado, para que se lea como "pincha aquí"
+    const empuje = (1 - dib) * 80 * sentido - Math.abs(Math.sin(frame / 6)) * 22 * sentido;
+    const trazo = "M10 80 L250 80 M200 30 L260 80 L200 130";
+    return (
+      <div
+        style={{
+          position: "absolute",
+          left: px,
+          top: py,
+          opacity: (1 - fuera) * Math.min(1, dib * 1.5),
+        }}
+      >
+        <svg
+          width={370}
+          height={160}
+          viewBox="0 0 370 160"
+          style={{
+            position: "absolute",
+            left: desdeDer ? 20 : -390,
+            top: -80,
+            overflow: "visible",
+            transform: `translateX(${empuje}px) scaleX(${desdeDer ? -1 : 1})`,
+            transformOrigin: "center",
+            filter: "drop-shadow(0 8px 18px rgba(0,0,0,0.5))",
+          }}
+        >
+          <path d={trazo} stroke="#000" strokeOpacity="0.35" strokeWidth="30" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+          <path d={trazo} stroke={marca} strokeWidth="20" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        </svg>
+        {texto ? (
+          <div
+            style={{
+              position: "absolute",
+              top: -170,
+              left: desdeDer ? 20 : undefined,
+              right: desdeDer ? undefined : 20,
+              whiteSpace: "nowrap",
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: 700,
+              fontSize: 44,
+              color: "#111827",
+              backgroundColor: marca,
+              padding: "10px 28px",
+              borderRadius: 18,
+              boxShadow: "0 10px 30px rgba(0,0,0,0.4)",
+              transform: `scale(${0.6 + dib * 0.4})`,
+              transformOrigin: desdeDer ? "left bottom" : "right bottom",
+            }}
+          >
+            {texto}
+          </div>
+        ) : null}
+      </div>
+    );
+  }
   if (elemento.tipo === "foco") {
     const dib = spring({ frame, fps, config: ANIM.trazo });
     const r = elemento.radio ?? 150;
@@ -3578,9 +5518,46 @@ const ElementoVisual: React.FC<{ elemento: ElementoCrudo; indice: number }> = ({
 };
 
 const MarcoCrudo: React.FC<{ handle: string }> = ({ handle }) => {
-  const frame = useCurrentFrame();
-  const { durationInFrames } = useVideoConfig();
-  const progreso = frame / durationInFrames;
+  // Ya no hay barra de progreso en ningún look. La llevaba el clásico, abajo,
+  // toda la pieza: Pablo la quitó porque es exactamente el mobiliario
+  // permanente que delata una plantilla — y encima compite con la barra de
+  // reproducción que Instagram pinta justo ahí.
+  // El cristal tampoco lleva viñeta dura ni chapa de handle: la referencia no
+  // tiene NADA permanente en pantalla. La marca queda en el grafismo y en el
+  // color del énfasis. Con --handle se sigue pintando, pero abajo y discreto,
+  // fuera de la banda donde entran los gráficos.
+  const cristal = LOOK === "cristal";
+  if (cristal) {
+    return (
+      <AbsoluteFill style={{ pointerEvents: "none" }}>
+        <AbsoluteFill
+          style={{
+            background:
+              "linear-gradient(180deg, rgba(0,0,0,0.14) 0%, transparent 12%, transparent 86%, rgba(0,0,0,0.18) 100%)",
+          }}
+        />
+        {handle ? (
+          <div
+            style={{
+              position: "absolute",
+              bottom: 52,
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              fontFamily: poppins,
+              fontWeight: 500,
+              fontSize: 26,
+              letterSpacing: 1,
+              color: "rgba(255,255,255,0.55)",
+              textShadow: "0 2px 10px rgba(0,0,0,0.5)",
+            }}
+          >
+            {handle}
+          </div>
+        ) : null}
+      </AbsoluteFill>
+    );
+  }
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
       <AbsoluteFill
@@ -3621,26 +5598,6 @@ const MarcoCrudo: React.FC<{ handle: string }> = ({ handle }) => {
           </div>
         </div>
       ) : null}
-      <div
-        style={{
-          position: "absolute",
-          bottom: 84,
-          left: 80,
-          right: 80,
-          height: 7,
-          borderRadius: 999,
-          backgroundColor: "rgba(255,255,255,0.25)",
-        }}
-      >
-        <div
-          style={{
-            width: `${progreso * 100}%`,
-            height: "100%",
-            borderRadius: 999,
-            backgroundColor: ROJO,
-          }}
-        />
-      </div>
     </AbsoluteFill>
   );
 };
@@ -3648,6 +5605,10 @@ const MarcoCrudo: React.FC<{ handle: string }> = ({ handle }) => {
 export const ReelCrudo: React.FC<CrudoProps> = (props) => {
   // Se fija antes de renderizar los hijos, que son quienes leen AZUL
   fijarColorDeMarca(props.color);
+  fijarLook(props.look);
+  fijarVideoFondo(props.video);
+  fijarLienzo(props.lienzo);
+  fijarMargen(props.margenLateral);
   return (
     <AbsoluteFill style={{ backgroundColor: props.qa ? "transparent" : "#000" }}>
       {props.qa ? null : (
@@ -3665,6 +5626,7 @@ export const ReelCrudo: React.FC<CrudoProps> = (props) => {
           <ElementosCrudo
             elementos={props.elementos.filter((e) => e.tipo === "broll")}
             nivelVoz={props.nivelVoz}
+            sinSfx={props.sinSfx}
           />
           <MarcoCrudo handle={props.handle} />
         </>
@@ -3686,12 +5648,14 @@ export const ReelCrudo: React.FC<CrudoProps> = (props) => {
           (e) => e.tipo !== "broll" && e.tipo !== "transicion"
         )}
         nivelVoz={props.nivelVoz}
+        sinSfx={props.sinSfx}
       />
       {/* El fundido va el último para que también atenúe los rótulos: si solo
           oscureciera el vídeo, los textos quedarían flotando sobre el negro. */}
       <ElementosCrudo
         elementos={props.elementos.filter((e) => e.tipo === "transicion")}
         nivelVoz={props.nivelVoz}
+        sinSfx={props.sinSfx}
       />
     </AbsoluteFill>
   );

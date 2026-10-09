@@ -1,0 +1,674 @@
+[
+ {
+  "i": 0,
+  "texto": "No",
+  "inicio": 0,
+  "fin": 0.12,
+  "prob": 0.47
+ },
+ {
+  "i": 1,
+  "texto": "te",
+  "inicio": 0.12,
+  "fin": 0.24,
+  "prob": 1
+ },
+ {
+  "i": 2,
+  "texto": "vas",
+  "inicio": 0.24,
+  "fin": 0.42,
+  "prob": 0.99
+ },
+ {
+  "i": 3,
+  "texto": "a",
+  "inicio": 0.42,
+  "fin": 0.48,
+  "prob": 1
+ },
+ {
+  "i": 4,
+  "texto": "creer",
+  "inicio": 0.48,
+  "fin": 0.76,
+  "prob": 1
+ },
+ {
+  "i": 5,
+  "texto": "el",
+  "inicio": 0.81,
+  "fin": 0.9,
+  "prob": 0.99
+ },
+ {
+  "i": 6,
+  "texto": "ingrediente",
+  "inicio": 0.9,
+  "fin": 1.56,
+  "prob": 0.99
+ },
+ {
+  "i": 7,
+  "texto": "secreto",
+  "inicio": 1.56,
+  "fin": 1.93,
+  "prob": 0.97
+ },
+ {
+  "i": 8,
+  "texto": "de",
+  "inicio": 2,
+  "fin": 2.14,
+  "prob": 0.98
+ },
+ {
+  "i": 9,
+  "texto": "esta",
+  "inicio": 2.14,
+  "fin": 2.43,
+  "prob": 0.83
+ },
+ {
+  "i": 10,
+  "texto": "mousse.",
+  "inicio": 2.43,
+  "fin": 2.78,
+  "prob": 0.7
+ },
+ {
+  "i": 11,
+  "texto": "Primer",
+  "inicio": 2.96,
+  "fin": 3.13,
+  "prob": 0.51
+ },
+ {
+  "i": 12,
+  "texto": "ingrediente,",
+  "inicio": 3.13,
+  "fin": 3.51,
+  "prob": 0.98
+ },
+ {
+  "i": 13,
+  "texto": "dos",
+  "inicio": 3.64,
+  "fin": 3.84,
+  "prob": 0.74
+ },
+ {
+  "i": 14,
+  "texto": "huevos,",
+  "inicio": 3.84,
+  "fin": 4.27,
+  "prob": 1
+ },
+ {
+  "i": 15,
+  "texto": "una",
+  "inicio": 4.43,
+  "fin": 4.58,
+  "prob": 0.57
+ },
+ {
+  "i": 16,
+  "texto": "cucharada",
+  "inicio": 4.62,
+  "fin": 5.08,
+  "prob": 0.97
+ },
+ {
+  "i": 17,
+  "texto": "generosa",
+  "inicio": 5.08,
+  "fin": 5.51,
+  "prob": 0.99
+ },
+ {
+  "i": 18,
+  "texto": "de",
+  "inicio": 5.57,
+  "fin": 5.93,
+  "prob": 0.85
+ },
+ {
+  "i": 19,
+  "texto": "una",
+  "inicio": 5.94,
+  "fin": 6.1,
+  "prob": 0.72
+ },
+ {
+  "i": 20,
+  "texto": "pequeña",
+  "inicio": 6.1,
+  "fin": 6.52,
+  "prob": 0.6
+ },
+ {
+  "i": 21,
+  "texto": "cacahuete,",
+  "inicio": 6.52,
+  "fin": 6.99,
+  "prob": 0.53
+ },
+ {
+  "i": 22,
+  "texto": "tres",
+  "inicio": 7.07,
+  "fin": 7.28,
+  "prob": 0.78
+ },
+ {
+  "i": 23,
+  "texto": "cucharadas",
+  "inicio": 7.28,
+  "fin": 7.89,
+  "prob": 0.98
+ },
+ {
+  "i": 24,
+  "texto": "grandes",
+  "inicio": 7.89,
+  "fin": 8.17,
+  "prob": 0.99
+ },
+ {
+  "i": 25,
+  "texto": "de",
+  "inicio": 8.32,
+  "fin": 8.43,
+  "prob": 0.99
+ },
+ {
+  "i": 26,
+  "texto": "cacao",
+  "inicio": 8.45,
+  "fin": 8.74,
+  "prob": 0.99
+ },
+ {
+  "i": 27,
+  "texto": "desgrasado.",
+  "inicio": 8.74,
+  "fin": 9.32,
+  "prob": 0.9
+ },
+ {
+  "i": 28,
+  "texto": "Endulzamos",
+  "inicio": 9.42,
+  "fin": 9.96,
+  "prob": 0.95
+ },
+ {
+  "i": 29,
+  "texto": "con",
+  "inicio": 9.96,
+  "fin": 10.13,
+  "prob": 1
+ },
+ {
+  "i": 30,
+  "texto": "eritritol,",
+  "inicio": 10.13,
+  "fin": 10.63,
+  "prob": 0.66
+ },
+ {
+  "i": 31,
+  "texto": "un",
+  "inicio": 10.81,
+  "fin": 10.88,
+  "prob": 0.95
+ },
+ {
+  "i": 32,
+  "texto": "chorrito",
+  "inicio": 10.88,
+  "fin": 11.2,
+  "prob": 0.99
+ },
+ {
+  "i": 33,
+  "texto": "pequeño",
+  "inicio": 11.2,
+  "fin": 11.52,
+  "prob": 0.99
+ },
+ {
+  "i": 34,
+  "texto": "de",
+  "inicio": 11.52,
+  "fin": 11.6,
+  "prob": 0.63
+ },
+ {
+  "i": 35,
+  "texto": "esencia",
+  "inicio": 11.6,
+  "fin": 11.88,
+  "prob": 0.9
+ },
+ {
+  "i": 36,
+  "texto": "de",
+  "inicio": 11.88,
+  "fin": 11.96,
+  "prob": 0.79
+ },
+ {
+  "i": 37,
+  "texto": "vainilla,",
+  "inicio": 11.96,
+  "fin": 12.32,
+  "prob": 0.99
+ },
+ {
+  "i": 38,
+  "texto": "y",
+  "inicio": 12.32,
+  "fin": 12.37,
+  "prob": 0.97
+ },
+ {
+  "i": 39,
+  "texto": "un",
+  "inicio": 12.37,
+  "fin": 12.46,
+  "prob": 1
+ },
+ {
+  "i": 40,
+  "texto": "chorrillo",
+  "inicio": 12.47,
+  "fin": 12.92,
+  "prob": 0.77
+ },
+ {
+  "i": 41,
+  "texto": "muy",
+  "inicio": 12.92,
+  "fin": 13.06,
+  "prob": 0.93
+ },
+ {
+  "i": 42,
+  "texto": "pequeño",
+  "inicio": 13.07,
+  "fin": 13.47,
+  "prob": 1
+ },
+ {
+  "i": 43,
+  "texto": "de",
+  "inicio": 13.47,
+  "fin": 13.57,
+  "prob": 1
+ },
+ {
+  "i": 44,
+  "texto": "leche.",
+  "inicio": 13.57,
+  "fin": 13.77,
+  "prob": 1
+ },
+ {
+  "i": 45,
+  "texto": "¡Perfecto!",
+  "inicio": 14.01,
+  "fin": 14.42,
+  "prob": 0.37
+ },
+ {
+  "i": 46,
+  "texto": "Tú",
+  "inicio": 14.56,
+  "fin": 14.78,
+  "prob": 0.39
+ },
+ {
+  "i": 47,
+  "texto": "quieres",
+  "inicio": 14.78,
+  "fin": 15.3,
+  "prob": 0.93
+ },
+ {
+  "i": 48,
+  "texto": "cambiarlo,",
+  "inicio": 15.3,
+  "fin": 15.93,
+  "prob": 0.98
+ },
+ {
+  "i": 49,
+  "texto": "¿eh?",
+  "inicio": 16.1,
+  "fin": 16.38,
+  "prob": 0.53
+ },
+ {
+  "i": 50,
+  "texto": "Esto",
+  "inicio": 16.68,
+  "fin": 17.02,
+  "prob": 0.12
+ },
+ {
+  "i": 51,
+  "texto": "le",
+  "inicio": 17.02,
+  "fin": 17.21,
+  "prob": 0.97
+ },
+ {
+  "i": 52,
+  "texto": "falta",
+  "inicio": 17.21,
+  "fin": 17.58,
+  "prob": 0.29
+ },
+ {
+  "i": 53,
+  "texto": "aquí",
+  "inicio": 17.7,
+  "fin": 18.15,
+  "prob": 0.82
+ },
+ {
+  "i": 54,
+  "texto": "algo,",
+  "inicio": 18.15,
+  "fin": 18.53,
+  "prob": 0.96
+ },
+ {
+  "i": 55,
+  "texto": "¿eh?",
+  "inicio": 18.73,
+  "fin": 19.08,
+  "prob": 0.95
+ },
+ {
+  "i": 56,
+  "texto": "Y",
+  "inicio": 19.4,
+  "fin": 19.47,
+  "prob": 0.95
+ },
+ {
+  "i": 57,
+  "texto": "con",
+  "inicio": 19.47,
+  "fin": 19.68,
+  "prob": 0.99
+ },
+ {
+  "i": 58,
+  "texto": "la",
+  "inicio": 19.68,
+  "fin": 19.82,
+  "prob": 0.99
+ },
+ {
+  "i": 59,
+  "texto": "batidora",
+  "inicio": 19.82,
+  "fin": 20.33,
+  "prob": 0.95
+ },
+ {
+  "i": 60,
+  "texto": "hasta",
+  "inicio": 20.37,
+  "fin": 20.74,
+  "prob": 0.76
+ },
+ {
+  "i": 61,
+  "texto": "que",
+  "inicio": 20.74,
+  "fin": 20.95,
+  "prob": 0.99
+ },
+ {
+  "i": 62,
+  "texto": "quede",
+  "inicio": 20.95,
+  "fin": 21.3,
+  "prob": 0.99
+ },
+ {
+  "i": 63,
+  "texto": "una",
+  "inicio": 21.3,
+  "fin": 21.5,
+  "prob": 0.98
+ },
+ {
+  "i": 64,
+  "texto": "masa",
+  "inicio": 21.5,
+  "fin": 21.74,
+  "prob": 1
+ },
+ {
+  "i": 65,
+  "texto": "tipo",
+  "inicio": 21.8,
+  "fin": 22.09,
+  "prob": 0.98
+ },
+ {
+  "i": 66,
+  "texto": "mousse.",
+  "inicio": 22.09,
+  "fin": 22.52,
+  "prob": 1
+ },
+ {
+  "i": 67,
+  "texto": "Si",
+  "inicio": 22.92,
+  "fin": 22.92,
+  "prob": 0.87
+ },
+ {
+  "i": 68,
+  "texto": "hiciera",
+  "inicio": 22.93,
+  "fin": 23.2,
+  "prob": 0.23
+ },
+ {
+  "i": 69,
+  "texto": "falta",
+  "inicio": 23.2,
+  "fin": 23.37,
+  "prob": 0.95
+ },
+ {
+  "i": 70,
+  "texto": "un",
+  "inicio": 23.4,
+  "fin": 23.48,
+  "prob": 0.96
+ },
+ {
+  "i": 71,
+  "texto": "poquito",
+  "inicio": 23.48,
+  "fin": 23.76,
+  "prob": 0.99
+ },
+ {
+  "i": 72,
+  "texto": "más",
+  "inicio": 23.76,
+  "fin": 23.92,
+  "prob": 0.94
+ },
+ {
+  "i": 73,
+  "texto": "de",
+  "inicio": 23.92,
+  "fin": 24,
+  "prob": 1
+ },
+ {
+  "i": 74,
+  "texto": "leche,",
+  "inicio": 24,
+  "fin": 24.2,
+  "prob": 1
+ },
+ {
+  "i": 75,
+  "texto": "que",
+  "inicio": 24.38,
+  "fin": 24.48,
+  "prob": 0.87
+ },
+ {
+  "i": 76,
+  "texto": "en",
+  "inicio": 24.48,
+  "fin": 24.58,
+  "prob": 0.98
+ },
+ {
+  "i": 77,
+  "texto": "nuestro",
+  "inicio": 24.64,
+  "fin": 24.97,
+  "prob": 0.99
+ },
+ {
+  "i": 78,
+  "texto": "caso",
+  "inicio": 24.97,
+  "fin": 25.15,
+  "prob": 1
+ },
+ {
+  "i": 79,
+  "texto": "añadimos",
+  "inicio": 25.21,
+  "fin": 25.8,
+  "prob": 0.76
+ },
+ {
+  "i": 80,
+  "texto": "más",
+  "inicio": 25.8,
+  "fin": 25.97,
+  "prob": 0.95
+ },
+ {
+  "i": 81,
+  "texto": "leche.",
+  "inicio": 25.97,
+  "fin": 26.21,
+  "prob": 0.99
+ },
+ {
+  "i": 82,
+  "texto": "Mirad",
+  "inicio": 26.39,
+  "fin": 26.68,
+  "prob": 0.73
+ },
+ {
+  "i": 83,
+  "texto": "qué",
+  "inicio": 26.68,
+  "fin": 26.91,
+  "prob": 0.57
+ },
+ {
+  "i": 84,
+  "texto": "textura",
+  "inicio": 26.95,
+  "fin": 27.39,
+  "prob": 0.99
+ },
+ {
+  "i": 85,
+  "texto": "mousse",
+  "inicio": 27.39,
+  "fin": 27.77,
+  "prob": 0.9
+ },
+ {
+  "i": 86,
+  "texto": "ha",
+  "inicio": 27.77,
+  "fin": 27.89,
+  "prob": 0.99
+ },
+ {
+  "i": 87,
+  "texto": "quedado.",
+  "inicio": 28.04,
+  "fin": 28.35,
+  "prob": 0.99
+ },
+ {
+  "i": 88,
+  "texto": "Brutal.",
+  "inicio": 28.62,
+  "fin": 29.02,
+  "prob": 0.67
+ },
+ {
+  "i": 89,
+  "texto": "¿Quieres",
+  "inicio": 29.37,
+  "fin": 29.75,
+  "prob": 0.9
+ },
+ {
+  "i": 90,
+  "texto": "que",
+  "inicio": 29.77,
+  "fin": 29.92,
+  "prob": 1
+ },
+ {
+  "i": 91,
+  "texto": "siga",
+  "inicio": 29.92,
+  "fin": 30.12,
+  "prob": 0.81
+ },
+ {
+  "i": 92,
+  "texto": "subiendo",
+  "inicio": 30.12,
+  "fin": 30.52,
+  "prob": 0.99
+ },
+ {
+  "i": 93,
+  "texto": "más",
+  "inicio": 30.52,
+  "fin": 30.72,
+  "prob": 0.91
+ },
+ {
+  "i": 94,
+  "texto": "retas",
+  "inicio": 30.72,
+  "fin": 30.97,
+  "prob": 0.59
+ },
+ {
+  "i": 95,
+  "texto": "así?",
+  "inicio": 30.97,
+  "fin": 31.09,
+  "prob": 0.98
+ }
+]

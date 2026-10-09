@@ -1,0 +1,84 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.67,
+  "enfasis": [
+    [
+      7,
+      7
+    ],
+    [
+      47,
+      47
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 7,
+      "texto": "incógnito"
+    },
+    {
+      "palabra": 9,
+      "texto": "ChatGPT"
+    },
+    {
+      "palabra": 10,
+      "texto": ""
+    },
+    {
+      "palabra": 47,
+      "texto": "incógnito"
+    }
+  ],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "t": 0,
+      "tipo": "imagenFija",
+      "dato": "inserts/chat-temporal.png",
+      "x": 0.37,
+      "y": 0.07,
+      "tam": 600,
+      "fijo": true
+    },
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "=MODO INCÓGNITO|una conversación que ChatGPT no recuerda",
+      "y": 0.76,
+      "duracion": 4.25
+    },
+    {
+      "palabra": 14,
+      "tipo": "terminal",
+      "x": 0.62,
+      "y": 0.31,
+      "tam": 340,
+      "duracion": 8.7,
+      "dato": "chatgpt|abre un chat nuevo@1.77|arriba a la derecha@3.25|icono de la burbuja@5.38|+modo incógnito@8.0"
+    },
+    {
+      "palabra": 49,
+      "tipo": "remate",
+      "dato": "A PARTIR DE AHÍ|CONVERSACIÓN=NORMAL",
+      "y": 0.69,
+      "duracion": 4.3
+    },
+    {
+      "palabra": 60,
+      "tipo": "remate",
+      "dato": "NO SE RECUERDA|EN OTRAS=CONVERSACIONES",
+      "y": 0.69,
+      "duracion": 3.85
+    },
+    {
+      "palabra": 74,
+      "tipo": "remate",
+      "dato": "bocadillo:SÍGUEME|SI NO LO=SABÍAS",
+      "y": 0.67,
+      "tam": 66,
+      "duracion": 3.0
+    }
+  ],
+  "resumen": "Reel propio de @politecnic__ (25,7 s): cómo abrir un chat temporal (modo incógnito) en ChatGPT. Mismo tratamiento que el anterior: look cristal, música videoplayback, voz limpia, máster comprimido, --sin-cortes (plano continuo, sin un solo corte propio) y márgenes laterales nuevos. RECURSO VISUAL: imagen fija del tema sobre la cabeza todo el reel, como en la referencia de Pablo. Es la página pública de ayuda de OpenAI 'Chat temporal en ChatGPT', capturada con Chrome sin ventana en modo escritorio y recortada al bloque de título y descripción —se dejan fuera el aviso de 'Interrupción del servicio' y el de traducción automática, que eran ruido—. La app de ChatGPT exige iniciar sesión y no se usa. Aviso: la imagen dice 'chat temporal' y Pablo dice 'modo incógnito'. Cara en x 0.18-0.57, y 0.32-0.59, así que la tarjeta va en x 0.07-0.67, y 0.07-0.23 con holgura sobre la gorra (0.31). Textos: titulón de gancho en la zona de subtítulos, que se silencian mientras está; consola a la derecha de la cabeza con los pasos tal como los dice (abre un chat nuevo, arriba a la derecha, icono de la burbuja, modo incógnito); dos remates. El final es natural: la voz acaba en 'también' a 25,67 s y la envolvente lo confirma. Correcciones de Whisper: 'chat GPT' se une en ChatGPT (la segunda palabra se vacía sin renumerar) y 'incognito' lleva acento. CORRECCIONES TRAS EL PRIMER QA: (1) la consola lleva cuatro líneas y su x es el borde IZQUIERDO, así que a y 0.33 la cuarta línea la hacía crecer hasta 0.45, donde empieza la columna de botones de Instagram; sube a y 0.31. (2) El CTA arrancaba 0.18 s antes de 'sígueme' porque no cabía antes del final: se acorta a 3.0 s. (3) Entre los dos primeros remates asomaba 0.5 s el subtítulo 'normal y': el primero se alarga a 4.3 s para enlazar con el siguiente."
+}

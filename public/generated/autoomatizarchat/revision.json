@@ -1,0 +1,30 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.6,
+  "enfasis": [[33, 34], [129, 129]],
+  "sustituciones": [
+    { "palabra": 1, "texto": "ChatGPT" },
+    { "palabra": 2, "texto": "" },
+    { "palabra": 22, "texto": "Abres" },
+    { "palabra": 106, "texto": "portapapeles." },
+    { "palabra": 129, "texto": "TEST" }
+  ],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "=USAS CHATGPT|todos los días y no ahorras ni una hora", "y": 0.14, "duracion": 2.1 },
+    { "palabra": 9, "tipo": "cifra", "dato": "0 h|AHORRADAS|en todo el año", "y": 0.07, "tam": 230, "duracion": 3.3 },
+    { "palabra": 22, "tipo": "terminal", "x": 0.05, "y": 0.08, "tam": 420, "duracion": 5.0,
+      "dato": "chatgpt.com|abres un chat nuevo@0.2|explicas qué quieres@1.2|!modificas la respuesta x27@3.1" },
+    { "palabra": 38, "tipo": "remate", "dato": "HAS CAMBIADO UNA TAREA MANUAL|POR=OTRA TAREA MANUAL", "y": 0.1, "duracion": 3.0 },
+    { "palabra": 52, "tipo": "cifra", "dato": "3|COSAS PARA QUE|se dispare sola", "y": 0.07, "tam": 240, "duracion": 4.4 },
+    { "palabra": 68, "tipo": "cifra", "dato": "01|UN DISPARADOR", "y": 0.07, "tam": 200, "duracion": 1.0 },
+    { "palabra": 71, "tipo": "chips", "dato": "Un correo@0.38|Un formulario@0.93|Un WhatsApp@2.19", "y": 0.075, "duracion": 2.6 },
+    { "palabra": 80, "tipo": "cifra", "dato": "02|CON CONTEXTO", "y": 0.07, "tam": 200, "duracion": 1.1 },
+    { "palabra": 83, "tipo": "chips", "dato": "Lo que haces@1.09|Tus precios@1.95|Cómo contestas@3.54", "y": 0.075, "duracion": 4.3 },
+    { "palabra": 96, "tipo": "cifra", "dato": "03|ACABA EN UN SITIO|no en el portapapeles", "y": 0.07, "tam": 200, "duracion": 2.9 },
+    { "palabra": 107, "tipo": "remate", "dato": "SI ABRES UNA PESTAÑA|NO HAS=AUTOMATIZADO NADA", "y": 0.1, "duracion": 4.0 },
+    { "palabra": 128, "tipo": "dm", "dato": "TEST", "y": 0.1, "duracion": 5.1 }
+  ],
+  "resumen": "Reel propio de @politecnic__ (45,9 s) sobre por qué usar ChatGPT a mano no es automatizar. Look cristal, el de PL_1. Plano fijo de escritorio con teclado delante y 14 cortes propios, que el render usa para reencuadrar. Vision sitúa la cara en x 0.40-0.66, y 0.35-0.52, así que TODO el grafismo va en la banda 0.07-0.32 (bajo la cabecera de Instagram y sobre la cabeza) y los subtítulos a 0.60, justo bajo la barbilla y encima del teclado. Estructura: gancho con titulón + la cifra '0 h AHORRADAS' sobre la palabra 'ahorrado'; un panel de consola que reproduce el bucle que describe (abres un chat, explicas qué quieres, modificas la respuesta x27, esta última en rojo y clavada en la palabra '27'); remate del giro ('has cambiado una tarea manual por otra'); listicle de tres con cifra por punto y pastillas que entran en la palabra que las nombra (correo/formulario/WhatsApp y lo que haces/tus precios/cómo contestas); remate final y CTA en barra de mensaje directo que escribe TEST sola. Doce elementos en 45,9 s, cargados al principio: los primeros 11 s llevan cuatro (titulón, cifra, tres líneas de consola). Correcciones: Whisper parte 'ChatGPT' en dos palabras (se une en la 1 y se vacía la 2), 'Abrés' iba con acento y 'portapapel' en singular. Énfasis en azul solo en el '27 veces' y en el TEST del CTA."
+}

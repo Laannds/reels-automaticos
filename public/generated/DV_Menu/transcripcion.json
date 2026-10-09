@@ -1,0 +1,940 @@
+[
+ {
+  "i": 0,
+  "texto": "Zona",
+  "inicio": 0.01,
+  "fin": 0.26,
+  "prob": 0.03
+ },
+ {
+  "i": 1,
+  "texto": "de",
+  "inicio": 0.26,
+  "fin": 0.39,
+  "prob": 0.97
+ },
+ {
+  "i": 2,
+  "texto": "empresa",
+  "inicio": 0.39,
+  "fin": 0.76,
+  "prob": 0.66
+ },
+ {
+  "i": 3,
+  "texto": "y",
+  "inicio": 0.92,
+  "fin": 0.94,
+  "prob": 0.79
+ },
+ {
+  "i": 4,
+  "texto": "esta",
+  "inicio": 0.94,
+  "fin": 1.19,
+  "prob": 0.28
+ },
+ {
+  "i": 5,
+  "texto": "es",
+  "inicio": 1.19,
+  "fin": 1.29,
+  "prob": 0.95
+ },
+ {
+  "i": 6,
+  "texto": "la",
+  "inicio": 1.31,
+  "fin": 1.43,
+  "prob": 1
+ },
+ {
+  "i": 7,
+  "texto": "carta",
+  "inicio": 1.43,
+  "fin": 1.76,
+  "prob": 0.99
+ },
+ {
+  "i": 8,
+  "texto": "y",
+  "inicio": 1.76,
+  "fin": 1.84,
+  "prob": 0.24
+ },
+ {
+  "i": 9,
+  "texto": "no,",
+  "inicio": 1.84,
+  "fin": 1.99,
+  "prob": 0.96
+ },
+ {
+  "i": 10,
+  "texto": "no",
+  "inicio": 2.12,
+  "fin": 2.2,
+  "prob": 0.94
+ },
+ {
+  "i": 11,
+  "texto": "voy",
+  "inicio": 2.2,
+  "fin": 2.35,
+  "prob": 0.98
+ },
+ {
+  "i": 12,
+  "texto": "a",
+  "inicio": 2.35,
+  "fin": 2.4,
+  "prob": 1
+ },
+ {
+  "i": 13,
+  "texto": "pedir",
+  "inicio": 2.4,
+  "fin": 2.65,
+  "prob": 0.99
+ },
+ {
+  "i": 14,
+  "texto": "ensalada.",
+  "inicio": 2.65,
+  "fin": 3.02,
+  "prob": 0.95
+ },
+ {
+  "i": 15,
+  "texto": "Primero,",
+  "inicio": 3.09,
+  "fin": 3.43,
+  "prob": 0.94
+ },
+ {
+  "i": 16,
+  "texto": "busco",
+  "inicio": 3.55,
+  "fin": 3.79,
+  "prob": 0.8
+ },
+ {
+  "i": 17,
+  "texto": "la",
+  "inicio": 3.79,
+  "fin": 3.89,
+  "prob": 0.99
+ },
+ {
+  "i": 18,
+  "texto": "proteína,",
+  "inicio": 3.89,
+  "fin": 4.27,
+  "prob": 0.97
+ },
+ {
+  "i": 19,
+  "texto": "carne,",
+  "inicio": 4.47,
+  "fin": 4.66,
+  "prob": 0.86
+ },
+ {
+  "i": 20,
+  "texto": "pescado,",
+  "inicio": 4.78,
+  "fin": 5.01,
+  "prob": 0.94
+ },
+ {
+  "i": 21,
+  "texto": "mariscos,",
+  "inicio": 5.12,
+  "fin": 5.61,
+  "prob": 0.75
+ },
+ {
+  "i": 22,
+  "texto": "moluscos,",
+  "inicio": 5.73,
+  "fin": 6.15,
+  "prob": 0.62
+ },
+ {
+  "i": 23,
+  "texto": "porque",
+  "inicio": 6.28,
+  "fin": 6.48,
+  "prob": 0.78
+ },
+ {
+  "i": 24,
+  "texto": "el",
+  "inicio": 6.48,
+  "fin": 6.51,
+  "prob": 0.98
+ },
+ {
+  "i": 25,
+  "texto": "problema",
+  "inicio": 6.56,
+  "fin": 6.86,
+  "prob": 0.77
+ },
+ {
+  "i": 26,
+  "texto": "de",
+  "inicio": 6.86,
+  "fin": 6.96,
+  "prob": 0.82
+ },
+ {
+  "i": 27,
+  "texto": "la",
+  "inicio": 6.96,
+  "fin": 7.03,
+  "prob": 0.98
+ },
+ {
+  "i": 28,
+  "texto": "cena",
+  "inicio": 7.11,
+  "fin": 7.26,
+  "prob": 0.97
+ },
+ {
+  "i": 29,
+  "texto": "no",
+  "inicio": 7.26,
+  "fin": 7.36,
+  "prob": 0.93
+ },
+ {
+  "i": 30,
+  "texto": "es",
+  "inicio": 7.36,
+  "fin": 7.46,
+  "prob": 0.99
+ },
+ {
+  "i": 31,
+  "texto": "llegar",
+  "inicio": 7.46,
+  "fin": 7.77,
+  "prob": 0.99
+ },
+ {
+  "i": 32,
+  "texto": "con",
+  "inicio": 7.77,
+  "fin": 7.91,
+  "prob": 1
+ },
+ {
+  "i": 33,
+  "texto": "hambre,",
+  "inicio": 7.92,
+  "fin": 8.22,
+  "prob": 1
+ },
+ {
+  "i": 34,
+  "texto": "es",
+  "inicio": 8.34,
+  "fin": 8.42,
+  "prob": 0.98
+ },
+ {
+  "i": 35,
+  "texto": "comerte",
+  "inicio": 8.42,
+  "fin": 8.76,
+  "prob": 0.99
+ },
+ {
+  "i": 36,
+  "texto": "el",
+  "inicio": 8.77,
+  "fin": 8.87,
+  "prob": 0.99
+ },
+ {
+  "i": 37,
+  "texto": "pan",
+  "inicio": 8.87,
+  "fin": 9.05,
+  "prob": 0.99
+ },
+ {
+  "i": 38,
+  "texto": "antes",
+  "inicio": 9.11,
+  "fin": 9.35,
+  "prob": 0.96
+ },
+ {
+  "i": 39,
+  "texto": "de",
+  "inicio": 9.35,
+  "fin": 9.45,
+  "prob": 0.96
+ },
+ {
+  "i": 40,
+  "texto": "que",
+  "inicio": 9.45,
+  "fin": 9.55,
+  "prob": 0.99
+ },
+ {
+  "i": 41,
+  "texto": "llegue",
+  "inicio": 9.61,
+  "fin": 9.91,
+  "prob": 0.98
+ },
+ {
+  "i": 42,
+  "texto": "nada",
+  "inicio": 9.91,
+  "fin": 10.12,
+  "prob": 0.94
+ },
+ {
+  "i": 43,
+  "texto": "de",
+  "inicio": 10.12,
+  "fin": 10.28,
+  "prob": 0.95
+ },
+ {
+  "i": 44,
+  "texto": "lo",
+  "inicio": 10.28,
+  "fin": 10.44,
+  "prob": 0.99
+ },
+ {
+  "i": 45,
+  "texto": "que",
+  "inicio": 10.44,
+  "fin": 10.68,
+  "prob": 0.99
+ },
+ {
+  "i": 46,
+  "texto": "has",
+  "inicio": 10.68,
+  "fin": 10.81,
+  "prob": 0.97
+ },
+ {
+  "i": 47,
+  "texto": "pedido.",
+  "inicio": 10.97,
+  "fin": 11.33,
+  "prob": 1
+ },
+ {
+  "i": 48,
+  "texto": "Segundo,",
+  "inicio": 11.68,
+  "fin": 12.01,
+  "prob": 0.97
+ },
+ {
+  "i": 49,
+  "texto": "de",
+  "inicio": 12.09,
+  "fin": 12.13,
+  "prob": 0.97
+ },
+ {
+  "i": 50,
+  "texto": "lo",
+  "inicio": 12.28,
+  "fin": 12.28,
+  "prob": 1
+ },
+ {
+  "i": 51,
+  "texto": "que",
+  "inicio": 12.31,
+  "fin": 12.42,
+  "prob": 1
+ },
+ {
+  "i": 52,
+  "texto": "queda,",
+  "inicio": 12.42,
+  "fin": 12.66,
+  "prob": 0.99
+ },
+ {
+  "i": 53,
+  "texto": "pídelo",
+  "inicio": 12.75,
+  "fin": 13.07,
+  "prob": 0.61
+ },
+ {
+  "i": 54,
+  "texto": "con",
+  "inicio": 13.07,
+  "fin": 13.21,
+  "prob": 0.76
+ },
+ {
+  "i": 55,
+  "texto": "apetece,",
+  "inicio": 13.21,
+  "fin": 13.53,
+  "prob": 0.79
+ },
+ {
+  "i": 56,
+  "texto": "una",
+  "inicio": 13.62,
+  "fin": 13.74,
+  "prob": 0.93
+ },
+ {
+  "i": 57,
+  "texto": "cosa,",
+  "inicio": 13.86,
+  "fin": 13.95,
+  "prob": 1
+ },
+ {
+  "i": 58,
+  "texto": "no",
+  "inicio": 14.04,
+  "fin": 14.13,
+  "prob": 0.99
+ },
+ {
+  "i": 59,
+  "texto": "cuatro,",
+  "inicio": 14.13,
+  "fin": 14.27,
+  "prob": 0.87
+ },
+ {
+  "i": 60,
+  "texto": "si",
+  "inicio": 14.54,
+  "fin": 14.6,
+  "prob": 0.97
+ },
+ {
+  "i": 61,
+  "texto": "sales",
+  "inicio": 14.6,
+  "fin": 14.84,
+  "prob": 0.4
+ },
+ {
+  "i": 62,
+  "texto": "fuera",
+  "inicio": 14.84,
+  "fin": 15.06,
+  "prob": 0.96
+ },
+ {
+  "i": 63,
+  "texto": "y",
+  "inicio": 15.12,
+  "fin": 15.12,
+  "prob": 0.98
+ },
+ {
+  "i": 64,
+  "texto": "pides",
+  "inicio": 15.16,
+  "fin": 15.52,
+  "prob": 0.99
+ },
+ {
+  "i": 65,
+  "texto": "pechuga",
+  "inicio": 15.6,
+  "fin": 15.84,
+  "prob": 0.55
+ },
+ {
+  "i": 66,
+  "texto": "a",
+  "inicio": 15.84,
+  "fin": 15.88,
+  "prob": 0.71
+ },
+ {
+  "i": 67,
+  "texto": "la",
+  "inicio": 15.88,
+  "fin": 15.96,
+  "prob": 1
+ },
+ {
+  "i": 68,
+  "texto": "plancha,",
+  "inicio": 15.96,
+  "fin": 16.24,
+  "prob": 1
+ },
+ {
+  "i": 69,
+  "texto": "no",
+  "inicio": 16.32,
+  "fin": 16.32,
+  "prob": 0.99
+ },
+ {
+  "i": 70,
+  "texto": "estás",
+  "inicio": 16.44,
+  "fin": 16.64,
+  "prob": 0.87
+ },
+ {
+  "i": 71,
+  "texto": "jugándote,",
+  "inicio": 16.7,
+  "fin": 17.05,
+  "prob": 0.38
+ },
+ {
+  "i": 72,
+  "texto": "estás",
+  "inicio": 17.13,
+  "fin": 17.36,
+  "prob": 0.94
+ },
+ {
+  "i": 73,
+  "texto": "haciendo",
+  "inicio": 17.45,
+  "fin": 17.71,
+  "prob": 0.99
+ },
+ {
+  "i": 74,
+  "texto": "que",
+  "inicio": 17.71,
+  "fin": 17.83,
+  "prob": 0.99
+ },
+ {
+  "i": 75,
+  "texto": "la",
+  "inicio": 17.83,
+  "fin": 17.91,
+  "prob": 0.99
+ },
+ {
+  "i": 76,
+  "texto": "próxima",
+  "inicio": 17.91,
+  "fin": 18.23,
+  "prob": 0.98
+ },
+ {
+  "i": 77,
+  "texto": "vez",
+  "inicio": 18.24,
+  "fin": 18.36,
+  "prob": 0.99
+ },
+ {
+  "i": 78,
+  "texto": "no",
+  "inicio": 18.36,
+  "fin": 18.44,
+  "prob": 0.98
+ },
+ {
+  "i": 79,
+  "texto": "quieras",
+  "inicio": 18.44,
+  "fin": 18.86,
+  "prob": 0.7
+ },
+ {
+  "i": 80,
+  "texto": "venir.",
+  "inicio": 18.86,
+  "fin": 19.86,
+  "prob": 0.99
+ },
+ {
+  "i": 81,
+  "texto": "Y",
+  "inicio": 19.86,
+  "fin": 19.9,
+  "prob": 0.98
+ },
+ {
+  "i": 82,
+  "texto": "tercero,",
+  "inicio": 19.9,
+  "fin": 20.22,
+  "prob": 0.99
+ },
+ {
+  "i": 83,
+  "texto": "el",
+  "inicio": 20.31,
+  "fin": 20.4,
+  "prob": 0.98
+ },
+ {
+  "i": 84,
+  "texto": "día",
+  "inicio": 20.4,
+  "fin": 20.51,
+  "prob": 0.98
+ },
+ {
+  "i": 85,
+  "texto": "siguiente",
+  "inicio": 20.58,
+  "fin": 20.98,
+  "prob": 0.99
+ },
+ {
+  "i": 86,
+  "texto": "sigue",
+  "inicio": 21.03,
+  "fin": 21.23,
+  "prob": 0.49
+ },
+ {
+  "i": 87,
+  "texto": "igual,",
+  "inicio": 21.23,
+  "fin": 21.46,
+  "prob": 1
+ },
+ {
+  "i": 88,
+  "texto": "ni",
+  "inicio": 21.55,
+  "fin": 21.61,
+  "prob": 0.97
+ },
+ {
+  "i": 89,
+  "texto": "compensar",
+  "inicio": 21.66,
+  "fin": 22.05,
+  "prob": 0.99
+ },
+ {
+  "i": 90,
+  "texto": "comidas,",
+  "inicio": 22.05,
+  "fin": 22.37,
+  "prob": 0.63
+ },
+ {
+  "i": 91,
+  "texto": "ni",
+  "inicio": 22.46,
+  "fin": 22.55,
+  "prob": 0.98
+ },
+ {
+  "i": 92,
+  "texto": "matarte",
+  "inicio": 22.55,
+  "fin": 22.87,
+  "prob": 0.96
+ },
+ {
+  "i": 93,
+  "texto": "a",
+  "inicio": 22.87,
+  "fin": 22.91,
+  "prob": 0.48
+ },
+ {
+  "i": 94,
+  "texto": "cardio,",
+  "inicio": 22.91,
+  "fin": 23.13,
+  "prob": 0.91
+ },
+ {
+  "i": 95,
+  "texto": "ni",
+  "inicio": 23.4,
+  "fin": 23.5,
+  "prob": 0.99
+ },
+ {
+  "i": 96,
+  "texto": "nada",
+  "inicio": 23.5,
+  "fin": 23.7,
+  "prob": 0.99
+ },
+ {
+  "i": 97,
+  "texto": "por",
+  "inicio": 23.7,
+  "fin": 23.82,
+  "prob": 0.98
+ },
+ {
+  "i": 98,
+  "texto": "el",
+  "inicio": 23.85,
+  "fin": 23.95,
+  "prob": 0.99
+ },
+ {
+  "i": 99,
+  "texto": "estilo.",
+  "inicio": 23.95,
+  "fin": 24.24,
+  "prob": 1
+ },
+ {
+  "i": 100,
+  "texto": "Una",
+  "inicio": 24.4,
+  "fin": 24.55,
+  "prob": 0.98
+ },
+ {
+  "i": 101,
+  "texto": "cena",
+  "inicio": 24.55,
+  "fin": 24.76,
+  "prob": 0.99
+ },
+ {
+  "i": 102,
+  "texto": "no",
+  "inicio": 24.76,
+  "fin": 24.86,
+  "prob": 0.34
+ },
+ {
+  "i": 103,
+  "texto": "engorda",
+  "inicio": 24.86,
+  "fin": 25.2,
+  "prob": 0.88
+ },
+ {
+  "i": 104,
+  "texto": "nadie,",
+  "inicio": 25.34,
+  "fin": 25.47,
+  "prob": 0.83
+ },
+ {
+  "i": 105,
+  "texto": "lo",
+  "inicio": 25.57,
+  "fin": 25.67,
+  "prob": 0.99
+ },
+ {
+  "i": 106,
+  "texto": "que",
+  "inicio": 25.67,
+  "fin": 25.82,
+  "prob": 1
+ },
+ {
+  "i": 107,
+  "texto": "engorda",
+  "inicio": 25.82,
+  "fin": 26.17,
+  "prob": 1
+ },
+ {
+  "i": 108,
+  "texto": "es",
+  "inicio": 26.17,
+  "fin": 26.24,
+  "prob": 0.97
+ },
+ {
+  "i": 109,
+  "texto": "la",
+  "inicio": 26.33,
+  "fin": 26.37,
+  "prob": 0.94
+ },
+ {
+  "i": 110,
+  "texto": "semana",
+  "inicio": 26.37,
+  "fin": 26.66,
+  "prob": 0.99
+ },
+ {
+  "i": 111,
+  "texto": "siguiente",
+  "inicio": 26.68,
+  "fin": 27.15,
+  "prob": 0.96
+ },
+ {
+  "i": 112,
+  "texto": "que",
+  "inicio": 27.15,
+  "fin": 27.3,
+  "prob": 0.93
+ },
+ {
+  "i": 113,
+  "texto": "sientes",
+  "inicio": 27.3,
+  "fin": 27.65,
+  "prob": 0.97
+ },
+ {
+  "i": 114,
+  "texto": "que",
+  "inicio": 27.68,
+  "fin": 27.78,
+  "prob": 1
+ },
+ {
+  "i": 115,
+  "texto": "la",
+  "inicio": 27.9,
+  "fin": 28.04,
+  "prob": 0.59
+ },
+ {
+  "i": 116,
+  "texto": "has",
+  "inicio": 28.04,
+  "fin": 28.31,
+  "prob": 0.69
+ },
+ {
+  "i": 117,
+  "texto": "liado.",
+  "inicio": 28.31,
+  "fin": 28.72,
+  "prob": 0.98
+ },
+ {
+  "i": 118,
+  "texto": "amigo",
+  "inicio": 29.04,
+  "fin": 29.29,
+  "prob": 0.11
+ },
+ {
+  "i": 119,
+  "texto": "que",
+  "inicio": 29.3,
+  "fin": 29.45,
+  "prob": 0.59
+ },
+ {
+  "i": 120,
+  "texto": "le",
+  "inicio": 29.45,
+  "fin": 29.55,
+  "prob": 0.95
+ },
+ {
+  "i": 121,
+  "texto": "puede",
+  "inicio": 29.55,
+  "fin": 29.81,
+  "prob": 0.97
+ },
+ {
+  "i": 122,
+  "texto": "venir",
+  "inicio": 29.81,
+  "fin": 30.07,
+  "prob": 0.99
+ },
+ {
+  "i": 123,
+  "texto": "bien",
+  "inicio": 30.07,
+  "fin": 30.27,
+  "prob": 0.97
+ },
+ {
+  "i": 124,
+  "texto": "esto",
+  "inicio": 30.27,
+  "fin": 30.47,
+  "prob": 0.97
+ },
+ {
+  "i": 125,
+  "texto": "y",
+  "inicio": 30.47,
+  "fin": 30.52,
+  "prob": 0.73
+ },
+ {
+  "i": 126,
+  "texto": "si",
+  "inicio": 30.52,
+  "fin": 30.66,
+  "prob": 0.96
+ },
+ {
+  "i": 127,
+  "texto": "quiere",
+  "inicio": 30.66,
+  "fin": 30.99,
+  "prob": 0.52
+ },
+ {
+  "i": 128,
+  "texto": "ser",
+  "inicio": 30.99,
+  "fin": 31.15,
+  "prob": 0.88
+ },
+ {
+  "i": 129,
+  "texto": "Planca",
+  "inicio": 31.15,
+  "fin": 31.48,
+  "prob": 0.48
+ },
+ {
+  "i": 130,
+  "texto": "aguanta",
+  "inicio": 31.48,
+  "fin": 31.86,
+  "prob": 0.69
+ },
+ {
+  "i": 131,
+  "texto": "octubranero,",
+  "inicio": 31.98,
+  "fin": 32.48,
+  "prob": 0.79
+ },
+ {
+  "i": 132,
+  "texto": "escribe",
+  "inicio": 32.65,
+  "fin": 32.95,
+  "prob": 0.44
+ },
+ {
+  "i": 133,
+  "texto": "rutina.",
+  "inicio": 32.95,
+  "fin": 33.29,
+  "prob": 0.91
+ }
+]

@@ -1,0 +1,667 @@
+[
+ {
+  "i": 0,
+  "texto": "un",
+  "inicio": 0.04,
+  "fin": 0.13,
+  "prob": 0.31
+ },
+ {
+  "i": 1,
+  "texto": "agente",
+  "inicio": 0.13,
+  "fin": 0.46,
+  "prob": 0.9
+ },
+ {
+  "i": 2,
+  "texto": "de",
+  "inicio": 0.52,
+  "fin": 0.65,
+  "prob": 1
+ },
+ {
+  "i": 3,
+  "texto": "Inteligencia",
+  "inicio": 0.65,
+  "fin": 1.41,
+  "prob": 0.63
+ },
+ {
+  "i": 4,
+  "texto": "Artificial",
+  "inicio": 1.47,
+  "fin": 2.11,
+  "prob": 0.96
+ },
+ {
+  "i": 5,
+  "texto": "de",
+  "inicio": 2.11,
+  "fin": 2.24,
+  "prob": 0.96
+ },
+ {
+  "i": 6,
+  "texto": "OpenAI",
+  "inicio": 2.24,
+  "fin": 2.57,
+  "prob": 0.63
+ },
+ {
+  "i": 7,
+  "texto": "accede",
+  "inicio": 2.72,
+  "fin": 3.16,
+  "prob": 0.83
+ },
+ {
+  "i": 8,
+  "texto": "sin",
+  "inicio": 3.16,
+  "fin": 3.39,
+  "prob": 0.99
+ },
+ {
+  "i": 9,
+  "texto": "permiso",
+  "inicio": 3.39,
+  "fin": 3.95,
+  "prob": 1
+ },
+ {
+  "i": 10,
+  "texto": "a",
+  "inicio": 3.98,
+  "fin": 4.02,
+  "prob": 0.88
+ },
+ {
+  "i": 11,
+  "texto": "los",
+  "inicio": 4.02,
+  "fin": 4.21,
+  "prob": 0.99
+ },
+ {
+  "i": 12,
+  "texto": "datos",
+  "inicio": 4.21,
+  "fin": 4.56,
+  "prob": 0.99
+ },
+ {
+  "i": 13,
+  "texto": "del",
+  "inicio": 4.56,
+  "fin": 4.72,
+  "prob": 0.96
+ },
+ {
+  "i": 14,
+  "texto": "sistema",
+  "inicio": 4.72,
+  "fin": 5.16,
+  "prob": 0.89
+ },
+ {
+  "i": 15,
+  "texto": "de",
+  "inicio": 5.16,
+  "fin": 5.28,
+  "prob": 1
+ },
+ {
+  "i": 16,
+  "texto": "salud",
+  "inicio": 5.28,
+  "fin": 5.59,
+  "prob": 0.99
+ },
+ {
+  "i": 17,
+  "texto": "de",
+  "inicio": 5.59,
+  "fin": 5.71,
+  "prob": 0.93
+ },
+ {
+  "i": 18,
+  "texto": "Australia.",
+  "inicio": 5.71,
+  "fin": 6.12,
+  "prob": 0.95
+ },
+ {
+  "i": 19,
+  "texto": "Y",
+  "inicio": 6.46,
+  "fin": 6.52,
+  "prob": 0.52
+ },
+ {
+  "i": 20,
+  "texto": "más",
+  "inicio": 6.52,
+  "fin": 6.76,
+  "prob": 0.94
+ },
+ {
+  "i": 21,
+  "texto": "allá",
+  "inicio": 6.77,
+  "fin": 6.89,
+  "prob": 1
+ },
+ {
+  "i": 22,
+  "texto": "de",
+  "inicio": 7.17,
+  "fin": 7.2,
+  "prob": 0.97
+ },
+ {
+  "i": 23,
+  "texto": "la",
+  "inicio": 7.21,
+  "fin": 7.32,
+  "prob": 0.98
+ },
+ {
+  "i": 24,
+  "texto": "noticia",
+  "inicio": 7.32,
+  "fin": 7.71,
+  "prob": 0.94
+ },
+ {
+  "i": 25,
+  "texto": "te",
+  "inicio": 7.83,
+  "fin": 7.87,
+  "prob": 0.58
+ },
+ {
+  "i": 26,
+  "texto": "voy",
+  "inicio": 7.87,
+  "fin": 7.95,
+  "prob": 1
+ },
+ {
+  "i": 27,
+  "texto": "a",
+  "inicio": 8.05,
+  "fin": 8.11,
+  "prob": 0.99
+ },
+ {
+  "i": 28,
+  "texto": "explicar",
+  "inicio": 8.11,
+  "fin": 8.68,
+  "prob": 0.99
+ },
+ {
+  "i": 29,
+  "texto": "qué",
+  "inicio": 8.68,
+  "fin": 8.94,
+  "prob": 0.39
+ },
+ {
+  "i": 30,
+  "texto": "es",
+  "inicio": 8.94,
+  "fin": 9.07,
+  "prob": 0.99
+ },
+ {
+  "i": 31,
+  "texto": "un",
+  "inicio": 9.07,
+  "fin": 9.2,
+  "prob": 0.98
+ },
+ {
+  "i": 32,
+  "texto": "agente",
+  "inicio": 9.2,
+  "fin": 9.6,
+  "prob": 0.89
+ },
+ {
+  "i": 33,
+  "texto": "de",
+  "inicio": 9.6,
+  "fin": 9.88,
+  "prob": 0.98
+ },
+ {
+  "i": 34,
+  "texto": "IA.",
+  "inicio": 9.88,
+  "fin": 10.16,
+  "prob": 0.69
+ },
+ {
+  "i": 35,
+  "texto": "Es",
+  "inicio": 10.6,
+  "fin": 10.69,
+  "prob": 0.86
+ },
+ {
+  "i": 36,
+  "texto": "un",
+  "inicio": 10.69,
+  "fin": 10.74,
+  "prob": 1
+ },
+ {
+  "i": 37,
+  "texto": "sistema",
+  "inicio": 10.78,
+  "fin": 11.06,
+  "prob": 0.98
+ },
+ {
+  "i": 38,
+  "texto": "informático",
+  "inicio": 11.13,
+  "fin": 11.7,
+  "prob": 0.99
+ },
+ {
+  "i": 39,
+  "texto": "o",
+  "inicio": 11.7,
+  "fin": 11.74,
+  "prob": 0.92
+ },
+ {
+  "i": 40,
+  "texto": "software",
+  "inicio": 11.74,
+  "fin": 12.04,
+  "prob": 0.99
+ },
+ {
+  "i": 41,
+  "texto": "que",
+  "inicio": 12.27,
+  "fin": 12.32,
+  "prob": 0.99
+ },
+ {
+  "i": 42,
+  "texto": "trabaja",
+  "inicio": 12.32,
+  "fin": 12.86,
+  "prob": 0.96
+ },
+ {
+  "i": 43,
+  "texto": "de",
+  "inicio": 12.88,
+  "fin": 13.03,
+  "prob": 0.99
+ },
+ {
+  "i": 44,
+  "texto": "manera",
+  "inicio": 13.04,
+  "fin": 13.45,
+  "prob": 0.98
+ },
+ {
+  "i": 45,
+  "texto": "autónoma",
+  "inicio": 13.62,
+  "fin": 14.23,
+  "prob": 0.99
+ },
+ {
+  "i": 46,
+  "texto": "y",
+  "inicio": 14.32,
+  "fin": 14.32,
+  "prob": 0.65
+ },
+ {
+  "i": 47,
+  "texto": "es",
+  "inicio": 14.36,
+  "fin": 14.48,
+  "prob": 0.99
+ },
+ {
+  "i": 48,
+  "texto": "capaz",
+  "inicio": 14.48,
+  "fin": 14.91,
+  "prob": 1
+ },
+ {
+  "i": 49,
+  "texto": "de",
+  "inicio": 14.92,
+  "fin": 15.06,
+  "prob": 1
+ },
+ {
+  "i": 50,
+  "texto": "elaborar",
+  "inicio": 15.06,
+  "fin": 15.54,
+  "prob": 0.99
+ },
+ {
+  "i": 51,
+  "texto": "estrategias",
+  "inicio": 15.7,
+  "fin": 16.42,
+  "prob": 0.98
+ },
+ {
+  "i": 52,
+  "texto": "para",
+  "inicio": 16.68,
+  "fin": 16.73,
+  "prob": 1
+ },
+ {
+  "i": 53,
+  "texto": "conseguir",
+  "inicio": 16.73,
+  "fin": 17.38,
+  "prob": 0.99
+ },
+ {
+  "i": 54,
+  "texto": "sus",
+  "inicio": 17.39,
+  "fin": 17.6,
+  "prob": 0.98
+ },
+ {
+  "i": 55,
+  "texto": "objetivos.",
+  "inicio": 17.64,
+  "fin": 18.26,
+  "prob": 1
+ },
+ {
+  "i": 56,
+  "texto": "En",
+  "inicio": 18.52,
+  "fin": 18.65,
+  "prob": 0.83
+ },
+ {
+  "i": 57,
+  "texto": "este",
+  "inicio": 18.65,
+  "fin": 18.91,
+  "prob": 0.99
+ },
+ {
+  "i": 58,
+  "texto": "caso,",
+  "inicio": 18.91,
+  "fin": 19.17,
+  "prob": 1
+ },
+ {
+  "i": 59,
+  "texto": "uno",
+  "inicio": 19.31,
+  "fin": 19.5,
+  "prob": 0.98
+ },
+ {
+  "i": 60,
+  "texto": "de",
+  "inicio": 19.5,
+  "fin": 19.63,
+  "prob": 1
+ },
+ {
+  "i": 61,
+  "texto": "esos",
+  "inicio": 19.63,
+  "fin": 19.88,
+  "prob": 0.83
+ },
+ {
+  "i": 62,
+  "texto": "agentes",
+  "inicio": 19.88,
+  "fin": 20.31,
+  "prob": 0.99
+ },
+ {
+  "i": 63,
+  "texto": "realizaba",
+  "inicio": 20.44,
+  "fin": 21.01,
+  "prob": 1
+ },
+ {
+  "i": 64,
+  "texto": "una",
+  "inicio": 21.01,
+  "fin": 21.21,
+  "prob": 1
+ },
+ {
+  "i": 65,
+  "texto": "investigación",
+  "inicio": 21.21,
+  "fin": 22.16,
+  "prob": 1
+ },
+ {
+  "i": 66,
+  "texto": "sobre",
+  "inicio": 22.17,
+  "fin": 22.51,
+  "prob": 1
+ },
+ {
+  "i": 67,
+  "texto": "el",
+  "inicio": 22.51,
+  "fin": 22.64,
+  "prob": 1
+ },
+ {
+  "i": 68,
+  "texto": "gasto",
+  "inicio": 22.64,
+  "fin": 22.91,
+  "prob": 1
+ },
+ {
+  "i": 69,
+  "texto": "público",
+  "inicio": 23.01,
+  "fin": 23.41,
+  "prob": 0.99
+ },
+ {
+  "i": 70,
+  "texto": "en",
+  "inicio": 23.54,
+  "fin": 23.65,
+  "prob": 0.99
+ },
+ {
+  "i": 71,
+  "texto": "medicamentos,",
+  "inicio": 23.65,
+  "fin": 24.37,
+  "prob": 1
+ },
+ {
+  "i": 72,
+  "texto": "consiguiendo",
+  "inicio": 24.74,
+  "fin": 25.41,
+  "prob": 0.97
+ },
+ {
+  "i": 73,
+  "texto": "acceder",
+  "inicio": 25.41,
+  "fin": 25.85,
+  "prob": 0.99
+ },
+ {
+  "i": 74,
+  "texto": "a",
+  "inicio": 26.01,
+  "fin": 26.03,
+  "prob": 1
+ },
+ {
+  "i": 75,
+  "texto": "información",
+  "inicio": 26.03,
+  "fin": 26.73,
+  "prob": 0.99
+ },
+ {
+  "i": 76,
+  "texto": "que",
+  "inicio": 26.73,
+  "fin": 26.77,
+  "prob": 1
+ },
+ {
+  "i": 77,
+  "texto": "no",
+  "inicio": 26.9,
+  "fin": 27.01,
+  "prob": 1
+ },
+ {
+  "i": 78,
+  "texto": "era",
+  "inicio": 27.01,
+  "fin": 27.18,
+  "prob": 1
+ },
+ {
+  "i": 79,
+  "texto": "posible.",
+  "inicio": 27.18,
+  "fin": 27.57,
+  "prob": 1
+ },
+ {
+  "i": 80,
+  "texto": "Así",
+  "inicio": 27.85,
+  "fin": 27.99,
+  "prob": 0.95
+ },
+ {
+  "i": 81,
+  "texto": "que",
+  "inicio": 27.99,
+  "fin": 28.14,
+  "prob": 1
+ },
+ {
+  "i": 82,
+  "texto": "si",
+  "inicio": 28.16,
+  "fin": 28.27,
+  "prob": 0.83
+ },
+ {
+  "i": 83,
+  "texto": "te",
+  "inicio": 28.28,
+  "fin": 28.38,
+  "prob": 0.99
+ },
+ {
+  "i": 84,
+  "texto": "gusta",
+  "inicio": 28.38,
+  "fin": 28.62,
+  "prob": 0.99
+ },
+ {
+  "i": 85,
+  "texto": "estar",
+  "inicio": 28.72,
+  "fin": 28.96,
+  "prob": 0.99
+ },
+ {
+  "i": 86,
+  "texto": "actualizado",
+  "inicio": 28.96,
+  "fin": 29.6,
+  "prob": 1
+ },
+ {
+  "i": 87,
+  "texto": "de",
+  "inicio": 29.6,
+  "fin": 29.8,
+  "prob": 0.99
+ },
+ {
+  "i": 88,
+  "texto": "las",
+  "inicio": 29.8,
+  "fin": 29.98,
+  "prob": 0.96
+ },
+ {
+  "i": 89,
+  "texto": "últimas",
+  "inicio": 30.07,
+  "fin": 30.46,
+  "prob": 0.94
+ },
+ {
+  "i": 90,
+  "texto": "noticias",
+  "inicio": 30.46,
+  "fin": 31.03,
+  "prob": 1
+ },
+ {
+  "i": 91,
+  "texto": "sobre",
+  "inicio": 31.05,
+  "fin": 31.41,
+  "prob": 0.99
+ },
+ {
+  "i": 92,
+  "texto": "la",
+  "inicio": 31.41,
+  "fin": 31.55,
+  "prob": 0.87
+ },
+ {
+  "i": 93,
+  "texto": "IA,",
+  "inicio": 31.55,
+  "fin": 31.66,
+  "prob": 0.99
+ },
+ {
+  "i": 94,
+  "texto": "sígueme.",
+  "inicio": 31.82,
+  "fin": 32.44,
+  "prob": 0.49
+ }
+]

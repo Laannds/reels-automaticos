@@ -1,0 +1,38 @@
+{
+  "slug": "export-1oct-d",
+  "duracion": 39.966667,
+  "lufs": -14.4,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 0.08,
+      "texto": "\"¿Tienes\" (palabra 0) — Whisper solo está al 44%"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 0.1,
+      "texto": "6.8 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 6.86,
+      "texto": "\"Tienes\" (palabra 30) — se repite la dudosa del 0.1 s; si aquella está mal, esta también"
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 6.9,
+      "texto": "5.3 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "subtitulos",
+      "gravedad": "aviso",
+      "t": 12.27,
+      "texto": "\"IA\" asoma 0.13 s y lo corta un titular: alarga el titular anterior o adelanta el siguiente para enlazarlos"
+    }
+  ]
+}

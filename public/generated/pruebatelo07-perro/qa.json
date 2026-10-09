@@ -1,0 +1,14 @@
+{
+  "slug": "pruebatelo07-perro",
+  "duracion": 22.04,
+  "lufs": -14.1,
+  "pico": -1.6,
+  "incidencias": [
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 2.4,
+      "texto": "7.1 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    }
+  ]
+}

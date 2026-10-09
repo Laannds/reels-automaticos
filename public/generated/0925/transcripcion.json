@@ -1,0 +1,1010 @@
+[
+ {
+  "i": 0,
+  "texto": "Usas",
+  "inicio": 0,
+  "fin": 0.27,
+  "prob": 0.85
+ },
+ {
+  "i": 1,
+  "texto": "chat",
+  "inicio": 0.44,
+  "fin": 0.57,
+  "prob": 0.49
+ },
+ {
+  "i": 2,
+  "texto": "GPT",
+  "inicio": 0.57,
+  "fin": 0.76,
+  "prob": 0.56
+ },
+ {
+  "i": 3,
+  "texto": "todos",
+  "inicio": 0.8,
+  "fin": 1.14,
+  "prob": 0.91
+ },
+ {
+  "i": 4,
+  "texto": "los",
+  "inicio": 1.14,
+  "fin": 1.36,
+  "prob": 1
+ },
+ {
+  "i": 5,
+  "texto": "días",
+  "inicio": 1.36,
+  "fin": 1.61,
+  "prob": 1
+ },
+ {
+  "i": 6,
+  "texto": "y",
+  "inicio": 1.79,
+  "fin": 1.82,
+  "prob": 0.92
+ },
+ {
+  "i": 7,
+  "texto": "no",
+  "inicio": 1.82,
+  "fin": 1.95,
+  "prob": 0.99
+ },
+ {
+  "i": 8,
+  "texto": "has",
+  "inicio": 1.95,
+  "fin": 2.14,
+  "prob": 0.99
+ },
+ {
+  "i": 9,
+  "texto": "ahorrado",
+  "inicio": 2.14,
+  "fin": 2.66,
+  "prob": 0.97
+ },
+ {
+  "i": 10,
+  "texto": "ni",
+  "inicio": 2.66,
+  "fin": 2.79,
+  "prob": 0.95
+ },
+ {
+  "i": 11,
+  "texto": "una",
+  "inicio": 2.79,
+  "fin": 2.98,
+  "prob": 0.94
+ },
+ {
+  "i": 12,
+  "texto": "hora,",
+  "inicio": 2.98,
+  "fin": 3.25,
+  "prob": 0.99
+ },
+ {
+  "i": 13,
+  "texto": "porque",
+  "inicio": 3.36,
+  "fin": 3.56,
+  "prob": 0.79
+ },
+ {
+  "i": 14,
+  "texto": "cada",
+  "inicio": 3.63,
+  "fin": 3.8,
+  "prob": 0.98
+ },
+ {
+  "i": 15,
+  "texto": "vez",
+  "inicio": 3.8,
+  "fin": 3.9,
+  "prob": 0.98
+ },
+ {
+  "i": 16,
+  "texto": "que",
+  "inicio": 4.02,
+  "fin": 4.08,
+  "prob": 0.97
+ },
+ {
+  "i": 17,
+  "texto": "lo",
+  "inicio": 4.08,
+  "fin": 4.2,
+  "prob": 0.95
+ },
+ {
+  "i": 18,
+  "texto": "usas",
+  "inicio": 4.2,
+  "fin": 4.47,
+  "prob": 0.87
+ },
+ {
+  "i": 19,
+  "texto": "empiezas",
+  "inicio": 4.65,
+  "fin": 5.12,
+  "prob": 0.2
+ },
+ {
+  "i": 20,
+  "texto": "desde",
+  "inicio": 5.12,
+  "fin": 5.34,
+  "prob": 0.65
+ },
+ {
+  "i": 21,
+  "texto": "cero.",
+  "inicio": 5.36,
+  "fin": 5.44,
+  "prob": 0.99
+ },
+ {
+  "i": 22,
+  "texto": "Abrés",
+  "inicio": 5.75,
+  "fin": 6.1,
+  "prob": 0.39
+ },
+ {
+  "i": 23,
+  "texto": "un",
+  "inicio": 6.1,
+  "fin": 6.23,
+  "prob": 0.99
+ },
+ {
+  "i": 24,
+  "texto": "nuevo",
+  "inicio": 6.23,
+  "fin": 6.56,
+  "prob": 0.99
+ },
+ {
+  "i": 25,
+  "texto": "chat,",
+  "inicio": 6.56,
+  "fin": 6.8,
+  "prob": 0.99
+ },
+ {
+  "i": 26,
+  "texto": "te",
+  "inicio": 6.96,
+  "fin": 7.08,
+  "prob": 0.81
+ },
+ {
+  "i": 27,
+  "texto": "explicas",
+  "inicio": 7.11,
+  "fin": 7.63,
+  "prob": 0.86
+ },
+ {
+  "i": 28,
+  "texto": "lo",
+  "inicio": 7.63,
+  "fin": 7.76,
+  "prob": 0.99
+ },
+ {
+  "i": 29,
+  "texto": "que",
+  "inicio": 7.76,
+  "fin": 7.83,
+  "prob": 1
+ },
+ {
+  "i": 30,
+  "texto": "quieres",
+  "inicio": 8.03,
+  "fin": 8.41,
+  "prob": 1
+ },
+ {
+  "i": 31,
+  "texto": "y",
+  "inicio": 8.49,
+  "fin": 8.49,
+  "prob": 0.95
+ },
+ {
+  "i": 32,
+  "texto": "modificas",
+  "inicio": 8.52,
+  "fin": 9.07,
+  "prob": 0.99
+ },
+ {
+  "i": 33,
+  "texto": "27",
+  "inicio": 9.13,
+  "fin": 9.48,
+  "prob": 0.94
+ },
+ {
+  "i": 34,
+  "texto": "veces",
+  "inicio": 9.5,
+  "fin": 9.74,
+  "prob": 1
+ },
+ {
+  "i": 35,
+  "texto": "la",
+  "inicio": 9.84,
+  "fin": 9.95,
+  "prob": 0.98
+ },
+ {
+  "i": 36,
+  "texto": "respuesta",
+  "inicio": 9.95,
+  "fin": 10.55,
+  "prob": 0.98
+ },
+ {
+  "i": 37,
+  "texto": "final.",
+  "inicio": 10.56,
+  "fin": 10.93,
+  "prob": 0.99
+ },
+ {
+  "i": 38,
+  "texto": "Es",
+  "inicio": 11.09,
+  "fin": 11.21,
+  "prob": 0.99
+ },
+ {
+  "i": 39,
+  "texto": "decir,",
+  "inicio": 11.21,
+  "fin": 11.54,
+  "prob": 1
+ },
+ {
+  "i": 40,
+  "texto": "has",
+  "inicio": 11.69,
+  "fin": 11.88,
+  "prob": 0.99
+ },
+ {
+  "i": 41,
+  "texto": "cambiado",
+  "inicio": 11.88,
+  "fin": 12.42,
+  "prob": 1
+ },
+ {
+  "i": 42,
+  "texto": "una",
+  "inicio": 12.42,
+  "fin": 12.62,
+  "prob": 0.99
+ },
+ {
+  "i": 43,
+  "texto": "tarea",
+  "inicio": 12.62,
+  "fin": 12.95,
+  "prob": 1
+ },
+ {
+  "i": 44,
+  "texto": "manual",
+  "inicio": 12.95,
+  "fin": 13.26,
+  "prob": 1
+ },
+ {
+  "i": 45,
+  "texto": "por",
+  "inicio": 13.38,
+  "fin": 13.55,
+  "prob": 0.91
+ },
+ {
+  "i": 46,
+  "texto": "otra",
+  "inicio": 13.55,
+  "fin": 13.82,
+  "prob": 1
+ },
+ {
+  "i": 47,
+  "texto": "tarea",
+  "inicio": 13.82,
+  "fin": 14.15,
+  "prob": 0.97
+ },
+ {
+  "i": 48,
+  "texto": "manual",
+  "inicio": 14.15,
+  "fin": 14.55,
+  "prob": 1
+ },
+ {
+  "i": 49,
+  "texto": "pero",
+  "inicio": 14.55,
+  "fin": 14.8,
+  "prob": 0.65
+ },
+ {
+  "i": 50,
+  "texto": "más",
+  "inicio": 14.91,
+  "fin": 15.09,
+  "prob": 0.96
+ },
+ {
+  "i": 51,
+  "texto": "entretenida.",
+  "inicio": 15.09,
+  "fin": 15.83,
+  "prob": 0.98
+ },
+ {
+  "i": 52,
+  "texto": "Una",
+  "inicio": 16.15,
+  "fin": 16.31,
+  "prob": 0.99
+ },
+ {
+  "i": 53,
+  "texto": "cosa",
+  "inicio": 16.31,
+  "fin": 16.52,
+  "prob": 1
+ },
+ {
+  "i": 54,
+  "texto": "deja",
+  "inicio": 16.61,
+  "fin": 16.8,
+  "prob": 0.99
+ },
+ {
+  "i": 55,
+  "texto": "de",
+  "inicio": 16.82,
+  "fin": 16.93,
+  "prob": 1
+ },
+ {
+  "i": 56,
+  "texto": "costarte",
+  "inicio": 16.93,
+  "fin": 17.39,
+  "prob": 0.96
+ },
+ {
+  "i": 57,
+  "texto": "tiempo",
+  "inicio": 17.45,
+  "fin": 17.81,
+  "prob": 0.99
+ },
+ {
+  "i": 58,
+  "texto": "cuando",
+  "inicio": 17.81,
+  "fin": 18.19,
+  "prob": 0.99
+ },
+ {
+  "i": 59,
+  "texto": "se",
+  "inicio": 18.19,
+  "fin": 18.31,
+  "prob": 1
+ },
+ {
+  "i": 60,
+  "texto": "dispara",
+  "inicio": 18.31,
+  "fin": 18.72,
+  "prob": 0.98
+ },
+ {
+  "i": 61,
+  "texto": "sola",
+  "inicio": 18.73,
+  "fin": 19.04,
+  "prob": 0.98
+ },
+ {
+  "i": 62,
+  "texto": "y",
+  "inicio": 19.04,
+  "fin": 19.11,
+  "prob": 0.4
+ },
+ {
+  "i": 63,
+  "texto": "para",
+  "inicio": 19.11,
+  "fin": 19.39,
+  "prob": 0.84
+ },
+ {
+  "i": 64,
+  "texto": "ello",
+  "inicio": 19.39,
+  "fin": 19.59,
+  "prob": 1
+ },
+ {
+  "i": 65,
+  "texto": "necesitas",
+  "inicio": 19.76,
+  "fin": 20.3,
+  "prob": 0.91
+ },
+ {
+  "i": 66,
+  "texto": "tres",
+  "inicio": 20.3,
+  "fin": 20.58,
+  "prob": 0.79
+ },
+ {
+  "i": 67,
+  "texto": "cosas.",
+  "inicio": 20.58,
+  "fin": 20.83,
+  "prob": 1
+ },
+ {
+  "i": 68,
+  "texto": "Tiene",
+  "inicio": 21,
+  "fin": 21.25,
+  "prob": 0.77
+ },
+ {
+  "i": 69,
+  "texto": "un",
+  "inicio": 21.25,
+  "fin": 21.35,
+  "prob": 1
+ },
+ {
+  "i": 70,
+  "texto": "disparador,",
+  "inicio": 21.35,
+  "fin": 21.84,
+  "prob": 1
+ },
+ {
+  "i": 71,
+  "texto": "llega",
+  "inicio": 21.96,
+  "fin": 22.22,
+  "prob": 0.99
+ },
+ {
+  "i": 72,
+  "texto": "un",
+  "inicio": 22.22,
+  "fin": 22.32,
+  "prob": 0.99
+ },
+ {
+  "i": 73,
+  "texto": "correo,",
+  "inicio": 22.32,
+  "fin": 22.63,
+  "prob": 1
+ },
+ {
+  "i": 74,
+  "texto": "un",
+  "inicio": 22.72,
+  "fin": 22.82,
+  "prob": 0.98
+ },
+ {
+  "i": 75,
+  "texto": "formulario,",
+  "inicio": 22.83,
+  "fin": 23.34,
+  "prob": 0.99
+ },
+ {
+  "i": 76,
+  "texto": "un",
+  "inicio": 23.44,
+  "fin": 23.52,
+  "prob": 1
+ },
+ {
+  "i": 77,
+  "texto": "mensaje",
+  "inicio": 23.67,
+  "fin": 23.9,
+  "prob": 1
+ },
+ {
+  "i": 78,
+  "texto": "en",
+  "inicio": 23.9,
+  "fin": 23.98,
+  "prob": 0.98
+ },
+ {
+  "i": 79,
+  "texto": "WhatsApp.",
+  "inicio": 23.98,
+  "fin": 24.42,
+  "prob": 0.53
+ },
+ {
+  "i": 80,
+  "texto": "Lo",
+  "inicio": 24.69,
+  "fin": 24.8,
+  "prob": 0.56
+ },
+ {
+  "i": 81,
+  "texto": "segundo,",
+  "inicio": 24.8,
+  "fin": 25.22,
+  "prob": 1
+ },
+ {
+  "i": 82,
+  "texto": "tiene",
+  "inicio": 25.51,
+  "fin": 25.64,
+  "prob": 0.98
+ },
+ {
+  "i": 83,
+  "texto": "contexto",
+  "inicio": 25.64,
+  "fin": 26.12,
+  "prob": 0.84
+ },
+ {
+  "i": 84,
+  "texto": "de",
+  "inicio": 26.12,
+  "fin": 26.24,
+  "prob": 0.99
+ },
+ {
+  "i": 85,
+  "texto": "lo",
+  "inicio": 26.24,
+  "fin": 26.36,
+  "prob": 1
+ },
+ {
+  "i": 86,
+  "texto": "que",
+  "inicio": 26.36,
+  "fin": 26.54,
+  "prob": 1
+ },
+ {
+  "i": 87,
+  "texto": "haces,",
+  "inicio": 26.54,
+  "fin": 26.84,
+  "prob": 0.99
+ },
+ {
+  "i": 88,
+  "texto": "de",
+  "inicio": 27.06,
+  "fin": 27.14,
+  "prob": 0.98
+ },
+ {
+  "i": 89,
+  "texto": "tus",
+  "inicio": 27.14,
+  "fin": 27.31,
+  "prob": 0.99
+ },
+ {
+  "i": 90,
+  "texto": "precios,",
+  "inicio": 27.44,
+  "fin": 27.84,
+  "prob": 1
+ },
+ {
+  "i": 91,
+  "texto": "de",
+  "inicio": 28,
+  "fin": 28.13,
+  "prob": 0.92
+ },
+ {
+  "i": 92,
+  "texto": "la",
+  "inicio": 28.13,
+  "fin": 28.26,
+  "prob": 1
+ },
+ {
+  "i": 93,
+  "texto": "manera",
+  "inicio": 28.26,
+  "fin": 28.62,
+  "prob": 1
+ },
+ {
+  "i": 94,
+  "texto": "que",
+  "inicio": 28.69,
+  "fin": 28.87,
+  "prob": 0.86
+ },
+ {
+  "i": 95,
+  "texto": "contestas.",
+  "inicio": 28.87,
+  "fin": 29.45,
+  "prob": 0.98
+ },
+ {
+  "i": 96,
+  "texto": "Y",
+  "inicio": 29.53,
+  "fin": 29.58,
+  "prob": 0.98
+ },
+ {
+  "i": 97,
+  "texto": "lo",
+  "inicio": 29.58,
+  "fin": 29.7,
+  "prob": 0.98
+ },
+ {
+  "i": 98,
+  "texto": "tercero,",
+  "inicio": 29.7,
+  "fin": 30.12,
+  "prob": 0.99
+ },
+ {
+  "i": 99,
+  "texto": "termina",
+  "inicio": 30.24,
+  "fin": 30.66,
+  "prob": 0.92
+ },
+ {
+  "i": 100,
+  "texto": "en",
+  "inicio": 30.66,
+  "fin": 30.78,
+  "prob": 1
+ },
+ {
+  "i": 101,
+  "texto": "un",
+  "inicio": 30.78,
+  "fin": 30.84,
+  "prob": 1
+ },
+ {
+  "i": 102,
+  "texto": "sitio,",
+  "inicio": 30.84,
+  "fin": 31.2,
+  "prob": 1
+ },
+ {
+  "i": 103,
+  "texto": "no",
+  "inicio": 31.41,
+  "fin": 31.43,
+  "prob": 1
+ },
+ {
+  "i": 104,
+  "texto": "en",
+  "inicio": 31.47,
+  "fin": 31.56,
+  "prob": 0.96
+ },
+ {
+  "i": 105,
+  "texto": "un",
+  "inicio": 31.56,
+  "fin": 31.68,
+  "prob": 1
+ },
+ {
+  "i": 106,
+  "texto": "portapapel.",
+  "inicio": 31.68,
+  "fin": 32.28,
+  "prob": 0.69
+ },
+ {
+  "i": 107,
+  "texto": "Mientras",
+  "inicio": 32.52,
+  "fin": 32.91,
+  "prob": 1
+ },
+ {
+  "i": 108,
+  "texto": "sigas",
+  "inicio": 33.03,
+  "fin": 33.26,
+  "prob": 0.98
+ },
+ {
+  "i": 109,
+  "texto": "teniendo",
+  "inicio": 33.36,
+  "fin": 33.7,
+  "prob": 0.99
+ },
+ {
+  "i": 110,
+  "texto": "que",
+  "inicio": 33.79,
+  "fin": 33.97,
+  "prob": 1
+ },
+ {
+  "i": 111,
+  "texto": "abrir",
+  "inicio": 33.97,
+  "fin": 34.27,
+  "prob": 1
+ },
+ {
+  "i": 112,
+  "texto": "una",
+  "inicio": 34.27,
+  "fin": 34.45,
+  "prob": 1
+ },
+ {
+  "i": 113,
+  "texto": "pestaña,",
+  "inicio": 34.45,
+  "fin": 34.93,
+  "prob": 1
+ },
+ {
+  "i": 114,
+  "texto": "no",
+  "inicio": 35.05,
+  "fin": 35.17,
+  "prob": 0.99
+ },
+ {
+  "i": 115,
+  "texto": "has",
+  "inicio": 35.17,
+  "fin": 35.35,
+  "prob": 0.99
+ },
+ {
+  "i": 116,
+  "texto": "automatizado",
+  "inicio": 35.35,
+  "fin": 36.03,
+  "prob": 1
+ },
+ {
+  "i": 117,
+  "texto": "nada.",
+  "inicio": 36.13,
+  "fin": 36.31,
+  "prob": 0.98
+ },
+ {
+  "i": 118,
+  "texto": "Has",
+  "inicio": 36.63,
+  "fin": 36.8,
+  "prob": 0.97
+ },
+ {
+  "i": 119,
+  "texto": "aprendido",
+  "inicio": 36.8,
+  "fin": 37.36,
+  "prob": 1
+ },
+ {
+  "i": 120,
+  "texto": "a",
+  "inicio": 37.4,
+  "fin": 37.44,
+  "prob": 0.98
+ },
+ {
+  "i": 121,
+  "texto": "hacer",
+  "inicio": 37.46,
+  "fin": 37.79,
+  "prob": 1
+ },
+ {
+  "i": 122,
+  "texto": "una",
+  "inicio": 37.79,
+  "fin": 37.96,
+  "prob": 0.99
+ },
+ {
+  "i": 123,
+  "texto": "tarea",
+  "inicio": 38.04,
+  "fin": 38.31,
+  "prob": 1
+ },
+ {
+  "i": 124,
+  "texto": "de",
+  "inicio": 38.31,
+  "fin": 38.38,
+  "prob": 1
+ },
+ {
+  "i": 125,
+  "texto": "una",
+  "inicio": 38.55,
+  "fin": 38.64,
+  "prob": 0.97
+ },
+ {
+  "i": 126,
+  "texto": "manera",
+  "inicio": 38.64,
+  "fin": 39.04,
+  "prob": 0.99
+ },
+ {
+  "i": 127,
+  "texto": "diferente.",
+  "inicio": 39.04,
+  "fin": 39.63,
+  "prob": 1
+ },
+ {
+  "i": 128,
+  "texto": "Comenta",
+  "inicio": 39.89,
+  "fin": 40.33,
+  "prob": 0.99
+ },
+ {
+  "i": 129,
+  "texto": "test",
+  "inicio": 40.33,
+  "fin": 40.49,
+  "prob": 0.7
+ },
+ {
+  "i": 130,
+  "texto": "y",
+  "inicio": 40.58,
+  "fin": 40.59,
+  "prob": 0.98
+ },
+ {
+  "i": 131,
+  "texto": "te",
+  "inicio": 40.7,
+  "fin": 40.77,
+  "prob": 1
+ },
+ {
+  "i": 132,
+  "texto": "envío",
+  "inicio": 40.83,
+  "fin": 41.16,
+  "prob": 0.94
+ },
+ {
+  "i": 133,
+  "texto": "la",
+  "inicio": 41.16,
+  "fin": 41.28,
+  "prob": 0.92
+ },
+ {
+  "i": 134,
+  "texto": "calculadora",
+  "inicio": 41.29,
+  "fin": 42,
+  "prob": 1
+ },
+ {
+  "i": 135,
+  "texto": "para",
+  "inicio": 42,
+  "fin": 42.26,
+  "prob": 0.98
+ },
+ {
+  "i": 136,
+  "texto": "saber",
+  "inicio": 42.26,
+  "fin": 42.47,
+  "prob": 1
+ },
+ {
+  "i": 137,
+  "texto": "cuáles",
+  "inicio": 42.68,
+  "fin": 42.95,
+  "prob": 0.56
+ },
+ {
+  "i": 138,
+  "texto": "de",
+  "inicio": 43.1,
+  "fin": 43.16,
+  "prob": 0.99
+ },
+ {
+  "i": 139,
+  "texto": "tus",
+  "inicio": 43.16,
+  "fin": 43.35,
+  "prob": 0.99
+ },
+ {
+  "i": 140,
+  "texto": "tareas",
+  "inicio": 43.35,
+  "fin": 43.74,
+  "prob": 1
+ },
+ {
+  "i": 141,
+  "texto": "se",
+  "inicio": 43.74,
+  "fin": 43.75,
+  "prob": 1
+ },
+ {
+  "i": 142,
+  "texto": "pueden",
+  "inicio": 43.87,
+  "fin": 44.26,
+  "prob": 0.99
+ },
+ {
+  "i": 143,
+  "texto": "automatizar.",
+  "inicio": 44.26,
+  "fin": 44.97,
+  "prob": 1
+ }
+]

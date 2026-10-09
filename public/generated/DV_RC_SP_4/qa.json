@@ -1,0 +1,26 @@
+{
+  "slug": "DV_RC_SP_4",
+  "duracion": 31.966667,
+  "lufs": -16.4,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "info",
+      "t": 0,
+      "texto": "sonoridad -16.4 LUFS: no llega a -14 porque el pico de la voz sin comprimir ya está en -1.5 dBTP"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 16.72,
+      "texto": "\"Esto\" (palabra 50) — Whisper solo está al 12%"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 17.11,
+      "texto": "\"falta\" (palabra 52) — Whisper solo está al 29%"
+    }
+  ]
+}

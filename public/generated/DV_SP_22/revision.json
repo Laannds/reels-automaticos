@@ -1,0 +1,29 @@
+{
+  "eliminar": [],
+  "subtitulos": "bold",
+  "subtitulosY": 0.42,
+  "enfasis": [
+    [1, 2],
+    [116, 116]
+  ],
+  "sustituciones": [
+    { "palabra": 113, "texto": "gane" }
+  ],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "=3 COSAS|TE HACEN NO|PERDER GRASA", "duracion": 3.0 },
+    { "palabra": 14, "tipo": "contador", "dato": "3|0|6.67|16.10", "ocultar": [[4.5, 7.7], [10.9, 13.9], [20.5, 24.0]] },
+    { "palabra": 14, "tipo": "emoji", "dato": "", "duracion": 0.62, "tapaSubtitulos": true },
+    { "palabra": 42, "tipo": "emoji", "dato": "", "duracion": 0.46, "tapaSubtitulos": true },
+    { "palabra": 74, "tipo": "emoji", "dato": "", "duracion": 0.54, "tapaSubtitulos": true },
+    { "palabra": 14, "tipo": "etiqueta", "dato": "Comes más de lo que gastas", "y": 0.68, "duracion": 3.4 },
+    { "palabra": 16, "tipo": "broll", "dato": "stock/gym-hamburguesa.mp4", "duracion": 3.2 },
+    { "palabra": 42, "tipo": "transicion", "dato": "zoomIn", "duracion": 0.5 },
+    { "palabra": 42, "tipo": "etiqueta", "dato": "Entrenar sin estructura", "y": 0.68, "duracion": 3.2 },
+    { "palabra": 44, "tipo": "broll", "dato": "stock/gym-maquina.mp4", "duracion": 3.0 },
+    { "palabra": 54, "tipo": "checklist", "dato": "#UNA ESTRUCTURA REAL|Peso@0|Series@0.35|Descanso@0.7", "y": 0.56, "duracion": 3.0 },
+    { "palabra": 74, "tipo": "etiqueta", "dato": "Dormir mal frena todo", "y": 0.68, "duracion": 3.4 },
+    { "palabra": 76, "tipo": "broll", "dato": "stock/gym-insomnio-reloj.mp4", "duracion": 3.5 },
+    { "palabra": 116, "tipo": "remate", "dato": "SÍGUEME SI QUIERES|RESULTADOS=REALES", "duracion": 2.4 }
+  ],
+  "resumen": "Reel de DV FIT (David): las 3 cosas que impiden perder grasa aunque comas y entrenes bien (comer de más, entrenar sin estructura, dormir mal). Sin handle, amarillo #F5B301. Vídeo entero sin recortes (--sin-cortes: Pablo ya lo trae montado y no quiere que se le quiten silencios). Plano único fijo de cuerpo entero, cara pequeña y alta (0.22-0.36) — titulón de gancho arriba por defecto, subtítulos a 0.42 (torso, entre la cara y las tarjetas) y tarjetas/checklist más abajo (0.56-0.68). Subtítulos en bloque: el bloque de frase entra y sale con un fundido conjunto (no palabra a palabra) y cada palabra solo suma un fundido corto propio al decirse, sin el ensanche animado de antes. Petición de Pablo: 'Número 1/2/3' NO debe leerse como subtítulo normal (rompía la frase); ahora un contador '1/3 → 2/3 → 3/3' (elemento 'contador', arriba del todo, con clic de sonido) marca cada punto en el instante exacto en que David dice 'Número uno/dos/tres', y esas dos palabras se silencian solo ahí en los subtítulos (elementos 'emoji' invisibles con tapaSubtitulos, 0.5-0.6s cada uno) para que el texto salte limpio de la frase anterior a 'comes más de lo que gastas' sin el 'Número X' de por medio. Las tarjetas bajas ya no repiten el número, solo la frase (p. ej. 'Comes más de lo que gastas'). Por cada punto, un clip de stock que ilustra literalmente lo que dice (hamburguesa, tirón en polea, despertador con la persona inquieta de fondo). Corrección: 'gande' -> 'gane'. Cierre 'Sígueme si quieres aprender a tener resultados reales'. Audio a -17.4 LUFS (no -14): con los silencios intactos y la voz sin comprimir, el pico manda y no hay margen para más ganancia — aceptado, ya pasó lo mismo en DV_SP_3."
+}

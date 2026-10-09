@@ -1,0 +1,982 @@
+[
+ {
+  "i": 0,
+  "texto": "Tu",
+  "inicio": 0.03,
+  "fin": 0.08,
+  "prob": 0.73
+ },
+ {
+  "i": 1,
+  "texto": "problema",
+  "inicio": 0.08,
+  "fin": 0.42,
+  "prob": 0.99
+ },
+ {
+  "i": 2,
+  "texto": "no",
+  "inicio": 0.42,
+  "fin": 0.5,
+  "prob": 0.97
+ },
+ {
+  "i": 3,
+  "texto": "es",
+  "inicio": 0.5,
+  "fin": 0.52,
+  "prob": 0.99
+ },
+ {
+  "i": 4,
+  "texto": "\"jaga",
+  "inicio": 0.62,
+  "fin": 0.75,
+  "prob": 0.02
+ },
+ {
+  "i": 5,
+  "texto": "poco",
+  "inicio": 0.83,
+  "fin": 0.96,
+  "prob": 0.75
+ },
+ {
+  "i": 6,
+  "texto": "cardio\",",
+  "inicio": 0.96,
+  "fin": 1.32,
+  "prob": 0.54
+ },
+ {
+  "i": 7,
+  "texto": "es",
+  "inicio": 1.4,
+  "fin": 1.5,
+  "prob": 0.91
+ },
+ {
+  "i": 8,
+  "texto": "que",
+  "inicio": 1.5,
+  "fin": 1.65,
+  "prob": 0.98
+ },
+ {
+  "i": 9,
+  "texto": "te",
+  "inicio": 1.65,
+  "fin": 1.74,
+  "prob": 0.97
+ },
+ {
+  "i": 10,
+  "texto": "pasas",
+  "inicio": 1.75,
+  "fin": 2,
+  "prob": 0.5
+ },
+ {
+  "i": 11,
+  "texto": "11",
+  "inicio": 2,
+  "fin": 2.28,
+  "prob": 0.89
+ },
+ {
+  "i": 12,
+  "texto": "horas",
+  "inicio": 2.31,
+  "fin": 2.48,
+  "prob": 0.97
+ },
+ {
+  "i": 13,
+  "texto": "sentado",
+  "inicio": 2.56,
+  "fin": 2.95,
+  "prob": 0.81
+ },
+ {
+  "i": 14,
+  "texto": "y",
+  "inicio": 3.09,
+  "fin": 3.2,
+  "prob": 0.69
+ },
+ {
+  "i": 15,
+  "texto": "pretenden",
+  "inicio": 3.25,
+  "fin": 3.46,
+  "prob": 0.28
+ },
+ {
+  "i": 16,
+  "texto": "cerrarlo",
+  "inicio": 3.46,
+  "fin": 3.9,
+  "prob": 0.45
+ },
+ {
+  "i": 17,
+  "texto": "con",
+  "inicio": 3.9,
+  "fin": 4.12,
+  "prob": 0.74
+ },
+ {
+  "i": 18,
+  "texto": "45",
+  "inicio": 4.12,
+  "fin": 4.46,
+  "prob": 0.97
+ },
+ {
+  "i": 19,
+  "texto": "minutos",
+  "inicio": 4.46,
+  "fin": 4.86,
+  "prob": 0.98
+ },
+ {
+  "i": 20,
+  "texto": "de",
+  "inicio": 4.86,
+  "fin": 4.97,
+  "prob": 0.98
+ },
+ {
+  "i": 21,
+  "texto": "bici.",
+  "inicio": 4.97,
+  "fin": 5.19,
+  "prob": 0.98
+ },
+ {
+  "i": 22,
+  "texto": "Hazle",
+  "inicio": 5.45,
+  "fin": 5.61,
+  "prob": 0.25
+ },
+ {
+  "i": 23,
+  "texto": "la",
+  "inicio": 5.61,
+  "fin": 5.69,
+  "prob": 0.71
+ },
+ {
+  "i": 24,
+  "texto": "cuenta",
+  "inicio": 5.69,
+  "fin": 5.95,
+  "prob": 1
+ },
+ {
+  "i": 25,
+  "texto": "un",
+  "inicio": 5.95,
+  "fin": 6.03,
+  "prob": 0.77
+ },
+ {
+  "i": 26,
+  "texto": "día",
+  "inicio": 6.03,
+  "fin": 6.2,
+  "prob": 0.98
+ },
+ {
+  "i": 27,
+  "texto": "normal,",
+  "inicio": 6.2,
+  "fin": 6.49,
+  "prob": 0.99
+ },
+ {
+  "i": 28,
+  "texto": "coche,",
+  "inicio": 6.57,
+  "fin": 6.89,
+  "prob": 0.95
+ },
+ {
+  "i": 29,
+  "texto": "oficina,",
+  "inicio": 7.02,
+  "fin": 7.47,
+  "prob": 1
+ },
+ {
+  "i": 30,
+  "texto": "sofá,",
+  "inicio": 7.69,
+  "fin": 7.94,
+  "prob": 0.98
+ },
+ {
+  "i": 31,
+  "texto": "no",
+  "inicio": 8.14,
+  "fin": 8.21,
+  "prob": 0.96
+ },
+ {
+  "i": 32,
+  "texto": "haces",
+  "inicio": 8.21,
+  "fin": 8.49,
+  "prob": 0.98
+ },
+ {
+  "i": 33,
+  "texto": "ni",
+  "inicio": 8.49,
+  "fin": 8.6,
+  "prob": 0.99
+ },
+ {
+  "i": 34,
+  "texto": "2000",
+  "inicio": 8.6,
+  "fin": 9.29,
+  "prob": 0.55
+ },
+ {
+  "i": 35,
+  "texto": "pasos.",
+  "inicio": 9.29,
+  "fin": 9.49,
+  "prob": 0.93
+ },
+ {
+  "i": 36,
+  "texto": "Vienes",
+  "inicio": 9.65,
+  "fin": 9.97,
+  "prob": 0.8
+ },
+ {
+  "i": 37,
+  "texto": "aquí,",
+  "inicio": 10.02,
+  "fin": 10.3,
+  "prob": 0.99
+ },
+ {
+  "i": 38,
+  "texto": "haces",
+  "inicio": 10.43,
+  "fin": 10.61,
+  "prob": 0.99
+ },
+ {
+  "i": 39,
+  "texto": "45",
+  "inicio": 10.79,
+  "fin": 11.14,
+  "prob": 0.97
+ },
+ {
+  "i": 40,
+  "texto": "minutos,",
+  "inicio": 11.14,
+  "fin": 11.59,
+  "prob": 0.99
+ },
+ {
+  "i": 41,
+  "texto": "que",
+  "inicio": 11.84,
+  "fin": 11.92,
+  "prob": 0.95
+ },
+ {
+  "i": 42,
+  "texto": "no",
+  "inicio": 11.92,
+  "fin": 12.03,
+  "prob": 1
+ },
+ {
+  "i": 43,
+  "texto": "llegas",
+  "inicio": 12.03,
+  "fin": 12.36,
+  "prob": 0.98
+ },
+ {
+  "i": 44,
+  "texto": "ni",
+  "inicio": 12.36,
+  "fin": 12.37,
+  "prob": 0.97
+ },
+ {
+  "i": 45,
+  "texto": "a",
+  "inicio": 12.5,
+  "fin": 12.52,
+  "prob": 0.98
+ },
+ {
+  "i": 46,
+  "texto": "6000",
+  "inicio": 12.52,
+  "fin": 13.18,
+  "prob": 0.73
+ },
+ {
+  "i": 47,
+  "texto": "pasos",
+  "inicio": 13.18,
+  "fin": 13.42,
+  "prob": 0.99
+ },
+ {
+  "i": 48,
+  "texto": "y",
+  "inicio": 13.52,
+  "fin": 13.53,
+  "prob": 0.67
+ },
+ {
+  "i": 49,
+  "texto": "encima",
+  "inicio": 13.55,
+  "fin": 13.84,
+  "prob": 0.97
+ },
+ {
+  "i": 50,
+  "texto": "te",
+  "inicio": 13.84,
+  "fin": 13.94,
+  "prob": 0.96
+ },
+ {
+  "i": 51,
+  "texto": "felicitas.",
+  "inicio": 13.94,
+  "fin": 14.41,
+  "prob": 0.75
+ },
+ {
+  "i": 52,
+  "texto": "Tu",
+  "inicio": 14.63,
+  "fin": 14.71,
+  "prob": 0.95
+ },
+ {
+  "i": 53,
+  "texto": "cuerpo",
+  "inicio": 14.79,
+  "fin": 15.14,
+  "prob": 1
+ },
+ {
+  "i": 54,
+  "texto": "no",
+  "inicio": 15.14,
+  "fin": 15.21,
+  "prob": 0.98
+ },
+ {
+  "i": 55,
+  "texto": "mira",
+  "inicio": 15.31,
+  "fin": 15.54,
+  "prob": 0.98
+ },
+ {
+  "i": 56,
+  "texto": "los",
+  "inicio": 15.54,
+  "fin": 15.74,
+  "prob": 0.95
+ },
+ {
+  "i": 57,
+  "texto": "45",
+  "inicio": 15.74,
+  "fin": 16.15,
+  "prob": 1
+ },
+ {
+  "i": 58,
+  "texto": "minutos,",
+  "inicio": 16.15,
+  "fin": 16.6,
+  "prob": 1
+ },
+ {
+  "i": 59,
+  "texto": "mira",
+  "inicio": 16.88,
+  "fin": 17.03,
+  "prob": 0.99
+ },
+ {
+  "i": 60,
+  "texto": "las",
+  "inicio": 17.03,
+  "fin": 17.19,
+  "prob": 0.99
+ },
+ {
+  "i": 61,
+  "texto": "24",
+  "inicio": 17.38,
+  "fin": 17.63,
+  "prob": 0.99
+ },
+ {
+  "i": 62,
+  "texto": "horas",
+  "inicio": 17.64,
+  "fin": 17.98,
+  "prob": 0.99
+ },
+ {
+  "i": 63,
+  "texto": "que",
+  "inicio": 17.98,
+  "fin": 18.18,
+  "prob": 1
+ },
+ {
+  "i": 64,
+  "texto": "tiene",
+  "inicio": 18.18,
+  "fin": 18.52,
+  "prob": 0.97
+ },
+ {
+  "i": 65,
+  "texto": "el",
+  "inicio": 18.52,
+  "fin": 18.58,
+  "prob": 0.98
+ },
+ {
+  "i": 66,
+  "texto": "día.",
+  "inicio": 18.67,
+  "fin": 18.92,
+  "prob": 0.99
+ },
+ {
+  "i": 67,
+  "texto": "Cambia",
+  "inicio": 19.26,
+  "fin": 19.44,
+  "prob": 0.89
+ },
+ {
+  "i": 68,
+  "texto": "el",
+  "inicio": 19.44,
+  "fin": 19.52,
+  "prob": 0.89
+ },
+ {
+  "i": 69,
+  "texto": "ascensor",
+  "inicio": 19.52,
+  "fin": 19.84,
+  "prob": 0.81
+ },
+ {
+  "i": 70,
+  "texto": "por",
+  "inicio": 19.84,
+  "fin": 19.96,
+  "prob": 0.95
+ },
+ {
+  "i": 71,
+  "texto": "las",
+  "inicio": 19.96,
+  "fin": 20.08,
+  "prob": 1
+ },
+ {
+  "i": 72,
+  "texto": "escaleras.",
+  "inicio": 20.08,
+  "fin": 20.44,
+  "prob": 1
+ },
+ {
+  "i": 73,
+  "texto": "Cuando",
+  "inicio": 20.65,
+  "fin": 20.9,
+  "prob": 0.99
+ },
+ {
+  "i": 74,
+  "texto": "veas",
+  "inicio": 20.9,
+  "fin": 21.1,
+  "prob": 0.77
+ },
+ {
+  "i": 75,
+  "texto": "hacer",
+  "inicio": 21.1,
+  "fin": 21.35,
+  "prob": 0.82
+ },
+ {
+  "i": 76,
+  "texto": "la",
+  "inicio": 21.35,
+  "fin": 21.45,
+  "prob": 0.98
+ },
+ {
+  "i": 77,
+  "texto": "compra,",
+  "inicio": 21.45,
+  "fin": 21.73,
+  "prob": 1
+ },
+ {
+  "i": 78,
+  "texto": "en",
+  "inicio": 21.87,
+  "fin": 21.95,
+  "prob": 0.99
+ },
+ {
+  "i": 79,
+  "texto": "vez",
+  "inicio": 21.95,
+  "fin": 22.1,
+  "prob": 1
+ },
+ {
+  "i": 80,
+  "texto": "de",
+  "inicio": 22.1,
+  "fin": 22.2,
+  "prob": 0.97
+ },
+ {
+  "i": 81,
+  "texto": "ir",
+  "inicio": 22.2,
+  "fin": 22.3,
+  "prob": 0.99
+ },
+ {
+  "i": 82,
+  "texto": "en",
+  "inicio": 22.3,
+  "fin": 22.4,
+  "prob": 0.98
+ },
+ {
+  "i": 83,
+  "texto": "coche,",
+  "inicio": 22.4,
+  "fin": 22.65,
+  "prob": 0.98
+ },
+ {
+  "i": 84,
+  "texto": "ve",
+  "inicio": 22.87,
+  "fin": 22.87,
+  "prob": 0.91
+ },
+ {
+  "i": 85,
+  "texto": "caminando",
+  "inicio": 22.96,
+  "fin": 23.6,
+  "prob": 1
+ },
+ {
+  "i": 86,
+  "texto": "y",
+  "inicio": 23.6,
+  "fin": 23.61,
+  "prob": 0.45
+ },
+ {
+  "i": 87,
+  "texto": "deja",
+  "inicio": 23.71,
+  "fin": 23.95,
+  "prob": 0.95
+ },
+ {
+  "i": 88,
+  "texto": "de",
+  "inicio": 23.95,
+  "fin": 24.09,
+  "prob": 0.97
+ },
+ {
+  "i": 89,
+  "texto": "hacer",
+  "inicio": 24.09,
+  "fin": 24.44,
+  "prob": 0.98
+ },
+ {
+  "i": 90,
+  "texto": "esa",
+  "inicio": 24.44,
+  "fin": 24.65,
+  "prob": 0.97
+ },
+ {
+  "i": 91,
+  "texto": "llamada",
+  "inicio": 24.65,
+  "fin": 25.16,
+  "prob": 0.97
+ },
+ {
+  "i": 92,
+  "texto": "sentado",
+  "inicio": 25.16,
+  "fin": 25.6,
+  "prob": 0.84
+ },
+ {
+  "i": 93,
+  "texto": "cuando",
+  "inicio": 25.6,
+  "fin": 25.94,
+  "prob": 0.89
+ },
+ {
+  "i": 94,
+  "texto": "puedes",
+  "inicio": 25.94,
+  "fin": 26.28,
+  "prob": 0.89
+ },
+ {
+  "i": 95,
+  "texto": "hacerlo",
+  "inicio": 26.28,
+  "fin": 26.68,
+  "prob": 0.99
+ },
+ {
+  "i": 96,
+  "texto": "caminando.",
+  "inicio": 26.68,
+  "fin": 27.11,
+  "prob": 0.99
+ },
+ {
+  "i": 97,
+  "texto": "Sin",
+  "inicio": 27.25,
+  "fin": 27.34,
+  "prob": 0.95
+ },
+ {
+  "i": 98,
+  "texto": "sudar,",
+  "inicio": 27.34,
+  "fin": 27.57,
+  "prob": 0.98
+ },
+ {
+  "i": 99,
+  "texto": "sin",
+  "inicio": 27.66,
+  "fin": 27.76,
+  "prob": 0.99
+ },
+ {
+  "i": 100,
+  "texto": "cambiarte",
+  "inicio": 27.9,
+  "fin": 28.23,
+  "prob": 0.97
+ },
+ {
+  "i": 101,
+  "texto": "de",
+  "inicio": 28.23,
+  "fin": 28.32,
+  "prob": 0.99
+ },
+ {
+  "i": 102,
+  "texto": "ropa",
+  "inicio": 28.32,
+  "fin": 28.5,
+  "prob": 1
+ },
+ {
+  "i": 103,
+  "texto": "y",
+  "inicio": 28.5,
+  "fin": 28.54,
+  "prob": 0.8
+ },
+ {
+  "i": 104,
+  "texto": "los",
+  "inicio": 28.54,
+  "fin": 28.68,
+  "prob": 0.96
+ },
+ {
+  "i": 105,
+  "texto": "10.000",
+  "inicio": 28.68,
+  "fin": 29.45,
+  "prob": 0.71
+ },
+ {
+  "i": 106,
+  "texto": "pasos",
+  "inicio": 29.54,
+  "fin": 29.77,
+  "prob": 0.98
+ },
+ {
+  "i": 107,
+  "texto": "los",
+  "inicio": 29.77,
+  "fin": 29.87,
+  "prob": 0.86
+ },
+ {
+  "i": 108,
+  "texto": "haces",
+  "inicio": 29.91,
+  "fin": 30.13,
+  "prob": 0.65
+ },
+ {
+  "i": 109,
+  "texto": "sin",
+  "inicio": 30.16,
+  "fin": 30.28,
+  "prob": 0.99
+ },
+ {
+  "i": 110,
+  "texto": "que",
+  "inicio": 30.28,
+  "fin": 30.4,
+  "prob": 1
+ },
+ {
+  "i": 111,
+  "texto": "te",
+  "inicio": 30.43,
+  "fin": 30.51,
+  "prob": 1
+ },
+ {
+  "i": 112,
+  "texto": "enteres.",
+  "inicio": 30.51,
+  "fin": 31,
+  "prob": 0.99
+ },
+ {
+  "i": 113,
+  "texto": "Y",
+  "inicio": 31,
+  "fin": 31.05,
+  "prob": 0.93
+ },
+ {
+  "i": 114,
+  "texto": "esto",
+  "inicio": 31.05,
+  "fin": 31.25,
+  "prob": 0.94
+ },
+ {
+  "i": 115,
+  "texto": "sí",
+  "inicio": 31.25,
+  "fin": 31.4,
+  "prob": 0.72
+ },
+ {
+  "i": 116,
+  "texto": "que",
+  "inicio": 31.4,
+  "fin": 31.55,
+  "prob": 0.99
+ },
+ {
+  "i": 117,
+  "texto": "lo",
+  "inicio": 31.55,
+  "fin": 31.64,
+  "prob": 0.92
+ },
+ {
+  "i": 118,
+  "texto": "notas,",
+  "inicio": 31.65,
+  "fin": 31.81,
+  "prob": 0.99
+ },
+ {
+  "i": 119,
+  "texto": "porque",
+  "inicio": 32,
+  "fin": 32.3,
+  "prob": 0.98
+ },
+ {
+  "i": 120,
+  "texto": "son",
+  "inicio": 32.3,
+  "fin": 32.36,
+  "prob": 0.98
+ },
+ {
+  "i": 121,
+  "texto": "todos",
+  "inicio": 32.48,
+  "fin": 32.7,
+  "prob": 0.92
+ },
+ {
+  "i": 122,
+  "texto": "los",
+  "inicio": 32.7,
+  "fin": 32.84,
+  "prob": 1
+ },
+ {
+  "i": 123,
+  "texto": "días,",
+  "inicio": 32.84,
+  "fin": 33.08,
+  "prob": 1
+ },
+ {
+  "i": 124,
+  "texto": "no",
+  "inicio": 33.2,
+  "fin": 33.3,
+  "prob": 0.93
+ },
+ {
+  "i": 125,
+  "texto": "dos",
+  "inicio": 33.3,
+  "fin": 33.45,
+  "prob": 0.73
+ },
+ {
+  "i": 126,
+  "texto": "o",
+  "inicio": 33.45,
+  "fin": 33.49,
+  "prob": 0.97
+ },
+ {
+  "i": 127,
+  "texto": "tres",
+  "inicio": 33.49,
+  "fin": 33.7,
+  "prob": 1
+ },
+ {
+  "i": 128,
+  "texto": "que",
+  "inicio": 33.7,
+  "fin": 33.85,
+  "prob": 0.54
+ },
+ {
+  "i": 129,
+  "texto": "haces",
+  "inicio": 33.85,
+  "fin": 34.1,
+  "prob": 0.96
+ },
+ {
+  "i": 130,
+  "texto": "en",
+  "inicio": 34.1,
+  "fin": 34.2,
+  "prob": 0.98
+ },
+ {
+  "i": 131,
+  "texto": "la",
+  "inicio": 34.2,
+  "fin": 34.3,
+  "prob": 0.99
+ },
+ {
+  "i": 132,
+  "texto": "cinta.",
+  "inicio": 34.3,
+  "fin": 34.6,
+  "prob": 0.97
+ },
+ {
+  "i": 133,
+  "texto": "Y",
+  "inicio": 34.6,
+  "fin": 34.64,
+  "prob": 0.94
+ },
+ {
+  "i": 134,
+  "texto": "si",
+  "inicio": 34.64,
+  "fin": 34.73,
+  "prob": 0.97
+ },
+ {
+  "i": 135,
+  "texto": "quieres",
+  "inicio": 34.73,
+  "fin": 35.05,
+  "prob": 0.98
+ },
+ {
+  "i": 136,
+  "texto": "un",
+  "inicio": 35.05,
+  "fin": 35.12,
+  "prob": 0.96
+ },
+ {
+  "i": 137,
+  "texto": "plan,",
+  "inicio": 35.19,
+  "fin": 35.32,
+  "prob": 0.98
+ },
+ {
+  "i": 138,
+  "texto": "escríbeme",
+  "inicio": 35.41,
+  "fin": 35.87,
+  "prob": 0.25
+ },
+ {
+  "i": 139,
+  "texto": "rutina.",
+  "inicio": 35.87,
+  "fin": 36.19,
+  "prob": 0.83
+ }
+]

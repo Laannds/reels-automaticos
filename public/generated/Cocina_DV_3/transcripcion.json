@@ -1,0 +1,485 @@
+[
+ {
+  "i": 0,
+  "texto": "Os",
+  "inicio": 0.02,
+  "fin": 0.11,
+  "prob": 0.63
+ },
+ {
+  "i": 1,
+  "texto": "va",
+  "inicio": 0.11,
+  "fin": 0.22,
+  "prob": 0.95
+ },
+ {
+  "i": 2,
+  "texto": "a",
+  "inicio": 0.22,
+  "fin": 0.27,
+  "prob": 0.92
+ },
+ {
+  "i": 3,
+  "texto": "alucinar",
+  "inicio": 0.27,
+  "fin": 0.61,
+  "prob": 0.98
+ },
+ {
+  "i": 4,
+  "texto": "esta",
+  "inicio": 0.78,
+  "fin": 0.93,
+  "prob": 0.89
+ },
+ {
+  "i": 5,
+  "texto": "mezcla",
+  "inicio": 0.93,
+  "fin": 1.27,
+  "prob": 0.98
+ },
+ {
+  "i": 6,
+  "texto": "alta",
+  "inicio": 1.27,
+  "fin": 1.48,
+  "prob": 0.71
+ },
+ {
+  "i": 7,
+  "texto": "en",
+  "inicio": 1.48,
+  "fin": 1.6,
+  "prob": 0.79
+ },
+ {
+  "i": 8,
+  "texto": "proteínas",
+  "inicio": 1.6,
+  "fin": 2.21,
+  "prob": 0.92
+ },
+ {
+  "i": 9,
+  "texto": "que",
+  "inicio": 2.3,
+  "fin": 2.41,
+  "prob": 0.85
+ },
+ {
+  "i": 10,
+  "texto": "se",
+  "inicio": 2.41,
+  "fin": 2.52,
+  "prob": 0.97
+ },
+ {
+  "i": 11,
+  "texto": "hace",
+  "inicio": 2.52,
+  "fin": 2.76,
+  "prob": 0.98
+ },
+ {
+  "i": 12,
+  "texto": "menos",
+  "inicio": 2.76,
+  "fin": 3.13,
+  "prob": 0.51
+ },
+ {
+  "i": 13,
+  "texto": "de",
+  "inicio": 3.13,
+  "fin": 3.28,
+  "prob": 0.99
+ },
+ {
+  "i": 14,
+  "texto": "5",
+  "inicio": 3.28,
+  "fin": 3.54,
+  "prob": 0.63
+ },
+ {
+  "i": 15,
+  "texto": "minutos.",
+  "inicio": 3.54,
+  "fin": 3.85,
+  "prob": 0.95
+ },
+ {
+  "i": 16,
+  "texto": "Tostamos",
+  "inicio": 4,
+  "fin": 4.33,
+  "prob": 0.54
+ },
+ {
+  "i": 17,
+  "texto": "el",
+  "inicio": 4.33,
+  "fin": 4.42,
+  "prob": 1
+ },
+ {
+  "i": 18,
+  "texto": "pan",
+  "inicio": 4.42,
+  "fin": 4.56,
+  "prob": 0.99
+ },
+ {
+  "i": 19,
+  "texto": "que",
+  "inicio": 4.56,
+  "fin": 4.7,
+  "prob": 0.97
+ },
+ {
+  "i": 20,
+  "texto": "uséis",
+  "inicio": 4.7,
+  "fin": 4.98,
+  "prob": 0.9
+ },
+ {
+  "i": 21,
+  "texto": "por",
+  "inicio": 4.98,
+  "fin": 5.12,
+  "prob": 0.99
+ },
+ {
+  "i": 22,
+  "texto": "la",
+  "inicio": 5.12,
+  "fin": 5.21,
+  "prob": 0.99
+ },
+ {
+  "i": 23,
+  "texto": "mañana.",
+  "inicio": 5.21,
+  "fin": 5.56,
+  "prob": 1
+ },
+ {
+  "i": 24,
+  "texto": "Untamos",
+  "inicio": 5.64,
+  "fin": 6.03,
+  "prob": 0.94
+ },
+ {
+  "i": 25,
+  "texto": "mantequilla",
+  "inicio": 6.03,
+  "fin": 6.63,
+  "prob": 0.96
+ },
+ {
+  "i": 26,
+  "texto": "y",
+  "inicio": 6.63,
+  "fin": 6.67,
+  "prob": 0.93
+ },
+ {
+  "i": 27,
+  "texto": "cacahuete.",
+  "inicio": 6.72,
+  "fin": 7.23,
+  "prob": 0.64
+ },
+ {
+  "i": 28,
+  "texto": "2",
+  "inicio": 7.24,
+  "fin": 7.38,
+  "prob": 0.56
+ },
+ {
+  "i": 29,
+  "texto": "cucharadas",
+  "inicio": 7.44,
+  "fin": 7.83,
+  "prob": 0.72
+ },
+ {
+  "i": 30,
+  "texto": "generosas",
+  "inicio": 7.9,
+  "fin": 8.36,
+  "prob": 0.99
+ },
+ {
+  "i": 31,
+  "texto": "de",
+  "inicio": 8.36,
+  "fin": 8.41,
+  "prob": 0.99
+ },
+ {
+  "i": 32,
+  "texto": "queso",
+  "inicio": 8.48,
+  "fin": 8.71,
+  "prob": 0.97
+ },
+ {
+  "i": 33,
+  "texto": "cottage.",
+  "inicio": 8.71,
+  "fin": 9.01,
+  "prob": 0.52
+ },
+ {
+  "i": 34,
+  "texto": "Añadimos",
+  "inicio": 9.18,
+  "fin": 9.93,
+  "prob": 0.99
+ },
+ {
+  "i": 35,
+  "texto": "mermelada",
+  "inicio": 9.93,
+  "fin": 10.7,
+  "prob": 0.93
+ },
+ {
+  "i": 36,
+  "texto": "0%",
+  "inicio": 10.7,
+  "fin": 11.04,
+  "prob": 0.38
+ },
+ {
+  "i": 37,
+  "texto": "azúcar.",
+  "inicio": 11.04,
+  "fin": 11.6,
+  "prob": 0.92
+ },
+ {
+  "i": 38,
+  "texto": "Yo",
+  "inicio": 11.83,
+  "fin": 11.94,
+  "prob": 0.99
+ },
+ {
+  "i": 39,
+  "texto": "uso",
+  "inicio": 11.94,
+  "fin": 12.25,
+  "prob": 0.99
+ },
+ {
+  "i": 40,
+  "texto": "de",
+  "inicio": 12.26,
+  "fin": 12.48,
+  "prob": 0.99
+ },
+ {
+  "i": 41,
+  "texto": "fresa,",
+  "inicio": 12.49,
+  "fin": 13.08,
+  "prob": 0.99
+ },
+ {
+  "i": 42,
+  "texto": "pero",
+  "inicio": 13.17,
+  "fin": 13.36,
+  "prob": 0.87
+ },
+ {
+  "i": 43,
+  "texto": "puedes",
+  "inicio": 13.36,
+  "fin": 13.64,
+  "prob": 0.62
+ },
+ {
+  "i": 44,
+  "texto": "usar",
+  "inicio": 13.64,
+  "fin": 13.83,
+  "prob": 0.99
+ },
+ {
+  "i": 45,
+  "texto": "de",
+  "inicio": 13.83,
+  "fin": 13.92,
+  "prob": 0.97
+ },
+ {
+  "i": 46,
+  "texto": "melocotón,",
+  "inicio": 13.92,
+  "fin": 14.38,
+  "prob": 0.96
+ },
+ {
+  "i": 47,
+  "texto": "de",
+  "inicio": 14.52,
+  "fin": 14.63,
+  "prob": 0.88
+ },
+ {
+  "i": 48,
+  "texto": "arándanos.",
+  "inicio": 14.63,
+  "fin": 15.04,
+  "prob": 0.9
+ },
+ {
+  "i": 49,
+  "texto": "Y",
+  "inicio": 15.23,
+  "fin": 15.26,
+  "prob": 0.99
+ },
+ {
+  "i": 50,
+  "texto": "rematamos",
+  "inicio": 15.26,
+  "fin": 15.8,
+  "prob": 0.95
+ },
+ {
+  "i": 51,
+  "texto": "con",
+  "inicio": 15.8,
+  "fin": 15.96,
+  "prob": 0.99
+ },
+ {
+  "i": 52,
+  "texto": "unos",
+  "inicio": 16.11,
+  "fin": 16.22,
+  "prob": 0.94
+ },
+ {
+  "i": 53,
+  "texto": "arándanos.",
+  "inicio": 16.22,
+  "fin": 16.82,
+  "prob": 0.99
+ },
+ {
+  "i": 54,
+  "texto": "Guarda",
+  "inicio": 17.07,
+  "fin": 17.31,
+  "prob": 0.89
+ },
+ {
+  "i": 55,
+  "texto": "esto",
+  "inicio": 17.31,
+  "fin": 17.49,
+  "prob": 0.98
+ },
+ {
+  "i": 56,
+  "texto": "para",
+  "inicio": 17.55,
+  "fin": 17.69,
+  "prob": 0.97
+ },
+ {
+  "i": 57,
+  "texto": "el",
+  "inicio": 17.69,
+  "fin": 17.78,
+  "prob": 0.97
+ },
+ {
+  "i": 58,
+  "texto": "domingo",
+  "inicio": 17.78,
+  "fin": 18.1,
+  "prob": 0.99
+ },
+ {
+  "i": 59,
+  "texto": "que",
+  "inicio": 18.11,
+  "fin": 18.25,
+  "prob": 1
+ },
+ {
+  "i": 60,
+  "texto": "viene.",
+  "inicio": 18.25,
+  "fin": 18.45,
+  "prob": 1
+ },
+ {
+  "i": 61,
+  "texto": "Y",
+  "inicio": 18.54,
+  "fin": 18.56,
+  "prob": 0.99
+ },
+ {
+  "i": 62,
+  "texto": "si",
+  "inicio": 18.56,
+  "fin": 18.65,
+  "prob": 0.95
+ },
+ {
+  "i": 63,
+  "texto": "quieres",
+  "inicio": 18.65,
+  "fin": 18.97,
+  "prob": 0.98
+ },
+ {
+  "i": 64,
+  "texto": "también",
+  "inicio": 18.97,
+  "fin": 19.34,
+  "prob": 0.88
+ },
+ {
+  "i": 65,
+  "texto": "de",
+  "inicio": 19.34,
+  "fin": 19.38,
+  "prob": 0.32
+ },
+ {
+  "i": 66,
+  "texto": "penedramiento,",
+  "inicio": 19.43,
+  "fin": 19.99,
+  "prob": 0.15
+ },
+ {
+  "i": 67,
+  "texto": "escribe",
+  "inicio": 20.1,
+  "fin": 20.42,
+  "prob": 0.5
+ },
+ {
+  "i": 68,
+  "texto": "rutina.",
+  "inicio": 20.42,
+  "fin": 20.68,
+  "prob": 0.91
+ }
+]

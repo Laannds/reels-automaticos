@@ -1,0 +1,14 @@
+{
+  "slug": "Cocina_DV_3",
+  "duracion": 21.933333,
+  "lufs": -16.3,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "info",
+      "t": 0,
+      "texto": "sonoridad -16.3 LUFS: no llega a -14 porque el pico de la voz sin comprimir ya está en -1.5 dBTP"
+    }
+  ]
+}

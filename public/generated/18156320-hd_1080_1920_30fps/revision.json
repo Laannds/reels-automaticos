@@ -1,0 +1,15 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    { "t": 0.0,  "tipo": "titulon",    "dato": "=PRUÉBATELO|ANTES DE COMPRARLO", "duracion": 2.4 },
+    { "t": 2.1,  "tipo": "transicion", "dato": "zoomIn", "duracion": 0.5 },
+    { "t": 2.6,  "tipo": "congelado",  "dato": "generated/18156320-hd_1080_1920_30fps/congelado.png|¿TE GUSTA SU LOOK?", "duracion": 12.4 },
+    { "t": 4.2,  "tipo": "movil",      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png", "duracion": 7.2 },
+    { "t": 4.2,  "tipo": "etiqueta",   "dato": "SUBE TU FOTO", "y": 0.75, "duracion": 2.4 },
+    { "t": 6.6,  "tipo": "etiqueta",   "dato": "LA IA HACE EL RESTO", "y": 0.75, "duracion": 2.4 },
+    { "t": 9.0,  "tipo": "etiqueta",   "dato": "ASÍ TE QUEDA", "y": 0.75, "duracion": 2.4 },
+    { "t": 11.4, "tipo": "remate",     "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO", "duracion": 3.6 }
+  ],
+  "resumen": "Segundo reel de la serie 'Pruébatelo', misma plantilla que 16108603 (gancho + congelado + demo + CTA, --sin-voz), sobre otro clip de modelos/: mujer cruzando un paso de peatones en conjunto verde, foto congelada en el segundo 2,6 (pose dinámica a media zancada, mejor momento del clip). Mismo espaciado interno que la plantilla original (congelado +1,6s → movil, 2,4s por pantalla, CTA al final), desplazado porque este clip dura 5,95s en vez de 5,57s. --duracion 15 rellena repitiendo el clip (tapado en su totalidad por el congelado persistente, igual que en el primer reel). Mismas 3 capturas de ejemplo de la app y mismo CTA que el resto de la serie, tal y como confirmó Pablo."
+}

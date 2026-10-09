@@ -1,0 +1,167 @@
+{
+  "slug": "prueba1",
+  "duracion": 27.8,
+  "lufs": -16.2,
+  "pico": -1.6,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "info",
+      "t": 0,
+      "texto": "sonoridad -16.2 LUFS: no llega a -14 porque el pico de la voz sin comprimir ya está en -1.6 dBTP"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 2.5,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 2.5,
+      "k": 10,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 2.75,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 2.75,
+      "k": 11,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 3,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 3,
+      "k": 12,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 3.25,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 3.25,
+      "k": 13,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 3.5,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 3.5,
+      "k": 14,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 3.75,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 3.75,
+      "k": 15,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 4,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 4,
+      "k": 16,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 4.25,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 4.25,
+      "k": 17,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 4.5,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 4.5,
+      "k": 18,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 4.75,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 4.75,
+      "k": 19,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 5,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 5,
+      "k": 20,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 5.25,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 5.25,
+      "k": 21,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 5.5,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 5.5,
+      "k": 22,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 5.75,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 5.75,
+      "k": 23,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 6,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 6,
+      "k": 24,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 6.25,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 6.25,
+      "k": 25,
+      "zona": "derecha"
+    },
+    {
+      "grupo": "zona",
+      "gravedad": "aviso",
+      "t": 6.5,
+      "texto": "subtítulos entra en la zona de botones de like/comentar/compartir",
+      "hasta": 6.5,
+      "k": 26,
+      "zona": "derecha"
+    }
+  ]
+}

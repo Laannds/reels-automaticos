@@ -1,0 +1,10 @@
+- [Audio: voz intacta](audio-musica-discreta.md) — voz tal cual la graban (sin reductor ni compresión), música ~-30 dB y efectos ≥15 dB por debajo, máster solo ganancia
+- [Subtítulos cuadrados](subtitulos-cuadrados.md) — detecta al instante descentrados/desincronizados; medir antes de culpar a Whisper; DTW fue peor
+- [Cliente DV FIT](cliente-dv-fit.md) — sin handle, amarillo #F5B301, CTAs RUTINA/GUARDA ESTA RECETA, mapear cara con Vision
+- [Sin barra de progreso](sin-barra-de-progreso.md) — nada permanente en pantalla; el mobiliario delata la plantilla
+- [Ritmo lifestyle](ritmo-lifestyle.md) — planos a ~2,4 s (1,7 s si solo habla a cámara); recortar, no acelerar
+- [Crudos desde CapCut](crudos-desde-capcut.md) — exporta a ~/Movies/CapCut sin copiar al proyecto; tras reexportar, recalcular las marcas @
+- [Stock de Mixkit](stock-mixkit.md) — cómo bajar planos que faltan y qué comprobar antes de usarlos
+- [Música sin pausas](musica-sin-pausas.md) — si habla sin parar, el ducking no suelta y la música no se oye: --musica-db
+- [Renders que se caen](render-se-cae-memoria.md) — el timeout de Remotion suele ser falta de memoria: aligerar stock, bajar concurrencia, render por tramos
+- [Seguir objetos: ruido](seguir-objeto-ruido.md) — congelar el tamaño y suavizar el giro, y verificar la pista con drawbox antes de montar

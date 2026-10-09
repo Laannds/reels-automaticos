@@ -1,0 +1,597 @@
+[
+ {
+  "i": 0,
+  "texto": "si",
+  "inicio": 0.05,
+  "fin": 0.15,
+  "prob": 0.11
+ },
+ {
+  "i": 1,
+  "texto": "quieres",
+  "inicio": 0.15,
+  "fin": 0.69,
+  "prob": 0.97
+ },
+ {
+  "i": 2,
+  "texto": "cambiar",
+  "inicio": 0.69,
+  "fin": 1.22,
+  "prob": 0.99
+ },
+ {
+  "i": 3,
+  "texto": "la",
+  "inicio": 1.22,
+  "fin": 1.25,
+  "prob": 0.99
+ },
+ {
+  "i": 4,
+  "texto": "voz",
+  "inicio": 1.52,
+  "fin": 1.61,
+  "prob": 1
+ },
+ {
+  "i": 5,
+  "texto": "del",
+  "inicio": 1.61,
+  "fin": 1.79,
+  "prob": 0.91
+ },
+ {
+  "i": 6,
+  "texto": "chat",
+  "inicio": 1.85,
+  "fin": 2.14,
+  "prob": 0.09
+ },
+ {
+  "i": 7,
+  "texto": "gpt",
+  "inicio": 2.14,
+  "fin": 2.4,
+  "prob": 0.39
+ },
+ {
+  "i": 8,
+  "texto": "cuando",
+  "inicio": 2.4,
+  "fin": 2.77,
+  "prob": 0.9
+ },
+ {
+  "i": 9,
+  "texto": "hablas",
+  "inicio": 2.77,
+  "fin": 3.07,
+  "prob": 0.96
+ },
+ {
+  "i": 10,
+  "texto": "con",
+  "inicio": 3.15,
+  "fin": 3.31,
+  "prob": 0.99
+ },
+ {
+  "i": 11,
+  "texto": "él",
+  "inicio": 3.31,
+  "fin": 3.41,
+  "prob": 0.94
+ },
+ {
+  "i": 12,
+  "texto": "únicamente",
+  "inicio": 3.6,
+  "fin": 4.06,
+  "prob": 0.32
+ },
+ {
+  "i": 13,
+  "texto": "lo",
+  "inicio": 4.06,
+  "fin": 4.18,
+  "prob": 0.98
+ },
+ {
+  "i": 14,
+  "texto": "que",
+  "inicio": 4.22,
+  "fin": 4.24,
+  "prob": 0.91
+ },
+ {
+  "i": 15,
+  "texto": "tienes",
+  "inicio": 4.24,
+  "fin": 4.47,
+  "prob": 0.78
+ },
+ {
+  "i": 16,
+  "texto": "que",
+  "inicio": 4.52,
+  "fin": 4.56,
+  "prob": 0.95
+ },
+ {
+  "i": 17,
+  "texto": "hacer",
+  "inicio": 4.56,
+  "fin": 4.76,
+  "prob": 0.73
+ },
+ {
+  "i": 18,
+  "texto": "es",
+  "inicio": 4.76,
+  "fin": 4.96,
+  "prob": 0.73
+ },
+ {
+  "i": 19,
+  "texto": "irte",
+  "inicio": 4.96,
+  "fin": 5.24,
+  "prob": 0.59
+ },
+ {
+  "i": 20,
+  "texto": "a",
+  "inicio": 5.24,
+  "fin": 5.26,
+  "prob": 0.62
+ },
+ {
+  "i": 21,
+  "texto": "ajustes",
+  "inicio": 5.26,
+  "fin": 5.76,
+  "prob": 0.94
+ },
+ {
+  "i": 22,
+  "texto": "en",
+  "inicio": 5.76,
+  "fin": 6,
+  "prob": 0.87
+ },
+ {
+  "i": 23,
+  "texto": "configuración",
+  "inicio": 6,
+  "fin": 6.94,
+  "prob": 0.84
+ },
+ {
+  "i": 24,
+  "texto": "y",
+  "inicio": 7.11,
+  "fin": 7.14,
+  "prob": 0.82
+ },
+ {
+  "i": 25,
+  "texto": "te",
+  "inicio": 7.14,
+  "fin": 7.32,
+  "prob": 0.94
+ },
+ {
+  "i": 26,
+  "texto": "va",
+  "inicio": 7.32,
+  "fin": 7.44,
+  "prob": 0.89
+ },
+ {
+  "i": 27,
+  "texto": "a",
+  "inicio": 7.44,
+  "fin": 7.46,
+  "prob": 0.95
+ },
+ {
+  "i": 28,
+  "texto": "salir",
+  "inicio": 7.51,
+  "fin": 7.67,
+  "prob": 0.94
+ },
+ {
+  "i": 29,
+  "texto": "un",
+  "inicio": 7.69,
+  "fin": 7.8,
+  "prob": 0.78
+ },
+ {
+  "i": 30,
+  "texto": "apartado",
+  "inicio": 7.8,
+  "fin": 8.24,
+  "prob": 0.93
+ },
+ {
+  "i": 31,
+  "texto": "en",
+  "inicio": 8.24,
+  "fin": 8.4,
+  "prob": 0.92
+ },
+ {
+  "i": 32,
+  "texto": "el",
+  "inicio": 8.4,
+  "fin": 8.46,
+  "prob": 0.95
+ },
+ {
+  "i": 33,
+  "texto": "que",
+  "inicio": 8.5,
+  "fin": 8.59,
+  "prob": 0.92
+ },
+ {
+  "i": 34,
+  "texto": "te",
+  "inicio": 8.61,
+  "fin": 8.73,
+  "prob": 0.88
+ },
+ {
+  "i": 35,
+  "texto": "sale",
+  "inicio": 8.73,
+  "fin": 8.98,
+  "prob": 0.99
+ },
+ {
+  "i": 36,
+  "texto": "una",
+  "inicio": 9.05,
+  "fin": 9.28,
+  "prob": 0.95
+ },
+ {
+  "i": 37,
+  "texto": "burbujita",
+  "inicio": 9.28,
+  "fin": 9.88,
+  "prob": 0.71
+ },
+ {
+  "i": 38,
+  "texto": "azul",
+  "inicio": 9.88,
+  "fin": 10.16,
+  "prob": 0.96
+ },
+ {
+  "i": 39,
+  "texto": "y",
+  "inicio": 10.26,
+  "fin": 10.32,
+  "prob": 0.87
+ },
+ {
+  "i": 40,
+  "texto": "seleccionas",
+  "inicio": 10.32,
+  "fin": 11.09,
+  "prob": 0.8
+ },
+ {
+  "i": 41,
+  "texto": "el",
+  "inicio": 11.2,
+  "fin": 11.36,
+  "prob": 0.95
+ },
+ {
+  "i": 42,
+  "texto": "tono",
+  "inicio": 11.36,
+  "fin": 11.66,
+  "prob": 0.94
+ },
+ {
+  "i": 43,
+  "texto": "te",
+  "inicio": 11.85,
+  "fin": 11.88,
+  "prob": 0.44
+ },
+ {
+  "i": 44,
+  "texto": "van",
+  "inicio": 11.88,
+  "fin": 12.08,
+  "prob": 0.95
+ },
+ {
+  "i": 45,
+  "texto": "a",
+  "inicio": 12.08,
+  "fin": 12.1,
+  "prob": 0.97
+ },
+ {
+  "i": 46,
+  "texto": "salir",
+  "inicio": 12.2,
+  "fin": 12.43,
+  "prob": 0.95
+ },
+ {
+  "i": 47,
+  "texto": "varios",
+  "inicio": 12.44,
+  "fin": 12.72,
+  "prob": 0.91
+ },
+ {
+  "i": 48,
+  "texto": "tipos",
+  "inicio": 12.72,
+  "fin": 13.32,
+  "prob": 0.98
+ },
+ {
+  "i": 49,
+  "texto": "seleccionas",
+  "inicio": 13.32,
+  "fin": 14.17,
+  "prob": 0.73
+ },
+ {
+  "i": 50,
+  "texto": "el",
+  "inicio": 14.19,
+  "fin": 14.31,
+  "prob": 0.9
+ },
+ {
+  "i": 51,
+  "texto": "que",
+  "inicio": 14.33,
+  "fin": 14.34,
+  "prob": 0.96
+ },
+ {
+  "i": 52,
+  "texto": "más",
+  "inicio": 14.34,
+  "fin": 14.52,
+  "prob": 0.92
+ },
+ {
+  "i": 53,
+  "texto": "te",
+  "inicio": 14.61,
+  "fin": 14.64,
+  "prob": 0.94
+ },
+ {
+  "i": 54,
+  "texto": "guste",
+  "inicio": 14.64,
+  "fin": 14.96,
+  "prob": 0.88
+ },
+ {
+  "i": 55,
+  "texto": "y",
+  "inicio": 14.96,
+  "fin": 15,
+  "prob": 0.92
+ },
+ {
+  "i": 56,
+  "texto": "a",
+  "inicio": 15,
+  "fin": 15.06,
+  "prob": 0.96
+ },
+ {
+  "i": 57,
+  "texto": "partir",
+  "inicio": 15.06,
+  "fin": 15.44,
+  "prob": 0.99
+ },
+ {
+  "i": 58,
+  "texto": "de",
+  "inicio": 15.44,
+  "fin": 15.56,
+  "prob": 0.98
+ },
+ {
+  "i": 59,
+  "texto": "ese",
+  "inicio": 15.56,
+  "fin": 15.72,
+  "prob": 0.95
+ },
+ {
+  "i": 60,
+  "texto": "momento",
+  "inicio": 15.72,
+  "fin": 16,
+  "prob": 0.94
+ },
+ {
+  "i": 61,
+  "texto": "siempre",
+  "inicio": 16,
+  "fin": 16.51,
+  "prob": 0.94
+ },
+ {
+  "i": 62,
+  "texto": "se",
+  "inicio": 16.52,
+  "fin": 16.78,
+  "prob": 0.95
+ },
+ {
+  "i": 63,
+  "texto": "te",
+  "inicio": 16.84,
+  "fin": 16.9,
+  "prob": 0.91
+ },
+ {
+  "i": 64,
+  "texto": "va",
+  "inicio": 16.9,
+  "fin": 17,
+  "prob": 0.99
+ },
+ {
+  "i": 65,
+  "texto": "a",
+  "inicio": 17,
+  "fin": 17.05,
+  "prob": 0.79
+ },
+ {
+  "i": 66,
+  "texto": "hablar",
+  "inicio": 17.33,
+  "fin": 18.11,
+  "prob": 0.87
+ },
+ {
+  "i": 67,
+  "texto": "con",
+  "inicio": 18.11,
+  "fin": 18.53,
+  "prob": 0.98
+ },
+ {
+  "i": 68,
+  "texto": "esa",
+  "inicio": 18.67,
+  "fin": 19.03,
+  "prob": 0.6
+ },
+ {
+  "i": 69,
+  "texto": "misma",
+  "inicio": 19.1,
+  "fin": 19.87,
+  "prob": 1
+ },
+ {
+  "i": 70,
+  "texto": "bueno",
+  "inicio": 19.97,
+  "fin": 20,
+  "prob": 0.01
+ },
+ {
+  "i": 71,
+  "texto": "espero",
+  "inicio": 20,
+  "fin": 20.47,
+  "prob": 0.8
+ },
+ {
+  "i": 72,
+  "texto": "que",
+  "inicio": 20.55,
+  "fin": 20.6,
+  "prob": 0.97
+ },
+ {
+  "i": 73,
+  "texto": "te",
+  "inicio": 20.6,
+  "fin": 20.73,
+  "prob": 0.98
+ },
+ {
+  "i": 74,
+  "texto": "sirva",
+  "inicio": 20.79,
+  "fin": 21.2,
+  "prob": 0.98
+ },
+ {
+  "i": 75,
+  "texto": "si",
+  "inicio": 21.2,
+  "fin": 21.52,
+  "prob": 0.87
+ },
+ {
+  "i": 76,
+  "texto": "tienes",
+  "inicio": 21.59,
+  "fin": 22.57,
+  "prob": 0.97
+ },
+ {
+  "i": 77,
+  "texto": "cualquier",
+  "inicio": 22.57,
+  "fin": 23.67,
+  "prob": 0.96
+ },
+ {
+  "i": 78,
+  "texto": "duda",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 0.99
+ },
+ {
+  "i": 79,
+  "texto": "me",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 0.91
+ },
+ {
+  "i": 80,
+  "texto": "escribes",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 0.85
+ },
+ {
+  "i": 81,
+  "texto": "en",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 1
+ },
+ {
+  "i": 82,
+  "texto": "comentarios",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 0.99
+ },
+ {
+  "i": 83,
+  "texto": "y",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 0.99
+ },
+ {
+  "i": 84,
+  "texto": "sigues",
+  "inicio": 23.75,
+  "fin": 23.75,
+  "prob": 0.37
+ }
+]

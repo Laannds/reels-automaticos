@@ -1,0 +1,130 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.42,
+  "enfasis": [
+    [
+      18,
+      18
+    ],
+    [
+      37,
+      37
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 0,
+      "texto": "Cena"
+    },
+    {
+      "palabra": 53,
+      "texto": "pido lo"
+    },
+    {
+      "palabra": 54,
+      "texto": "que me"
+    },
+    {
+      "palabra": 118,
+      "texto": "Menciona al amigo"
+    }
+  ],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 5,
+      "tipo": "carta",
+      "pista": "mano",
+      "dato": "CARTA|Ensalada@0.81|Carne|Pescado|Marisco",
+      "duracion": 1.78
+    },
+    {
+      "palabra": 16,
+      "tipo": "etiqueta",
+      "dato": "1|Busca la proteína",
+      "y": 0.5,
+      "duracion": 1.5
+    },
+    {
+      "palabra": 19,
+      "tipo": "broll",
+      "dato": "stock/cena-carne.mp4",
+      "duracion": 0.65
+    },
+    {
+      "palabra": 21,
+      "tipo": "broll",
+      "dato": "stock/cena-marisco.mp4",
+      "duracion": 1.16
+    },
+    {
+      "palabra": 35,
+      "tipo": "broll",
+      "dato": "stock/cena-pan.mp4",
+      "duracion": 1.4
+    },
+    {
+      "palabra": 44,
+      "tipo": "etiqueta",
+      "dato": "EL ERROR|El pan antes de que llegue nada",
+      "y": 0.5,
+      "duracion": 1.25
+    },
+    {
+      "palabra": 48,
+      "tipo": "etiqueta",
+      "dato": "2|Pide lo que te apetece, una cosa",
+      "y": 0.5,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 65,
+      "tipo": "broll",
+      "dato": "stock/cena-pechuga.mp4",
+      "duracion": 1.5,
+      "tapaSubtitulos": true
+    },
+    {
+      "palabra": 76,
+      "tipo": "etiqueta",
+      "dato": "SI PIDES ESO|La próxima vez no quieres venir",
+      "y": 0.5,
+      "duracion": 1.9
+    },
+    {
+      "palabra": 82,
+      "tipo": "etiqueta",
+      "dato": "3|Al día siguiente, igual",
+      "y": 0.5,
+      "duracion": 1.6
+    },
+    {
+      "palabra": 88,
+      "tipo": "etiqueta",
+      "dato": "NADA DE|Compensar ni matarte a cardio",
+      "y": 0.5,
+      "duracion": 2.4
+    },
+    {
+      "palabra": 91,
+      "tipo": "broll",
+      "dato": "stock/gym-cintas.mp4",
+      "duracion": 1.5
+    },
+    {
+      "palabra": 100,
+      "tipo": "remate",
+      "dato": "UNA CENA|NO ENGORDA A=NADIE",
+      "y": 0.5,
+      "tam": 110,
+      "duracion": 2.2
+    },
+    {
+      "palabra": 126,
+      "tipo": "remate",
+      "dato": "bocadillo:ESCRIBE=RUTINA",
+      "duracion": 2.71
+    }
+  ],
+  "resumen": "Reel de DV FIT (David) sobre cómo comer en una cena de empresa: tres consejos. Sin handle, amarillo de marca. GANCHO CON LA CARTA SOBRE LA MANO, que es lo que pidió Pablo: David levanta la palma y dice 'esta es la carta', y encima de la mano aparece una carta de restaurante de verdad que gira y escala con ella. Para eso se ha seguido la mano con Vision (npm run seguir -- DV_Menu mano 1.15 3.25 0.01 0.19 0.25 0.375, 63 fotogramas, ángulo de -11° a -4°, verificada dibujando la caja sobre el vídeo) y se ha añadido un tipo de elemento nuevo, 'carta', que usa la misma mecánica de pista que la '?' del iPad de DV_SP_3. La carta lista Ensalada / Carne / Pescado / Marisco y TACHA 'Ensalada' justo cuando dice 'no voy a pedir ensalada': el gráfico completa el gesto en vez de explicarlo. Encuadre: está de pie detrás de un mostrador y queda lejos, así que la cara es pequeña y alta (y 0,075 a 0,294) y sobra sitio abajo; subtítulos a 0,34 y tarjetas a 0,40. STOCK: cinco cortes, cuatro descargados de Mixkit y uno ya en la librería. Carne a la brasa y marisco al fuego mientras enumera las proteínas (dos cortes en vez de cuatro: las palabras 'carne' y 'pescado' duran 0,31 s cada una y un plano tan corto no se lee); pan en rebanadas sobre 'comerte el pan'; pollo a la plancha con ensalada sobre 'pides pechuga a la plancha'; y la cinta de correr, que ya estaba, sobre 'matarte a cardio'. Todos recortados a 9:16 y reducidos antes de usarlos (de 1920x1080 a 1080x1920, entre 0,8 y 3,1 MB) para que el render no se caiga por memoria. OJO: la palabra 71 ('no estás jugándote') no se entiende; cuatro pasadas de Whisper dan 'jugando' y 'jugándote' y ninguna encaja. No se ha inventado: el corte del pollo a la plancha lleva tapaSubtitulos y cubre ese tramo entero, así que no sale en pantalla y la imagen dice lo que hay que decir. Correcciones comprobadas: 'Zona de empresa' -> 'Cena de empresa', 'pídelo con apetece' -> 'pido lo que me apetece', y el cierre, al que Whisper se comió el principio: 'amigo que le puede venir bien' -> 'Menciona al amigo...' (dos pasadas coinciden). El final ('si quieres ser planca aguanta octubranero') tampoco se entiende, así que el CTA entra en la palabra 126 y lo tapa. Alturas definitivas tras ver la carta montada: el mostrador no empieza hasta 0,70, así que hay una banda libre enorme entre la barbilla (0,294) y la mesa. Subtítulos a 0,42 —por debajo de la carta, que llega a 0,39, porque a 0,34 se los comía— y tarjetas a 0,50. La carta se redujo (de 1,42 a 1,30 veces el ancho de la mano) y se desplazó hacia dentro del cuadro y un poco arriba: centrada en la palma, que está pegada al borde izquierdo, se salía de plano y cortaba los nombres de los platos. Audio: por defecto la música quedaba 30,6 dB bajo la voz (aislada de la mezcla), inaudible. Va con --musica-db -22 --sin-ducking: unos 19,8 dB por debajo, fija. Cuarto reel seguido de David que lo necesita. Música gym-need-for-speed-369 (rotación). La voz entra a -21,3 dB de media, bien grabada, así que el máster de solo ganancia llega sin problema y no hace falta ni --limpiar-voz ni --comprimir. Retoque de la carta tras verla en movimiento (Pablo: 'sale a destiempo y un poco regulera'). Medida la pista fotograma a fotograma: la posición es firme (salto medio 0,0003) pero el ancho oscila un 19% (0,210-0,250) y el ángulo pega saltos de hasta 1° por fotograma — o sea que la carta respiraba y temblaba. Arreglado en el componente: el tamaño se congela en la mediana de la pista (la mano no se acerca ni se aleja, esa variación es ruido del seguidor), y giro y posición pasan por una media móvil (±4 y ±2 fotogramas), que quita el temblor y conserva la inclinación real, que sí va de -4° a -11°. La entrada ya no crece desde cero: entra al 88% con una caída de 14 px, que es como se posa una carta y no como se infla un globo. Y entra en 'es' (1,19) en vez de en 'carta' (1,43), porque la mano ya está arriba desde 1,15. Y la carta se recorta a 1,78 s (1,19-2,97): en el segundo 3,10 cierra la mano para hacer el gesto del 'uno' y el seguidor de Vision se queda enganchado a la pared, así que la carta quedaba flotando despegada de la mano. Verificado dibujando la caja del seguidor sobre el vídeo en 2,7 / 2,9 / 3,1 / 3,25. El tachón se adelanta a los 2,0 s, sobre el 'no, no', que es donde está el chiste y además da tiempo a verlo tachado antes de que la carta salga."
+}

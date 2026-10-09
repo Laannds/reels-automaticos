@@ -1,0 +1,35 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.67,
+  "enfasis": [[19, 20], [27, 28], [72, 73], [91, 92]],
+  "sustituciones": [
+    { "palabra": 11, "texto": "ChatGPT" },
+    { "palabra": 23, "texto": "ChatGPT Go" },
+    { "palabra": 31, "texto": "ChatGPT" },
+    { "palabra": 32, "texto": "Plus," },
+    { "palabra": 67, "texto": "ChatGPT Go" },
+    { "palabra": 93, "texto": "En el caso de" },
+    { "palabra": 101, "texto": "sígueme" },
+    { "palabra": 102, "texto": "" },
+    { "palabra": 103, "texto": "" },
+    { "palabra": 104, "texto": "" },
+    { "palabra": 105, "texto": "" },
+    { "palabra": 106, "texto": "" }
+  ],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    { "t": 0, "tipo": "imagenFija", "dato": "inserts/planes-chatgpt.png", "x": 0.37, "y": 0.07, "tam": 580, "fijo": true },
+    { "palabra": 0, "tipo": "titulon", "dato": "=¿8 € O 20 €?|qué suscripción de ChatGPT te hace falta", "y": 0.76, "duracion": 3.75 },
+    { "palabra": 17, "tipo": "terminal", "x": 0.62, "y": 0.33, "tam": 340, "duracion": 4.0,
+      "dato": "elegir|opción 1 · 8 €@0.33|opción 2 · 20 €@2.16" },
+    { "palabra": 54, "tipo": "terminal", "x": 0.62, "y": 0.33, "tam": 340, "duracion": 3.7,
+      "dato": "plan de 8 €|consultas@0|imágenes@0.89|redacción@2.54" },
+    { "palabra": 60, "tipo": "remate", "dato": "NO TE HACE FALTA MÁS|QUE LA DE=8 €", "y": 0.69, "duracion": 3.1 },
+    { "palabra": 74, "tipo": "terminal", "x": 0.62, "y": 0.33, "tam": 340, "duracion": 5.5,
+      "dato": "codex|programando@1.06|necesitas Codex@2.4|+la de 20 €@4.64" },
+    { "palabra": 93, "tipo": "remate", "dato": "SI NO PROGRAMAS|NO TE HACE=FALTA", "y": 0.69, "duracion": 1.9 },
+    { "palabra": 99, "desfase": 0.4, "tipo": "remate", "dato": "bocadillo:SÍGUEME|PARA QUE NO SE TE=OLVIDE", "y": 0.67, "tam": 62, "duracion": 1.55 }
+  ],
+  "resumen": "Reel propio de @politecnic__ (30,6 s): qué suscripción de ChatGPT elegir, la de 8 € o la de 20 €. Mismo tratamiento que los anteriores (look cristal, música videoplayback, voz limpia, máster comprimido, --sin-cortes, márgenes laterales nuevos). RECURSO VISUAL, replicando la referencia de Pablo (reel de @politecnic__ con una captura de Reuters flotando sobre su cabeza todo el vídeo): una IMAGEN FIJA del tema, sin vídeos de stock. Es la página real de precios de ChatGPT, capturada con Chrome sin ventana en modo escritorio para que los planes salgan en columnas, recortada a las tarjetas de Go (8 €/mes) y Plus (23 €/mes), pegada encima de la cabeza (x 0.10-0.64, y 0.07-0.27) de principio a fin y sin animación. Como esa imagen ocupa la banda de arriba, los gráficos de otros reels (cifras, pastillas) no caben: los textos grandes pasan a la zona de subtítulos, que se silencian mientras están, y las consolas van a la derecha de la cabeza (x 0.62). NOMBRES DE LOS PLANES: Whisper transcribe 'ChatGPT Plus (8 €)' y 'ChatGPT Pro (20 €)' con confianza baja, pero la página de OpenAI dice Go 8 €, Plus 23 €, y el audio lo respalda: tras el primer nombre no hay la ráfaga de agudos (5-9 kHz) que dejaría una /s/ final, y tras el segundo sí. Se corrige a Go y Plus; los gráficos usan solo los precios. Pablo dice 20 € y la página pone 23 €. FINAL: la voz acaba a 30,4 s y en la última frase caben unas 4 sílabas ('Y sígueme'); lo de 'que no se te olvide' lo añade Whisper y está amontonado en 30,60 s. El CTA escrito lo repite y es decisión de montaje."
+}

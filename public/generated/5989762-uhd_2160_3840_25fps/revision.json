@@ -1,0 +1,15 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    { "t": 0.0,  "tipo": "titulon",    "dato": "=PRUÉBATELO|ANTES DE COMPRARLO", "duracion": 2.4 },
+    { "t": 5.5,  "tipo": "transicion", "dato": "zoomIn", "duracion": 0.5 },
+    { "t": 6.0,  "tipo": "congelado",  "dato": "generated/5989762-uhd_2160_3840_25fps/congelado.png|¿TE GUSTA SU LOOK?", "duracion": 12.0 },
+    { "t": 7.6,  "tipo": "movil",      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png", "duracion": 7.2 },
+    { "t": 7.6,  "tipo": "etiqueta",   "dato": "SUBE TU FOTO", "y": 0.75, "duracion": 2.4 },
+    { "t": 10.0, "tipo": "etiqueta",   "dato": "LA IA HACE EL RESTO", "y": 0.75, "duracion": 2.4 },
+    { "t": 12.4, "tipo": "etiqueta",   "dato": "ASÍ TE QUEDA", "y": 0.75, "duracion": 2.4 },
+    { "t": 14.8, "tipo": "remate",     "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO", "duracion": 3.2 }
+  ],
+  "resumen": "Tercer reel de la serie 'Pruébatelo', misma plantilla, sobre un clip de modelos/ distinto: hombre de abrigo y traje andando hacia cámara en plano contrapicado (a ras de suelo), hablando por teléfono. Este clip dura 11,64s (mucho más que los otros), así que en vez de congelar a los 2,6-2,8s como en el resto, se aprovecha el recorrido: se congela en el segundo 6,0, cuando ya está lo bastante cerca de cámara para que se vea bien el conjunto (antes está demasiado lejos y pequeño). Reel más largo en consecuencia (18s en vez de 15s) para no recortar ese acercamiento; --duracion 18 rellena el resto repitiendo el clip, tapado por el congelado persistente. Mismo espaciado interno, mismas 3 capturas de ejemplo y mismo CTA que el resto de la serie."
+}

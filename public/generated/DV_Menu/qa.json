@@ -1,0 +1,38 @@
+{
+  "slug": "DV_Menu",
+  "duracion": 33.366667,
+  "lufs": -16.1,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "info",
+      "t": 0,
+      "texto": "sonoridad -16.1 LUFS: no llega a -14 porque el pico de la voz sin comprimir ya está en -1.5 dBTP"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 0.94,
+      "texto": "\"esta\" (palabra 4) — Whisper solo está al 28%"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 14.6,
+      "texto": "\"sales\" (palabra 61) — Whisper solo está al 40%"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 16.7,
+      "texto": "\"jugándote,\" (palabra 71) — Whisper solo está al 38%"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 32.65,
+      "texto": "\"escribe\" (palabra 132) — Whisper solo está al 44%"
+    }
+  ]
+}

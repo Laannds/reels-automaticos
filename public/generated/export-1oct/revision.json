@@ -1,0 +1,30 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.67,
+  "enfasis": [[4, 4], [42, 42]],
+  "sustituciones": [
+    { "palabra": 6, "texto": "ChatGPT" },
+    { "palabra": 7, "texto": "" },
+    { "palabra": 79, "texto": "" },
+    { "palabra": 80, "texto": "" },
+    { "palabra": 81, "texto": "" },
+    { "palabra": 82, "texto": "" },
+    { "palabra": 83, "texto": "" },
+    { "palabra": 84, "texto": "" }
+  ],
+  "tiempos": [
+    { "palabra": 76, "inicio": 21.6, "fin": 22.05 },
+    { "palabra": 77, "inicio": 22.4, "fin": 23.2 },
+    { "palabra": 78, "inicio": 23.35, "fin": 23.65 }
+  ],
+  "eliminar": [],
+  "elementos": [
+    { "palabra": 0, "tipo": "titulon", "dato": "=CAMBIA LA VOZ|de ChatGPT cuando hablas con él", "y": 0.14, "duracion": 3.5 },
+    { "palabra": 12, "desfase": 0.1, "tipo": "cifra", "dato": "4 PASOS|PARA CAMBIARLA", "y": 0.08, "tam": 185, "duracion": 1.4 },
+    { "palabra": 21, "tipo": "chips", "dato": "1 · Ajustes@0|2 · Configuración@0.74|3 · Burbuja azul@4.02|4 · Elige el tono@5.06", "y": 0.07, "tam": 42, "duracion": 7.4 },
+    { "palabra": 49, "tipo": "remate", "dato": "ELIGE LA VOZ|QUE MÁS=TE GUSTE", "y": 0.1, "duracion": 2.6 },
+    { "palabra": 61, "tipo": "cifra", "dato": "SIEMPRE|CON ESA MISMA VOZ", "y": 0.08, "tam": 175, "duracion": 3.4 },
+    { "palabra": 75, "tipo": "remate", "dato": "bocadillo:SI TIENES DUDAS|ESCRÍBEME EN=COMENTARIOS", "y": 0.1, "tam": 62, "duracion": 2.5 }
+  ],
+  "resumen": "Reel propio de @politecnic__ (23,7 s): tutorial para cambiar la voz de ChatGPT. Mismo tratamiento que PL1_Oct: look cristal, música videoplayback, voz limpia y máster comprimido, --sin-cortes (el montaje de Pablo se respeta fotograma a fotograma). CAMBIO PEDIDO: márgenes laterales de titulares y subtítulos reducidos —el titulón de PL1_Oct ocupaba el 96 % del ancho, con 21 px de margen—; ahora el texto se mide con la fuente real y se recorta a 130 px por lado (76 % central), que además lo saca de la columna de botones de Instagram. ATENCIÓN AL FINAL DEL AUDIO: el archivo se corta en seco a los 23,73 s (silencio digital de -97 dB) y lo último que se oye es 'si tienes cualquier duda'. Whisper completó 'me escribes en comentarios y sigues' amontonando esas 6 palabras en el último instante: la envolvente de la voz solo da para unas 8 sílabas en los últimos 2 s y la frase entera tiene 19, así que no están en el audio. Se vacían con sustituciones (no se renumera) y se recolocan 'tienes', 'cualquier' y 'duda' sobre la envolvente real. Como el reel no trae CTA hablado, se pone uno escrito al final con esas mismas palabras: es una decisión de montaje, se quita borrando el último elemento. Cara en x 0.17-0.55, y 0.33-0.60: el grafismo va en la banda 0.07-0.30 y los subtítulos a 0.67, bajo la barbilla. Cuatro pasos de la voz (ajustes, configuración, burbuja azul, elegir tono) como pastillas numeradas entrando en la palabra que las nombra. Whisper dio solo un 9 % de confianza al 'chat' y partió ChatGPT en dos palabras: se une."
+}

@@ -1,0 +1,15 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    { "t": 0.0,  "tipo": "titulon",    "dato": "=PRUÉBATELO|ANTES DE COMPRARLO", "duracion": 2.4 },
+    { "t": 2.5,  "tipo": "transicion", "dato": "zoomIn", "duracion": 0.5 },
+    { "t": 3.0,  "tipo": "congelado",  "dato": "generated/7706066-uhd_2160_4096_25fps/congelado.png|¿TE GUSTA SU LOOK?", "duracion": 12.8 },
+    { "t": 4.6,  "tipo": "movil",      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png", "duracion": 7.2 },
+    { "t": 4.6,  "tipo": "etiqueta",   "dato": "SUBE TU FOTO", "y": 0.75, "duracion": 2.4 },
+    { "t": 7.0,  "tipo": "etiqueta",   "dato": "LA IA HACE EL RESTO", "y": 0.75, "duracion": 2.4 },
+    { "t": 9.4,  "tipo": "etiqueta",   "dato": "ASÍ TE QUEDA", "y": 0.75, "duracion": 2.4 },
+    { "t": 11.8, "tipo": "remate",     "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO", "duracion": 4.0 }
+  ],
+  "resumen": "Cuarto y último reel de la serie 'Pruébatelo', misma plantilla, sobre el clip más largo de modelos/ (15,8s): mujer con mochila llevando una bici de la mano, cámara casi fija. Congelado en el segundo 3,0. Como este clip YA dura más que el objetivo habitual de 15s, no se rellena con --duracion (se pasa 15,8, igual a su propia duración: la condición de relleno no se activa) y en su lugar el CTA final se alarga (4,0s en vez de 3,4-3,6) para cubrir justo hasta el final real del clip, sin cola muerta sin tapar al final. Mismo espaciado interno, mismas 3 capturas de ejemplo y mismo CTA que el resto de la serie."
+}

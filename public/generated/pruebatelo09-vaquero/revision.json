@@ -1,0 +1,59 @@
+{
+  "eliminar": [],
+  "subtitulos": "ninguno",
+  "elementos": [
+    {
+      "t": 0.0,
+      "tipo": "titulon",
+      "dato": "=PRUÉBATELO|ANTES DE COMPRARLO",
+      "duracion": 2.4,
+      "y": 0.25
+    },
+    {
+      "t": 2.3,
+      "tipo": "transicion",
+      "dato": "zoomIn",
+      "duracion": 0.5
+    },
+    {
+      "t": 2.8,
+      "tipo": "congelado",
+      "dato": "generated/pruebatelo09-vaquero/congelado.png|¿TE GUSTA SU LOOK?",
+      "duracion": 12.22
+    },
+    {
+      "t": 4.4,
+      "tipo": "movil",
+      "dato": "inserts/pruebatelo-paso1.jpg|inserts/pruebatelo-procesando.jpg|inserts/pruebatelo-resultado.png",
+      "duracion": 7.2
+    },
+    {
+      "t": 4.4,
+      "tipo": "etiqueta",
+      "dato": "SUBE TU FOTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 6.8,
+      "tipo": "etiqueta",
+      "dato": "LA IA HACE EL RESTO",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 9.2,
+      "tipo": "etiqueta",
+      "dato": "ASÍ TE QUEDA",
+      "y": 0.75,
+      "duracion": 2.4
+    },
+    {
+      "t": 11.6,
+      "tipo": "remate",
+      "dato": "bocadillo:COMENTA=QUIERO|Y TE MANDO|EL ACCESO",
+      "duracion": 3.42
+    }
+  ],
+  "resumen": "Reel de la serie 'Pruébatelo' (misma plantilla que los 4 anteriores). Fuente de Mixkit: mujer de espaldas con camisa de cuadros y vaqueros, caminando por un camino rural. Único de la serie visto de espaldas todo el rato; el look se lee igual de bien. Mismas 3 capturas de ejemplo de la app y mismo CTA que el resto de la serie."
+}

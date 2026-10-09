@@ -1,0 +1,80 @@
+{
+  "slug": "DV_SP_22",
+  "duracion": 34.4,
+  "lufs": -17.4,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "audio",
+      "gravedad": "grave",
+      "t": 0,
+      "texto": "sonoridad -17.4 LUFS (objetivo -14)"
+    },
+    {
+      "grupo": "subtitulos",
+      "gravedad": "aviso",
+      "t": 3.4,
+      "texto": "\"bien.\" asoma 0.30 s y lo corta un titular: alarga el titular anterior o adelanta el siguiente para enlazarlos"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 3.7,
+      "texto": "\"Número\" (palabra 14) — Whisper solo está al 41%"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 4.15,
+      "texto": "\"uno,\" (palabra 15) — Whisper solo está al 33%"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 10.37,
+      "texto": "\"Número\" (palabra 42) — se repite la dudosa del 3.7 s; si aquella está mal, esta también"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 19.8,
+      "texto": "\"Número\" (palabra 74) — se repite la dudosa del 3.7 s; si aquella está mal, esta también"
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "aviso",
+      "t": 20.75,
+      "texto": "subtítulos tapa el 14% de la cara (en el b-roll) durante 0.8 s",
+      "hasta": 21.25,
+      "k": 83,
+      "caja": {
+        "x": 0.33197061052322385,
+        "y": 0.2053501128852367,
+        "w": 0.12949527952671053,
+        "h": 0.2875306473076344,
+        "tipo": "cara"
+      }
+    },
+    {
+      "grupo": "cara",
+      "gravedad": "aviso",
+      "t": 22,
+      "texto": "subtítulos tapa el 15% de la cara (en el b-roll) durante 1.8 s",
+      "hasta": 23.5,
+      "k": 88,
+      "caja": {
+        "x": 0.3284520200967789,
+        "y": 0.22277632814943787,
+        "w": 0.1182041027367115,
+        "h": 0.2624597778171301,
+        "tipo": "cara"
+      }
+    },
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 24,
+      "texto": "8.0 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    }
+  ]
+}

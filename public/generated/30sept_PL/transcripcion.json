@@ -1,0 +1,1388 @@
+[
+ {
+  "i": 0,
+  "texto": "La",
+  "inicio": 0,
+  "fin": 0.12,
+  "prob": 0.8
+ },
+ {
+  "i": 1,
+  "texto": "mayoría",
+  "inicio": 0.12,
+  "fin": 0.6,
+  "prob": 0.99
+ },
+ {
+  "i": 2,
+  "texto": "de",
+  "inicio": 0.6,
+  "fin": 0.72,
+  "prob": 1
+ },
+ {
+  "i": 3,
+  "texto": "influencers",
+  "inicio": 0.72,
+  "fin": 1.38,
+  "prob": 0.5
+ },
+ {
+  "i": 4,
+  "texto": "de",
+  "inicio": 1.38,
+  "fin": 1.5,
+  "prob": 0.97
+ },
+ {
+  "i": 5,
+  "texto": "IA",
+  "inicio": 1.5,
+  "fin": 1.63,
+  "prob": 0.7
+ },
+ {
+  "i": 6,
+  "texto": "no",
+  "inicio": 1.64,
+  "fin": 1.76,
+  "prob": 0.95
+ },
+ {
+  "i": 7,
+  "texto": "saben",
+  "inicio": 1.76,
+  "fin": 2.06,
+  "prob": 0.98
+ },
+ {
+  "i": 8,
+  "texto": "de",
+  "inicio": 2.06,
+  "fin": 2.18,
+  "prob": 0.99
+ },
+ {
+  "i": 9,
+  "texto": "lo",
+  "inicio": 2.18,
+  "fin": 2.3,
+  "prob": 0.99
+ },
+ {
+  "i": 10,
+  "texto": "que",
+  "inicio": 2.3,
+  "fin": 2.48,
+  "prob": 0.99
+ },
+ {
+  "i": 11,
+  "texto": "hablan",
+  "inicio": 2.48,
+  "fin": 2.74,
+  "prob": 0.83
+ },
+ {
+  "i": 12,
+  "texto": "y",
+  "inicio": 2.86,
+  "fin": 2.9,
+  "prob": 0.33
+ },
+ {
+  "i": 13,
+  "texto": "es",
+  "inicio": 2.9,
+  "fin": 3,
+  "prob": 0.98
+ },
+ {
+  "i": 14,
+  "texto": "que",
+  "inicio": 3,
+  "fin": 3.2,
+  "prob": 0.89
+ },
+ {
+  "i": 15,
+  "texto": "es",
+  "inicio": 3.2,
+  "fin": 3.26,
+  "prob": 0.97
+ },
+ {
+  "i": 16,
+  "texto": "una",
+  "inicio": 3.31,
+  "fin": 3.48,
+  "prob": 0.98
+ },
+ {
+  "i": 17,
+  "texto": "realidad",
+  "inicio": 3.48,
+  "fin": 3.92,
+  "prob": 0.97
+ },
+ {
+  "i": 18,
+  "texto": "que",
+  "inicio": 3.92,
+  "fin": 4.14,
+  "prob": 0.87
+ },
+ {
+  "i": 19,
+  "texto": "el",
+  "inicio": 4.14,
+  "fin": 4.25,
+  "prob": 0.99
+ },
+ {
+  "i": 20,
+  "texto": "influencer",
+  "inicio": 4.27,
+  "fin": 4.88,
+  "prob": 0.99
+ },
+ {
+  "i": 21,
+  "texto": "o",
+  "inicio": 4.9,
+  "fin": 4.96,
+  "prob": 0.96
+ },
+ {
+  "i": 22,
+  "texto": "el",
+  "inicio": 4.96,
+  "fin": 5.07,
+  "prob": 0.99
+ },
+ {
+  "i": 23,
+  "texto": "curso",
+  "inicio": 5.11,
+  "fin": 5.34,
+  "prob": 1
+ },
+ {
+  "i": 24,
+  "texto": "que",
+  "inicio": 5.42,
+  "fin": 5.58,
+  "prob": 0.98
+ },
+ {
+  "i": 25,
+  "texto": "te",
+  "inicio": 5.59,
+  "fin": 5.69,
+  "prob": 0.99
+ },
+ {
+  "i": 26,
+  "texto": "están",
+  "inicio": 5.71,
+  "fin": 6.09,
+  "prob": 0.99
+ },
+ {
+  "i": 27,
+  "texto": "vendiendo",
+  "inicio": 6.09,
+  "fin": 6.71,
+  "prob": 0.99
+ },
+ {
+  "i": 28,
+  "texto": "no",
+  "inicio": 6.74,
+  "fin": 6.83,
+  "prob": 0.91
+ },
+ {
+  "i": 29,
+  "texto": "te",
+  "inicio": 6.83,
+  "fin": 6.89,
+  "prob": 0.99
+ },
+ {
+  "i": 30,
+  "texto": "va",
+  "inicio": 6.95,
+  "fin": 7.05,
+  "prob": 0.99
+ },
+ {
+  "i": 31,
+  "texto": "a",
+  "inicio": 7.05,
+  "fin": 7.1,
+  "prob": 0.99
+ },
+ {
+  "i": 32,
+  "texto": "servir",
+  "inicio": 7.1,
+  "fin": 7.43,
+  "prob": 1
+ },
+ {
+  "i": 33,
+  "texto": "para",
+  "inicio": 7.52,
+  "fin": 7.68,
+  "prob": 0.99
+ },
+ {
+  "i": 34,
+  "texto": "nada.",
+  "inicio": 7.68,
+  "fin": 7.96,
+  "prob": 0.98
+ },
+ {
+  "i": 35,
+  "texto": "Básicamente",
+  "inicio": 7.98,
+  "fin": 8.56,
+  "prob": 0.49
+ },
+ {
+  "i": 36,
+  "texto": "porque",
+  "inicio": 8.56,
+  "fin": 8.81,
+  "prob": 0.86
+ },
+ {
+  "i": 37,
+  "texto": "te",
+  "inicio": 8.88,
+  "fin": 8.95,
+  "prob": 1
+ },
+ {
+  "i": 38,
+  "texto": "van",
+  "inicio": 8.95,
+  "fin": 9.15,
+  "prob": 0.98
+ },
+ {
+  "i": 39,
+  "texto": "a",
+  "inicio": 9.15,
+  "fin": 9.21,
+  "prob": 1
+ },
+ {
+  "i": 40,
+  "texto": "enseñar",
+  "inicio": 9.22,
+  "fin": 9.76,
+  "prob": 1
+ },
+ {
+  "i": 41,
+  "texto": "a",
+  "inicio": 9.76,
+  "fin": 9.83,
+  "prob": 0.99
+ },
+ {
+  "i": 42,
+  "texto": "utilizar",
+  "inicio": 9.83,
+  "fin": 10.38,
+  "prob": 0.99
+ },
+ {
+  "i": 43,
+  "texto": "prompts",
+  "inicio": 10.38,
+  "fin": 10.86,
+  "prob": 0.95
+ },
+ {
+  "i": 44,
+  "texto": "o",
+  "inicio": 10.86,
+  "fin": 10.93,
+  "prob": 0.96
+ },
+ {
+  "i": 45,
+  "texto": "ideas",
+  "inicio": 10.93,
+  "fin": 11.27,
+  "prob": 0.99
+ },
+ {
+  "i": 46,
+  "texto": "para",
+  "inicio": 11.27,
+  "fin": 11.51,
+  "prob": 0.99
+ },
+ {
+  "i": 47,
+  "texto": "que",
+  "inicio": 11.54,
+  "fin": 11.74,
+  "prob": 1
+ },
+ {
+  "i": 48,
+  "texto": "lleves",
+  "inicio": 11.74,
+  "fin": 12.09,
+  "prob": 0.99
+ },
+ {
+  "i": 49,
+  "texto": "a",
+  "inicio": 12.13,
+  "fin": 12.21,
+  "prob": 1
+ },
+ {
+  "i": 50,
+  "texto": "cabo",
+  "inicio": 12.21,
+  "fin": 12.48,
+  "prob": 1
+ },
+ {
+  "i": 51,
+  "texto": "lo",
+  "inicio": 12.48,
+  "fin": 12.61,
+  "prob": 0.97
+ },
+ {
+  "i": 52,
+  "texto": "que",
+  "inicio": 12.61,
+  "fin": 12.75,
+  "prob": 1
+ },
+ {
+  "i": 53,
+  "texto": "es",
+  "inicio": 12.81,
+  "fin": 12.94,
+  "prob": 0.99
+ },
+ {
+  "i": 54,
+  "texto": "tu",
+  "inicio": 12.94,
+  "fin": 13.07,
+  "prob": 0.98
+ },
+ {
+  "i": 55,
+  "texto": "negocio",
+  "inicio": 13.07,
+  "fin": 13.64,
+  "prob": 1
+ },
+ {
+  "i": 56,
+  "texto": "o",
+  "inicio": 13.72,
+  "fin": 13.75,
+  "prob": 1
+ },
+ {
+  "i": 57,
+  "texto": "tu",
+  "inicio": 13.75,
+  "fin": 13.83,
+  "prob": 0.98
+ },
+ {
+  "i": 58,
+  "texto": "emprendimiento.",
+  "inicio": 13.91,
+  "fin": 14.65,
+  "prob": 1
+ },
+ {
+  "i": 59,
+  "texto": "Y",
+  "inicio": 14.86,
+  "fin": 14.92,
+  "prob": 0.91
+ },
+ {
+  "i": 60,
+  "texto": "esto",
+  "inicio": 14.92,
+  "fin": 15.16,
+  "prob": 0.99
+ },
+ {
+  "i": 61,
+  "texto": "no",
+  "inicio": 15.16,
+  "fin": 15.28,
+  "prob": 0.99
+ },
+ {
+  "i": 62,
+  "texto": "sirve",
+  "inicio": 15.28,
+  "fin": 15.56,
+  "prob": 1
+ },
+ {
+  "i": 63,
+  "texto": "de",
+  "inicio": 15.57,
+  "fin": 15.69,
+  "prob": 0.99
+ },
+ {
+  "i": 64,
+  "texto": "nada",
+  "inicio": 15.69,
+  "fin": 15.93,
+  "prob": 1
+ },
+ {
+  "i": 65,
+  "texto": "porque",
+  "inicio": 15.93,
+  "fin": 16.28,
+  "prob": 0.95
+ },
+ {
+  "i": 66,
+  "texto": "de",
+  "inicio": 16.28,
+  "fin": 16.4,
+  "prob": 0.93
+ },
+ {
+  "i": 67,
+  "texto": "manera",
+  "inicio": 16.4,
+  "fin": 16.75,
+  "prob": 0.99
+ },
+ {
+  "i": 68,
+  "texto": "autónoma",
+  "inicio": 16.75,
+  "fin": 17.26,
+  "prob": 0.97
+ },
+ {
+  "i": 69,
+  "texto": "puedes",
+  "inicio": 17.34,
+  "fin": 17.61,
+  "prob": 0.88
+ },
+ {
+  "i": 70,
+  "texto": "aprender",
+  "inicio": 17.66,
+  "fin": 18.02,
+  "prob": 0.99
+ },
+ {
+  "i": 71,
+  "texto": "exactamente",
+  "inicio": 18.14,
+  "fin": 18.81,
+  "prob": 0.99
+ },
+ {
+  "i": 72,
+  "texto": "lo",
+  "inicio": 18.81,
+  "fin": 18.85,
+  "prob": 0.99
+ },
+ {
+  "i": 73,
+  "texto": "mismo",
+  "inicio": 18.98,
+  "fin": 19.24,
+  "prob": 1
+ },
+ {
+  "i": 74,
+  "texto": "que",
+  "inicio": 19.24,
+  "fin": 19.39,
+  "prob": 0.99
+ },
+ {
+  "i": 75,
+  "texto": "te",
+  "inicio": 19.44,
+  "fin": 19.54,
+  "prob": 0.98
+ },
+ {
+  "i": 76,
+  "texto": "van",
+  "inicio": 19.66,
+  "fin": 19.69,
+  "prob": 0.97
+ },
+ {
+  "i": 77,
+  "texto": "a",
+  "inicio": 19.75,
+  "fin": 19.8,
+  "prob": 0.99
+ },
+ {
+  "i": 78,
+  "texto": "enseñar",
+  "inicio": 19.8,
+  "fin": 20.29,
+  "prob": 1
+ },
+ {
+  "i": 79,
+  "texto": "ellos",
+  "inicio": 20.29,
+  "fin": 20.6,
+  "prob": 0.99
+ },
+ {
+  "i": 80,
+  "texto": "por",
+  "inicio": 20.6,
+  "fin": 20.69,
+  "prob": 0.98
+ },
+ {
+  "i": 81,
+  "texto": "miles",
+  "inicio": 20.83,
+  "fin": 21.1,
+  "prob": 0.99
+ },
+ {
+  "i": 82,
+  "texto": "de",
+  "inicio": 21.1,
+  "fin": 21.22,
+  "prob": 1
+ },
+ {
+  "i": 83,
+  "texto": "euros",
+  "inicio": 21.22,
+  "fin": 21.51,
+  "prob": 0.98
+ },
+ {
+  "i": 84,
+  "texto": "y",
+  "inicio": 21.53,
+  "fin": 21.59,
+  "prob": 0.33
+ },
+ {
+  "i": 85,
+  "texto": "no",
+  "inicio": 21.59,
+  "fin": 21.71,
+  "prob": 1
+ },
+ {
+  "i": 86,
+  "texto": "porque",
+  "inicio": 21.71,
+  "fin": 22.08,
+  "prob": 0.94
+ },
+ {
+  "i": 87,
+  "texto": "ese",
+  "inicio": 22.08,
+  "fin": 22.36,
+  "prob": 0.93
+ },
+ {
+  "i": 88,
+  "texto": "curso",
+  "inicio": 22.36,
+  "fin": 22.98,
+  "prob": 0.96
+ },
+ {
+  "i": 89,
+  "texto": "o",
+  "inicio": 23.03,
+  "fin": 23.08,
+  "prob": 1
+ },
+ {
+  "i": 90,
+  "texto": "la",
+  "inicio": 23.08,
+  "fin": 23.21,
+  "prob": 0.99
+ },
+ {
+  "i": 91,
+  "texto": "formación",
+  "inicio": 23.21,
+  "fin": 23.85,
+  "prob": 1
+ },
+ {
+  "i": 92,
+  "texto": "que",
+  "inicio": 23.85,
+  "fin": 24.01,
+  "prob": 1
+ },
+ {
+  "i": 93,
+  "texto": "te",
+  "inicio": 24.05,
+  "fin": 24.15,
+  "prob": 0.89
+ },
+ {
+  "i": 94,
+  "texto": "estén",
+  "inicio": 24.2,
+  "fin": 24.54,
+  "prob": 0.95
+ },
+ {
+  "i": 95,
+  "texto": "dando",
+  "inicio": 24.55,
+  "fin": 24.87,
+  "prob": 1
+ },
+ {
+  "i": 96,
+  "texto": "esté",
+  "inicio": 24.87,
+  "fin": 25.15,
+  "prob": 0.77
+ },
+ {
+  "i": 97,
+  "texto": "mal,",
+  "inicio": 25.25,
+  "fin": 25.38,
+  "prob": 1
+ },
+ {
+  "i": 98,
+  "texto": "simplemente",
+  "inicio": 25.5,
+  "fin": 26.21,
+  "prob": 0.99
+ },
+ {
+  "i": 99,
+  "texto": "porque",
+  "inicio": 26.21,
+  "fin": 26.6,
+  "prob": 0.99
+ },
+ {
+  "i": 100,
+  "texto": "la",
+  "inicio": 26.6,
+  "fin": 26.64,
+  "prob": 1
+ },
+ {
+  "i": 101,
+  "texto": "propia",
+  "inicio": 26.74,
+  "fin": 27.12,
+  "prob": 1
+ },
+ {
+  "i": 102,
+  "texto": "IA",
+  "inicio": 27.12,
+  "fin": 27.24,
+  "prob": 0.99
+ },
+ {
+  "i": 103,
+  "texto": "te",
+  "inicio": 27.24,
+  "fin": 27.37,
+  "prob": 0.97
+ },
+ {
+  "i": 104,
+  "texto": "va",
+  "inicio": 27.37,
+  "fin": 27.47,
+  "prob": 0.98
+ },
+ {
+  "i": 105,
+  "texto": "a",
+  "inicio": 27.6,
+  "fin": 27.6,
+  "prob": 0.8
+ },
+ {
+  "i": 106,
+  "texto": "guiar",
+  "inicio": 27.62,
+  "fin": 28.22,
+  "prob": 0.75
+ },
+ {
+  "i": 107,
+  "texto": "en",
+  "inicio": 28.34,
+  "fin": 28.41,
+  "prob": 1
+ },
+ {
+  "i": 108,
+  "texto": "cada",
+  "inicio": 28.41,
+  "fin": 28.59,
+  "prob": 1
+ },
+ {
+  "i": 109,
+  "texto": "uno",
+  "inicio": 28.59,
+  "fin": 28.73,
+  "prob": 0.99
+ },
+ {
+  "i": 110,
+  "texto": "de",
+  "inicio": 28.73,
+  "fin": 28.82,
+  "prob": 1
+ },
+ {
+  "i": 111,
+  "texto": "los",
+  "inicio": 28.82,
+  "fin": 28.96,
+  "prob": 1
+ },
+ {
+  "i": 112,
+  "texto": "pasos",
+  "inicio": 28.96,
+  "fin": 29.19,
+  "prob": 0.99
+ },
+ {
+  "i": 113,
+  "texto": "que",
+  "inicio": 29.19,
+  "fin": 29.33,
+  "prob": 1
+ },
+ {
+  "i": 114,
+  "texto": "debes",
+  "inicio": 29.33,
+  "fin": 29.56,
+  "prob": 0.98
+ },
+ {
+  "i": 115,
+  "texto": "de",
+  "inicio": 29.56,
+  "fin": 29.65,
+  "prob": 0.92
+ },
+ {
+  "i": 116,
+  "texto": "seguir,",
+  "inicio": 29.65,
+  "fin": 29.9,
+  "prob": 0.99
+ },
+ {
+  "i": 117,
+  "texto": "simplemente.",
+  "inicio": 30.02,
+  "fin": 30.52,
+  "prob": 0.99
+ },
+ {
+  "i": 118,
+  "texto": "Y",
+  "inicio": 30.76,
+  "fin": 30.78,
+  "prob": 0.7
+ },
+ {
+  "i": 119,
+  "texto": "entonces",
+  "inicio": 30.78,
+  "fin": 31.29,
+  "prob": 0.98
+ },
+ {
+  "i": 120,
+  "texto": "ahora",
+  "inicio": 31.29,
+  "fin": 31.61,
+  "prob": 0.73
+ },
+ {
+  "i": 121,
+  "texto": "la",
+  "inicio": 31.61,
+  "fin": 31.73,
+  "prob": 0.97
+ },
+ {
+  "i": 122,
+  "texto": "pregunta",
+  "inicio": 31.74,
+  "fin": 32.28,
+  "prob": 1
+ },
+ {
+  "i": 123,
+  "texto": "real",
+  "inicio": 32.28,
+  "fin": 32.57,
+  "prob": 1
+ },
+ {
+  "i": 124,
+  "texto": "es",
+  "inicio": 32.57,
+  "fin": 32.7,
+  "prob": 1
+ },
+ {
+  "i": 125,
+  "texto": "que",
+  "inicio": 32.72,
+  "fin": 32.92,
+  "prob": 0.35
+ },
+ {
+  "i": 126,
+  "texto": "necesito",
+  "inicio": 32.93,
+  "fin": 33.5,
+  "prob": 0.99
+ },
+ {
+  "i": 127,
+  "texto": "saber",
+  "inicio": 33.56,
+  "fin": 33.89,
+  "prob": 1
+ },
+ {
+  "i": 128,
+  "texto": "para",
+  "inicio": 33.89,
+  "fin": 34.12,
+  "prob": 0.97
+ },
+ {
+  "i": 129,
+  "texto": "poder",
+  "inicio": 34.22,
+  "fin": 34.55,
+  "prob": 1
+ },
+ {
+  "i": 130,
+  "texto": "dominar",
+  "inicio": 34.55,
+  "fin": 35.06,
+  "prob": 0.99
+ },
+ {
+  "i": 131,
+  "texto": "lo",
+  "inicio": 35.06,
+  "fin": 35.2,
+  "prob": 0.99
+ },
+ {
+  "i": 132,
+  "texto": "que",
+  "inicio": 35.2,
+  "fin": 35.33,
+  "prob": 1
+ },
+ {
+  "i": 133,
+  "texto": "es",
+  "inicio": 35.53,
+  "fin": 35.56,
+  "prob": 1
+ },
+ {
+  "i": 134,
+  "texto": "la",
+  "inicio": 35.56,
+  "fin": 35.7,
+  "prob": 0.99
+ },
+ {
+  "i": 135,
+  "texto": "IA.",
+  "inicio": 35.7,
+  "fin": 35.84,
+  "prob": 0.99
+ },
+ {
+  "i": 136,
+  "texto": "Y",
+  "inicio": 36.2,
+  "fin": 36.21,
+  "prob": 0.85
+ },
+ {
+  "i": 137,
+  "texto": "en",
+  "inicio": 36.22,
+  "fin": 36.34,
+  "prob": 0.97
+ },
+ {
+  "i": 138,
+  "texto": "mi",
+  "inicio": 36.34,
+  "fin": 36.46,
+  "prob": 1
+ },
+ {
+  "i": 139,
+  "texto": "opinión",
+  "inicio": 36.46,
+  "fin": 36.93,
+  "prob": 0.97
+ },
+ {
+  "i": 140,
+  "texto": "únicamente",
+  "inicio": 36.93,
+  "fin": 37.6,
+  "prob": 0.7
+ },
+ {
+  "i": 141,
+  "texto": "lo",
+  "inicio": 37.6,
+  "fin": 37.72,
+  "prob": 1
+ },
+ {
+  "i": 142,
+  "texto": "que",
+  "inicio": 37.73,
+  "fin": 37.93,
+  "prob": 1
+ },
+ {
+  "i": 143,
+  "texto": "necesitas",
+  "inicio": 37.93,
+  "fin": 38.45,
+  "prob": 0.99
+ },
+ {
+  "i": 144,
+  "texto": "tener",
+  "inicio": 38.55,
+  "fin": 38.81,
+  "prob": 0.99
+ },
+ {
+  "i": 145,
+  "texto": "son",
+  "inicio": 38.86,
+  "fin": 39.04,
+  "prob": 0.99
+ },
+ {
+  "i": 146,
+  "texto": "las",
+  "inicio": 39.04,
+  "fin": 39.25,
+  "prob": 1
+ },
+ {
+  "i": 147,
+  "texto": "bases",
+  "inicio": 39.36,
+  "fin": 39.57,
+  "prob": 0.99
+ },
+ {
+  "i": 148,
+  "texto": "de",
+  "inicio": 39.58,
+  "fin": 39.71,
+  "prob": 1
+ },
+ {
+  "i": 149,
+  "texto": "la",
+  "inicio": 39.71,
+  "fin": 39.77,
+  "prob": 0.99
+ },
+ {
+  "i": 150,
+  "texto": "estructura",
+  "inicio": 39.98,
+  "fin": 40.36,
+  "prob": 1
+ },
+ {
+  "i": 151,
+  "texto": "de",
+  "inicio": 40.54,
+  "fin": 40.63,
+  "prob": 1
+ },
+ {
+  "i": 152,
+  "texto": "programación,",
+  "inicio": 40.64,
+  "fin": 41.49,
+  "prob": 0.99
+ },
+ {
+  "i": 153,
+  "texto": "es",
+  "inicio": 41.66,
+  "fin": 41.77,
+  "prob": 1
+ },
+ {
+  "i": 154,
+  "texto": "decir,",
+  "inicio": 41.77,
+  "fin": 42.03,
+  "prob": 1
+ },
+ {
+  "i": 155,
+  "texto": "saber",
+  "inicio": 42.23,
+  "fin": 42.48,
+  "prob": 0.98
+ },
+ {
+  "i": 156,
+  "texto": "que",
+  "inicio": 42.68,
+  "fin": 42.85,
+  "prob": 0.76
+ },
+ {
+  "i": 157,
+  "texto": "sí,",
+  "inicio": 42.85,
+  "fin": 43.02,
+  "prob": 0.83
+ },
+ {
+  "i": 158,
+  "texto": "que",
+  "inicio": 43.2,
+  "fin": 43.41,
+  "prob": 0.96
+ },
+ {
+  "i": 159,
+  "texto": "no",
+  "inicio": 43.41,
+  "fin": 43.5,
+  "prob": 1
+ },
+ {
+  "i": 160,
+  "texto": "y",
+  "inicio": 43.54,
+  "fin": 43.55,
+  "prob": 0.88
+ },
+ {
+  "i": 161,
+  "texto": "cómo",
+  "inicio": 43.78,
+  "fin": 43.89,
+  "prob": 0.88
+ },
+ {
+  "i": 162,
+  "texto": "hacerlo.",
+  "inicio": 44,
+  "fin": 44.3,
+  "prob": 0.97
+ },
+ {
+  "i": 163,
+  "texto": "Y",
+  "inicio": 44.68,
+  "fin": 44.69,
+  "prob": 0.96
+ },
+ {
+  "i": 164,
+  "texto": "aún",
+  "inicio": 44.75,
+  "fin": 44.96,
+  "prob": 0.76
+ },
+ {
+  "i": 165,
+  "texto": "así,",
+  "inicio": 45.13,
+  "fin": 45.31,
+  "prob": 1
+ },
+ {
+  "i": 166,
+  "texto": "sin",
+  "inicio": 45.45,
+  "fin": 45.66,
+  "prob": 1
+ },
+ {
+  "i": 167,
+  "texto": "tener",
+  "inicio": 45.66,
+  "fin": 46.01,
+  "prob": 1
+ },
+ {
+  "i": 168,
+  "texto": "las",
+  "inicio": 46.01,
+  "fin": 46.22,
+  "prob": 1
+ },
+ {
+  "i": 169,
+  "texto": "bases",
+  "inicio": 46.22,
+  "fin": 46.53,
+  "prob": 1
+ },
+ {
+  "i": 170,
+  "texto": "de",
+  "inicio": 46.56,
+  "fin": 46.71,
+  "prob": 1
+ },
+ {
+  "i": 171,
+  "texto": "esto,",
+  "inicio": 46.71,
+  "fin": 46.99,
+  "prob": 0.96
+ },
+ {
+  "i": 172,
+  "texto": "únicamente",
+  "inicio": 47.13,
+  "fin": 48.04,
+  "prob": 0.99
+ },
+ {
+  "i": 173,
+  "texto": "con",
+  "inicio": 48.04,
+  "fin": 48.28,
+  "prob": 0.93
+ },
+ {
+  "i": 174,
+  "texto": "el",
+  "inicio": 48.28,
+  "fin": 48.41,
+  "prob": 1
+ },
+ {
+  "i": 175,
+  "texto": "uso",
+  "inicio": 48.41,
+  "fin": 48.58,
+  "prob": 1
+ },
+ {
+  "i": 176,
+  "texto": "de",
+  "inicio": 48.61,
+  "fin": 48.74,
+  "prob": 1
+ },
+ {
+  "i": 177,
+  "texto": "la",
+  "inicio": 48.74,
+  "fin": 48.87,
+  "prob": 0.99
+ },
+ {
+  "i": 178,
+  "texto": "IA",
+  "inicio": 48.87,
+  "fin": 48.99,
+  "prob": 1
+ },
+ {
+  "i": 179,
+  "texto": "puedes",
+  "inicio": 48.99,
+  "fin": 49.39,
+  "prob": 0.91
+ },
+ {
+  "i": 180,
+  "texto": "llevar",
+  "inicio": 49.39,
+  "fin": 49.79,
+  "prob": 0.99
+ },
+ {
+  "i": 181,
+  "texto": "a",
+  "inicio": 49.79,
+  "fin": 49.85,
+  "prob": 1
+ },
+ {
+  "i": 182,
+  "texto": "cabo",
+  "inicio": 49.85,
+  "fin": 50.07,
+  "prob": 1
+ },
+ {
+  "i": 183,
+  "texto": "grandes",
+  "inicio": 50.16,
+  "fin": 50.58,
+  "prob": 0.36
+ },
+ {
+  "i": 184,
+  "texto": "proyects.",
+  "inicio": 50.59,
+  "fin": 51.11,
+  "prob": 0.77
+ },
+ {
+  "i": 185,
+  "texto": "Si",
+  "inicio": 51.4,
+  "fin": 51.52,
+  "prob": 0.96
+ },
+ {
+  "i": 186,
+  "texto": "quieres",
+  "inicio": 51.54,
+  "fin": 52.01,
+  "prob": 1
+ },
+ {
+  "i": 187,
+  "texto": "aprender",
+  "inicio": 52.01,
+  "fin": 52.55,
+  "prob": 1
+ },
+ {
+  "i": 188,
+  "texto": "a",
+  "inicio": 52.58,
+  "fin": 52.62,
+  "prob": 1
+ },
+ {
+  "i": 189,
+  "texto": "usar",
+  "inicio": 52.62,
+  "fin": 52.89,
+  "prob": 1
+ },
+ {
+  "i": 190,
+  "texto": "la",
+  "inicio": 52.89,
+  "fin": 53.01,
+  "prob": 0.99
+ },
+ {
+  "i": 191,
+  "texto": "IA",
+  "inicio": 53.02,
+  "fin": 53.2,
+  "prob": 1
+ },
+ {
+  "i": 192,
+  "texto": "sin",
+  "inicio": 53.2,
+  "fin": 53.35,
+  "prob": 0.94
+ },
+ {
+  "i": 193,
+  "texto": "ningún",
+  "inicio": 53.35,
+  "fin": 53.65,
+  "prob": 1
+ },
+ {
+  "i": 194,
+  "texto": "tipo",
+  "inicio": 53.72,
+  "fin": 53.87,
+  "prob": 1
+ },
+ {
+  "i": 195,
+  "texto": "de",
+  "inicio": 53.98,
+  "fin": 54.02,
+  "prob": 1
+ },
+ {
+  "i": 196,
+  "texto": "filtro,",
+  "inicio": 54.02,
+  "fin": 54.32,
+  "prob": 0.92
+ },
+ {
+  "i": 197,
+  "texto": "sígueme.",
+  "inicio": 54.43,
+  "fin": 54.83,
+  "prob": 0.71
+ }
+]

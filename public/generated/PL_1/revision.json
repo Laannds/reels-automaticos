@@ -1,0 +1,128 @@
+{
+  "subtitulos": "cristal",
+  "subtitulosY": 0.6,
+  "enfasis": [
+    [
+      86,
+      88
+    ],
+    [
+      109,
+      109
+    ]
+  ],
+  "sustituciones": [
+    {
+      "palabra": 47,
+      "texto": "Excel,"
+    },
+    {
+      "palabra": 49,
+      "texto": "WhatsApp."
+    },
+    {
+      "palabra": 109,
+      "texto": "TEST"
+    }
+  ],
+  "tiempos": [],
+  "eliminar": [],
+  "elementos": [
+    {
+      "palabra": 0,
+      "tipo": "titulon",
+      "dato": "3 PREGUNTAS|para saber si tu tarea se puede automatizar",
+      "y": 0.15,
+      "duracion": 3.4
+    },
+    {
+      "palabra": 15,
+      "tipo": "cifra",
+      "dato": "01|¿LA HACES SIEMPRE IGUAL?",
+      "y": 0.075,
+      "tam": 220,
+      "duracion": 2.3
+    },
+    {
+      "palabra": 21,
+      "tipo": "chips",
+      "dato": "Cada vez distinta · NO@0|Los mismos pasos · SÍ@2.1",
+      "y": 0.09,
+      "duracion": 4.2
+    },
+    {
+      "palabra": 33,
+      "tipo": "cifra",
+      "dato": "02|¿ESA INFORMACIÓN YA EXISTE?",
+      "y": 0.075,
+      "tam": 220,
+      "duracion": 3.9
+    },
+    {
+      "palabra": 39,
+      "tipo": "broll",
+      "dato": "stock/datacenter.mp4",
+      "duracion": 1.4
+    },
+    {
+      "palabra": 46,
+      "tipo": "capturas",
+      "dato": "inserts/cap-excel.png@0|inserts/cap-whatsapp.png@0.93",
+      "y": 0.085,
+      "tam": 430,
+      "duracion": 2.6
+    },
+    {
+      "palabra": 56,
+      "tipo": "broll",
+      "dato": "stock/codigo.mp4",
+      "duracion": 2.0
+    },
+    {
+      "palabra": 61,
+      "tipo": "cifra",
+      "dato": "03|¿EL RESULTADO ES SIEMPRE IGUAL?",
+      "y": 0.075,
+      "tam": 220,
+      "duracion": 3.0
+    },
+    {
+      "palabra": 70,
+      "tipo": "chips",
+      "dato": "Un presupuesto@0|Un mensaje@1.25",
+      "y": 0.09,
+      "duracion": 2.1
+    },
+    {
+      "palabra": 75,
+      "tipo": "capturas",
+      "dato": "inserts/cap-facturas.png@0",
+      "y": 0.085,
+      "tam": 460,
+      "duracion": 2.3
+    },
+    {
+      "palabra": 85,
+      "tipo": "cifra",
+      "dato": "2-6 h|A LA SEMANA|que puedes ahorrarte",
+      "y": 0.075,
+      "tam": 240,
+      "duracion": 3.6
+    },
+    {
+      "palabra": 97,
+      "tipo": "remate",
+      "dato": "NI OTRO PROGRAMA|NI=CONTRATAR A NADIE",
+      "y": 0.14,
+      "duracion": 3.3
+    },
+    {
+      "palabra": 108,
+      "tipo": "dm",
+      "dato": "TEST",
+      "y": 0.16,
+      "duracion": 4.2
+    }
+  ],
+  "resumen": "Reel propio de politecnic montado con el look 'cristal' (referencia: el reel de @herasmedia que pasó Pablo). Sin handle en pantalla: la referencia no lleva NADA permanente —ni chapa, ni barra de progreso, ni viñeta— y es lo que más separa una pieza montada de una plantilla. El plano va con el color de cámara, solo un punto de cuerpo (contraste 1.02): el grade del look clásico le cambiaba el tono. Plano fijo de busto en el escritorio, ya cortado por él: 14 jump cuts que el render detecta y usa para cambiar de encuadre en cada uno, empujando despacio sobre la cara (Vision la sitúa en x 0.375-0.675, y 0.33-0.54). Composición mandada por ese encuadre: la cara ocupa el tercio central y el portátil tapa de 0.70 abajo, así que TODO el grafismo va en la banda libre de arriba (0.075-0.25, por debajo de la cabecera de Instagram, que llega a 0.06) y los subtítulos a 0.60, justo bajo la barbilla. Estructura en tres preguntas: titulón de gancho (silencia los subtítulos los primeros 3,4 s), una cifra enorme por pregunta (01/02/03) con la pregunta de pie, y recursos que ilustran lo que nombra —capturas reales flotando en abanico para el Excel y el WhatsApp (16,3 s) y para la factura (27,8 s), pastillas de texto donde no hay captura. Dos b-rolls de stock cortos y en su idea, no de relleno: database-3d mientras dice 'ya existe en algún sitio' (13,8 s) y codigo mientras dice 'una máquina puede leerla' (19,9 s). El dato que remata —entre 2 y 6 horas— va como cifra grande a 31,2 s, el 'ni otro programa ni contratar a nadie' como remate a pantalla y el CTA como barra de mensaje directo que escribe TEST sola. Énfasis en azul solo dos veces (el '2 y 6' y el 'TEST'): la referencia es blanco puro, pero esas dos son la promesa y la palabra clave. Excel y WhatsApp se escriben con su mayúscula; 'test' va en TEST porque es lo que hay que comentar."
+}

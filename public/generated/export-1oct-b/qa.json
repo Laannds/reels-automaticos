@@ -1,0 +1,20 @@
+{
+  "slug": "export-1oct-b",
+  "duracion": 30.6,
+  "lufs": -14,
+  "pico": -1.4,
+  "incidencias": [
+    {
+      "grupo": "ritmo",
+      "gravedad": "info",
+      "t": 9,
+      "texto": "5.2 s sin ningún cambio visual (ni corte, ni gráfico, ni b-roll)"
+    },
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 24.44,
+      "texto": "\"codex,\" (palabra 84) — Whisper solo está al 31%"
+    }
+  ]
+}

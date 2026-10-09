@@ -1,0 +1,14 @@
+{
+  "slug": "PL1_Oct",
+  "duracion": 25.3,
+  "lufs": -14.2,
+  "pico": -1.5,
+  "incidencias": [
+    {
+      "grupo": "transcripcion",
+      "gravedad": "revisar",
+      "t": 5.48,
+      "texto": "\"ChatGPT?\" (palabra 17) — Whisper solo está al 34%"
+    }
+  ]
+}
